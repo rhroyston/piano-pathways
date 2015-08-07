@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<? php include ('./includes/head'); ?>
+<? php include ('includes/head'); ?>
   <body>
     <h1>Hello, world!</h1>
 
