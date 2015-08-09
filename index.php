@@ -19,6 +19,7 @@
   </head>
 
   <body>
+    <h1><?php include 'includes/test';?></h1>
     <h1>Hello, world!</h1>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
