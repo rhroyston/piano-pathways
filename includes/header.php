@@ -15,7 +15,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2"></div>
-            <h4 class="col-md-8 text-center">private piano lessons &#124; partner piano lessons &#124; online piano lessons</h4>
+            <h3 class="col-md-8 text-center"><small>private piano lessons &#124; partner piano lessons &#124; online piano lessons</small></h3>
             <div class="col-md-2"></div>
         </div>
     </div>
