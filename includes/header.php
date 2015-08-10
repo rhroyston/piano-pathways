@@ -10,10 +10,12 @@
         <a class="btn btn-primary" href="#" role="button">Link</a>
     </div>
     <br>
+    <br>
+    <br>
     <div class="container">
         <div class="row">
             <div class="col-md-2"></div>
-            <h3 class="col-md-8 text-center">private piano lessons &#124; partner piano lessons &#124; online piano lessons</h3>
+            <h4 class="col-md-8 text-center">private piano lessons &#124; partner piano lessons &#124; online piano lessons</h4>
             <div class="col-md-2"></div>
         </div>
     </div>
