@@ -1,4 +1,4 @@
-.page-header{
+.banner{
   width:100%;
 
   background-image:url('/images/header.png');
@@ -11,6 +11,6 @@ background-size:cover !important;
 background-position:center !important;
 }
 
-.page-header img {
+.banner img {
   width:100%;
 }
