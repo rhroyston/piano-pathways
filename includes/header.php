@@ -11,6 +11,9 @@
     </div>
     <br>
     <br>
+   <div class="row">
+	<img src="/images/becca.png" class="img-responsive center-block">
+   </div>
     <br>
     <br>
 </div>
