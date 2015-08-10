@@ -6,7 +6,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3"></div>
-            <h3 class="col-md-6 text-center">private piano lessons &#124; partner piano lessons &#124; online piano lessons</h3>
+            <h4 class="col-md-6 text-center">private piano lessons &#124; partner piano lessons &#124; online piano lessons</h4>
             <div class="col-md-3"></div>
         </div>
     </div>
