@@ -1,5 +1,5 @@
 <div class="jumbotron">
-  <div class="container banner">
+  <div class="container-fluid banner">
     <h1>The Piano Pathway</h1>
   </div>
 </div>
