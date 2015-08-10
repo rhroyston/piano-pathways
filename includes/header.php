@@ -1,4 +1,4 @@
-<div class="jumbotron banner">
+<div class="container banner">
 
     <h1>Hello, world!</h1>
     <p>...</p>
