@@ -1,5 +1,5 @@
 <div class="container-fluid">
    <div class="row">
-	<img src="/images/header.png" class="img-responsive">
+	<img src="/images/header.png" class="img-responsive center-block">
    </div>
 </div>
