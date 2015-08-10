@@ -3,6 +3,7 @@
     <br>
     <h1 class="text-center">The Piano Pathway</h1>
     <h5 class="text-center">Music Center for Children & Adults</h5>
+    <br><br>
     <div class="container">
         <div class="row">
             <div class="col-md-3"></div>
