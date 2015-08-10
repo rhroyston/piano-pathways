@@ -11,6 +11,7 @@
     </div>
     <br>
     <br>
+    <h3 class="text-center offwhite">Customized accessible goal oriented learning for students of all ages&#44; at all skill levels.</h3>
     <br>
     <div class="container">
         <div class="row">
@@ -19,7 +20,7 @@
             <div class="col-md-2"></div>
         </div>
     </div>
-    <h3 class="text-center">Customized accessible goal oriented learning for students of all ages&#44; at all skill levels.</h3>
+    
     <br>
     <br>
     <br>
