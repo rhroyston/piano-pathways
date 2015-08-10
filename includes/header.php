@@ -1,5 +1,5 @@
 <div class="container-fluid banner">
-    <h1>The Piano Pathway</h1>
+    <h1 class="text-center">The Piano Pathway</h1>
 </div>
 
 <div class="container-fluid">
