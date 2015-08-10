@@ -3,22 +3,23 @@
     <br>
     <h1 class="text-center">The Piano Pathway</h1>
     <h5 class="text-center">Music Center for Children & Adults</h5>
-    <br><br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-3"></div>
-            <h4 class="col-md-6 text-center">private piano lessons &#124; partner piano lessons &#124; online piano lessons</h4>
-            <div class="col-md-3"></div>
-        </div>
-    </div>
-    <br><br><br>
-    <h3 class="text-center">Baton Rouge&#39;s Premier Studio for Piano Lessons</h3>
-
+    <br>
     <div class="text-center">
         <a class="btn btn-primary" href="#" role="button">Link</a>
         <a class="btn btn-primary" href="#" role="button">Link</a>
         <a class="btn btn-primary" href="#" role="button">Link</a>
     </div>
+    <br>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <h3 class="col-md-6 text-center">private piano lessons &#124; partner piano lessons &#124; online piano lessons</h3>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
     <br>
     <br>
 </div>
