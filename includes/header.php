@@ -1,11 +1,16 @@
 <div class="container-fluid banner">
+    <br>
+    <br>
     <h1 class="text-center">The Piano Pathway</h1>
     <h3 class="text-center">Music Center for Children & Adults</h3>
+    <br>
     <div class="text-center">
         <a class="btn btn-primary" href="#" role="button">Link</a>
         <a class="btn btn-primary" href="#" role="button">Link</a>
         <a class="btn btn-primary" href="#" role="button">Link</a>
     </div>
+    <br>
+    <br>
 </div>
 
 <div class="container-fluid">
