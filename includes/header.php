@@ -8,7 +8,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-3"></div>
-            <h3 class="col-md-6 text-center"><small>Welcome to Piano Pathways&#44; a team of professional piano teachers and Baton Rouge&#39;s premier piano studio. Piano Pathways offers a variety of lessons suitable for your individual learning style and unique goals &#45; private piano lessons&#44; partner piano lessons&#44; Recreational Music Making piano classes&#44; even online piano lessons&#33; We are excited to show you just how fun and rewarding learning to play the piano can be.</small></h3>
+            <h3 class="col-md-6 text-center"><small>private piano lessons &#124; partner piano lessons &#124; online piano lessons</small></h3>
             <div class="col-md-3"></div>
         </div>
     </div>
