@@ -3,26 +3,12 @@
     <br>
     <h1 class="text-center">The Piano Pathway</h1>
     <h5 class="text-center">lessons &#124; recitals &#124; parties &#124; studio classes &#124; summer camps</h5>
-    <h4 class="text-center blue">Customized&#44; accessible&#44; goal oriented learning for students of all ages&#44; at all skill levels.</h4>
     <br>
     <div class="text-center">
         <a class="btn btn-primary" href="#" role="button">Link</a>
         <a class="btn btn-primary" href="#" role="button">Link</a>
         <a class="btn btn-primary" href="#" role="button">Link</a>
     </div>
-    <br>
-    <br>
-    
-    <br>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-2"></div>
-            <h4 class="col-md-8 text-center"></h4>
-            <div class="col-md-2"></div>
-        </div>
-    </div>
-    
-    <br>
     <br>
     <br>
     <br>
