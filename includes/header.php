@@ -1,4 +1,4 @@
-<div class="container banner">
+<div class="banner">
 
     <h1>Hello, world!</h1>
     <p>...</p>
