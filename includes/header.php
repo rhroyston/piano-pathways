@@ -2,7 +2,7 @@
     <br>
     <br>
     <h1 class="text-center">The Piano Pathway</h1>
-    <h5 class="text-center">lessons &#124; recitals &#124; parties &#124; studio classes &#124; summer camps</h5>
+    <h5 class="text-center">lessons &#124; recitals &#124; studio classes &#124; summer camps</h5>
     <br>
     <div class="text-center">
         <a class="btn btn-primary" href="#" role="button">Link</a>

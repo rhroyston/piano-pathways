@@ -20,3 +20,18 @@ body {
     margin-right: 10px;
     height:96px;
 }
+
+.what{
+width:100%;
+background-image:url('/images/strings.jpg');
+background-repeat:no-repeat !important;
+-webkit-background-size:cover !important;
+-moz-background-size:cover !important;
+-o-background-size:cover !important;
+background-size:cover !important;
+background-position:center !important;
+}
+
+.what img {
+  width:100%;
+}
