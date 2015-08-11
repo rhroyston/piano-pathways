@@ -34,12 +34,26 @@
       </div>
   </div>
 </div>
-
+<br>
+<br>
+<br>
+<br>
 <div class="container what">
 <br>
 <br>
+<h1 class="text-center">Which Path Is Right For You&#63;</h1>
 <br>
 <br>
+<div class="row">
+  <div class="col-md-6">
+      <h3 class="text-center">Children and Teen Piano Instruction</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <div class="col-md-6">.col-md-6
+      <h3 class="text-center">Adult Piano Instruction</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+</div>
 <br>
 <br>
 <br>
