@@ -38,7 +38,7 @@
 <br>
 <br>
 <br>
-<div class="container what blue">
+<div class="container what white">
 <br>
 <br>
 <h1 class="text-center">Which Path Is Right For You&#63;</h1>
