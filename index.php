@@ -47,8 +47,20 @@
 <div class="row">
   <div class="col-md-2">
   </div>
+  <div class="col-md-8">
+    <h3 class="text-center">At Piano Pathways&#44; we aim to provide all students an enjoyable lesson experience. We use a blend of acoustic and digital instruments and a mix of classical and popular music&#44; all to give the student the most individualized instruction possible.
+    </h3>
+  </div>
+  <div class="col-md-2">
+  </div>
+<br>
+<br>
+</div>
+<div class="row">
+  <div class="col-md-2">
+  </div>
   <div class="col-md-4">
-      <h3 class="text-center">Children and Teen Piano Instruction</h3>
+      <h3 class="text-center">Children&#38; Teen Piano Instruction</h3>
       <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
   </div>
   <div class="col-md-4">
