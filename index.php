@@ -66,5 +66,33 @@
 <br>
 </div>
 
+<div class="container why">
+<br>
+<br>
+<br>
+<br>
+<h1 class="text-center">About the Studio</h1>
+<br>
+<br>
+<div class="row">
+  <div class="col-md-2">
+  </div>
+  <div class="col-md-4">
+      <h3 class="text-center">Children&#38; Teen Piano Instruction</h3>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <div class="col-md-4">
+      <h3 class="text-center">Adult Piano Instruction</h3>
+      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  </div>
+  <div class="col-md-2">
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+</div>
+
 </body>
 </html>
