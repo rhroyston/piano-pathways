@@ -15,7 +15,8 @@ body {
     color:#2B6598;
 }
 
-.textwrap{
+.instructors{
     float: left;
-    margin: 10px;
+    margin-right: 10px;
+    height:96px;
 }
