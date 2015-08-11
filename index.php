@@ -13,6 +13,18 @@
 
 <div class="container why">
 <br>
+
+<div class="row">
+  <div class="col-md-1">
+  </div>
+  <div class="col-md-10">
+      <h3 class="text-center">Located in South Baton Rouge&#44; Piano Pathways separates itself from other piano studios by combining technology with fundamental teaching techniques to help you develop your piano-playing skills.</h3>
+  </div>
+  <div class="col-md-1">
+  </div>
+</div>
+
+<h3></h3>
 <br>
 <div class="row">
   <div class="col-md-1">
