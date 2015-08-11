@@ -66,6 +66,12 @@
 <br>
 </div>
 
+<div class="container-fluid">
+   <div class="row">
+	<img src="/images/pianoman.png" class="img-responsive center-block">
+   </div>
+</div>
+
 <div class="container why">
 <br>
 <br>
