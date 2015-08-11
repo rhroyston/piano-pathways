@@ -5,6 +5,11 @@
 <body>
   <?php include 'includes/header.php';?> 
 
+<div class="container-fluid">
+   <div class="row">
+	<img src="/images/pianoman.png" class="img-responsive center-block">
+   </div>
+</div>
 
 <div class="container why">
 <br>
@@ -61,11 +66,7 @@
 <br>
 </div>
 
-<div class="container-fluid">
-   <div class="row">
-	<img src="/images/pianoman.png" class="img-responsive center-block">
-   </div>
-</div>
+
 
 
 <h1 class="text-center">Piano Instructors</h1>
