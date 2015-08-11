@@ -11,11 +11,10 @@
     </div>
     <br>
     <br>
-    
-    <h2 class="text-center">Accessible&#44; Rewarding&#44; Goal Oriented Learning</h2>
-    <h3 class="text-center">For Students of All Ages&#44; At All Skill Levels</h3>
-    
-    
+    <br>
+    <br>
+    <h2 class="text-center blue">Accessible&#44; Rewarding&#44; Goal Oriented Learning</h2>
+    <h3 class="text-center blue">For Students of All Ages&#44; At All Skill Levels</h3>
     <br>
     <br>
 </div>
