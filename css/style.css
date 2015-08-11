@@ -14,9 +14,6 @@ body {
 .blue{
     color:#2B6598;
 }
-.white{
-    color: white;
-}
 
 .instructors{
     float: left;
@@ -25,6 +22,8 @@ body {
 }
 
 .what{
+color: white;
+font-weight:bold;
 width:100%;
 background-image:url('/images/strings.jpg');
 background-repeat:no-repeat !important;
