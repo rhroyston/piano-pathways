@@ -76,13 +76,15 @@
   <br>
 </div>
 
+<div class="container instructors">
+<br>
+<br>
 <h1 class="text-center">Piano Instructors</h1>
 <br>
 <br>
-<div class="container">
   <div class="row">
       <div class="col-md-4">
-          <span><img src="/images/rebecca-bellelo.png" class="instructors"><h4>Rebecca Bellelo</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
+          <span><img src="/images/rebecca-bellelo.png" class="instructors"><h4>Rebecca Bellelo</h4><h5>Studio Founder&#44; Owner&#44; and Piano Faculty</h5>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
       </div>
       <div class="col-md-4">
           <span><img src="/images/sarah-stoltzfus-johnson.png" class="instructors"><h4>Sarah Stoltzfus Johnson</h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</span>
