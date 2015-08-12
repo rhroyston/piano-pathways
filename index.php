@@ -115,9 +115,22 @@
   <br>
   <br>
   <br>
-    <h1 class="text-center blue">The Piano Pathway</h1>
-    <h6 class="text-center blue">MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
-    <h5 class="text-center blue"><b>lessons &#124; recitals &#124; studio classes &#124; summer camps</b></h5>
+  
+  <div class="row">
+      <div class="col-md-4">
+          <span></span>
+      </div>
+      <div class="col-md-4">
+          <span></span>
+      </div>
+      <div class="col-md-4">
+        <h1 class="text-center blue"><small>The Piano Pathway</small></h1>
+        <h6 class="text-center blue"><small>MUSIC CENTER FOR CHILDREN&#38; ADULTS</small></h6>
+        <h5 class="text-center blue"><small><b>lessons &#124; recitals &#124; studio classes &#124; summer camps</b></small></h5>
+      </div>
+  </div>
+
+
   <br>
   <br>
   <br>
