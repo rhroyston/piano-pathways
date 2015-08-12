@@ -39,26 +39,11 @@
   </div>
 </div>
 <br>
-<div class="row">
-  <div class="col-md-2">
-  </div>
-  <div class="col-md-4">
     <div class="container-fluid">
        <div class="row">
-    	<img src="/images/brpm.png" class="img-responsive center-block">
+    	<img src="/images/credentialsbanner.png" class="img-responsive center-block">
        </div>
     </div>
-  </div>
-  <div class="col-md-4">
-    <div class="container-fluid">
-       <div class="row">
-    	<img src="/images/mtna.png" class="img-responsive center-block">
-       </div>
-    </div>
-  </div>
-  <div class="col-md-2">
-  </div>
-</div>
 <br>
 <br>
 </div>
