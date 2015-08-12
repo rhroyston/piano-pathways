@@ -107,12 +107,17 @@
         <div class="col-md-2">
         </div>
     </div>
+  <br>
+  <br>
 </div>
 
 <div class="container-fluid footer">
   <br>
   <br>
   <br>
+    <h1 class="text-center blue">The Piano Pathway</h1>
+    <h6 class="text-center blue">MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
+    <h5 class="text-center blue"><b>lessons &#124; recitals &#124; studio classes &#124; summer camps</b></h5>
   <br>
   <br>
   <br>
@@ -123,14 +128,21 @@
   <br>
   <br>
   <div class="row">
-      <div class="col-md-4">
-          
+      <div class="col-md-3">
       </div>
-      <div class="col-md-4">
-          
+      <div class="col-md-3">
+        <h3>Music Theory Websites</h3>
       </div>
-      <div class="col-md-4">
-          
+      <div class="col-md-3">
+        <h3>Music History Websites</h3>
+      </div>
+      <div class="col-md-3">
+        <h3>Professional Music Organizations</h3>
+        <a href="www.brmta.org">www.brmta.org</a>
+        <a href="www.lmta.org">www.lmta.org</a>
+        <a href="www.mtna.org">www.mtna.org</a>
+        <a href="www.menc.org">www.menc.org</a>
+        <a href="www.music.lsu.edu">www.music.lsu.edu</a>
       </div>
   </div>
 </div>
