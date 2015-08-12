@@ -115,6 +115,7 @@
   <br>
   <br>
   <br>
+  <br>
 <div class="container">
   <div class="row">
       <div class="col-md-4">
@@ -131,11 +132,17 @@
       </div>
       
       <div class="col-md-4">
-        <h4 class="white">Instruments&#38; Other Equipment</h4>
+        <h4 class="white">Local Music Stores</h4>
         <a href="http://www.oneillsmusic.com/">O&#39;Neill&#39;s Music <i class="fa fa-external-link"></i></a><br>
         <br>
-        <h4 class="white">Local Music Stores</h4>
         <a href="http://zeaglermusic.com/">Zeagler&#39;s Music <i class="fa fa-external-link"></i></a><br>
+        <br>
+        <h4 class="white">Online Music Stores</h4>
+        <a href="http://www.sheetmusicplus.com/">Sheet Music Plus <i class="fa fa-external-link"></i></a><br>
+        <br>
+        <a href="http://www.musicnotes.com/">musicnotes.com <i class="fa fa-external-link"></i></a><br>
+        <br>
+        <a href="http://www.jwpepper.com/sheet-music/welcome.jsp">JW Pepper <i class="fa fa-external-link"></i></a><br>
         <br> 
         <h4 class="white">Digital Sheet Music</h4>
         <a href="http://www.musicnotes.com/">musicnotes.com <i class="fa fa-external-link"></i></a><br>        
