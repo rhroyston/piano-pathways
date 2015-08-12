@@ -21,11 +21,11 @@
   </div>
   <div class="col-md-5">
       <h3 class="text-center">Children&#38; Teen Piano Instruction</h3>
-      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="text-center">Music is exciting at Piano Pathways&#33; Students learn how to read music&#44; play duets and ensembles&#44; improvise&#44; music theory and history&#44; and appreciate all types of music. Students play standard classical music&#44; Christmas music&#44; Halloween pieces&#44; pop music&#44; jazz&#44; even hymns&#44; while accessing technology in the learning process.</p>
   </div>
   <div class="col-md-5">
       <h3 class="text-center">Adult Piano Instruction</h3>
-      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <p class="text-center">It is never too late to learn to play piano&#33; In adult lessons&#44; the student guides the lesson while working alongside the teacher to build an individualized program. Whether you are just starting out or have taken before as a child and need some refreshing&#44; you will find the joy of playing piano at Piano Pathways.</p>
   </div>
   <div class="col-md-1">
   </div>
