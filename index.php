@@ -13,8 +13,7 @@
 
 <div class="container why">
 <br>
-
-<h3></h3>
+<h1 class="text-center">About</h1>
 <br>
 <div class="row">
   <div class="col-md-1">
