@@ -119,24 +119,23 @@
   <div class="row">
       <div class="col-md-4">
         <h4 class="white">Music Theory Websites</h4>
-        <a href="www.musiclearningcommunity.com">www.musiclearningcommunity.com</a><br>
-        <a href="http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html">http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html</a><br>
-        <a href="http://www.teoria.com/exercises/index.php">http://www.teoria.com/exercises/index.php</a><br>
-        <a href="http://www.musictheory.net">http://www.musictheory.net</a><br>
-        <a href="http://www.emusictheory.com/practice.html">http://www.emusictheory.com/practice.html</a><br>
+        <a href="http://www.musiclearningcommunity.com">MusicLearningCommunity.com <i class="fa fa-external-link"></i></a><br>
+        <a href="http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html">Blogspot Music Theory Blog <i class="fa fa-external-link"></i></a><br>
+        <a href="http://www.teoria.com/exercises/index.php">Teoria <i class="fa fa-external-link"></i></a><br>
+        <a href="http://www.musictheory.net">musictheory.net <i class="fa fa-external-link"></i></a><br>
+        <a href="http://www.emusictheory.com/practice.html">eMusicTheory <i class="fa fa-external-link"></i></a><br>
       </div>
       <div class="col-md-4">
         <h4 class="white">Music History Websites</h4>
-        <a href="http://library.thinkquest.org/15413/">http://library.thinkquest.org/15413/</a><br>
-        <a href="www.classicsforkids.com">www.classicsforkids.com</a><br>        
+        <a href="http://www.classicsforkids.com">Classics for Kids <i class="fa fa-external-link"></i></a><br>        
       </div>
       <div class="col-md-4">
         <h4 class="white">Professional Music Organizations</h4>
-        <a href="http://www.brmta.org" target="blank">www.brmta.org <i class="fa fa-external-link"></i></a><br>
-        <a href="www.lmta.org">www.lmta.org</a><br>
-        <a href="www.mtna.org">www.mtna.org</a><br>
-        <a href="www.menc.org">www.menc.org</a><br>
-        <a href="www.music.lsu.edu">www.music.lsu.edu</a><br>
+        <a href="http://www.brmta.org" target="blank">Baton Rouge Music Teachers Association <i class="fa fa-external-link"></i></a><br>
+        <a href="http://www.lmta.org">Louisiana Music Teachers Association <i class="fa fa-external-link"></i></a><br>
+        <a href="http://www.mtna.org">Music Teachers National Association <i class="fa fa-external-link"></i></a><br>
+        <a href="http://www.menc.org">National Association for Music Education <i class="fa fa-external-link"></i></a><br>
+        <a href="http://www.music.lsu.edu">LSU School of Music <i class="fa fa-external-link"></i></a><br>
       </div>
   </div>
   <br>
