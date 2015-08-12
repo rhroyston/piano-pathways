@@ -141,13 +141,10 @@
         <a href="http://www.jwpepper.com/sheet-music/welcome.jsp">JW Pepper <i class="fa fa-external-link"></i></a><br>
         <h3 class="white">Digital Sheet Music</h3>
         <a href="http://www.musicnotes.com/">musicnotes.com <i class="fa fa-external-link"></i></a><br>        
-        <br>
         <h3 class="white">Metronome</h3>
         <a href="https://www.metronomeonline.com/">Metronome Online <i class="fa fa-external-link"></i></a><br>        
-        <br>
         <h3 class="white">Staff Paper</h3>
         <a href="http://www.blanksheetmusic.net/">blanksheetmusic.net <i class="fa fa-external-link"></i></a><br>        
-        <br>
       </div>
       
       <div class="col-md-4">
