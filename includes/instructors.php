@@ -8,7 +8,7 @@
         <div class="col-md-4">
             <span><img src="/images/rebecca-bellelo.png" class="instructors"><h4>Rebecca Bellelo</h4><h6>Studio Founder&#44; Owner&#44; and Piano Faculty</h6>A National Certified Teacher of Piano&#44; Rebecca C&#46; Bellelo holds a Ph&#46;D&#46; in music from LSU&#44; and a Master of Music degree in Piano Pedagogy from LSU&#46; She earned a Bachelor of Music degree in piano performance from Delta State University&#46; As a private piano teacher for the past ten years to pre&#45;college level students&#44; her students have been honored for their performances by winning numerous awards in local and state festivals&#44; such as the district and state MTNA competition&#44; Bach & Sonatina festival competition at LSU&#44; and BRMTA Tournament&#46;
                 <!-- Trigger the modal with a button -->
-                <a href="#myModal" role="button" class="btn" data-toggle="modal">more <i class="fa fa-plus-square-o"></i></a>
+                <a href="#myModal" class="btn" data-toggle="modal">more <i class="fa fa-plus-square-o"></i></a>
                 
             </span>
         </div>
