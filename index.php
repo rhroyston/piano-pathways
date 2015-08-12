@@ -115,7 +115,7 @@
   <br>
   <br>
   <br>
-
+<div class="container">
   <div class="row">
       <div class="col-md-4">
         <h4>Music Theory Websites</h4>
@@ -165,6 +165,7 @@
   <br>
   <br>
   <br>
+</div>
 </div>
   
 
