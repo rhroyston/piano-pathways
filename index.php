@@ -32,20 +32,17 @@
 </div>
 <br>
 <div class="row">
-  <div class="col-md-1">
+  <div class="col-md-4">
+    <h4><img src="/images/pianobullet.png">&nbsp;&nbsp;Located in South Baton Rouge&#44; Piano Pathways separates itself from other piano studios by combining technology with fundamental teaching techniques to help you develop your piano-playing skills.
+    </h4>
   </div>
-  <div class="col-md-10">
-      <h4><img src="/images/pianobullet.png">&nbsp;&nbsp;Located in South Baton Rouge&#44; Piano Pathways separates itself from other piano studios by combining technology with fundamental teaching techniques to help you develop your piano-playing skills.
-      </h4>
-      <br>
-      <h4><img src="/images/pianobullet.png">&nbsp;&nbsp;The multi&#45;teacher studio serves piano students of all ages in the Baton Rouge community and surrounding areas. Instruction even extends to all corners of the country and Canada through cutting&#45;edge on line piano lessons.
-      </h4>
-      <br>
-      <h4><img src="/images/pianobullet.png">&nbsp;&nbsp; Whether you want to learn classical piano repertoire&#44; pop music&#44; or just learn the basics&#44; piano lessons will be tailored to the individual to meet your expectations.
-      </h4>
-     
+  <div class="col-md-4">
+    <h4><img src="/images/pianobullet.png">&nbsp;&nbsp;The multi&#45;teacher studio serves piano students of all ages in the Baton Rouge community and surrounding areas. Instruction even extends to all corners of the country and Canada through cutting&#45;edge on line piano lessons.
+    </h4>
   </div>
-  <div class="col-md-1">
+  <div class="col-md-4">
+    <h4><img src="/images/pianobullet.png">&nbsp;&nbsp; Whether you want to learn classical piano repertoire&#44; pop music&#44; or just learn the basics&#44; piano lessons will be tailored to the individual to meet your expectations.
+    </h4>
   </div>
 </div>
 <br>
