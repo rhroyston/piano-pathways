@@ -7,6 +7,10 @@ body {
     color: white;
 }
 
+.super{
+    font-size: 5em;
+}
+
 .offwhite{
     color: #FDFCCC;
 }
