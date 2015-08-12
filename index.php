@@ -119,44 +119,39 @@
 <div class="container">
   <div class="row">
       <div class="col-md-4">
-        <h4 class="white">Music Theory Websites</h4>
+        <h3 class="white">Music Theory Websites</h3>
         <a href="http://www.musiclearningcommunity.com">MusicLearningCommunity.com <i class="fa fa-external-link"></i></a><br>
         <a href="http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html">Blogspot Music Theory Blog <i class="fa fa-external-link"></i></a><br>
         <a href="http://www.teoria.com/exercises/index.php">Teoria <i class="fa fa-external-link"></i></a><br>
         <a href="http://www.musictheory.net">musictheory.net <i class="fa fa-external-link"></i></a><br>
         <a href="http://www.emusictheory.com/practice.html">eMusicTheory <i class="fa fa-external-link"></i></a><br>
         <br>
-        <h4 class="white">Music History Websites</h4>
+        <h3 class="white">Music History Websites</h3>
         <a href="http://www.classicsforkids.com">Classics for Kids <i class="fa fa-external-link"></i></a><br>
         <br>
       </div>
       
       <div class="col-md-4">
-        <h4 class="white">Local Music Stores</h4>
+        <h3 class="white">Local Music Stores</h3>
         <a href="http://www.oneillsmusic.com/">O&#39;Neill&#39;s Music <i class="fa fa-external-link"></i></a><br>
-        <br>
         <a href="http://zeaglermusic.com/">Zeagler&#39;s Music <i class="fa fa-external-link"></i></a><br>
-        <br>
-        <h4 class="white">Online Music Stores</h4>
+        <h3 class="white">Online Music Stores</h3>
         <a href="http://www.sheetmusicplus.com/">Sheet Music Plus <i class="fa fa-external-link"></i></a><br>
-        <br>
         <a href="http://www.musicnotes.com/">musicnotes.com <i class="fa fa-external-link"></i></a><br>
-        <br>
         <a href="http://www.jwpepper.com/sheet-music/welcome.jsp">JW Pepper <i class="fa fa-external-link"></i></a><br>
-        <br> 
-        <h4 class="white">Digital Sheet Music</h4>
+        <h3 class="white">Digital Sheet Music</h3>
         <a href="http://www.musicnotes.com/">musicnotes.com <i class="fa fa-external-link"></i></a><br>        
         <br>
-        <h4 class="white">Metronome</h4>
+        <h3 class="white">Metronome</h3>
         <a href="https://www.metronomeonline.com/">Metronome Online <i class="fa fa-external-link"></i></a><br>        
         <br>
-        <h4 class="white">Staff Paper</h4>
+        <h3 class="white">Staff Paper</h3>
         <a href="http://www.blanksheetmusic.net/">blanksheetmusic.net <i class="fa fa-external-link"></i></a><br>        
         <br>
       </div>
       
       <div class="col-md-4">
-        <h4 class="white">Professional Music Organizations</h4>
+        <h3 class="white">Professional Music Organizations</h3>
         <a href="http://www.brmta.org" target="blank">Baton Rouge Music Teachers Association <i class="fa fa-external-link"></i></a><br>
         <a href="http://www.lmta.org">Louisiana Music Teachers Association <i class="fa fa-external-link"></i></a><br>
         <a href="http://www.mtna.org">Music Teachers National Association <i class="fa fa-external-link"></i></a><br>
