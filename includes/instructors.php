@@ -30,9 +30,7 @@
         <div class="col-md-2">
         </div>
         <div class="col-md-4">
-            <span><img src="/images/melanie-mallard.png" class="instructors"><h4>Melanie Mallard</h4><h6>Piano Faculty</h6>Having recently moved to Baton Rouge from Utah&#44; Melanie Mallard comes from a musical family and has played the piano for as long as she can remember&#46; Melanie loves making music with her six siblings&#44; who all play a variety of instruments&#46;
-                <p>She began her professional studies with Marlene Bachelder and later earned a Bachelor of Music in Piano Performance from Brigham Young University&#44; where she studied with Dr&#46; Scott Holden&#46; Since graduating in 2010&#44; she has focused on teaching as an active member of MTNA and NFMC&#46; She currently serves as the Assistant Music Chair in her church&#44; where she performs&#44; accompanies&#44; directs the choir&#44; and arranges music for services and activities&#46;
-                </p>
+            <span><img src="/images/melanie-mallard.png" class="instructors"><h4>Melanie Mallard</h4><h6>Piano Faculty</h6>Having recently moved to Baton Rouge from Utah&#44; Melanie Mallard comes from a musical family and has played the piano for as long as she can remember&#46; Melanie loves making music with her six siblings&#44; who all play a variety of instruments&#46; She began her professional studies with Marlene Bachelder and later earned a Bachelor of Music in Piano Performance from Brigham Young University&#44; where she studied with Dr&#46; Scott Holden&#46; Since graduating in 2010&#44; she has focused on teaching as an active member of MTNA and NFMC&#46;
                 <!-- Trigger the modal with a button -->
                 <a href="#melanieModal" data-toggle="modal">more <i class="fa fa-angle-double-right"></i></a>            
             </span>
