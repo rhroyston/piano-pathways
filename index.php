@@ -115,7 +115,32 @@
   <br>
   <br>
   <br>
-  
+
+  <div class="row">
+      <div class="col-md-4">
+        <h4>Music Theory Websites</h4>
+        <a href="www.musiclearningcommunity.com">www.musiclearningcommunity.com</a><br>
+        <a href="http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html">http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html</a><br>
+        <a href="http://www.teoria.com/exercises/index.php">http://www.teoria.com/exercises/index.php</a><br>
+        <a href="http://www.musictheory.net">http://www.musictheory.net</a><br>
+        <a href="http://www.emusictheory.com/practice.html">http://www.emusictheory.com/practice.html</a><br>
+      </div>
+      <div class="col-md-4">
+        <h4>Music History Websites</h4>
+        <a href="http://library.thinkquest.org/15413/">http://library.thinkquest.org/15413/</a><br>
+        <a href="www.classicsforkids.com">www.classicsforkids.com</a><br>        
+      </div>
+      <div class="col-md-4">
+        <h4>Professional Music Organizations</h4>
+        <a href="www.brmta.org">www.brmta.org</a><br>
+        <a href="www.lmta.org">www.lmta.org</a><br>
+        <a href="www.mtna.org">www.mtna.org</a><br>
+        <a href="www.menc.org">www.menc.org</a><br>
+        <a href="www.music.lsu.edu">www.music.lsu.edu</a><br>
+      </div>
+  </div>
+  <br>
+  <br>  
   <div class="row">
       <div class="col-md-4">
         <h1 class="text-center blue"><small>The Piano Pathway</small></h1>
@@ -133,31 +158,7 @@
   <br>
   <br>
 
-  <div class="row">
-      <div class="col-md-3">
-      </div>
-      <div class="col-md-3">
-        <h3>Music Theory Websites</h3>
-        <a href="www.musiclearningcommunity.com">www.musiclearningcommunity.com</a><br>
-        <a href="http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html">http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html</a><br>
-        <a href="http://www.teoria.com/exercises/index.php">http://www.teoria.com/exercises/index.php</a><br>
-        <a href="http://www.musictheory.net">http://www.musictheory.net</a><br>
-        <a href="http://www.emusictheory.com/practice.html">http://www.emusictheory.com/practice.html</a><br>
-      </div>
-      <div class="col-md-3">
-        <h3>Music History Websites</h3>
-        <a href="http://library.thinkquest.org/15413/">http://library.thinkquest.org/15413/</a><br>
-        <a href="www.classicsforkids.com">www.classicsforkids.com</a><br>        
-      </div>
-      <div class="col-md-3">
-        <h3>Professional Music Organizations</h3>
-        <a href="www.brmta.org">www.brmta.org</a><br>
-        <a href="www.lmta.org">www.lmta.org</a><br>
-        <a href="www.mtna.org">www.mtna.org</a><br>
-        <a href="www.menc.org">www.menc.org</a><br>
-        <a href="www.music.lsu.edu">www.music.lsu.edu</a><br>
-      </div>
-  </div>
+
   <br>
   <br>
   <br>
