@@ -127,7 +127,20 @@
       </div>
       <div class="col-md-4">
         <h4 class="white">Music History Websites</h4>
-        <a href="http://www.classicsforkids.com">Classics for Kids <i class="fa fa-external-link"></i></a><br>        
+        <a href="http://www.classicsforkids.com">Classics for Kids <i class="fa fa-external-link"></i></a><br>
+        
+        <h4 class="white">Instruments&#38; Other Equipment</h4>
+        <a href="http://www.oneillsmusic.com/">O&#39;Neill&#39;s Music <i class="fa fa-external-link"></i></a><br>
+        
+        <h4 class="white">Local Music Stores</h4>
+        <a href="http://zeaglermusic.com/">Zeagler&#39;s Music <i class="fa fa-external-link"></i></a><br>
+         
+        <h4 class="white">Digital Sheet Music</h4>
+        <a href="http://www.musicnotes.com/">musicnotes.com <i class="fa fa-external-link"></i></a><br>        
+        
+        
+        
+        
       </div>
       <div class="col-md-4">
         <h4 class="white">Professional Music Organizations</h4>
