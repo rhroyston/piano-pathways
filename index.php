@@ -47,9 +47,6 @@
 <br>
 <br>
 </div>
-
-<br>
-<br>
 <br>
 <br>
 <div class="container what">
