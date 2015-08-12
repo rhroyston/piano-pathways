@@ -32,8 +32,8 @@
   <div class="col-md-1">
   </div>
   <div class="col-md-10">
-    <h4 class="text-center">Whether classical piano&#44; pop music&#44; or just the basics&#44; piano lessons are tailored to meet your expectations.
-    </h4>
+    <h1 class="text-center blue">Accredited&#38; Recognized
+    </h1>
   </div>
   <div class="col-md-1">
   </div>
