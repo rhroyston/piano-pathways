@@ -1,11 +1,11 @@
 <div class="container-fluid banner">
     <h6 class="text-right">
         Follow Us 
-        <a href="https://twitter.com/PianoPathwaysBR"><i class="fa fa-twitter"></i></a><br>
-        <a href="https://www.facebook.com/PianoPathwaysStudio"><i class="fa fa-facebook-square"></i></a><br>
-        <a href="https://plus.google.com/114075402524593080864/posts"><i class="fa fa-google-plus"></i></a><br>
-        <a href="https://www.linkedin.com/pub/rebecca-bellelo/39/4a6/73"><i class="fa fa-linkedin"></i></a><br>
-        <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a><br>
+        <a href="https://twitter.com/PianoPathwaysBR"><i class="fa fa-twitter"></i></a>&nbsp;
+        <a href="https://www.facebook.com/PianoPathwaysStudio"><i class="fa fa-facebook-square"></i></a>&nbsp;
+        <a href="https://plus.google.com/114075402524593080864/posts"><i class="fa fa-google-plus"></i></a>&nbsp;
+        <a href="https://www.linkedin.com/pub/rebecca-bellelo/39/4a6/73"><i class="fa fa-linkedin"></i></a>&nbsp;
+        <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>
     </h6>
     <br>
     <br>
