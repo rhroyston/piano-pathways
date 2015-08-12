@@ -124,24 +124,30 @@
         <a href="http://www.teoria.com/exercises/index.php">Teoria <i class="fa fa-external-link"></i></a><br>
         <a href="http://www.musictheory.net">musictheory.net <i class="fa fa-external-link"></i></a><br>
         <a href="http://www.emusictheory.com/practice.html">eMusicTheory <i class="fa fa-external-link"></i></a><br>
-      </div>
-      <div class="col-md-4">
+        <br>
         <h4 class="white">Music History Websites</h4>
         <a href="http://www.classicsforkids.com">Classics for Kids <i class="fa fa-external-link"></i></a><br>
-        
+        <br>
+      </div>
+      
+      <div class="col-md-4">
         <h4 class="white">Instruments&#38; Other Equipment</h4>
         <a href="http://www.oneillsmusic.com/">O&#39;Neill&#39;s Music <i class="fa fa-external-link"></i></a><br>
-        
+        <br>
         <h4 class="white">Local Music Stores</h4>
         <a href="http://zeaglermusic.com/">Zeagler&#39;s Music <i class="fa fa-external-link"></i></a><br>
-         
+        <br> 
         <h4 class="white">Digital Sheet Music</h4>
         <a href="http://www.musicnotes.com/">musicnotes.com <i class="fa fa-external-link"></i></a><br>        
-        
-        
-        
-        
+        <br>
+        <h4 class="white">Metronome</h4>
+        <a href="https://www.metronomeonline.com/">Metronome Online <i class="fa fa-external-link"></i></a><br>        
+        <br>
+        <h4 class="white">Staff Paper</h4>
+        <a href="http://www.blanksheetmusic.net/">blanksheetmusic.net <i class="fa fa-external-link"></i></a><br>        
+        <br>
       </div>
+      
       <div class="col-md-4">
         <h4 class="white">Professional Music Organizations</h4>
         <a href="http://www.brmta.org" target="blank">Baton Rouge Music Teachers Association <i class="fa fa-external-link"></i></a><br>
