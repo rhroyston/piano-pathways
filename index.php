@@ -76,7 +76,7 @@
   <br>
 </div>
 
-<div class="container instructors">
+<div class="container">
   <br>
   <br>
   <h1 class="text-center">Piano Instructors</h1>
