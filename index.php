@@ -118,20 +118,20 @@
 <div class="container">
   <div class="row">
       <div class="col-md-4">
-        <h4>Music Theory Websites</h4>
+        <h4 class="white">Music Theory Websites</h4>
         <a href="www.musiclearningcommunity.com">www.musiclearningcommunity.com</a><br>
         <a href="http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html">http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html</a><br>
         <a href="http://www.teoria.com/exercises/index.php">http://www.teoria.com/exercises/index.php</a><br>
         <a href="http://www.musictheory.net">http://www.musictheory.net</a><br>
         <a href="http://www.emusictheory.com/practice.html">http://www.emusictheory.com/practice.html</a><br>
       </div>
-      <div class="col-md-4 text-center">
-        <h4>Music History Websites</h4>
+      <div class="col-md-4">
+        <h4 class="white">Music History Websites</h4>
         <a href="http://library.thinkquest.org/15413/">http://library.thinkquest.org/15413/</a><br>
         <a href="www.classicsforkids.com">www.classicsforkids.com</a><br>        
       </div>
-      <div class="col-md-4 text-right">
-        <h4>Professional Music Organizations</h4>
+      <div class="col-md-4">
+        <h4 class="white">Professional Music Organizations</h4>
         <a href="www.brmta.org">www.brmta.org</a><br>
         <a href="www.lmta.org">www.lmta.org</a><br>
         <a href="www.mtna.org">www.mtna.org</a><br>
