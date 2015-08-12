@@ -54,19 +54,21 @@
 <br>
 <br>
 <br>
-<h1 class="text-center">Which Path Is Right For You&#63;</h1>
+<h1 class="text-center">Why Choose Us&#63;</h1>
 <br>
 <br>
 <div class="row">
   <div class="col-md-1">
   </div>
   <div class="col-md-5">
-      <h3 class="text-center">Children&#38; Teen Piano Instruction</h3>
-      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h3 class="text-center">Engage</h3>
+      <p class="text-center">Students are encouraged to participate in local festivals&#44; adjudications&#44; studio classes&#44; and recitals throughout the year to showcase their current work in lessons. Students have participated in and placed in the LSU Sonatina and Bach Festival&#44; the BRMTA Tournament&#44; Baton Rouge District Rally&#44; and the Torgrimson&#47;Swanzey State Competition.
+      </p>
   </div>
   <div class="col-md-5">
-      <h3 class="text-center">Adult Piano Instruction</h3>
-      <p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+      <h3 class="text-center">Success</h3>
+      <p class="text-center">Our top priority is student success&#44; and we get results by effective teaching methods&#44; holding students to high expectations&#44; structured&#38; organized lessons&#44; long& short&#45;term goals&#44; formal&#38; informal assessments&#44; and consistent teaching approaches.
+      </p>
   </div>
   <div class="col-md-1">
   </div>
@@ -76,9 +78,6 @@
 <br>
 <br>
 </div>
-
-
-
 
 <h1 class="text-center">Piano Instructors</h1>
 <br>
