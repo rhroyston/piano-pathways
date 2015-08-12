@@ -13,8 +13,6 @@
 
 <div class="container why">
 <br>
-<h1 class="text-center">About</h1>
-<br>
 <div class="row">
   <div class="col-md-1">
   </div>
