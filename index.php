@@ -28,6 +28,7 @@
     </div>
   </div>
   <br>
+  <br>
 </div>
 
 <div class="container what">
@@ -39,8 +40,8 @@
     <div class="col-md-1">
     </div>
     <div class="col-md-10">
-      <h1 class="text-center blue">Accredited&#38; Recognized
-      </h1>
+      <h2 class="text-center blue">Accredited&#38; Recognized
+      </h2>
     </div>
     <div class="col-md-1">
     </div>
@@ -53,17 +54,16 @@
     </div>
   <br>
   <br>
-  <br>
   <div class="row">
     <div class="col-md-1">
     </div>
     <div class="col-md-5">
-        <h3 class="text-center">Participation</h3>
+        <h3 class="text-center blue">Participation</h3>
         <p>Students are encouraged to participate in local festivals&#44; adjudications&#44; studio classes&#44; and recitals throughout the year to showcase their current work in lessons. Students have participated in and placed in the LSU Sonatina and Bach Festival&#44; the BRMTA Tournament&#44; Baton Rouge District Rally&#44; and the Torgrimson&#47;Swanzey State Competition.
         </p>
     </div>
     <div class="col-md-5">
-        <h3 class="text-center">Success</h3>
+        <h3 class="text-center blue">Success</h3>
         <p>Our top priority is student success&#44; and we get results by effective teaching methods&#44; holding students to high expectations&#44; structured&#38; organized lessons&#44; long& short&#45;term goals&#44; formal&#38; informal assessments&#44; and consistent teaching approaches.
         </p>
     </div>
