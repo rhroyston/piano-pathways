@@ -32,8 +32,8 @@
   <div class="col-md-1">
   </div>
   <div class="col-md-10">
-    <h2>Whether you want to learn classical piano repertoire&#44; pop music&#44; or just learn the basics&#44; piano lessons will be tailored to the individual to meet your expectations.
-    </h2>
+    <h2><small>Whether you want to learn classical piano repertoire&#44; pop music&#44; or just learn the basics&#44; piano lessons will be tailored to the individual to meet your expectations.
+    </small></h2>
   </div>
   <div class="col-md-1">
   </div>
