@@ -132,7 +132,7 @@
       </div>
       <div class="col-md-4">
         <h4 class="white">Professional Music Organizations</h4>
-        <a href="www.brmta.org">www.brmta.org</a><br>
+        <a href="www.brmta.org">www.brmta.org<i class="fa fa-external-link"></i></a><br>
         <a href="www.lmta.org">www.lmta.org</a><br>
         <a href="www.mtna.org">www.mtna.org</a><br>
         <a href="www.menc.org">www.menc.org</a><br>
