@@ -28,6 +28,13 @@
     </div>
   </div>
   <br>
+</div>
+
+<div class="container what">
+  <br>
+  <br>
+  <br>
+  <h1 class="text-center">Why Choose Us&#63;</h1>
   <div class="row">
     <div class="col-md-1">
     </div>
@@ -45,17 +52,6 @@
        </div>
     </div>
   <br>
-  <br>
-  <br>
-</div>
-
-<div class="container what">
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <h1 class="text-center">Why Choose Us&#63;</h1>
   <br>
   <br>
   <div class="row">
