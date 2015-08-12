@@ -125,12 +125,12 @@
         <a href="http://www.musictheory.net">http://www.musictheory.net</a><br>
         <a href="http://www.emusictheory.com/practice.html">http://www.emusictheory.com/practice.html</a><br>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 text-center">
         <h4>Music History Websites</h4>
         <a href="http://library.thinkquest.org/15413/">http://library.thinkquest.org/15413/</a><br>
         <a href="www.classicsforkids.com">www.classicsforkids.com</a><br>        
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 text-right">
         <h4>Professional Music Organizations</h4>
         <a href="www.brmta.org">www.brmta.org</a><br>
         <a href="www.lmta.org">www.lmta.org</a><br>
