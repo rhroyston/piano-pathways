@@ -132,6 +132,15 @@
       </div>
       
       <div class="col-md-4">
+        <h3 class="white">Professional Music Organizations</h3>
+        <a href="http://www.brmta.org" target="blank">Baton Rouge Music Teachers Association <i class="fa fa-external-link"></i></a><br>
+        <a href="http://www.lmta.org">Louisiana Music Teachers Association <i class="fa fa-external-link"></i></a><br>
+        <a href="http://www.mtna.org">Music Teachers National Association <i class="fa fa-external-link"></i></a><br>
+        <a href="http://www.menc.org">National Association for Music Education <i class="fa fa-external-link"></i></a><br>
+        <a href="http://www.music.lsu.edu">LSU School of Music <i class="fa fa-external-link"></i></a><br>
+      </div>
+      
+      <div class="col-md-4">
         <h3 class="white">Local Music Stores</h3>
         <a href="http://www.oneillsmusic.com/">O&#39;Neill&#39;s Music <i class="fa fa-external-link"></i></a><br>
         <a href="http://zeaglermusic.com/">Zeagler&#39;s Music <i class="fa fa-external-link"></i></a><br>
@@ -145,15 +154,6 @@
         <a href="https://www.metronomeonline.com/">Metronome Online <i class="fa fa-external-link"></i></a><br>        
         <h3 class="white">Staff Paper</h3>
         <a href="http://www.blanksheetmusic.net/">blanksheetmusic.net <i class="fa fa-external-link"></i></a><br>        
-      </div>
-      
-      <div class="col-md-4">
-        <h3 class="white">Professional Music Organizations</h3>
-        <a href="http://www.brmta.org" target="blank">Baton Rouge Music Teachers Association <i class="fa fa-external-link"></i></a><br>
-        <a href="http://www.lmta.org">Louisiana Music Teachers Association <i class="fa fa-external-link"></i></a><br>
-        <a href="http://www.mtna.org">Music Teachers National Association <i class="fa fa-external-link"></i></a><br>
-        <a href="http://www.menc.org">National Association for Music Education <i class="fa fa-external-link"></i></a><br>
-        <a href="http://www.music.lsu.edu">LSU School of Music <i class="fa fa-external-link"></i></a><br>
       </div>
   </div>
   <br>
