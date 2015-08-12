@@ -118,46 +118,52 @@
   
   <div class="row">
       <div class="col-md-4">
-          <span></span>
-      </div>
-      <div class="col-md-4">
-          <span></span>
-      </div>
-      <div class="col-md-4">
         <h1 class="text-center blue"><small>The Piano Pathway</small></h1>
         <h6 class="text-center blue"><small>MUSIC CENTER FOR CHILDREN&#38; ADULTS</small></h6>
         <h5 class="text-center blue"><small><b>lessons &#124; recitals &#124; studio classes &#124; summer camps</b></small></h5>
       </div>
+      <div class="col-md-4">
+          <span></span>
+      </div>
+      <div class="col-md-4">
+
+      </div>
   </div>
+  <br>
+  <br>
+  <br>
 
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
   <div class="row">
       <div class="col-md-3">
       </div>
       <div class="col-md-3">
         <h3>Music Theory Websites</h3>
+        <a href="www.musiclearningcommunity.com">www.musiclearningcommunity.com</a><br>
+        <a href="http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html">http://musictheoryblog.blogspot.com/2008/02/basic-piano-chords.html</a><br>
+        <a href="http://www.teoria.com/exercises/index.php">http://www.teoria.com/exercises/index.php</a><br>
+        <a href="http://www.musictheory.net">http://www.musictheory.net</a><br>
+        <a href="http://www.emusictheory.com/practice.html">http://www.emusictheory.com/practice.html</a><br>
       </div>
       <div class="col-md-3">
         <h3>Music History Websites</h3>
+        <a href="http://library.thinkquest.org/15413/">http://library.thinkquest.org/15413/</a><br>
+        <a href="www.classicsforkids.com">www.classicsforkids.com</a><br>        
       </div>
       <div class="col-md-3">
         <h3>Professional Music Organizations</h3>
-        <a href="www.brmta.org">www.brmta.org</a>
-        <a href="www.lmta.org">www.lmta.org</a>
-        <a href="www.mtna.org">www.mtna.org</a>
-        <a href="www.menc.org">www.menc.org</a>
-        <a href="www.music.lsu.edu">www.music.lsu.edu</a>
+        <a href="www.brmta.org">www.brmta.org</a><br>
+        <a href="www.lmta.org">www.lmta.org</a><br>
+        <a href="www.mtna.org">www.mtna.org</a><br>
+        <a href="www.menc.org">www.menc.org</a><br>
+        <a href="www.music.lsu.edu">www.music.lsu.edu</a><br>
       </div>
   </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
 </div>
   
 
