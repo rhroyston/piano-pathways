@@ -111,7 +111,7 @@
   <br>
 </div>
 
-<div class="container-fluid footer">
+<div class="container-fluid">
   <br>
   <br>
   <br>
