@@ -60,7 +60,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h2 class="modal-title">Rebecca Bellelo</h2>
-        <h3 class="modal-title">Studio Founder&#44; Owner&#44; and Piano Faculty</h3>
+        <h4 class="modal-title">Studio Founder&#44; Owner&#44; and Piano Faculty</h4>
       </div>
       <div class="modal-body">
         <p>A National Certified Teacher of Piano&#44; Rebecca C&#46; Bellelo holds a Ph&#46;D&#46; in music from LSU&#44; and a Master of Music degree in Piano Pedagogy from LSU&#46; She earned a Bachelor of Music degree in piano performance from Delta State University&#46; As a private piano teacher for the past ten years to pre&#45;college level students&#44; her students have been honored for their performances by winning numerous awards in local and state festivals&#44; such as the district and state MTNA competition&#44; Bach & Sonatina festival competition at LSU&#44; and BRMTA Tournament&#46;
@@ -86,7 +86,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h2 class="modal-title">Sarah Stoltzfus Johnson</h2>
-        <h3 class="modal-title">Piano Faculty</h3>
+        <h4 class="modal-title">Piano Faculty</h4>
       </div>
       <div class="modal-body">
         <p>Sarah Stoltzfus Johnson earned her Doctorate of Music Arts in piano performance with a minor in collaborative piano from Louisiana State University&#46; Prior to studying at LSU&#44; she graduated from the University of Central Missouri with a Masters in Piano Performance and a Bachelors degree in Piano Performance and Piano Pedagogy&#46; She has been an active teacher in her community for the last fifteen years and currently teaches group and private lessons&#46;
@@ -112,7 +112,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h2 class="modal-title">Emily Elbourne Ball</h2>
-        <h3 class="modal-title">Piano Faculty</h3>
+        <h4 class="modal-title">Piano Faculty</h4>
       </div>
       <div class="modal-body">
         <p>Emily Elbourne Ball is a native of New Orleans and started piano lessons in kindergarten&#46; Growing up she participated in recitals and Music Teacher National Association&#39;s Rally and Federation&#46; In high school Emily attended the prestigious New Orleans Center for Creative Arts where she continued her classical piano studies with Sakiko Ohashi and Dr&#46; Jisook Park&#46; During that time&#44; she taught music theory at the Music Academy for Performing Arts in Mandeville&#44; LA&#44; and a New Orleans Center for Creative Arts summer program&#46;
@@ -138,7 +138,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h2 class="modal-title">Melanie Mallard</h2>
-        <h3 class="modal-title">Piano Faculty</h3>
+        <h4 class="modal-title">Piano Faculty</h4>
       </div>
       <div class="modal-body">
         <p>Having recently moved to Baton Rouge from Utah&#44; Melanie Mallard comes from a musical family and has played the piano for as long as she can remember&#46; Melanie loves making music with her six siblings&#44; who all play a variety of instruments&#46;
@@ -164,7 +164,7 @@
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
         <h2 class="modal-title">Joshua Medrano</h2>
-        <h3 class="modal-title">Piano Faculty</h3>
+        <h4 class="modal-title">Piano Faculty</h4>
       </div>
       <div class="modal-body">
         <p>A native of South Texas&#44; Joshua Medrano holds a Master of Music degree in piano performance from Missouri State University and a Bachelor of Music in piano performance from Texas State University&#45;San Marcos&#46; Uniquely&#44; Josh did not start formal piano instruction at a young age&#44; but began his studies at seventeen years old&#46; With dedication&#44; top&#45;tier teachers&#44; and undeniable persistence&#44; Josh is now beginning his journey through the Doctor of Musical Arts degree on full scholarship at Louisiana State University under the tutelage of Professor Gregory Sioles&#46;
