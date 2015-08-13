@@ -1,5 +1,4 @@
 <div class="container why">
-  <br>
   <div class="row">
     <div class="col-md-1">
     </div>
@@ -16,12 +15,9 @@
   </div>
   <br>
   <br>
-  <br>
-  <br>
 </div>
 
 <div class="container credentials">
-  <br>
   <br>
   <br>
   <h1 class="text-center">Why Choose Us&#63;</h1>
@@ -42,7 +38,6 @@
        </div>
     </div>
   <br>
-  <br>
   <div class="row">
     <div class="col-md-1">
     </div>
@@ -59,8 +54,6 @@
     <div class="col-md-1">
     </div>
   </div>
-  <br>
-  <br>
   <br>
   <br>
 </div>
