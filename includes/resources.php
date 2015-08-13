@@ -118,23 +118,24 @@
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div class="panel-body">
-                <p>When you are placed with an instructor at Piano Pathways&#44; each teacher will put together her teaching schedule for the entire semester. Each family is asked to give 3 options for a lesson appointment&#44; and we do our best to place you a day and time that works for both the family and the teacher. Lessons can be scheduled during the week and also on weekends.
-                </p>
-                <p>The studio is open 7 days a week&#44; with teachers offering morning&#44; afternoon&#44; and evening appointments. New appointments are accepted based on teacher and family availability. Our most popular lesson times are on weekdays from 3&#58;00&#45;7&#58;00&#44; but we also can schedule home&#45;school families and adults at other times of the day that may be more convenient in their schedules.
-                </p>
-                <p>Though an afternoon or evening lesson may seem like the obvious choice for a lesson appointment&#44; our teacher Melanie offers before&#45;school lessons for students. A growing number of parents and children are discovering that well&#45;used morning hours yield benefits that afternoon hours cannot match. Here are a few reasons to consider scheduling morning piano lessons&#58;
-                </p>
-                <p>
-                  1&#41; Getting kids up and out of bed. Sometimes it is more motivating to a child to have someone other than a parent expecting them at 6&#58;00 or 7&#58;00 a.m. to help them get out of bed. Knowing that he has an early music lesson can help a child feel motivated to get up and get moving. Less&#45;pressured morning hours can help create a healthy routine for your child.
-                  <br>
-                  2&#41; Greater focus and alertness. By afternoon&#44; a child has already been absorbing hours of educational and social detail that can distract his or her desire to attend to music study.  In the morning&#44; the child has the advantage of restful sleep as his most recent experience&#44; which will help him focus and absorb more of the lesson.
-                  <br>
-                  3&#41; Consistency. As much as we plan ahead&#44; afternoon lessons often have to be skipped for medical appointments&#44; family celebrations&#44; sports activities or other school events. Morning hours are more likely to remain dedicated to music study.
-                  <br>
-                  4&#41; Leads into morning practicing. Lessons in the morning are more likely to lead to a desire to practice music in the morning&#44; as the routine takes hold in the child&#39;s life.
-                  <br>
-                  5&#41; What a way to start the day&#33; A child who starts the day with the enlightening&#44; mind&#45;organizing&#44; heart&#45;focusing experience of music may feel daily values that settle his identity and sense of contribution to his world&#44; strengthening him for the other activities and interactions of his day.
-                </p>
+                When you are placed with an instructor at Piano Pathways&#44; each teacher will put together her teaching schedule for the entire semester. Each family is asked to give 3 options for a lesson appointment&#44; and we do our best to place you a day and time that works for both the family and the teacher. Lessons can be scheduled during the week and also on weekends.
+                <br>
+                The studio is open 7 days a week&#44; with teachers offering morning&#44; afternoon&#44; and evening appointments. New appointments are accepted based on teacher and family availability. Our most popular lesson times are on weekdays from 3&#58;00&#45;7&#58;00&#44; but we also can schedule home&#45;school families and adults at other times of the day that may be more convenient in their schedules.
+                <br>
+                Though an afternoon or evening lesson may seem like the obvious choice for a lesson appointment&#44; our teacher Melanie offers before&#45;school lessons for students. A growing number of parents and children are discovering that well&#45;used morning hours yield benefits that afternoon hours cannot match. Here are a few reasons to consider scheduling morning piano lessons&#58;
+                <br>
+                <ol>
+                  <li>Getting kids up and out of bed. Sometimes it is more motivating to a child to have someone other than a parent expecting them at 6&#58;00 or 7&#58;00 a.m. to help them get out of bed. Knowing that he has an early music lesson can help a child feel motivated to get up and get moving. Less&#45;pressured morning hours can help create a healthy routine for your child.
+                  </li>
+                  <li>Greater focus and alertness. By afternoon&#44; a child has already been absorbing hours of educational and social detail that can distract his or her desire to attend to music study.  In the morning&#44; the child has the advantage of restful sleep as his most recent experience&#44; which will help him focus and absorb more of the lesson.
+                  </li>
+                  <li>Consistency. As much as we plan ahead&#44; afternoon lessons often have to be skipped for medical appointments&#44; family celebrations&#44; sports activities or other school events. Morning hours are more likely to remain dedicated to music study.
+                  </li>
+                  <li>Leads into morning practicing. Lessons in the morning are more likely to lead to a desire to practice music in the morning&#44; as the routine takes hold in the child&#39;s life.
+                  </li>
+                  <li>What a way to start the day&#33; A child who starts the day with the enlightening&#44; mind&#45;organizing&#44; heart&#45;focusing experience of music may feel daily values that settle his identity and sense of contribution to his world&#44; strengthening him for the other activities and interactions of his day.
+                  </li>
+                </ol>
               </div>
             </div>
           </div>
@@ -148,9 +149,9 @@
             </div>
             <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
-                <p>Both private and group classes are effective methods to learn to read music and play the piano. Here are a few differences&#58;
-                </p>
-                <p>The Group Class...</p>
+                Both private and group classes are effective methods to learn to read music and play the piano. Here are a few differences&#58;
+                <br>
+                The Group Class...<br>
                 <ul>
                   <li>Explores a variety of musical styles.</li>
                   <li>Can build confidence to play in front of others.</li>
@@ -159,7 +160,7 @@
                   <li>“Practice” is replaced with the word &#34;play&#34; for at&#45;home time on the piano.</li>
                   <li>Is a longer lesson for a more economical cost.</li>
                 </ul>
-                <p>The Private Lesson...</p>
+                The Private Lesson...<br>
                 <ul>
                   <li>Is tailored to exactly the student&#39;s goals and rate of learning.</li>
                   <li>Is for a student who does best one&#45;on&#45;one with an adult.</li>
@@ -193,8 +194,7 @@
             </div>
             <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
-                No matter which lesson or class you choose for your child&#44; we strive to make every meeting a musical experience. Some of the musical skills that your child will learn in piano lessons are music reading skills&#44; performance skills&#44; aural skills&#44; practice techniques&#44; listening and evaluation of music&#44; music history and theory&#44; duet and ensemble playing&#44; and some composition and improvisation.
-        Some non&#45;musical skills that your child will gain from piano study are confidence&#44; appreciation of different styles of music&#44; fine&#45;muscle coordination&#44; and concentrated focus&#45;time on an activity that does not give “instant gratification”&#33;
+                No matter which lesson or class you choose for your child&#44; we strive to make every meeting a musical experience. Some of the musical skills that your child will learn in piano lessons are music reading skills&#44; performance skills&#44; aural skills&#44; practice techniques&#44; listening and evaluation of music&#44; music history and theory&#44; duet and ensemble playing&#44; and some composition and improvisation. Some non&#45;musical skills that your child will gain from piano study are confidence&#44; appreciation of different styles of music&#44; fine&#45;muscle coordination&#44; and concentrated focus&#45;time on an activity that does not give “instant gratification”&#33;
               </div>
             </div>
           </div>
