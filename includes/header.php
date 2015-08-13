@@ -6,6 +6,9 @@
         <a href="https://www.linkedin.com/pub/rebecca-bellelo/39/4a6/73"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
         <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>
     </h6>
+        <div class="row">
+          <img src="/images/logo.png" class="img-responsive center-block">
+        </div>
     <br>
     <br>
     <P class="text-center super blue">Piano Pathways</p>
