@@ -53,7 +53,7 @@
       <div class="modal-body">
         <p>Tuition at Piano Pathways&#39; includes the following services&#58;
         </p>
-          <ul class="list-unstyled">
+          <ul>
             <li>Lesson time spent with each student&#58; lessons&#44; performance classes&#44; group lessons</li>
             <li>Lesson&#45;planning and curricular planning for each student</li>
             <li>Recital costs and preparations&#58; programs&#44; refreshments&#44; facility rental</li>
