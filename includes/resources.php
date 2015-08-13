@@ -118,12 +118,11 @@
             </div>
             <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
               <div class="panel-body">
-                When you are placed with an instructor at Piano Pathways&#44; each teacher will put together her teaching schedule for the entire semester. Each family is asked to give 3 options for a lesson appointment&#44; and we do our best to place you a day and time that works for both the family and the teacher. Lessons can be scheduled during the week and also on weekends.
+                When you are placed with an instructor at Piano Pathways&#44; each teacher will put together her teaching schedule for the entire semester. Each family is asked to give 3 options for a lesson appointment&#44; and we do our best to place you a day and time that works for both the family and the teacher. Lessons can be scheduled during the week and also on weekends.<br>
                 <br>
-                The studio is open 7 days a week&#44; with teachers offering morning&#44; afternoon&#44; and evening appointments. New appointments are accepted based on teacher and family availability. Our most popular lesson times are on weekdays from 3&#58;00&#45;7&#58;00&#44; but we also can schedule home&#45;school families and adults at other times of the day that may be more convenient in their schedules.
+                The studio is open 7 days a week&#44; with teachers offering morning&#44; afternoon&#44; and evening appointments. New appointments are accepted based on teacher and family availability. Our most popular lesson times are on weekdays from 3&#58;00&#45;7&#58;00&#44; but we also can schedule home&#45;school families and adults at other times of the day that may be more convenient in their schedules.<br>
                 <br>
-                Though an afternoon or evening lesson may seem like the obvious choice for a lesson appointment&#44; our teacher Melanie offers before&#45;school lessons for students. A growing number of parents and children are discovering that well&#45;used morning hours yield benefits that afternoon hours cannot match. Here are a few reasons to consider scheduling morning piano lessons&#58;
-                <br>
+                Though an afternoon or evening lesson may seem like the obvious choice for a lesson appointment&#44; our teacher Melanie offers before&#45;school lessons for students. A growing number of parents and children are discovering that well&#45;used morning hours yield benefits that afternoon hours cannot match. Here are a few reasons to consider scheduling morning piano lessons&#58;<br>
                 <br>
                 <ol>
                   <li>Getting kids up and out of bed. Sometimes it is more motivating to a child to have someone other than a parent expecting them at 6&#58;00 or 7&#58;00 a.m. to help them get out of bed. Knowing that he has an early music lesson can help a child feel motivated to get up and get moving. Less&#45;pressured morning hours can help create a healthy routine for your child.
