@@ -172,12 +172,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingThree">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                  4. How long is my commitment in piano lessons&#63;
                 </a>
               </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
                 The fall semester is 16 appointments &#40;August&#45;December&#41;&#44; the spring semester is 16 appointments &#40;January&#45;May&#41;&#44; and 6 meetings are in the summer semester &#40;June&#45;July&#41;. On weeks that schools are closed&#44; such as Thanksgiving and Christmas&#44; we do not have lessons those weeks. Learning to play the piano is a long&#45;term commitment&#44; so we hope that your child will be with us a long time. But we do understand that not everyone will take lessons through their entire schooling&#33; At the end of a semester is when your enrollment can conclude&#44; if you wish to withdraw from the program.
               </div>
@@ -186,12 +186,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingThree">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                   5. What will my child learn in piano lessons&#63;
                 </a>
               </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
                 No matter which lesson or class you choose for your child&#44; we strive to make every meeting a musical experience. Some of the musical skills that your child will learn in piano lessons are music reading skills&#44; performance skills&#44; aural skills&#44; practice techniques&#44; listening and evaluation of music&#44; music history and theory&#44; duet and ensemble playing&#44; and some composition and improvisation.
         Some non&#45;musical skills that your child will gain from piano study are confidence&#44; appreciation of different styles of music&#44; fine&#45;muscle coordination&#44; and concentrated focus&#45;time on an activity that does not give “instant gratification”&#33;
@@ -201,12 +201,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingThree">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
                   6. Do I need to have a piano at home&#63;
                 </a>
               </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
                 Yes&#44; we do ask that you have a piano or digital instrument &#40;full size&#44; 88&#45;weighted keys&#41; for at&#45;home practice. If you do not own a piano&#44; we would be glad to put you in touch with someone at O&#39;Neills Music to ask about their options for Piano Pathways&#39; clients.
               </div>
@@ -215,12 +215,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingThree">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
                   7. We are out&#45;of&#45;town most of the summer and will not be able to continue lessons in the summer. Do I have to enroll in summer lessons&#63;
                 </a>
               </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseSeven" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
                 We do ask that all Piano Pathways students enroll in some type of summer instruction. This is to ensure that your child won&#39;t forget everything that we have worked so hard to attain during the school year&#44; to maintain the business during the summer months&#44; and also to reserve your lesson place during the school year. Much can be learned during the summer months&#44; and there are lots of ways to be creative and flexible to accommodate summer lessons if you have a unique travel situation.
               </div>
@@ -229,12 +229,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingThree">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
                   8. Do you have any make&#45;up classes&#63;
                 </a>
               </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseEight" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
                 Your appointment at Piano Pathways is an exclusive time reserved only for you. Once your time in a lesson is missed&#44; we are unable to use that time with another student. We do not offer any make&#45;up lessons. We ask for cancellations to be notified within 24&#45;hours&#44; and it may be possible to swap lessons with another student in that same week.
               </div>
@@ -243,12 +243,12 @@
           <div class="panel panel-default">
             <div class="panel-heading" role="tab" id="headingThree">
               <h4 class="panel-title">
-                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
                   9. How do I register for lessons&#63;
                 </a>
               </h4>
             </div>
-            <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+            <div id="collapseNine" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
               <div class="panel-body">
                 Please complete the online registration form on our website&#44; www.thepianopathway.com and remit the registration fee. Once all new registrations and fees are received for the semester&#44; you will be placed with a teacher and he or she will contact each family to confirm your appointment. Openings are on a first&#45;come&#44; first&#45;serve basis. If the semester has already begun and you would still like to register for classes&#44; we can let you know what availability we have in our teaching schedule&#44; or place you on the waiting list for the following semester.
               </div>
@@ -262,5 +262,3 @@
     </div>
   </div>
 </div>
-
-
