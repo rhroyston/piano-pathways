@@ -143,7 +143,7 @@
             <div class="panel-heading" role="tab" id="headingThree">
               <h4 class="panel-title">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                  3. What are the differences between the group classes and private lessons&#63;
+                  3. What&#39;s the difference between group and private lessons&#63;
                 </a>
               </h4>
             </div>
@@ -217,7 +217,7 @@
             <div class="panel-heading" role="tab" id="headingSeven">
               <h4 class="panel-title">
                 <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
-                  7. We are out&#45;of&#45;town most of the summer and will not be able to continue lessons in the summer. Do I have to enroll in summer lessons&#63;
+                  7. Do I have to enroll in summer lessons&#63;
                 </a>
               </h4>
             </div>
