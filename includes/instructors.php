@@ -46,10 +46,8 @@
     </div>
   <br>
   <br>
+  <br>
 </div>
-
-
-
 
 <!-- Modal -->
 <div id="rebeccaModal" class="modal fade" role="dialog">
