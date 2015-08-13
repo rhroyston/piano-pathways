@@ -152,6 +152,7 @@
               <div class="panel-body">
                 Both private and group classes are effective methods to learn to read music and play the piano. Here are a few differences&#58;
                 <br>
+                <br>
                 The Group Class...<br>
                 <ul>
                   <li>Explores a variety of musical styles.</li>
