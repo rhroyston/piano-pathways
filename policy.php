@@ -9,7 +9,7 @@
         </div>
     </div>
 
-    <div class="container">
+    <div class="container blue">
         <h1 class="text-center">Studio Policy</h1>
         <br>
         <h3>Overview</h3>
@@ -66,7 +66,7 @@
         </p>
         <br>
         <br>
-        <h5>Please note these policies are put in place to protect the interest of the instructors and piano students. This studio policy serves as a formal document for service of and payment for piano instruction. Registering for lessons indicates that the student and parents have read&#44; agree to&#44; and will comply with all policies outlined.
+        <h5><i class="fa fa-info-circle"></i> Please note these policies are put in place to protect the interest of the instructors and piano students. This studio policy serves as a formal document for service of and payment for piano instruction. Registering for lessons indicates that the student and parents have read&#44; agree to&#44; and will comply with all policies outlined.
         </h5>
     </div>
     <br>
