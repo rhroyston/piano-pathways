@@ -45,29 +45,28 @@
     </div>
     <br>
     <br>  
+    <br>
+    <br>
+    <br>
+  
+  
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <div class="row">
         <div class="col-md-4">
-          <h1 class="text-center blue"><small>The Piano Pathway</small></h1>
-          <h6 class="text-center blue"><small>MUSIC CENTER FOR CHILDREN&#38; ADULTS</small></h6>
-          <h5 class="text-center blue"><small><b>lessons &#124; recitals &#124; studio classes &#124; summer camps</b></small></h5>
+          <h1 class="text-right blue"><small>The Piano Pathway</small></h1>
+          <h6 class="text-right blue"><small>MUSIC CENTER FOR CHILDREN&#38; ADULTS</small></h6>
+          <h5 class="text-right blue"><small><b>lessons &#124; recitals &#124; studio classes &#124; summer camps</b></small></h5>
         </div>
         <div class="col-md-4">
             <span></span>
         </div>
         <div class="col-md-4">
-  
         </div>
     </div>
-    <br>
-    <br>
-    <br>
-  
-  
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <br>
     <h6 class="text-right"><small>&#169; Copyright 2011&#45;2016 &#124; Piano Pathways &#124; 9270 Siegen Lane #304 &#124; Baton Rouge&#44; LA 70810</small></h6>
   </div>
