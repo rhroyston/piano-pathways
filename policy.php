@@ -8,7 +8,6 @@
           <img src="/images/pianoman.png" class="img-responsive center-block">
         </div>
     </div>
-
     <div class="container blue">
         <h1 class="text-center">Studio Policy</h1>
         <br>
@@ -20,14 +19,14 @@
         <h4>Students&#39; Responsibilities</h4>
         <ul>
             <li>Please play your instrument at home every week between lessons. You learn to play the piano by playing the piano&#33;</li>
-            <li>Complete all assignments from your teacher. This includes any written theory&#44; scale practice&#44; and sight reading work&#33;&#41;</li>
-            <li>Know what your goals are–   your practice goals&#44; performance goals&#44; and goals for long&#45;term progress.</li>
+            <li>Complete all assignments from your teacher. This includes any written theory&#44; scale practice&#44; and sight reading work&#33;</li>
+            <li>Know what your goals are &#45; your practice goals&#44; performance goals&#44; and goals for long&#45;term progress.</li>
         </ul>
         <h4>Parents&#39; Responsibilities</h4>
         <ul>
             <li>Please encourage your child to play the piano at home. Be involved with this activity and give it the same value as you do other activities in which your child is involved. This is an endeavor that requires consistency and a long&#45;term commitment.</li>
             <li>If questions arise or practicing seems a struggle at home&#44; please communicate with the teacher. We can be your best resource and guide to answer any questions&#44; and we are glad to talk with you.</li>
-            <li>Be timely&#45; this includes paying tuition on time and arriving to lessons on time.</li>
+            <li>Be timely &#45; this includes paying tuition on time and arriving to lessons on time.</li>
         </ul>
         <h4>Teachers&#39; Responsibilities</h4>
         <ul>
