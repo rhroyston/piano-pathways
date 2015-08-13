@@ -9,21 +9,21 @@
   <!-- Wrapper for slides -->
   <div class="carousel-inner" role="listbox">
     <div class="item active">
-      <img src="/images/studio.png" alt="...">
+      <img src="/images/studio.jpg" alt="...">
       <div class="carousel-caption">
         <h3>Studio</h3>
         <p>A Musical Experience</p>
       </div>
     </div>
     <div class="item">
-      <img src="/images/children.png" alt="...">
+      <img src="/images/children.jpg" alt="...">
       <div class="carousel-caption">
         <h3>Children</h3>
         <p>Children of All Ages Welcome</p>
       </div>
     </div>
     <div class="item">
-      <img src="/images/adult.png" alt="...">
+      <img src="/images/adult.jpg" alt="...">
       <div class="carousel-caption">
         <h3>Adults</h3>
         <p>It&#39;s Never Too Late To Learn Piano</p>
