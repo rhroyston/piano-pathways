@@ -4,7 +4,31 @@
   <br>
   <br>
   <div class="container">
+      
+FAQ's
+Scheduling
+Tuition
+Payments
+Where Does Tuition Go?
+Location & Hours
+Application
+Benefits of Piano Lessons
+Studio Policy
+
     <div class="row">
+        <div class="col-md-4">
+            <h3 class="white">Piano Pathways Resources</h3>
+                <a href="http://www.musiclearningcommunity.com"><i class="fa fa-question-circle"></i> FAQ&#39;s</a><br>
+                <a href="http://www.musiclearningcommunity.com">Scheduling <i class="fa fa-angle-double-right"></i></a><br>
+                <a href="http://www.musiclearningcommunity.com">Tuition <i class="fa fa-angle-double-right"></i></a><br>
+                <a href="http://www.musiclearningcommunity.com">Make A Payment <i class="fa fa-external-link"></i></a><br>
+                <a href="http://www.musiclearningcommunity.com">Location & Hours <i class="fa fa-angle-double-right"></i></a><br>
+                <a href="http://www.musiclearningcommunity.com">Application <i class="fa fa-external-link"></i></a><br>
+                <a href="http://www.musiclearningcommunity.com">Studio Policy <i class="fa fa-angle-double-right"></i></a><br>
+                <a href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
+                <a href="http://www.musiclearningcommunity.com">Where Does Tuition Go&#63; <i class="fa fa-angle-double-right"></i></a><br>
+        </div>
+        
         <div class="col-md-4">
           <h3 class="white">Music Theory Websites</h3>
           <a href="http://www.musiclearningcommunity.com">MusicLearningCommunity.com <i class="fa fa-external-link"></i></a><br>
@@ -16,9 +40,6 @@
           <h3 class="white">Music History Websites</h3>
           <a href="http://www.classicsforkids.com">Classics for Kids <i class="fa fa-external-link"></i></a><br>
           <br>
-        </div>
-        
-        <div class="col-md-4">
           <h3 class="white">Professional Music Organizations</h3>
           <a href="http://www.brmta.org" target="blank">Baton Rouge Music Teachers Association <i class="fa fa-external-link"></i></a><br>
           <a href="http://www.lmta.org">Louisiana Music Teachers Association <i class="fa fa-external-link"></i></a><br>
@@ -57,7 +78,6 @@
     <br>
     <div class="row">
         <div class="col-md-4">
-            <span></span>
         </div>
         <div class="col-md-4">
         </div>
