@@ -17,6 +17,7 @@
         <a class="btn btn-primary" href="https://www.google.com/maps/place/9270+Siegen+Ln+%23304,+Baton+Rouge,+LA+70810/@30.3672887,-91.0751662,17z/data=!3m1!4b1!4m2!3m1!1s0x8626a53e88fc2d09:0xda2e043d4fe40d5d" target="blank" role="button"><i class="fa fa-map-marker"></i> Directions</a>
     </div>
     <h6 class="text-center">9270 Siegen Lane #304 Baton Rouge, LA 70810</h6>
+    <h6 class=text-center">&#40;225&#41; 767&#45;0030</h6>
     <br>
     <br>
     <br>
