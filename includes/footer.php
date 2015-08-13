@@ -4,29 +4,18 @@
   <br>
   <br>
   <div class="container">
-      
-FAQ's
-Scheduling
-Tuition
-Payments
-Where Does Tuition Go?
-Location & Hours
-Application
-Benefits of Piano Lessons
-Studio Policy
-
     <div class="row">
         <div class="col-md-4">
             <h3 class="white">Piano Pathways Resources</h3>
-                <a href="http://www.musiclearningcommunity.com"><i class="fa fa-question-circle"></i> FAQ&#39;s</a><br>
-                <a href="http://www.musiclearningcommunity.com">Scheduling <i class="fa fa-angle-double-right"></i></a><br>
-                <a href="http://www.musiclearningcommunity.com">Tuition <i class="fa fa-angle-double-right"></i></a><br>
-                <a href="http://www.musiclearningcommunity.com">Make A Payment <i class="fa fa-external-link"></i></a><br>
-                <a href="http://www.musiclearningcommunity.com">Location & Hours <i class="fa fa-angle-double-right"></i></a><br>
-                <a href="http://www.musiclearningcommunity.com">Application <i class="fa fa-external-link"></i></a><br>
-                <a href="http://www.musiclearningcommunity.com">Studio Policy <i class="fa fa-angle-double-right"></i></a><br>
-                <a href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
-                <a href="http://www.musiclearningcommunity.com">Where Does Tuition Go&#63; <i class="fa fa-angle-double-right"></i></a><br>
+            <a href="http://www.musiclearningcommunity.com"><i class="fa fa-question-circle"></i> FAQ&#39;s</a><br>
+            <a href="#schedulingModal" data-toggle="modal">Scheduling <i class="fa fa-angle-double-right"></i></a><br>
+            <a href="http://www.musiclearningcommunity.com">Tuition <i class="fa fa-angle-double-right"></i></a><br>
+            <a href="http://www.musiclearningcommunity.com">Make A Payment <i class="fa fa-external-link"></i></a><br>
+            <a href="http://www.musiclearningcommunity.com">Location & Hours <i class="fa fa-angle-double-right"></i></a><br>
+            <a href="http://www.musiclearningcommunity.com">Application <i class="fa fa-external-link"></i></a><br>
+            <a href="http://www.musiclearningcommunity.com">Studio Policy <i class="fa fa-angle-double-right"></i></a><br>
+            <a href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
+            <a href="http://www.musiclearningcommunity.com">Where Does Tuition Go&#63; <i class="fa fa-angle-double-right"></i></a><br>
         </div>
         
         <div class="col-md-4">
@@ -69,8 +58,6 @@ Studio Policy
     <br>
     <br>
     <br>
-  
-  
     <br>
     <br>
     <br>

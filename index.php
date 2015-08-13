@@ -3,7 +3,7 @@
   <?php include 'includes/head.php';?>
   
   <body>
-    <?php include 'includes/header.php';?> 
+    <?php include 'includes/header.php';?>
   
     <div class="container-fluid">
        <div class="row">
@@ -16,6 +16,7 @@
     <?php include 'includes/instructors.php';?>
     
     <?php include 'includes/footer.php';?>
+    <?php include 'includes/resources.php';?>
   
   </body>
 </html>
