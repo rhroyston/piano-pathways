@@ -27,3 +27,6 @@ background-color: #BDCCD1;
     background-image: url('/images/footer.jpg');
     background-size: cover
 }
+.adjustup{
+    padding-top:-4em;
+}
