@@ -6,12 +6,9 @@
         <a href="https://www.linkedin.com/pub/rebecca-bellelo/39/4a6/73"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
         <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>
     </h6>
-        <div class="row">
-          <img src="/images/logo.png" class="img-responsive center-block">
-        </div>
-    <br>
-    <br>
-    <P class="text-center super blue">Piano Pathways</p>
+    <div class="row">
+      <img src="/images/logo.png" class="img-responsive center-block">
+    </div>
     <h6 class="text-center blue">MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
     <h5 class="text-center blue"><b>lessons &#124; recitals &#124; studio classes &#124; summer camps</b></h5>
     <br>
