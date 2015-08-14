@@ -5,6 +5,11 @@ body {
     background-color: #BDCCD1;
     color: white;
 }
+.centerimg{
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+}
 .offwhite{
     color: #FDFCCC;
 }
