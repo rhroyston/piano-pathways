@@ -8,12 +8,7 @@ body {
 .centerimg{
     margin-left:auto;
     margin-right:auto;
-    text-align: center;
-}
-.centerimg img{
-    margin-left:auto;
-    margin-right:auto;
-    text-align: center;
+    display:block;
 }
 .offwhite{
     color: #FDFCCC;
