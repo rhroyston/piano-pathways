@@ -7,7 +7,7 @@
         <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>
     </h6>
     <div class="row">
-      <a href="http://www.thepianopathway.com"><img class="centerimg" src="/images/logo.png"></a>
+      <div class="centerimg"><a href="http://www.thepianopathway.com"><img src="/images/logo.png"></a></div>
       <h6 class="text-center adjustup">9270 Siegen Lane #304 Baton Rouge, LA 70810 &#40;225&#41; 767&#45;0030</h6>
     </div>
     <h5 class="text-center blue">BATON ROUGE&#39;S MUSIC CENTER FOR CHILDREN&#38; ADULTS</h5>
