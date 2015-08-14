@@ -6,7 +6,7 @@
   <br>
     <div class="row">
         <div class="col-md-4">
-          <img src="/images/rebecca-bellelo.png" class="instructors"><h3>Rebecca Bellelo</h3><h6>Studio Founder&#44; Owner&#44; and Piano Faculty</h6>A National Certified Teacher of Piano&#44; Rebecca C&#46; Bellelo holds a Ph&#46;D&#46; in music from LSU&#44; and a Master of Music degree in Piano Pedagogy from LSU&#46; She earned a Bachelor of Music degree in piano performance from Delta State University&#46; As a private piano teacher for the past ten years to pre&#45;college level students&#44; her students have been honored for their performances by winning numerous awards in local and state festivals&#44; such as the district and state MTNA competition&#44; Bach & Sonatina festival competition at LSU&#44; and BRMTA Tournament&#46;
+          <img src="/images/rebecca-bellelo.png" class="instructors"><h3 class="instructoradjust">Rebecca Bellelo</h3><h6>Studio Founder&#44; Owner&#44; and Piano Faculty</h6>A National Certified Teacher of Piano&#44; Rebecca C&#46; Bellelo holds a Ph&#46;D&#46; in music from LSU&#44; and a Master of Music degree in Piano Pedagogy from LSU&#46; She earned a Bachelor of Music degree in piano performance from Delta State University&#46; As a private piano teacher for the past ten years to pre&#45;college level students&#44; her students have been honored for their performances by winning numerous awards in local and state festivals&#44; such as the district and state MTNA competition&#44; Bach & Sonatina festival competition at LSU&#44; and BRMTA Tournament&#46;
           <!-- Trigger the modal with a button -->
           <a href="#rebeccaModal" data-toggle="modal">more <i class="fa fa-angle-double-right"></i></a>
         </div>
@@ -17,7 +17,7 @@
             </span>
         </div>
         <div class="col-md-4">
-            <span><img src="/images/emily-elbourne-ball.png" class="instructors"><h3 class="adjustup">Emily Elbourne Ball</h3><h6>Piano Faculty</h6>Emily Elbourne Ball is a native of New Orleans and started piano lessons in kindergarten&#46; Growing up she participated in recitals and Music Teacher National Association&#39;s Rally and Federation&#46; In high school Emily attended the prestigious New Orleans Center for Creative Arts where she continued her classical piano studies with Sakiko Ohashi and Dr&#46; Jisook Park&#46; During that time&#44; she taught music theory at the Music Academy for Performing Arts in Mandeville&#44; LA&#44; and a New Orleans Center for Creative Arts summer program&#46;
+            <span><img src="/images/emily-elbourne-ball.png" class="instructors"><h3 class="instructoradjust">Emily Elbourne Ball</h3><h6>Piano Faculty</h6>Emily Elbourne Ball is a native of New Orleans and started piano lessons in kindergarten&#46; Growing up she participated in recitals and Music Teacher National Association&#39;s Rally and Federation&#46; In high school Emily attended the prestigious New Orleans Center for Creative Arts where she continued her classical piano studies with Sakiko Ohashi and Dr&#46; Jisook Park&#46; During that time&#44; she taught music theory at the Music Academy for Performing Arts in Mandeville&#44; LA&#44; and a New Orleans Center for Creative Arts summer program&#46;
                 <!-- Trigger the modal with a button -->
                 <a href="#emilyModal" data-toggle="modal">more <i class="fa fa-angle-double-right"></i></a>            
             </span>
