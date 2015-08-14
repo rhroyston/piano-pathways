@@ -35,7 +35,7 @@ background-color: #BDCCD1;
 }
 .lsu{
     color: purple;
-    text-shadow: 1px 1px #FFD700;
+    text-shadow: 1px 1px rgba(255, 215, 0, 0.3);
 }
 
 .carousel .item {
