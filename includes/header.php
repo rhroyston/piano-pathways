@@ -6,7 +6,7 @@
         <a href="https://www.linkedin.com/pub/rebecca-bellelo/39/4a6/73"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
         <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>
     </h6>
-    <a href="http://www.thepianopathway.com"><img class="centered" src="/images/logo.png"></a>
+    <a href="http://www.thepianopathway.com"><img src="/images/logo.png" class="centered"></a>
     <div class="row">
       
       <h6 class="text-center adjustup">9270 Siegen Lane #304 Baton Rouge, LA 70810 &#40;225&#41; 767&#45;0030</h6>
