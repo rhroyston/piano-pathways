@@ -17,11 +17,10 @@ body {
 .instructors{
     float: left;
     margin-right: 10px;
-    margin-bottom: -.5em;
     height:96px;
 }
 .instructoradjust{
-    line-height:.8em;
+    margin-bottom: -.5em;
 }
 .credentials{
 color:white;
