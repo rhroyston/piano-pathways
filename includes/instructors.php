@@ -6,10 +6,9 @@
   <br>
     <div class="row">
         <div class="col-md-4">
-            <img src="/images/rebecca-bellelo.png" class="instructors"><h3 class="adjustup">Rebecca Bellelo</h3><h6>Studio Founder&#44; Owner&#44; and Piano Faculty</h6>A National Certified Teacher of Piano&#44; Rebecca C&#46; Bellelo holds a Ph&#46;D&#46; in music from LSU&#44; and a Master of Music degree in Piano Pedagogy from LSU&#46; She earned a Bachelor of Music degree in piano performance from Delta State University&#46; As a private piano teacher for the past ten years to pre&#45;college level students&#44; her students have been honored for their performances by winning numerous awards in local and state festivals&#44; such as the district and state MTNA competition&#44; Bach & Sonatina festival competition at LSU&#44; and BRMTA Tournament&#46;
-                <!-- Trigger the modal with a button -->
-                <a href="#rebeccaModal" data-toggle="modal">more <i class="fa fa-angle-double-right"></i></a>
-            
+          <img src="/images/rebecca-bellelo.png" class="instructors"><h3>Rebecca Bellelo</h3><h6>Studio Founder&#44; Owner&#44; and Piano Faculty</h6>A National Certified Teacher of Piano&#44; Rebecca C&#46; Bellelo holds a Ph&#46;D&#46; in music from LSU&#44; and a Master of Music degree in Piano Pedagogy from LSU&#46; She earned a Bachelor of Music degree in piano performance from Delta State University&#46; As a private piano teacher for the past ten years to pre&#45;college level students&#44; her students have been honored for their performances by winning numerous awards in local and state festivals&#44; such as the district and state MTNA competition&#44; Bach & Sonatina festival competition at LSU&#44; and BRMTA Tournament&#46;
+          <!-- Trigger the modal with a button -->
+          <a href="#rebeccaModal" data-toggle="modal">more <i class="fa fa-angle-double-right"></i></a>
         </div>
         <div class="col-md-4">
             <span><img src="/images/sarah-stoltzfus-johnson.png" class="instructors"><h3>Sarah Stoltzfus Johnson</h3><h6 class="adjustup">Piano Faculty</h6>Sarah Stoltzfus Johnson earned her Doctorate of Music Arts in piano performance with a minor in collaborative piano from Louisiana State University&#46; Prior to studying at LSU&#44; she graduated from the University of Central Missouri with a Masters in Piano Performance and a Bachelors degree in Piano Performance and Piano Pedagogy&#46; She has been an active teacher in her community for the last fifteen years and currently teaches group and private lessons&#46;
