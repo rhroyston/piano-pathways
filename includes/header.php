@@ -7,11 +7,10 @@
         <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>
     </h6>
     <div class="logo-wrap">
-        <a href="http://www.thepianopathway.com" class="logo">
+        <a href="/" class="logo">
             <img src="/images/logo.png">
         </a>
     </div>
-
     <div class="row">
       <h6 class="text-center adjustup">9270 Siegen Lane #304 Baton Rouge, LA 70810 &#40;225&#41; 767&#45;0030</h6>
     </div>
