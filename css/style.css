@@ -17,6 +17,7 @@ body {
 .instructors{
     float: left;
     margin-right: 10px;
+    margin-bottom: -4px;
     height:96px;
 }
 .instructoradjust{
