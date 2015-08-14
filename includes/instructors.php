@@ -12,7 +12,7 @@
             </span>
         </div>
         <div class="col-md-4">
-            <span><img src="/images/sarah-stoltzfus-johnson.png" class="instructors"><h4 class="adjustup">Sarah Stoltzfus Johnson</h4><h6>Piano Faculty</h6>Sarah Stoltzfus Johnson earned her Doctorate of Music Arts in piano performance with a minor in collaborative piano from Louisiana State University&#46; Prior to studying at LSU&#44; she graduated from the University of Central Missouri with a Masters in Piano Performance and a Bachelors degree in Piano Performance and Piano Pedagogy&#46; She has been an active teacher in her community for the last fifteen years and currently teaches group and private lessons&#46;
+            <span><img src="/images/sarah-stoltzfus-johnson.png" class="instructors"><h3>Sarah Stoltzfus Johnson</h3><h6 class="adjustup">Piano Faculty</h6>Sarah Stoltzfus Johnson earned her Doctorate of Music Arts in piano performance with a minor in collaborative piano from Louisiana State University&#46; Prior to studying at LSU&#44; she graduated from the University of Central Missouri with a Masters in Piano Performance and a Bachelors degree in Piano Performance and Piano Pedagogy&#46; She has been an active teacher in her community for the last fifteen years and currently teaches group and private lessons&#46;
                 <!-- Trigger the modal with a button -->
                 <a href="#sarahModal" data-toggle="modal">more <i class="fa fa-angle-double-right"></i></a>            
             </span>
