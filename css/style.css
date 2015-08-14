@@ -5,11 +5,14 @@ body {
     background-color: #BDCCD1;
     color: white;
 }
-.centered{
+.logo-wrap{
+    text-align: center;
+}
+.logo {
+
+    margin:0 auto;
     width:223px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    display:block;
 }
 .offwhite{
     color: #FDFCCC;
