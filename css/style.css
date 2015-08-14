@@ -19,6 +19,9 @@ body {
     margin-right: 10px;
     height:96px;
 }
+.instructoradjust{
+    line-height:1em;
+}
 .credentials{
 color:white;
 background-color: #BDCCD1;
