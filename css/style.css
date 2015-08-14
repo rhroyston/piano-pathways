@@ -5,7 +5,8 @@ body {
     background-color: #BDCCD1;
     color: white;
 }
-.centered img{
+.centered{
+    width:223px;
     display: block;
     margin-left: auto;
     margin-right: auto;
