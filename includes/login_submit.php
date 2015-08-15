@@ -102,11 +102,15 @@ else
         $message = 'We are unable to process your request. Please try again later"';
     }
 }
+
+if ($message == 'You are now logged in'){
+    header('Location: http://thepianopathway-rhroyston.rhcloud.com/');
+}
 ?>
 
 <html>
 <head>
-<title>PHPRO Login</title>
+<title>Error</title>
 </head>
 <body>
 <p><?php echo $message; ?>
