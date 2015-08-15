@@ -12,7 +12,7 @@
         <a href="https://www.facebook.com/PianoPathwaysStudio"><i class="fa fa-facebook-square"></i></a>&nbsp;&nbsp;
         <a href="https://plus.google.com/114075402524593080864/posts"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;
         <a href="https://www.linkedin.com/pub/rebecca-bellelo/39/4a6/73"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
-        <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>
+        <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp;
         <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#login-modal">
             Login
         </button>
