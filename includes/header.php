@@ -1,15 +1,16 @@
 <div class="container-fluid header">
     
     
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#login-modal">
-  Launch demo modal
-</button>
+
     
     
     
     
     <h6 class="text-right">
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#login-modal">
+Login
+</button>
         <a href="https://twitter.com/PianoPathwaysBR"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
         <a href="https://www.facebook.com/PianoPathwaysStudio"><i class="fa fa-facebook-square"></i></a>&nbsp;&nbsp;
         <a href="https://plus.google.com/114075402524593080864/posts"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;
