@@ -104,7 +104,7 @@ else
 }
 
 if ($message == 'You are now logged in'){
-    header('Location: http://thepianopathway-rhroyston.rhcloud.com/');
+    header('Location: http://thepianopathway-rhroyston.rhcloud.com/admin');
 }
 ?>
 
