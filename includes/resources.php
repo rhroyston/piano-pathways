@@ -271,7 +271,7 @@
 				<div class="modal-header" align="center">
 					<img class="img-circle" id="img_logo" src="http://bootsnipp.com/img/logo.jpg">
 					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+						<span class=" class=" class="fa fa-close" aria-hidden="true"></span>
 					</button>
 				</div>
                 
@@ -282,10 +282,11 @@
                     <form id="login-form">
 		                <div class="modal-body">
 				    		<div id="div-login-msg">
-                                <div id="icon-login-msg" class="glyphicon glyphicon-chevron-right"></div>
+                                <div id="icon-login-msg" class="fa fa-chevron-right"></div>
                                 <span id="text-login-msg">Type your username and password.</span>
                             </div>
 				    		<input id="login_username" class="form-control" type="text" placeholder="Username (type ERROR for error effect)" required>
+				    		<br>
 				    		<input id="login_password" class="form-control" type="password" placeholder="Password" required>
                             <div class="checkbox">
                                 <label>
