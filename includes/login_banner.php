@@ -1,5 +1,4 @@
-<nav class="navbar navbar-default">
-  <div class="container-fluid">
+
    
 
 
@@ -19,5 +18,3 @@
                         <button type="submit" class="btn btn-primary">Login</button>
                    </form>
     </div>
-  </div>
-</nav>
