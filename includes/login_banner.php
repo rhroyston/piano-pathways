@@ -3,7 +3,7 @@
 
 
    
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
       <form id="signin" class="navbar-form navbar-right" role="form">
                         <div class="input-group">
                             <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
@@ -17,4 +17,4 @@
 
                         <button type="submit" class="btn btn-primary">Login</button>
                    </form>
-    </div>
+
