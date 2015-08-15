@@ -269,7 +269,7 @@
   <div class="modal-dialog">
 		<div class="modal-content">
 			<div class="modal-header" align="center">
-			  <h1><i class="fa fa-lock"></i> Login</h1>
+			  <h3><i class="fa fa-lock"></i> Login</h3>
   			<button type="button" class="close" data-dismiss="modal" aria-label="Close">
   				<span class="fa fa-close" aria-hidden="true"></span>
   			</button>
