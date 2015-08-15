@@ -281,12 +281,10 @@
         <!-- Begin # Login Form -->
         <form id="login-form">
     		  <div class="modal-body">
-    				<div id="div-login-msg">
-              <div id="icon-login-msg" class="fa fa-chevron-right"></div>
-              <span id="text-login-msg">Type your username and password.</span>
-            </div>
+            <span id="text-login-msg">Username</span>
     			  <input id="login_username" class="form-control" type="text" placeholder="Username (type ERROR for error effect)" required>
     				<br>
+    				<span id="text-login-msg">Password</span>
     			  <input id="login_password" class="form-control" type="password" placeholder="Password" required>
             <div class="checkbox">
               <label>
