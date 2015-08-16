@@ -19,35 +19,55 @@
         <section>
             <div class="container">
                 <div class="row">
-                    <div class="col-md-4">
+                    <div class="col-md-2">
                     </div>
                     
-                    <div class="col-md-4">
-                        <h2>Login</h2>
-                        <form action="includes/login_submit" method="post">
-                            <span>
-                                <label for="phpro_username">Username</label>
-                                <input type="text" id="phpro_username" name="phpro_username" value="" maxlength="20" />
-                                <label for="phpro_password">Password</label>
-                                <input type="text" id="phpro_password" name="phpro_password" value="" maxlength="20" />
-                            </span>
-                            <p>
-                                <input type="submit" value="Login" />
-                            </p>
-                        </form>
-                        <aside>
-                            <?php
-                                if (isset($_SESSION["message"]))
-                                {
-                                $message = $_SESSION["message"];
-                                echo "<p class='red'>$message</p>";
-                                }
-                            ?>
-                            <p>This is a private computer system&#46;  Unauthorized access is scrictly prohibited&#46;</p>
-                        </aside>
+                    <div class="col-md-8">
+
+                        
+<div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">...</div>
+    <div role="tabpanel" class="tab-pane" id="profile">...</div>
+    <div role="tabpanel" class="tab-pane" id="messages">...</div>
+    <div role="tabpanel" class="tab-pane" id="settings">...</div>
+  </div>
+
+</div>                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                     </div>
                     
-                    <div class="col-md-4">
+        
+                    <div class="col-md-2">
                     </div>
                 </div>
             </div>
