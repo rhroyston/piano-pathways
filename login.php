@@ -79,9 +79,23 @@
                                     </div>                                    
                                     <br>
                                     <div class="input-group">
-
-
-    
+Day 
+<select class="form-control">
+    <option value="01">01</option>
+    <option value="02">02</option>
+    <option value="03">03</option>
+    <option value="04">04</option>
+    <option value="05">05</option>
+</select>
+Month 
+<select class="form-control">
+    <option value="one">One</option>
+    <option value="two">Two</option>
+    <option value="three">Three</option>
+    <option value="four">Four</option>
+    <option value="five">Five</option>
+</select>
+Year 
 <select class="form-control">
     <option value="one">One</option>
     <option value="two">Two</option>
