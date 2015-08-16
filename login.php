@@ -80,8 +80,7 @@
                                     <br>
                                     <div class="input-group navbar-form">
                                         
-                                             
-                                            <select class="selectpicker" title='Choose one of the following...' data-width="auto">
+                                            <select class="selectpicker" multiple title='Choose one of the following...' >
                                                 <option value="01">01</option>
                                                 <option value="02">02</option>
                                                 <option value="03">03</option>
