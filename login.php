@@ -80,20 +80,13 @@
                                     <br>
                                     <div class="input-group">
 
-            <li class="dropdown">
-              <a id="drop1" type="button" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                Dropdown
-                <span class="caret"></span>
-              </a>
-              
-              <button id="bday" type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Day</button>
-              
-              <ul class="dropdown-menu" aria-labelledby="bday">
-                <li>01</li>
-                <li>02</li>
-                <li>03</li>
-              </ul>
-            </li>
+<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+    <span class="caret"></span></button>
+    <ul class="dropdown-menu">
+      <li><a href="#">HTML</a></li>
+      <li><a href="#">CSS</a></li>
+      <li><a href="#">JavaScript</a></li>
+    </ul>
             
                                     </div>                                    
                                     <br>
