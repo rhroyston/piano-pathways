@@ -80,13 +80,15 @@
                                     <br>
                                     <div class="input-group">
 
-<button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Day
-    <span class="caret"></span></button>
-    <ul class="dropdown-menu">
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">CSS</a></li>
-      <li><a href="#">JavaScript</a></li>
-    </ul>
+
+    
+<select class="form-control">
+    <option value="one">One</option>
+    <option value="two">Two</option>
+    <option value="three">Three</option>
+    <option value="four">Four</option>
+    <option value="five">Five</option>
+</select>
             
                                     </div>                                    
                                     <br>
