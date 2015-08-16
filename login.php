@@ -3,7 +3,6 @@
 <html lang="en">
 <?php $title = 'login';
 include 'includes/head.php';
-include 'includes/banner.php';
 
 // capture url of original page and store it in variable called original-page
 if ($_SERVER['HTTP_REFERER'] != "http://www.rack.pub/login")
