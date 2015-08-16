@@ -80,8 +80,8 @@
                                     <br>
                                     <div class="input-group navbar-form">
                                         <div class="form-group">
-                                            <label for="sel1">Day</label> 
-                                            <select class="form-control">
+                                             
+                                            <select class="form-control" title='Day'>
                                                 <option value="01">01</option>
                                                 <option value="02">02</option>
                                                 <option value="03">03</option>
@@ -90,8 +90,8 @@
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label for="sel1">Month</label>
-                                            <select class="form-control">
+                                            
+                                            <select class="form-control" title='Month'>
                                                 <option value="one">One</option>
                                                 <option value="two">Two</option>
                                                 <option value="three">Three</option>
@@ -100,8 +100,8 @@
                                             </select>
                                         </div>
                                         <div class="form-group">
-                                            <label for="sel1">Year</label> 
-                                            <select class="form-control">
+                                            
+                                            <select class="form-control" title='Year'>
                                                 <option value="one">One</option>
                                                 <option value="two">Two</option>
                                                 <option value="three">Three</option>
