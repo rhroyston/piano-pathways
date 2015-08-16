@@ -279,7 +279,7 @@
       <div id="div-forms">
                   
         <!-- Begin # Login Form -->
-        <form id="login-form">
+        <form id="login-form" action="includes/login_submit" method="post">
     		  <div class="modal-body">
             <span id="text-login-msg">Username</span>
     			  <input id="login_username" class="form-control" type="text" placeholder="Username (type ERROR for error effect)" required>
@@ -326,7 +326,7 @@
         <!-- End | Lost Password Form -->
                           
         <!-- Begin | Register Form -->
-        <form id="register-form" action="adduser_submit.php" method="post" style="display:none;">
+        <form id="register-form" action="includes\adduser_submit" method="post" style="display:none;">
           <div class="modal-body">
       		  <div id="div-register-msg">
               <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
