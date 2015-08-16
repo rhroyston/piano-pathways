@@ -11,6 +11,4 @@
     <h5 class="text-center blue">lessons &#124; recitals &#124; studio classes &#124; summer camps</h5>
     <br>
     <br>
-    <br>
-    <br>
 </div>

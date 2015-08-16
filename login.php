@@ -18,8 +18,6 @@
         <?php include 'includes/header-min.php';?>
         <br>
         <br>
-        <br>
-        <br>
         <section>
             <div class="container">
                 <div class="row">
@@ -70,8 +68,13 @@
                     <div class="col-md-2">
                     </div>
                 </div>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <h6 class="text-center"><small>&#169; Copyright 2011&#45;2016 &#124; Piano Pathways &#124; 9270 Siegen Lane #304 &#124; Baton Rouge&#44; LA 70810</small></h6>
             </div>
         </section>
-    <h6 class="text-right"><small>&#169; Copyright 2011&#45;2016 &#124; Piano Pathways &#124; 9270 Siegen Lane #304 &#124; Baton Rouge&#44; LA 70810</small></h6>
     </body>
 </html>
