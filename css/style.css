@@ -42,6 +42,10 @@ background-color: #BDCCD1;
 .adjustup{
     line-height:0px;
 }
+.input-group-addon {
+    min-width:3em;
+    text-align:left;
+}
 .carousel .item {
     width: 100%; /*slider width*/
     max-height: 600px; /*slider height*/
