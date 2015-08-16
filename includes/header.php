@@ -9,11 +9,11 @@
             <?php
                 if(!isset($_SESSION['user_id']))
                 {
-                    echo '<h6><a class="" href="/login">login</a></h6>';
+                    echo '<p class="white"><a href="/login">login</a></p>';
                 }
                 else
                 {
-                    echo '<h6><a class="" href="/logout">logout</a></h6>';
+                    echo '<p class="white"><a href="/logout">logout</a></p>';
                 }
             ?>
     </h6>
