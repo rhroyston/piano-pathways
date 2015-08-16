@@ -326,7 +326,7 @@
         <!-- End | Lost Password Form -->
                           
         <!-- Begin | Register Form -->
-        <form id="register-form" action="includes\adduser_submit" method="post" style="display:none;">
+        <form id="register-form" action="includes/adduser_submit" method="post" style="display:none;">
           <div class="modal-body">
       		  <div id="div-register-msg">
               <div id="icon-register-msg" class="glyphicon glyphicon-chevron-right"></div>
