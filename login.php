@@ -31,15 +31,21 @@
                             <li role="presentation"><a href="#tab-register" aria-controls="profile" role="tab" data-toggle="tab">Register</a></li>
                           </ul>
                           <!-- Tab panes -->
+                          
+                          
                           <div class="tab-content">
                             <div role="tabpanel" class="tab-pane active" id="tab-login">
                                 <h2>Login</h2>
                                 <form action="includes/login_submit" method="post">
                                     <span>
-                                        <label for="phpro_username">Username</label>
-                                        <input type="text" id="phpro_username" name="phpro_username" value="" maxlength="20" />
-                                        <label for="phpro_password">Password</label>
-                                        <input type="text" id="phpro_password" name="phpro_password" value="" maxlength="20" />
+                                        <div class="input-group">
+                                            <label for="phpro_username">Username</label>
+                                            <input type="text" id="phpro_username" name="phpro_username" value="" maxlength="20" />
+                                        </div>
+                                        <div class="input-group">
+                                            <label for="phpro_password">Password</label>
+                                            <input type="text" id="phpro_password" name="phpro_password" value="" maxlength="20" />
+                                        </div>
                                     </span>
                                     <p>
                                         <input type="submit" value="Login" />
@@ -53,11 +59,10 @@
                                         echo "<p class='red'>$message</p>";
                                         }
                                     ?>
-                                    <p>This is a private computer system&#46;  Unauthorized access is scrictly prohibited&#46;</p>
                                 </aside>                            
                             </div>
                             
-                            
+                           
                             <div role="tabpanel" class="tab-pane" id="tab-register">Register Here
                             
                             </div>
