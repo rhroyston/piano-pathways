@@ -31,23 +31,20 @@
                             <li role="presentation"><a href="#tab-register" aria-controls="profile" role="tab" data-toggle="tab">Register</a></li>
                           </ul>
                           <!-- Tab panes -->
-                          
-                          
                           <div class="tab-content">
+                            <!-- Login Pane -->
                             <div role="tabpanel" class="tab-pane active" id="tab-login">
                                 <h2>Login</h2>
                                 <form action="includes/login_submit" method="post">
-
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                            <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Username" maxlength="20" />
-                                        </div>
-                                        <br>
-                                        <div class="input-group">
-                                            <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                            <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Password" maxlength="20" />
-                                        </div>
-
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Username" maxlength="20" />
+                                    </div>
+                                    <br>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                        <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Password" maxlength="20" />
+                                    </div>
                                     <br>  
                                     <button type="submit" class="btn btn-default btn-sm pull-right">Login</button>
                                 </form>
@@ -61,12 +58,42 @@
                                     ?>
                                 </aside>                            
                             </div>
-                            
-                           
+                            <!-- Register Pane -->
                             <div role="tabpanel" class="tab-pane" id="tab-register">
                                 
                                 <h2>Register</h2>
                                 <form action="includes/adduser_submit" method="post">
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Username" maxlength="20" />
+                                    </div>
+                                    <br>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                        <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Password" maxlength="20" />
+                                    </div>
+                                    <br>
+                                    <div class="input-group">
+                                        <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                                        <input type="text" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="email address" maxlength="40" />
+                                    </div>                                    
+                                    <br>
+                                    <div class="input-group">
+                                        <div id="birthdayPicker"></div>
+                                    </div>                                    
+                                    <br>
+                                    <div class="input-group">
+                                    </div>                                    
+                                    <br>
+                                    <div class="input-group">
+                                    </div>                                    
+                                    <br>
+                                    <div class="input-group">
+                                    </div>                                    
+                                    <br>
+                                    <div class="input-group">
+                                    </div>                                    
+                                    <br>
                                     <label for="phpro_username">Username</label>
                                     <input type="text" id="phpro_username" name="phpro_username" value="" maxlength="20" />
                                     
