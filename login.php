@@ -80,30 +80,14 @@
                                     <br>
                                     <div class="input-group navbar-form">
                                         <select class="form-control">>
-                                            <option value="01">01</option>
-                                            <option value="02">02</option>
-                                            <option value="03">03</option>
-                                            <option value="04">04</option>
-                                            <option value="05">05</option>
+                                            <?php include 'includes/day.php';?>
                                         </select>
-
-                                            <select class="form-control">>
-                                            <option value="one">One</option>
-                                            <option value="two">Two</option>
-                                            <option value="three">Three</option>
-                                            <option value="four">Four</option>
-                                            <option value="five">Five</option>
-                                        </select>
-
-
                                         <select class="form-control">>
-                                            <option value="one">One</option>
-                                            <option value="two">Two</option>
-                                            <option value="three">Three</option>
-                                            <option value="four">Four</option>
-                                            <option value="five">Five</option>
+                                            <?php include 'includes/month.php';?>
                                         </select>
-
+                                        <select class="form-control">>
+                                            <?php include 'includes/year.php';?>
+                                        </select>
                                     </div>                                    
                                     <br>
                                     <div class="input-group">
