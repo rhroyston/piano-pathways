@@ -80,7 +80,7 @@
                                     <br>
                                     <div class="input-group">
 
-<button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
+<button class="btn btn-default btn-xs dropdown-toggle" type="button" data-toggle="dropdown">Day
     <span class="caret"></span></button>
     <ul class="dropdown-menu">
       <li><a href="#">HTML</a></li>
