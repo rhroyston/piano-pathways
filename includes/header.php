@@ -6,20 +6,16 @@
         <a href="https://plus.google.com/114075402524593080864/posts"><i class="fa fa-google-plus"></i></a>&nbsp;&nbsp;
         <a href="https://www.linkedin.com/pub/rebecca-bellelo/39/4a6/73"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
         <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp;
-        <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#login-modal">
-            
             <?php
             if(!isset($_SESSION['user_id']))
                 {
-                    echo 'login';
+                    echo '<a class="btn btn-primary" href="/login">login</a>';
                 }
                 else
                 {
-                    echo 'logout';
+                    echo '<a class="btn btn-primary" href="/logout">logout</a>';
                 }
             ?>
-            
-        </button>
     </h6>
     <div class="logo-wrap">
         <a href="/" class="logo">

@@ -1,13 +1,4 @@
-<?php
-/*** begin our session ***/
-session_start();
-
-/*** set a form token ***/
-$form_token = md5( uniqid('auth', true) );
-
-/*** set the session form token ***/
-$_SESSION['form_token'] = $form_token;
-?>
+<?php include 'includes/session.php';?>
 
 <!DOCTYPE html>
 <html lang="en">
