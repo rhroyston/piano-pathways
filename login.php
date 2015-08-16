@@ -20,7 +20,7 @@ else{
     <section class="section">
         <div class="container">
             <h2>Login</h2>
-            <form action="includes/login_submit" method="post">
+            <form action="includes/llogin_submit" method="post">
                 <fieldset>
                     <span>
                         <label for="phpro_username">Username</label>
