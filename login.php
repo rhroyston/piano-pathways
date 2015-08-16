@@ -78,7 +78,7 @@
                                         <input type="text" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="email address" maxlength="40" />
                                     </div>                                    
                                     <br>
-                                    <div class="input-group">
+                                    <div class="input-group navbar-form navbar-right">
                                         <div class="form-group">
                                             <label for="sel1">Day</label> 
                                             <select class="form-control">
