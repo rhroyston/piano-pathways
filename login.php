@@ -81,8 +81,7 @@
                                     <div class="input-group navbar-form">
                                         
                                              
-                                            <select class="selectpicker" data-width="auto">
-                                                <option data-hidden="true" value="">Choose one...</option>
+                                            <select class="selectpicker" title='Choose one of the following...' data-width="auto">
                                                 <option value="01">01</option>
                                                 <option value="02">02</option>
                                                 <option value="03">03</option>
