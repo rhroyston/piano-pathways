@@ -41,12 +41,12 @@
                                         <div class="input-group">
                                             
                                             <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                            <input type="text" id="phpro_username" name="phpro_username" value="" placeholder="Username" maxlength="20" />
+                                            <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Username" maxlength="20" />
                                         </div>
                                         <div class="input-group">
                                             
                                             <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                            <input type="text" id="phpro_password" name="phpro_password" value="" placeholder="Password" maxlength="20" />
+                                            <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Password" maxlength="20" />
                                         </div>
                                     </span>
                                     <p>
