@@ -37,7 +37,7 @@
                             <div role="tabpanel" class="tab-pane active" id="tab-login">
                                 <h2>Login</h2>
                                 <form action="includes/login_submit" method="post">
-                                    <span>
+
                                         <div class="input-group">
                                             <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                             <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Username" maxlength="20" />
@@ -47,7 +47,7 @@
                                             <span class="input-group-addon"><i class="fa fa-lock"></i></span>
                                             <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Password" maxlength="20" />
                                         </div>
-                                    </span>
+
                                     <br>  
                                     <button type="submit" class="btn btn-default btn-sm pull-right">Login</button>
                                 </form>
@@ -65,26 +65,19 @@
                            
                             <div role="tabpanel" class="tab-pane" id="tab-register">
                                 
-                                <h2>Add user</h2>
+                                <h2>Register</h2>
                                 <form action="includes/adduser_submit" method="post">
-                                    <fieldset>
-                                        <p>
-                                            <label for="phpro_username">Username</label>
-                                            <input type="text" id="phpro_username" name="phpro_username" value="" maxlength="20" />
-                                        </p>
-                                        <p>
-                                            <label for="phpro_email">Email</label>
-                                            <input type="text" id="phpro_email" name="phpro_email" value="" maxlength="40" />
-                                        </p>
-                                        <p>
-                                            <label for="phpro_password">Password</label>
-                                            <input type="text" id="phpro_password" name="phpro_password" value="" maxlength="20" />
-                                        </p>
-                                        <p>
-                                            <input type="hidden" name="form_token" value="<?php echo $form_token; ?>" />
-                                            <input type="submit" value="Add" />
-                                        </p>
-                                    </fieldset>
+                                    <label for="phpro_username">Username</label>
+                                    <input type="text" id="phpro_username" name="phpro_username" value="" maxlength="20" />
+                                    
+                                    <label for="phpro_email">Email</label>
+                                    <input type="text" id="phpro_email" name="phpro_email" value="" maxlength="40" />
+                                    
+                                    <label for="phpro_password">Password</label>
+                                    <input type="text" id="phpro_password" name="phpro_password" value="" maxlength="20" />
+                                    
+                                    <input type="hidden" name="form_token" value="<?php echo $form_token; ?>" />
+                                    <input type="submit" value="Add" />
                                 </form>
                                 <aside>
                                     <?php
