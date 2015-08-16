@@ -7,13 +7,13 @@
         <a href="https://www.linkedin.com/pub/rebecca-bellelo/39/4a6/73"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
         <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp;
             <?php
-            if(!isset($_SESSION['user_id']))
+                if(!isset($_SESSION['user_id']))
                 {
-                    echo '<a class="btn btn-default btn-xs" href="/login">login</a>';
+                    echo '<h6><a class="" href="/login">login</a></h6>';
                 }
                 else
                 {
-                    echo '<a class="btn btn-default btn-xs" href="/logout">logout</a>';
+                    echo '<h6><a class="" href="/logout">logout</a></h6>';
                 }
             ?>
     </h6>
