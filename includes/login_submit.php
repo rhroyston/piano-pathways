@@ -46,7 +46,7 @@ else
     
     /*** connect to database ***/
     /*** mysql hostname ***/
-    $mysql_hostname = '127.8.99.130';
+    $mysql_hostname = '127.8.99.130:3306';
 
     /*** mysql username ***/
     $mysql_username = 'adminRqmldJy';
