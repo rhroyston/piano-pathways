@@ -65,20 +65,20 @@
                                 <form action="includes/adduser_submit" method="post">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Username" maxlength="20" />
+                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" />
                                     </div>
                                     <br>
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Password" maxlength="20" />
+                                        <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Enter A Password" maxlength="20" />
                                     </div>
                                     <br>
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                        <input type="text" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="email address" maxlength="40" />
+                                        <input type="text" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40" />
                                     </div>                                    
                                     <br>
-                                    Birthdate
+                                    <span>Birthdate
                                     <div class="input-group navbar-form">
                                         <select class="form-control">>
                                             <?php include 'includes/day.php';?>
@@ -89,7 +89,8 @@
                                         <select class="form-control">>
                                             <?php include 'includes/year.php';?>
                                         </select>
-                                    </div>                                    
+                                    </div>
+                                    </span>
                                     <br>
                                     
                                     
