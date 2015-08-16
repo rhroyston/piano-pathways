@@ -93,8 +93,6 @@ else
                 /*** tell the user we are logged in ***/
                 $message = 'You are now logged in';
         }
-
-
     }
     catch(Exception $e)
     {
@@ -102,7 +100,6 @@ else
         $message = 'We are unable to process your request. Please try again later"';
     }
 }
-
 // if the user successfully logged in redirect them to original page else redirect them to login page w error reason
 if (isset($_SESSION['user_id']))
 {
@@ -112,7 +109,7 @@ if (isset($_SESSION['user_id']))
     header("Location: $url");
     }
     else {
-    // header("Location: http://thepianopathway-rhroyston.rhcloud.com/");
+    header("Location: http://www.rack.pub");
     }
 }
 else{
@@ -123,8 +120,9 @@ else{
     header("Location: $url");
     }
     else {
-    //  header("Location: http://thepianopathway-rhroyston.rhcloud.com/");
+        header("Location: http://www.rack.pub");
     }
 
 }
+
 ?>
