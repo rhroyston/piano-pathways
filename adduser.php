@@ -24,6 +24,10 @@ $_SESSION['form_token'] = $form_token;
 <input type="text" id="phpro_username" name="phpro_username" value="" maxlength="20" />
 </p>
 <p>
+<label for="phpro_email">Email</label>
+<input type="text" id="phpro_email" name="phpro_email" value="" maxlength="40" />
+</p>
+<p>
 <label for="phpro_password">Password</label>
 <input type="text" id="phpro_password" name="phpro_password" value="" maxlength="20" />
 </p>
