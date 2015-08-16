@@ -109,7 +109,7 @@ if (isset($_SESSION['user_id']))
     header("Location: $url");
     }
     else {
-    header("Location: http://www.rack.pub");
+    header("Location: http://thepianopathway-rhroyston.rhcloud.com/");
     }
 }
 else{
@@ -120,7 +120,7 @@ else{
     header("Location: $url");
     }
     else {
-        header("Location: http://www.rack.pub");
+        header("Location: http://thepianopathway-rhroyston.rhcloud.com/");
     }
 
 }
