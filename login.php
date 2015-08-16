@@ -14,8 +14,8 @@
             $_SESSION["original-page"] = "http://thepianopathway-rhroyston.rhcloud.com/";
         }
     ?>
-    include 'includes/header.php';
     <body>
+        <?php include 'includes/header.php';?>
         <section class="section">
             <div class="container">
                 <h2>Login</h2>
