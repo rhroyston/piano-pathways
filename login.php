@@ -85,12 +85,13 @@
                 Dropdown
                 <span class="caret"></span>
               </a>
-              <ul class="dropdown-menu" aria-labelledby="drop1">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li role="separator" class="divider"></li>
-                <li><a href="#">Separated link</a></li>
+              
+              <button id="bday" type="button" class="btn btn-default btn-xs dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Day</button>
+              
+              <ul class="dropdown-menu" aria-labelledby="bday">
+                <li>01</li>
+                <li>02</li>
+                <li>03</li>
               </ul>
             </li>
             
