@@ -5,12 +5,12 @@
 include 'includes/head.php';
 
 // capture url of original page and store it in variable called original-page
-if ($_SERVER['HTTP_REFERER'] != "http://www.rack.pub/login")
+if ($_SERVER['HTTP_REFERER'] != "http://thepianopathway-rhroyston.rhcloud.com/login")
 {
     $_SESSION["original-page"] = $_SERVER['HTTP_REFERER'];
 }
 else{
-    $_SESSION["original-page"] = "http://www.rack.pub";
+    $_SESSION["original-page"] = "http://thepianopathway-rhroyston.rhcloud.com/";
 }
 
 
@@ -20,7 +20,7 @@ else{
     <section class="section">
         <div class="container">
             <h2>Login</h2>
-            <form action="includes/login_submit" method="post">
+            <form action="login_submit" method="post">
                 <fieldset>
                     <span>
                         <label for="phpro_username">Username</label>
