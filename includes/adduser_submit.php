@@ -101,13 +101,9 @@ else
         }
     }
 }
-?>
 
-<html>
-<head>
-<title>PHPRO Login</title>
-</head>
-<body>
-<p><?php echo $message; ?>
-</body>
-</html>
+// redirect to original page w message
+$url = $_SERVER['HTTP_REFERER'];
+$_SESSION["message"] = $message;
+header("Location: $url");
+?>

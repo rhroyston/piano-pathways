@@ -36,6 +36,15 @@
                 </p>
             </fieldset>
         </form>
+        <aside>
+            <?php
+                if (isset($_SESSION["message"]))
+                {
+                $message = $_SESSION["message"];
+                echo "<p class='red'>$message</p>";
+                }
+            ?>
+        </aside>
         <?php include 'includes/footer.php';?>
         <?php include 'includes/resources.php';?>
     </body>
