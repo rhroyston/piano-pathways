@@ -39,14 +39,14 @@
                                 <form action="includes/login_submit" method="post">
                                     <span>
                                         <div class="input-group">
-                                            <label for="phpro_username">Username</label>
-                                            <span class="input-group-addon"><i class="fa-user"></i></span>
-                                            <input type="text" id="phpro_username" name="phpro_username" value="" maxlength="20" />
+                                            
+                                            <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                            <input type="text" id="phpro_username" name="phpro_username" value="" placeholder="Username" maxlength="20" />
                                         </div>
                                         <div class="input-group">
-                                            <label for="phpro_password">Password</label>
+                                            
                                             <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                            <input type="text" id="phpro_password" name="phpro_password" value="" maxlength="20" />
+                                            <input type="text" id="phpro_password" name="phpro_password" value="" placeholder="Password" maxlength="20" />
                                         </div>
                                     </span>
                                     <p>
