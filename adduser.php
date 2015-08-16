@@ -7,18 +7,14 @@
     /*** set the session form token ***/
     $_SESSION['form_token'] = $form_token;
 
-    $title = 'Add User';
+    $title = 'Piano Pathways';
+    include 'includes/head.php';
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
-    
-    <?php
-        $title = 'Piano Pathways';
-        include 'includes/head.php';
-    ?>
-
     <body>
+        <?php include 'includes/header.php';?>
         <h2>Add user</h2>
         <form action="includes/adduser_submit" method="post">
             <fieldset>
@@ -40,5 +36,7 @@
                 </p>
             </fieldset>
         </form>
+        <?php include 'includes/footer.php';?>
+        <?php include 'includes/resources.php';?>
     </body>
 </html>
