@@ -81,7 +81,8 @@
                                     <div class="input-group navbar-form">
                                         <div class="form-group">
                                              
-                                            <select class="form-control" title='Day'>
+                                            <select class="form-control">
+                                                <option data-hidden="true">Day</option>
                                                 <option value="01">01</option>
                                                 <option value="02">02</option>
                                                 <option value="03">03</option>
