@@ -49,10 +49,8 @@
                                             <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Password" maxlength="20" />
                                         </div>
                                     </span>
-                                    <p>
-                                      <br>  
-                                        <button type="submit" class="btn btn-default btn-sm right-block">Login</button>
-                                    </p>
+                                    <br>  
+                                    <button type="submit" class="btn btn-default btn-sm pull-right">Login</button>
                                 </form>
                                 <aside>
                                     <?php
