@@ -103,17 +103,28 @@ else
     }
 }
 
-if ($message == 'You are now logged in'){
-    $status = 'Logout '.$phpro_username;
-    header('Location: /admin');
+// if the user successfully logged in redirect them to original page else redirect them to login page w error reason
+if (isset($_SESSION['user_id']))
+{
+    if ($message = 'You are now logged in')
+    {
+    $url = $_SESSION["original-page"];
+    header("Location: $url");
+    }
+    else {
+    header("Location: http://thepianopathway-rhroyston.rhcloud.com/");
+    }
+}
+else{
+    if (isset($_SESSION["original-page"]))
+    {
+    $url = $_SERVER['HTTP_REFERER'];
+    $_SESSION["message"] = $message;
+    header("Location: $url");
+    }
+    else {
+        header("Location: http://thepianopathway-rhroyston.rhcloud.com/");
+    }
+
 }
 ?>
-
-<html>
-<head>
-<title>Error</title>
-</head>
-<body>
-<p><?php echo $message; ?>
-</body>
-</html>
