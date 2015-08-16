@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <!-- Page specific -->
-    <title>The Piano Pathway</title>
+    <title><?php echo $title?></title>
+    <meta name="description" content="<?php echo $description?>">
     
     <!-- 3rd Party JS Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>

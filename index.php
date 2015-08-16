@@ -2,7 +2,10 @@
 
 <!DOCTYPE html>
 <html lang="en">
-  <?php include 'includes/head.php';?>
+  <?php
+    $title = 'Piano Pathways';
+    include 'includes/head.php';
+  ?>
   <body>
     <?php include 'includes/header.php';?>
     <?php include 'includes/banner.php';?>
