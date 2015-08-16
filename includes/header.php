@@ -9,11 +9,11 @@
             <?php
             if(!isset($_SESSION['user_id']))
                 {
-                    echo '<a class="btn btn-primary" href="/login">login</a>';
+                    echo '<a class="btn btn-default btn-xs" href="/login">login</a>';
                 }
                 else
                 {
-                    echo '<a class="btn btn-primary" href="/logout">logout</a>';
+                    echo '<a class="btn btn-default btn-xs" href="/logout">logout</a>';
                 }
             ?>
     </h6>
