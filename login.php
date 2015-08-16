@@ -52,7 +52,6 @@
                 </div>
             </div>
         </section>
-        <?php include 'includes/footer.php';?>
-        <?php include 'includes/resources.php';?>
+        <?php include 'includes/footer-min.php';?>
     </body>
 </html>
