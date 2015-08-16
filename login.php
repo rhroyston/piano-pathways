@@ -79,7 +79,7 @@
                                     </div>                                    
                                     <br>
                                     <div class="input-group navbar-form">
-                                        <div class="form-group">
+                                        
                                              
                                             <select class="selectpicker" data-width="auto">
                                                 <option data-hidden="true">Day</option>
@@ -89,10 +89,10 @@
                                                 <option value="04">04</option>
                                                 <option value="05">05</option>
                                             </select>
-                                        </div>
+                                        
                                         <div class="form-group">
                                             
-                                            <select class="form-control" title='Month'>
+                                            <select class="selectpicker" title='Month'>
                                                 <option value="one">One</option>
                                                 <option value="two">Two</option>
                                                 <option value="three">Three</option>
@@ -102,7 +102,7 @@
                                         </div>
                                         <div class="form-group">
                                             
-                                            <select class="form-control" title='Year'>
+                                            <select class="selectpicker" title='Year'>
                                                 <option value="one">One</option>
                                                 <option value="two">Two</option>
                                                 <option value="three">Three</option>
