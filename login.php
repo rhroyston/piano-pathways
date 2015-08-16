@@ -80,19 +80,19 @@
                                     <br>
                                     <div class="input-group">
 
-<div class="container" style="margin-top:150px;">
-<h1>jQuery Birthday Picker Demos</h1>
-<h4>Default Settings</h4>
-			<div id="default-settings"></div>
-			<h4>Default Birthday [defaultDate: 01-03-1980]</h4>
-			<div id="default-birthday"></div>
-			<h4>maxYear: 2020, maxAge: 65, defaultDate: 01-03-1980</h4>
-			<div id="max-year-birthday"></div>
-			<h4>maxYear: 2020, monthFormat:short maxAge: 65, defaultDate: 01-03-1980</h4>
-			<div id="short-month-birthday"></div>
-			<h4>maxYear: 2020, monthFormat:long maxAge: 65, defaultDate: 01-03-1980, sizeClass:span3</h4>
-			<div id="long-month-birthday"></div>
-            </div>
+            <li class="dropdown">
+              <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="drop1">
+                <li><a href="#">Action</a></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Separated link</a></li>
+              </ul>
+            </li>
             
                                     </div>                                    
                                     <br>
