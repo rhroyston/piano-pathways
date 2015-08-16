@@ -103,6 +103,16 @@ Year
     <option value="four">Four</option>
     <option value="five">Five</option>
 </select>
+
+<div class="form-group">
+  <label for="sel1">Day</label>
+  <select class="form-control" id="sel1">
+    <option>1</option>
+    <option>2</option>
+    <option>3</option>
+    <option>4</option>
+  </select>
+</div>
             
                                     </div>                                    
                                     <br>
