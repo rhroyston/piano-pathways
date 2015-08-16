@@ -50,8 +50,8 @@
                                         </div>
                                     </span>
                                     <p>
-                                        
-                                        <button type="submit" class="btn btn-default btn-sm">Login</button>
+                                      <br>  
+                                        <button type="submit" class="btn btn-default btn-sm right-block">Login</button>
                                     </p>
                                 </form>
                                 <aside>
