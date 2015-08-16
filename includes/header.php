@@ -7,7 +7,15 @@
         <a href="https://www.linkedin.com/pub/rebecca-bellelo/39/4a6/73"><i class="fa fa-linkedin"></i></a>&nbsp;&nbsp;
         <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp;
         <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#login-modal">
-            <?php echo $status;?>
+            
+            <?php if($status == ''){
+                $status = 'Login';
+            }
+            
+            echo $status;
+            
+            
+            ?>
         </button>
     </h6>
     <div class="logo-wrap">
