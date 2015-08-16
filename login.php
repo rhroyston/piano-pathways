@@ -79,7 +79,21 @@
                                     </div>                                    
                                     <br>
                                     <div class="input-group">
-                                        <div id="birthdayPicker"></div>
+
+<div class="container" style="margin-top:150px;">
+<h1>jQuery Birthday Picker Demos</h1>
+<h4>Default Settings</h4>
+			<div id="default-settings"></div>
+			<h4>Default Birthday [defaultDate: 01-03-1980]</h4>
+			<div id="default-birthday"></div>
+			<h4>maxYear: 2020, maxAge: 65, defaultDate: 01-03-1980</h4>
+			<div id="max-year-birthday"></div>
+			<h4>maxYear: 2020, monthFormat:short maxAge: 65, defaultDate: 01-03-1980</h4>
+			<div id="short-month-birthday"></div>
+			<h4>maxYear: 2020, monthFormat:long maxAge: 65, defaultDate: 01-03-1980, sizeClass:span3</h4>
+			<div id="long-month-birthday"></div>
+            </div>
+            
                                     </div>                                    
                                     <br>
                                     <div class="input-group">
