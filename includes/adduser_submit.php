@@ -60,7 +60,7 @@ else
     $mysql_password = 'gQDlAVx3a66L';
 
     /*** database name ***/
-    $mysql_dbname = 'phpro_auth';
+    $mysql_dbname = 'thepianopathway';
 
     try
     {

@@ -318,7 +318,7 @@
               <button type="submit" class="btn btn-primary btn-lg btn-block">Send</button>
             </div>
             <div>
-              <button id="lost_login_btn" type="button" class="btn btn-link">Log In</button>
+              <button id="lost_login_btn" type="button" class="btn btn-link"><?php echo $status;></button>
               <button id="lost_register_btn" type="button" class="btn btn-link">Register</button>
             </div>
       		</div>

@@ -46,16 +46,16 @@ else
     
     /*** connect to database ***/
     /*** mysql hostname ***/
-    $mysql_hostname = 'localhost';
+    $mysql_hostname = '127.8.99.130';
 
     /*** mysql username ***/
-    $mysql_username = 'mysql_username';
+    $mysql_username = 'adminRqmldJy';
 
     /*** mysql password ***/
-    $mysql_password = 'mysql_password';
+    $mysql_password = 'gQDlAVx3a66L';
 
     /*** database name ***/
-    $mysql_dbname = 'phpro_auth';
+    $mysql_dbname = 'thepianopathway';
 
     try
     {
@@ -104,7 +104,8 @@ else
 }
 
 if ($message == 'You are now logged in'){
-    header('Location: http://thepianopathway-rhroyston.rhcloud.com/admin');
+    $status = 'Logout '.$phpro_username;
+    header('Location: /admin');
 }
 ?>
 
