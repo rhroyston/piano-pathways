@@ -8,14 +8,17 @@
         <a href="https://www.youtube.com/user/rbellelo"><i class="fa fa-youtube-play"></i></a>&nbsp;&nbsp;
         <button type="button" class="btn btn-default btn-xs" data-toggle="modal" data-target="#login-modal">
             
-            <?php if($status == ''){
-                $status = 'Login';
-            }
-            
-            echo $status;
-            
-            
+            <?php
+            if(!isset($_SESSION['user_id']))
+                {
+                    echo 'login';
+                }
+                else
+                {
+                    echo 'logout';
+                }
             ?>
+            
         </button>
     </h6>
     <div class="logo-wrap">
