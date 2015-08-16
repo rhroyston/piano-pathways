@@ -82,7 +82,7 @@
                                         
                                              
                                             <select class="selectpicker" data-width="auto">
-                                                <option data-hidden="true" value="">Day</option>
+                                                <option data-hidden="true" value="">Choose one...</option>
                                                 <option value="01">01</option>
                                                 <option value="02">02</option>
                                                 <option value="03">03</option>
