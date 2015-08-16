@@ -17,7 +17,7 @@ $_SESSION['form_token'] = $form_token;
 
 <body>
 <h2>Add user</h2>
-<form action="adduser_submit" method="post">
+<form action="includes/adduser_submit" method="post">
 <fieldset>
 <p>
 <label for="phpro_username">Username</label>
