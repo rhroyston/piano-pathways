@@ -81,7 +81,7 @@
                                     <div class="input-group">
 
             <li class="dropdown">
-              <a id="drop1" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+              <a id="drop1" type="button" href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                 Dropdown
                 <span class="caret"></span>
               </a>
@@ -108,14 +108,7 @@
                                     <div class="input-group">
                                     </div>                                    
                                     <br>
-                                    <label for="phpro_username">Username</label>
-                                    <input type="text" id="phpro_username" name="phpro_username" value="" maxlength="20" />
-                                    
-                                    <label for="phpro_email">Email</label>
-                                    <input type="text" id="phpro_email" name="phpro_email" value="" maxlength="40" />
-                                    
-                                    <label for="phpro_password">Password</label>
-                                    <input type="text" id="phpro_password" name="phpro_password" value="" maxlength="20" />
+
                                     
                                     <input type="hidden" name="form_token" value="<?php echo $form_token; ?>" />
                                     <input type="submit" value="Add" />
