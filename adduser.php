@@ -42,7 +42,6 @@
                 {
                 $message = $_SESSION["message"];
                 echo "<p class='red'>$message</p>";
-                echo 'test';
                 }
             ?>
         </aside>

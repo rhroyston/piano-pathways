@@ -32,7 +32,7 @@
           <a href="http://www.lmta.org" target="blank">Louisiana Music Teachers Association <i class="fa fa-external-link"></i></a><br>
           <a href="http://www.mtna.org" target="blank">Music Teachers National Association <i class="fa fa-external-link"></i></a><br>
           <a href="http://www.menc.org" target="blank">National Association for Music Education <i class="fa fa-external-link"></i></a><br>
-          <a href="http://www.music.lsu.edu" target="blank"><span class="lsu">LSU</span> School of Music <i class="fa fa-external-link"></i></a><br>
+          <a href="http://www.music.lsu.edu" target="blank">LSU School of Music <i class="fa fa-external-link"></i></a><br>
         </div>
         
         <div class="col-md-4">

@@ -42,11 +42,6 @@ background-color: #BDCCD1;
 .adjustup{
     line-height:0px;
 }
-.lsu{
-    color: purple;
-    text-shadow: 1px 1px rgba(255, 215, 0, 0.5);
-}
-
 .carousel .item {
     width: 100%; /*slider width*/
     max-height: 600px; /*slider height*/
