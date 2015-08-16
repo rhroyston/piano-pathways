@@ -10,7 +10,7 @@ if ($_SERVER['HTTP_REFERER'] != "http://www.rack.pub/login")
     $_SESSION["original-page"] = $_SERVER['HTTP_REFERER'];
 }
 else{
-    $_SESSION["original-page"] = "http://thepianopathway-rhroyston.rhcloud.com/";
+    $_SESSION["original-page"] = "http://www.rack.pub";
 }
 
 
@@ -20,7 +20,7 @@ else{
     <section class="section">
         <div class="container">
             <h2>Login</h2>
-            <form action="includes/llogin_submit" method="post">
+            <form action="login_submit" method="post">
                 <fieldset>
                     <span>
                         <label for="phpro_username">Username</label>
