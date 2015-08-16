@@ -50,7 +50,8 @@
                                         </div>
                                     </span>
                                     <p>
-                                        <input type="submit" value="Login" />
+                                        
+                                        <button type="submit" class="btn btn-default btn-sm">Login</button>
                                     </p>
                                 </form>
                                 <aside>
