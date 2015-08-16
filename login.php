@@ -78,8 +78,8 @@
                                         <input type="text" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="email address" maxlength="40" />
                                     </div>                                    
                                     <br>
+                                    Birthdate
                                     <div class="input-group navbar-form">
-                                        <i class="navbar-brand">WebSiteName</i>
                                         <select class="form-control">>
                                             <?php include 'includes/day.php';?>
                                         </select>
@@ -93,7 +93,6 @@
                                     <br>
                                     
                                     
-
                                     
                                     
                                     
