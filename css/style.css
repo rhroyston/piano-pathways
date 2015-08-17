@@ -33,7 +33,7 @@ body {
 }
 .alert-auto {
     display:inline-block;
-    height:auto;
+    height:1em;
 }
 .credentials{
 color:white;

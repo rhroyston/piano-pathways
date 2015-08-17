@@ -56,10 +56,10 @@
                                             // if the target is the login pane then display message and then kill the session variable 
                                             if($host == 'thepianopathway-rhroyston.rhcloud.com/login') {
                                                 if (strpos($message,'Success') !== false) {
-                                                    echo "<div class='alert alert-success alert-dismissible alert-auto'><button class='close' data-dismiss='alert'><i class='fa fa-times'></i></button><strong><i class='fa fa-check'></i> $message</strong></div>";
+                                                    echo "<div class='alert alert-success alert-dismissible alert-auto'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
                                                 }
                                                 if (strpos($message,'Error') !== false) {
-                                                    echo "<div class='alert alert-danger alert-dismissible alert-auto'><button class='close' data-dismiss='alert'><i class='fa fa-times'></i></button><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
+                                                    echo "<div class='alert alert-danger alert-dismissible alert-auto'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
                                                 }
                                                 $message = NULL;
                                                 unset ($_SESSION["message"]);
@@ -75,10 +75,10 @@
                                     // If we have a message then display it and then kill it  
                                     $message = $_SESSION["message"];
                                     if (strpos($message,'Success') !== false) {
-                                        echo "<div class='alert alert-success alert-dismissible alert-auto'><button class='close' data-dismiss='alert'><i class='fa fa-times'></i></button><strong><i class='fa fa-check'></i> $message</strong></div>";
+                                        echo "<div class='alert alert-success alert-dismissible alert-auto'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
                                     }
                                     if (strpos($message,'Error') !== false) {
-                                        echo "<div class='alert alert-danger alert-dismissible alert-auto'><button class='close' data-dismiss='alert'><i class='fa fa-times'></i></button><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
+                                        echo "<div class='alert alert-danger alert-dismissible alert-auto'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
                                     }
                                     $message = NULL;
                                     unset ($_SESSION["message"]);
