@@ -127,7 +127,7 @@
                                     </div>
                                     <br>
 
-                                    
+                                    <label for="street">Lesson Option</label>
                                     <div class="checkbox">
                                       <label><input type="checkbox" value="Private 30">Private Lesson &#40;30-minutes&#41;</label>
                                     </div>
@@ -143,7 +143,22 @@
                                     <div class="checkbox">
                                       <label><input type="checkbox" value="Adult Leisure">Adult Leisure Class</label>
                                     </div>
-
+                                    
+                                    
+                                    <label for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
+                                    <div class="radio">
+                                      <label><input type="radio" name="partner">I have a friend that I would like to take lessons with.</label>
+                                    </div>
+                                    <div class="radio">
+                                      <label><input type="radio" name="partner-placeme">Please place me with someone at Piano Pathways to take partner lessons.</label>
+                                    </div>
+                                 
+                                    <label for="street">Online Lessons</label>
+                                    <div class="radio">
+                                      <label><input type="radio" name="partner">I am registering for online lessons.</label>
+                                    </div>
+                                    
+                        
                                     <br>
                                     <div class="form-horizontal">
                                         <div class="input-group pull-right">
