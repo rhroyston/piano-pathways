@@ -59,6 +59,21 @@
                             <div role="tabpanel" class="tab-pane" id="tab-register">
                                 <h2>Register</h2>
                                 <br>
+                                    <?php
+                                        $message = $_SESSION["message"];
+                                        // if the target is the registration pane then display and then kill message
+                                            if (strpos($message,'Success') !== false) {
+                                                echo "<div class='alert alert-success alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
+                                            }
+                                            if (strpos($message,'Info') !== false) {
+                                                echo "<div class='alert alert-warning alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-info-circle'></i> $message</strong></div>";
+                                            }                                            
+                                            if (strpos($message,'Error') !== false) {
+                                                echo "<div class='alert alert-danger alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
+                                            }
+                                        $message = NULL;
+                                        unset ($_SESSION["message"]);
+                                    ?>
                                 <form action="includes/adduser_submit" method="post">
                                     <div class="input-group col-lg-8">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
@@ -185,21 +200,7 @@
                                     </div>
                                 </form>
                                 <aside>
-                                    <?php
-                                        $message = $_SESSION["message"];
-                                        // if the target is the registration pane then display and then kill message
-                                            if (strpos($message,'Success') !== false) {
-                                                echo "<div class='alert alert-success alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
-                                            }
-                                            if (strpos($message,'Info') !== false) {
-                                                echo "<div class='alert alert-warning alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-info-circle'></i> $message</strong></div>";
-                                            }                                            
-                                            if (strpos($message,'Error') !== false) {
-                                                echo "<div class='alert alert-danger alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
-                                            }
-                                        $message = NULL;
-                                        unset ($_SESSION["message"]);
-                                    ?>
+
                                 </aside>                                
                             </div>
                           </div>
