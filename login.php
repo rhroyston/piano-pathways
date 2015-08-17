@@ -85,7 +85,7 @@
                                     <br>
                                     <div class="form-group col-lg-6">
                                         <label>Birthday</label>
-                                        <div class="input-group navbar-form">
+                                        
                                             <select class="form-control">
                                                 <?php include 'includes/day.php';?>
                                             </select>
@@ -95,7 +95,7 @@
                                             <select class="form-control">
                                                 <?php include 'includes/year.php';?>
                                             </select>
-                                        </div>
+                                        
                                     </div>
                                     <br>
                                     
