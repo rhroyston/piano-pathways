@@ -1,8 +1,8 @@
 <option value="">Grade</option>
-<option value="Senior in College">Senior &#40;Col&#41;</option>
-<option value="Junior in College">Junior &#40;Col&#41;</option>
-<option value="Sophmore in College">Sophmore &#40;Col&#41;</option>
-<option value="Freshman in College">Freshman &#40;Col&#41;</option>
+<option value="Senior in College">Senior &#40;College&#41;</option>
+<option value="Junior in College">Junior &#40;College&#41;</option>
+<option value="Sophmore in College">Sophmore &#40;College&#41;</option>
+<option value="Freshman in College">Freshman &#40;College&#41;</option>
 <option value="High School Senior">Senior &#40;HS&#41;</option>
 <option value="High School Junior">Junior &#40;HS&#41;</option>
 <option value="High School Sophmore">Sophmore &#40;HS&#41;</option>

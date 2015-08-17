@@ -93,7 +93,7 @@
                                     <br>
                                     <h4>Grade</h4>
                                     <div class="input-group">
-                                        <select class="form-control">
+                                        <select class="form-control navbar-form">
                                             <?php include 'includes/grade.php';?>
                                         </select>
                                     </div>                                    
