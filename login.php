@@ -104,9 +104,11 @@
                                     
                                     <br>
                                     
-                                    <div class="form-group">
-                                        <label for="street">Stree Address</label>
-                                        <input type="text" class="form-control" id="street" placeholder="Street Address">
+                                    <div class="form-horizontal">
+                                        <div class="form-group col-lg-8">
+                                            <label for="street">Stree Address</label>
+                                            <input type="text" class="form-control" id="street" placeholder="Street Address">
+                                        </div>
                                     </div>
                                     
                                     <div class="form-horizontal">
