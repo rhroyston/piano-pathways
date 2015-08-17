@@ -87,14 +87,14 @@
                                     <label>Grade</label>
                                     
 
-                                    <div class="col-md-6">
                                     
                                     
-                                        <select data-width="100%" class="form-control">
+                                    
+                                        <select class="form-control input-small">
                                             <?php include 'includes/grade.php';?>
                                         </select>
                                     
-                                    </div>
+                                    
 
                                     <br>
 
