@@ -99,7 +99,7 @@
                                     </div>
                                     <br>
                                     
-                                    <div class="input-group col-lg-4">
+                                    <div class="form-group">
                                         <label>Grade</label>
                                         <select class="form-control">
                                             <?php include 'includes/grade.php';?>
