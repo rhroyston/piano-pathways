@@ -183,7 +183,7 @@
                         
                                     <div class="form-group">
                                       <label for="prior-study">Prior Music Study and Teacher&#58;</label>
-                                      <input type="text" class="form-control" id="prior-study">
+                                      <textarea class="form-control" rows="5" id="prior-study"></textarea>
                                     </div>                        
                         
                                     <label for="street">Policy Agreement</label>
