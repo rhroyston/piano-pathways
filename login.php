@@ -83,8 +83,6 @@
                                         <input type="text" class="form-control" id="phpro_phone" name="phpro_phone" placeholder="Telephone Number">
                                     </div>
                                     <br>
-                                    
-                                    <div class="form-horizontal">
                                     <label>Grade</label>
                                     <div class="form-group">
                                         <select class="form-control form-control-inline">
@@ -110,7 +108,7 @@
                                             <?php include 'includes/year.php';?>
                                         </select>
                                     </div>
-                                    </div>
+
                                    
                                     
                                     
