@@ -50,17 +50,22 @@
                                 </form>
                                 
                                     <?php
+                                        $host = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
                                         if (isset($_SESSION["message"])){
-                                            // if the target is the registration pane then don't display and don't kill message
-                                            if(!strpos($_SERVER['REQUEST_URI'],"/login#tab-register")===0){
-                                                $message = $_SESSION["message"];
-echo $message;
-                                            $message = NULL;
-                                            unset ($_SESSION["message"]);
+                                            $message = $_SESSION["message"];
+                                            // if the target is the login pane then display message and then kill the session variable 
+                                            if($host == 'thepianopathway-rhroyston.rhcloud.com/login') {
+                                                if (strpos($message,'Success') !== false) {
+                                                    echo "<div class='alert alert-success alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
+                                                }
+                                                if (strpos($message,'Error') !== false) {
+                                                    echo "<div class='alert alert-danger alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
+                                                }                                                
+                                                $message = NULL;
+                                                unset ($_SESSION["message"]);
                                             }
                                         }
                                     ?>
-                                                            
                             </div>
                             <!-- Register Pane -->
                             <div role="tabpanel" class="tab-pane" id="tab-register">
