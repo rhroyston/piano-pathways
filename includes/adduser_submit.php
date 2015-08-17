@@ -107,7 +107,7 @@ else
 
 
 // redirect back w message to login pane if successful and to register pane if not
-if($message == 'New user added'){
+if($message == 'Success&#58; New user added'){
     header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
     //exit();
 }
