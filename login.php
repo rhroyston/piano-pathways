@@ -52,9 +52,19 @@
                                     <?php
                                         if (isset($_SESSION["message"]))
                                         {
-                                        $message = $_SESSION["message"];
-                                        echo "<p class='red'>$message</p>";
+                                            $message = $_SESSION["message"];
+                                            if (strpos($a,'success') !== false) {
+                                                echo "<div class='alert alert-success'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i>Success&#58; $message</strong></div>";
+                                            }
+                                            if (strpos($a,'info') !== false) {
+                                                echo "<div class='alert alert-warning'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-info-circle'></i>Info&#58; $message</strong></div>";
+                                            }                                            
+                                            if (strpos($a,'error') !== false) {
+                                                echo "<div class='alert alert-error'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i>Error&#58; $message</strong></div>";
+                                            }                                            
                                         }
+                                        $message = NULL;
+                                        unset ($_SESSION["message"]);
                                     ?>
                                 </aside>                            
                             </div>
@@ -189,20 +199,24 @@
                                 </form>
                                 <aside>
                                     <?php
-                                        if (isset($_SESSION["addusermessage"]))
+                                        if (isset($_SESSION["message"]))
                                         {
-                                        $addusermessage = $_SESSION["addusermessage"];
-                                        echo "<p class='red'>$addusermessage</p>";
-                                        unset ($addusermessage);
+                                            $message = $_SESSION["message"];
+                                            if (strpos($a,'success') !== false) {
+                                                echo "<div class='alert alert-success'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i>Success&#58; $message</strong></div>";
+                                            }
+                                            if (strpos($a,'info') !== false) {
+                                                echo "<div class='alert alert-warning'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-info-circle'></i>Info&#58; $message</strong></div>";
+                                            }                                            
+                                            if (strpos($a,'error') !== false) {
+                                                echo "<div class='alert alert-error'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i>Error&#58; $message</strong></div>";
+                                            }                                            
                                         }
+                                        $message = NULL;
+                                        unset ($_SESSION["message"]);
                                     ?>
                                 </aside>                                
-                                
-                                
-                                
-                            
                             </div>
-                            
                           </div>
                         </div>                        
                     </div>

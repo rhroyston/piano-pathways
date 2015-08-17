@@ -5,39 +5,39 @@ session_start();
 /*** first check that both the username, password and form token have been sent ***/
 if(!isset( $_POST['phpro_username'], $_POST['phpro_email'], $_POST['phpro_password'], $_POST['form_token']))
 {
-    $addusermessage = 'Please enter a valid username&#44; email&#44; and password';
+    $message = 'Please enter a valid username&#44; email&#44; and password';
 }
 /*** check the form token is valid ***/
 elseif( $_POST['form_token'] != $_SESSION['form_token'])
 {
-    $addusermessage = 'Invalid form submission';
+    $message = 'Invalid form submission';
 }
 /*** check the username is the correct length ***/
 elseif (strlen( $_POST['phpro_username']) > 20 || strlen($_POST['phpro_username']) < 4)
 {
-    $addusermessage = 'Incorrect Length for Username';
+    $message = 'Incorrect Length for Username';
 }
 /*** check the email is the correct length ***/
 elseif (strlen( $_POST['phpro_email']) > 40 || strlen($_POST['phpro_email']) < 4)
 {
-    $addusermessage = 'Incorrect Length for Email';
+    $message = 'Incorrect Length for Email';
 }
 /*** check the password is the correct length ***/
 elseif (strlen( $_POST['phpro_password']) > 20 || strlen($_POST['phpro_password']) < 4)
 {
-    $addusermessage = 'Incorrect Length for Password';
+    $message = 'Incorrect Length for Password';
 }
 /*** check the username has only alpha numeric characters ***/
 elseif (ctype_alnum($_POST['phpro_username']) != true)
 {
     /*** if there is no match ***/
-    $addusermessage = "Username must be alpha numeric";
+    $message = "Username must be alpha numeric";
 }
 /*** check the password has only alpha numeric characters ***/
 elseif (ctype_alnum($_POST['phpro_password']) != true)
 {
         /*** if there is no match ***/
-        $addusermessage = "Password must be alpha numeric";
+        $message = "Password must be alpha numeric";
 }
 else
 {
@@ -85,26 +85,35 @@ else
         unset( $_SESSION['form_token'] );
 
         /*** if all is done, say thanks ***/
-        $addusermessage = 'New user added';
+        $message = 'New user added';
     }
     catch(Exception $e)
     {
         /*** check if the username already exists ***/
         if( $e->getCode() == 23000)
         {
-            $addusermessage = 'Username already exists';
+            $message = 'Username already exists';
         }
         else
         {
             /*** if we are here, something has gone wrong with the database ***/
-            $addusermessage = 'We are unable to process your request. Please try again later"';
+            $message = 'We are unable to process your request. Please try again later"';
         }
     }
 }
+// If there is a message, then pass it in session variable.
+if (isset($message)){
+    $_SESSION["message"] = $message;
+}
+// redirect back w message to login pane if successful and to register pane if not
+if($message == 'New user added'){
+    header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
+    exit();
+}
+else{
+    header("Location: http://thepianopathway-rhroyston.rhcloud.com/login#tab-register");
+    exit();
+}
 
-// redirect to original page w message
-// $url = $_SERVER['HTTP_REFERER'];
-$_SESSION["addusermessage"] = $addusermessage;
-header("Location: http://thepianopathway-rhroyston.rhcloud.com/login#tab-register");
 ?>
 
