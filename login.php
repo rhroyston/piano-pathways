@@ -83,27 +83,20 @@
                                         <input type="text" class="form-control" id="phpro_phone" name="phpro_phone" placeholder="Telephone Number">
                                     </div>
                                     <br>
-                                    
-                                  
 
+                                    <label>Birthday</label>
+                                    <div class="form-group">
+                                        <select class="form-control form-control-inline">
+                                            <?php include 'includes/day.php';?>
+                                        </select>
+                                        <select class="form-control form-control-inline">
+                                            <?php include 'includes/month.php';?>
+                                        </select>
+                                        <select class="form-control form-control-inline">
+                                            <?php include 'includes/year.php';?>
+                                        </select>
+                                    </div>
 
-
-                                   
-                                        <label>Birthday</label>
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <?php include 'includes/day.php';?>
-                                            </select>
-                                            <select class="form-control">
-                                                <?php include 'includes/month.php';?>
-                                            </select>
-                                            <select class="form-control">
-                                                <?php include 'includes/year.php';?>
-                                            </select>
-                                        </div>
-                           
-
-                                         
                                     <label>Grade</label>
                                     <div class="form-group">
                                         <select class="form-control form-control-inline">
