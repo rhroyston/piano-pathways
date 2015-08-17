@@ -186,7 +186,8 @@
                                 </form>
                                 <aside>
                                     <?php
-                                    echo "$message";
+                                    echo $message;
+                                    echo 'hi there';
 
                                     ?>
                                 </aside>                                
