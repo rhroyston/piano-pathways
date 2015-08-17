@@ -85,7 +85,7 @@
                                     <br>
                                     
                                     <div class="form-horizontal">
-                                        <div class="form-group col-lg-6">
+                                        
                                             <label>Birthday</label>
                                             
                                                 <select class="form-control form-control-inline">
@@ -98,7 +98,7 @@
                                                     <?php include 'includes/year.php';?>
                                                 </select>
                                             
-                                        </div>   
+                                         
                                     <label>Grade</label>
                                     <div class="form-group">
                                         <select class="form-control form-control-inline">
