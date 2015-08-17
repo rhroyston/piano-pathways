@@ -98,7 +98,8 @@
                                         </div>
                                     </div>
                                     <br>
-                                    <div class="finput-group col-lg-4">
+                                    
+                                    <div class="input-group col-lg-4">
                                         <label>Grade</label>
                                         <select class="form-control">
                                             <?php include 'includes/grade.php';?>
