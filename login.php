@@ -78,7 +78,7 @@
                                         <input type="text" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40" />
                                     </div>                                    
                                     <br>
-                                    <div class="form-group col-lg-8">
+                                    <div class="input-group col-lg-8">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
                                         <input type="text" class="form-control" id="phpro_phone" name="phpro_phone" placeholder="Telephone Number">
                                     </div>
