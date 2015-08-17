@@ -95,19 +95,32 @@
                                                 <?php include 'includes/year.php';?>
                                             </select>
                                     </div>
-
                                     <label>Grade</label>
                                     <div class="form-group">
                                         <select class="form-control form-control-inline">
                                             <?php include 'includes/grade.php';?>
                                         </select>
                                     </div>
-
                                     <div class="form-group">
                                         <label for="street">Stree Address</label>
                                         <input type="text" class="form-control" id="street" placeholder="Street Address">
                                     </div>
-
+                                    <div class="form-horizontal">
+                                        <div class="form-group col-lg-6">
+                                            <label for="city">City</label>
+                                            <input type="text" class="form-control" id="city" placeholder="City">
+                                        </div>
+                                        <div class="form-group col-lg-1"></div>
+                                        <div class="form-group col-lg-4">
+                                            <label for="state">State</label>
+                                            <input type="text" class="form-control" id="state" placeholder="State">
+                                        </div>
+                                        <div class="form-group col-lg-1"></div>
+                                        <div class="form-group col-lg-2">
+                                            <label for="zip">Zip</label>
+                                            <input type="number" class="form-control" id="zip" placeholder="Zip">
+                                        </div>
+                                    </div>
 
                                     <label for="street">Lesson Option</label>
                                     <div class="checkbox">
