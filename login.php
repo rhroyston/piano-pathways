@@ -202,9 +202,10 @@
                                 <aside>
                                     <?php
                                         if (isset($_SESSION["message"])){
+                                            $message = $_SESSION["message"];
                                             // if the target is the registration pane then display and then kill message
                                             if(strpos($_SERVER['REQUEST_URI'],"/login#tab-register")===0){
-                                                $message = $_SESSION["message"];
+                                                
                                                 if (strpos($message,'Success') !== false) {
                                                     echo "<div class='alert alert-success'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
                                                 }
