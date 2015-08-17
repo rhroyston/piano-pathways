@@ -83,24 +83,11 @@
                                         <input type="text" class="form-control" id="phpro_phone" name="phpro_phone" placeholder="Telephone Number">
                                     </div>
                                     <br>
-                                    <div class="form-group col-lg-6">
-                                        <label>Birthday</label>
-                                        
-                                            <select class="form-control">
-                                                <?php include 'includes/day.php';?>
-                                            </select>
-                                            <select class="form-control">
-                                                <?php include 'includes/month.php';?>
-                                            </select>
-                                            <select class="form-control">
-                                                <?php include 'includes/year.php';?>
-                                            </select>
-                                        
-                                    </div>
+
                                     <br>
                                     
                                     <div class="form-group">
-                                        <label>Grade</label>
+                                        
                                         <select class="form-control">
                                             <?php include 'includes/grade.php';?>
                                         </select>
