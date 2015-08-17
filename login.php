@@ -82,9 +82,11 @@
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
                                         <input type="text" class="form-control" id="phpro_phone" name="phpro_phone" placeholder="Telephone Number">
                                     </div>
+                                    
                                     <br>
+                                    
                                     <label>Grade</label>
-                                    <div class="form-group col-lg-6">
+                                    <div class="form-group">
                                         <select class="form-control">
                                             <?php include 'includes/grade.php';?>
                                         </select>
