@@ -154,8 +154,8 @@
                                     </div>
                                  
                                     <label for="street">Online Lessons</label>
-                                    <div class="radio">
-                                      <label><input type="radio" name="partner">I am registering for online lessons.</label>
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" value="Online Lessons">I am registering for online lessons.</label>
                                     </div>
                                     
                                     <div class="form-group">
@@ -187,15 +187,15 @@
                                     </div>                        
                         
                                     <label for="street">Policy Agreement</label>
-                                    <div class="radio">
-                                      <label><input type="radio" name="partner">Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" value="Studio Agreement">Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
                                     </div>                        
                         
                                     <label for="street">Tuition Agreement</label>
-                                    <div class="radio">
-                                      <label><input type="radio" name="partner">Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
-                                    </div>                        
-
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" value="Tuition Agreement">Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
+                                    </div>
+                                    
                                     <br>
                                     <div class="form-horizontal">
                                         <div class="input-group pull-right">
