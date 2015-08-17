@@ -103,7 +103,8 @@ else
 }
 
 // redirect to original page w message
-$url = $_SERVER['HTTP_REFERER'];
+// $url = $_SERVER['HTTP_REFERER'];
 $_SESSION["message"] = $message;
-header("Location: $url");
+header("Location: http://thepianopathway-rhroyston.rhcloud.com/login#tab-register");
 ?>
+
