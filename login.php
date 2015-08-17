@@ -49,24 +49,7 @@
                                     <button type="submit" class="btn btn-default btn-sm pull-right">Login</button>
                                 </form>
                                 <aside>
-                                    <?php
-                                        if (isset($_SESSION["message"])){
-                                            // if the target is the registration pane then don't display and don't kill message
-                                            if(!strpos($_SERVER['REQUEST_URI'],"/login#tab-register")===0){
-                                                $message = $_SESSION["message"];
-                                                if (strpos($message,'Success') !== false) {
-                                                    echo "<div class='alert alert-success'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
-                                                }
-                                                if (strpos($message,'Info') !== false) {
-                                                    echo "<div class='alert alert-warning'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-info-circle'></i> $message</strong></div>";
-                                                }                                            
-                                                if (strpos($message,'Error') !== false) {
-                                                    echo "<div class='alert alert-error'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
-                                                }
 
-                                            }
-                                        }
-                                    ?>
                                 </aside>                            
                             </div>
                             <!-- Register Pane -->
