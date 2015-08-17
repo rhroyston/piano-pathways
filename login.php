@@ -101,8 +101,9 @@
   <input class="form-control" id="ex1" type="text">
 </div>
 <div class="col-xs-3">
-  <label for="ex2">col-xs-3</label>
-  <input class="form-control" id="ex2" type="text">
+                                            <select class="form-control form-control-inline">
+                                                <?php include 'includes/month.php';?>
+                                            </select>
 </div>
 <div class="col-xs-4">
   <label for="ex3">col-xs-4</label>

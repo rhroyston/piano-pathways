@@ -1,4 +1,4 @@
-<option value="">Grade</option>
+<option value="">Choose One</option>
 <option value="na">N&#47;A</option>
 <option value="Senior in College">Senior &#40;College&#41;</option>
 <option value="Junior in College">Junior &#40;College&#41;</option>
