@@ -85,7 +85,7 @@
                                     <br>
 
                                     <br>
-                                    
+                                    <label>Grade</label>
                                     <div class="form-group">
                                         
                                         <select class="form-control">
