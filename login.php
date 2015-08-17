@@ -102,7 +102,6 @@
                                             <?php include 'includes/grade.php';?>
                                         </select>
                                     </div>
-                                    </div>
                                     <br>
 
                                     <div class="input-group col-lg-6">
