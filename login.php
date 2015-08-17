@@ -193,7 +193,7 @@
                                         {
                                         $addusermessage = $_SESSION["addusermessage"];
                                         echo "<p class='red'>$addusermessage</p>";
-                                        $addusermessage = null;
+                                        unset ($addusermessage);
                                         }
                                     ?>
                                 </aside>                                
