@@ -79,7 +79,7 @@
                                     </div>                                    
                                     <br>
                                     
-                                    <div class="form-group">
+                                    
                                     <h4>Birthdate</h4>
                                     <div class="input-group navbar-form">
                                         <select class="form-control">
@@ -98,7 +98,7 @@
                                         <select class="form-control">
                                             <?php include 'includes/grade.php';?>
                                         </select>
-                                    </div>                                   
+                                                                      
                                     <br>
                                     <div class="input-group">
                                     </div>                                    
