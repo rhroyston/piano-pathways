@@ -78,10 +78,9 @@
                                         <input type="text" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40" />
                                     </div>                                    
                                     <br>
-                                    
-                                    
+
                                     <h4>Birthdate</h4>
-                                    <div class="input-group navbar-form pull-left">
+                                    <div class="input-group navbar-form">
                                         <select class="form-control">
                                             <?php include 'includes/day.php';?>
                                         </select>
@@ -92,14 +91,31 @@
                                             <?php include 'includes/year.php';?>
                                         </select>
                                     </div>
+                                    
                                     <h4>Grade</h4>
-                                    
-                                    
-                                        <select class="form-control">
-                                            <?php include 'includes/grade.php';?>
-                                        </select>
-                                                                      
+                                    <select class="form-control">
+                                        <?php include 'includes/grade.php';?>
+                                    </select>
                                     <br>
+                                    
+  <div class="form-group">
+    <label for="exampleInputEmail1">Stree Address</label>
+    <input type="text" class="form-control" id="street" placeholder="Street Address">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">City</label>
+    <input type="text" class="form-control" id="city" placeholder="City">
+  </div>
+    <div class="form-group">
+    <label for="exampleInputEmail1">State</label>
+    <input type="text" class="form-control" id="state" placeholder="State">
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Zip</label>
+    <input type="number" class="form-control" id="zip" placeholder="Zip">
+  </div>
+  
+  
                                     <div class="input-group">
                                     </div>                                    
                                     <br>
