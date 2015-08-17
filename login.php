@@ -85,11 +85,13 @@
                                     
                                     <br>
                                     
+                                    <div class="form-horizontal col-lg-4">
                                     <label>Grade</label>
-                                    <div class="form-group col-lg-4">
+                                    <div class="form-group">
                                         <select class="form-control">
                                             <?php include 'includes/grade.php';?>
                                         </select>
+                                    </div>
                                     </div>
                                     <br>
 
