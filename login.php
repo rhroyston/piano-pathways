@@ -86,7 +86,7 @@
 
 
                                     
-                                    
+                                    <div class="collapse navbar-collapse">
                                     <div class="input-group navbar-form">
                                     <div class="form-group col-lg-6">
                                         <label>Birthday</label>
@@ -102,8 +102,9 @@
                                             </select>
                                         
                                     </div>
-
                                     </div>
+                                    </div>
+                                    
 
 
                                     <label>Grade</label>
