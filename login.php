@@ -88,11 +88,12 @@
                                     
 
                                     <div class="col-md-6">
-                                    <div class="form-group">
+                                    
+                                    
                                         <select data-width="100%" class="form-control">
                                             <?php include 'includes/grade.php';?>
                                         </select>
-                                    </div>
+                                    
                                     </div>
 
                                     <br>
