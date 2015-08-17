@@ -35,6 +35,9 @@ body {
     display:inline-block;
     height:1em;
 }
+.alert-auto-text{
+    margin-top:-.5em;
+}
 .credentials{
 color:white;
 background-color: #BDCCD1;
