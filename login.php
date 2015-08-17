@@ -102,7 +102,6 @@
                                             <?php include 'includes/grade.php';?>
                                         </select>
                                     </div>
-                                    <br>
 
                                     <div class="input-group col-lg-6">
                                         <label for="street">Stree Address</label>
@@ -127,6 +126,12 @@
                                         </div>
                                     </div>
                                     <br>
+                                    <label>Lesson Option</label>
+                                    <div class="form-group">
+                                        <select class="form-control form-control-inline">
+                                            <?php include 'includes/lesson.php';?>
+                                        </select>
+                                    </div>                                    
 
                                     <br>
                                     <div class="form-horizontal">
