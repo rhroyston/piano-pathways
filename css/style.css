@@ -31,6 +31,9 @@ body {
 .instructoradjust{
     margin-bottom: -.5em;
 }
+.alert-auto {
+    display:inline-block;
+}
 .credentials{
 color:white;
 background-color: #BDCCD1;
