@@ -90,7 +90,7 @@
                                     
                                     
                                     
-                                        <select class="form-control input-small">
+                                        <select class="form-control col-lg-4">
                                             <?php include 'includes/grade.php';?>
                                         </select>
                                     
