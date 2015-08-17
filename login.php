@@ -201,6 +201,7 @@
                                 </form>
                                 <aside>
                                     <?php
+                                    echo "$message";
                                         if (isset($_SESSION["message"])){
                                             $message = $_SESSION["message"];
                                             // if the target is the registration pane then display and then kill message
