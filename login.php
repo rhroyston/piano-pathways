@@ -103,17 +103,12 @@
                                         </div>
                                     </div>
                                     <br>
-                                    <div class="form-horizontal">
-                                        <div class="form-group col-lg-4">
-                                            <label for="street">Telephone Number</label>
-                                            <input type="text" class="form-control" id="phone" placeholder="Telephone Number">
-                                        </div>
-                                        <div class="form-group col-lg-2"></div>
+
                                         <div class="form-group col-lg-4">
                                             <label for="street">Stree Address</label>
                                             <input type="text" class="form-control" id="street" placeholder="Street Address">
                                         </div>
-                                    </div>
+<br>
                                     
                                     <div class="form-horizontal">
                                         <div class="form-group col-lg-6">
@@ -130,6 +125,11 @@
                                             <label for="zip">Zip</label>
                                             <input type="number" class="form-control" id="zip" placeholder="Zip">
                                         </div>
+                                    </div>
+                                    <br>
+                                    <div class="form-group col-lg-4">
+                                        <label for="street">Telephone Number</label>
+                                        <input type="text" class="form-control" id="phone" placeholder="Telephone Number">
                                     </div>
                                     <br>
                                     <div class="form-horizontal">
