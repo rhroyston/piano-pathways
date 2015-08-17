@@ -46,6 +46,12 @@ background-color: #BDCCD1;
     min-width:2.8em;
     text-align:left;
 }
+
+.form-control-inline {
+    min-width: 0;
+    width: auto;
+}
+
 .carousel .item {
     width: 100%; /*slider width*/
     max-height: 600px; /*slider height*/
