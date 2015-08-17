@@ -33,10 +33,6 @@ body {
 }
 .alert-auto {
     display:inline-block;
-    height:1em;
-}
-.alert-auto-text{
-    padding-top:-.5em;
 }
 .credentials{
 color:white;
