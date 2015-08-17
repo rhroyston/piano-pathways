@@ -60,8 +60,8 @@
                             </div>
                             <!-- Register Pane -->
                             <div role="tabpanel" class="tab-pane" id="tab-register">
-                                
                                 <h2>Register</h2>
+                                <br>
                                 <form action="includes/adduser_submit" method="post">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
@@ -80,6 +80,7 @@
                                     <br>
                                     <h4>Birthdate</h4>
                                     <div class="input-group navbar-form">
+                                        <label>Test</label>
                                         <select class="form-control">>
                                             <?php include 'includes/day.php';?>
                                         </select>
@@ -90,14 +91,8 @@
                                             <?php include 'includes/year.php';?>
                                         </select>
                                     </div>
-                                    
                                     <br>
-                                    
-                                    
-                                    
-                                    
-                                    
-                                    
+                                    <h4>Birthdate</h4>
                                     <div class="input-group">
                                     </div>                                    
                                     <br>
