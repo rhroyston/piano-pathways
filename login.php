@@ -87,7 +87,7 @@
                                     
                                     <label>Grade</label>
                                     <div class="form-group">
-                                        <select class="form-control">
+                                        <select class="form-control col-lg-4">
                                             <?php include 'includes/grade.php';?>
                                         </select>
                                     </div>
