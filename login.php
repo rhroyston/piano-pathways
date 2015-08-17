@@ -53,13 +53,13 @@
                                         if (isset($_SESSION["message"]))
                                         {
                                             $message = $_SESSION["message"];
-                                            if (strpos($a,'success') !== false) {
+                                            if (strpos($message,'success') !== false) {
                                                 echo "<div class='alert alert-success'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i>Success&#58; $message</strong></div>";
                                             }
-                                            if (strpos($a,'info') !== false) {
+                                            if (strpos($message,'info') !== false) {
                                                 echo "<div class='alert alert-warning'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-info-circle'></i>Info&#58; $message</strong></div>";
                                             }                                            
-                                            if (strpos($a,'error') !== false) {
+                                            if (strpos($message,'error') !== false) {
                                                 echo "<div class='alert alert-error'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i>Error&#58; $message</strong></div>";
                                             }                                            
                                         }
@@ -202,13 +202,13 @@
                                         if (isset($_SESSION["message"]))
                                         {
                                             $message = $_SESSION["message"];
-                                            if (strpos($a,'success') !== false) {
+                                            if (strpos($message,'success') !== false) {
                                                 echo "<div class='alert alert-success'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i>Success&#58; $message</strong></div>";
                                             }
-                                            if (strpos($a,'info') !== false) {
+                                            if (strpos($message,'info') !== false) {
                                                 echo "<div class='alert alert-warning'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-info-circle'></i>Info&#58; $message</strong></div>";
                                             }                                            
-                                            if (strpos($a,'error') !== false) {
+                                            if (strpos($message,'error') !== false) {
                                                 echo "<div class='alert alert-error'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i>Error&#58; $message</strong></div>";
                                             }                                            
                                         }
