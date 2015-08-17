@@ -81,7 +81,7 @@
                                     
                                     
                                     <h4>Birthdate</h4>
-                                    <div class="input-group navbar-form">
+                                    <div class="input-group navbar-form pull-left">
                                         <select class="form-control">
                                             <?php include 'includes/day.php';?>
                                         </select>
