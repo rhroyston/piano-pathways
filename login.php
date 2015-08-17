@@ -85,9 +85,8 @@
                                     <br>
 
 
-                                    
-                                    <div class="navbar">
-                                    <div class="input-group navbar-form">
+
+                                    <div class="row">
                                     <div class="form-group col-lg-6">
                                         <label>Birthday</label>
                                         
@@ -103,7 +102,7 @@
                                         
                                     </div>
                                     </div>
-                                    </div>
+
                                     
 
 
