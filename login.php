@@ -95,6 +95,24 @@
                                                 <?php include 'includes/year.php';?>
                                             </select>
                                     </div>
+                                    
+<div class="col-xs-2">
+  <label for="ex1">col-xs-2</label>
+  <input class="form-control" id="ex1" type="text">
+</div>
+<div class="col-xs-3">
+  <label for="ex2">col-xs-3</label>
+  <input class="form-control" id="ex2" type="text">
+</div>
+<div class="col-xs-4">
+  <label for="ex3">col-xs-4</label>
+  <input class="form-control" id="ex3" type="text">
+</div>                                    
+                                    
+                                    
+                                    
+                                    
+                                    
                                     <label>Grade</label>
                                     <div class="form-group">
                                         <select class="form-control form-control-inline">
