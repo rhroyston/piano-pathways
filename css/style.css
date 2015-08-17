@@ -33,6 +33,7 @@ body {
 }
 .alert-auto {
     display:inline-block;
+    height:auto;
 }
 .credentials{
 color:white;
