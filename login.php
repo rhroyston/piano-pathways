@@ -84,24 +84,27 @@
                                     </div>
                                     <br>
 
-                                    <label>Birthday</label>
-                                    <div class="form-horizontal">
-                                    <div class="form-group">
-                                        <select class="form-control form-control-inline">
-                                            <?php include 'includes/day.php';?>
-                                        </select>
+
+                                    
+                                    
+                                    <div class="input-group navbar-form">
+                                    <div class="form-group col-lg-6">
+                                        <label>Birthday</label>
+                                        
+                                            <select class="form-control">
+                                                <?php include 'includes/day.php';?>
+                                            </select>
+                                            <select class="form-control">
+                                                <?php include 'includes/month.php';?>
+                                            </select>
+                                            <select class="form-control">
+                                                <?php include 'includes/year.php';?>
+                                            </select>
+                                        
                                     </div>
-                                    <div class="form-group">
-                                        <select class="form-control form-control-inline">
-                                            <?php include 'includes/month.php';?>
-                                        </select>
+
                                     </div>
-                                    <div class="form-group">
-                                        <select class="form-control form-control-inline">
-                                            <?php include 'includes/year.php';?>
-                                        </select>
-                                    </div>
-                                    </div>
+
 
                                     <label>Grade</label>
                                     <div class="form-group">
