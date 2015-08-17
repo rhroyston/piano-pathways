@@ -105,6 +105,10 @@
                                     <br>
                                     
                                     <div class="form-horizontal">
+                                        <div class="form-group col-lg-4">
+                                            <label for="street">Telephone Number</label>
+                                            <input type="text" class="form-control" id="phone" placeholder="Telephone Number">
+                                        </div>
                                         <div class="form-group col-lg-8">
                                             <label for="street">Stree Address</label>
                                             <input type="text" class="form-control" id="street" placeholder="Street Address">
@@ -136,12 +140,13 @@
                                     </div>                                    
                                     <br>
                                     <div class="input-group">
+                                        <input type="hidden" name="form_token" value="<?php echo $form_token; ?>" />
+                                        <input type="submit" value="Add" />
                                     </div>                                    
                                     <br>
 
                                     
-                                    <input type="hidden" name="form_token" value="<?php echo $form_token; ?>" />
-                                    <input type="submit" value="Add" />
+                                    
                                 </form>
                                 <aside>
                                     <?php
