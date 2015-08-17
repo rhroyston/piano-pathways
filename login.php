@@ -96,10 +96,11 @@
                                         </div>
                                         <div class="form-group col-lg-1"></div>
                                         <div class="form-group col-lg-4">
-                                        <label>Grade</label>
-                                        <select class="form-control">
-                                            <?php include 'includes/grade.php';?>
-                                        </select>
+                                            <label>Grade</label>
+                                            <select class="form-control">
+                                                <?php include 'includes/grade.php';?>
+                                            </select>
+                                        </div>
                                     </div>
                                     
                                     <br>
@@ -109,7 +110,8 @@
                                             <label for="street">Telephone Number</label>
                                             <input type="text" class="form-control" id="phone" placeholder="Telephone Number">
                                         </div>
-                                        <div class="form-group col-lg-8">
+                                        <div class="form-group col-lg-1"></div>
+                                        <div class="form-group col-lg-6">
                                             <label for="street">Stree Address</label>
                                             <input type="text" class="form-control" id="street" placeholder="Street Address">
                                         </div>
