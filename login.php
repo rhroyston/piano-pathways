@@ -107,7 +107,8 @@
                                         <label for="street">Stree Address</label>
                                         <input type="text" class="form-control" id="street" placeholder="Street Address">
                                     </div>
-                                    <br>
+                                    
+                                    
                                     
                                     <div class="form-horizontal">
                                         <div class="form-group col-lg-6">
