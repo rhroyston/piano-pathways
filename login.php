@@ -54,13 +54,13 @@
                                         {
                                             $message = $_SESSION["message"];
                                             if (strpos($message,'success') !== false) {
-                                                echo "<div class='alert alert-success'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i>Success&#58; $message</strong></div>";
+                                                echo "<div class='alert alert-success'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
                                             }
                                             if (strpos($message,'info') !== false) {
-                                                echo "<div class='alert alert-warning'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-info-circle'></i>Info&#58; $message</strong></div>";
+                                                echo "<div class='alert alert-warning'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-info-circle'></i> $message</strong></div>";
                                             }                                            
                                             if (strpos($message,'error') !== false) {
-                                                echo "<div class='alert alert-error'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i>Error&#58; $message</strong></div>";
+                                                echo "<div class='alert alert-error'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
                                             }                                            
                                         }
                                         $message = NULL;
@@ -203,13 +203,13 @@
                                         {
                                             $message = $_SESSION["message"];
                                             if (strpos($message,'success') !== false) {
-                                                echo "<div class='alert alert-success'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i>Success&#58; $message</strong></div>";
+                                                echo "<div class='alert alert-success'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
                                             }
                                             if (strpos($message,'info') !== false) {
-                                                echo "<div class='alert alert-warning'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-info-circle'></i>Info&#58; $message</strong></div>";
+                                                echo "<div class='alert alert-warning'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-info-circle'></i> $message</strong></div>";
                                             }                                            
                                             if (strpos($message,'error') !== false) {
-                                                echo "<div class='alert alert-error'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i>Error&#58; $message</strong></div>";
+                                                echo "<div class='alert alert-error'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
                                             }                                            
                                         }
                                         $message = NULL;
