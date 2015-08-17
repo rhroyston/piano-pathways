@@ -101,6 +101,7 @@
   <input class="form-control" id="ex1" type="text">
 </div>
 <div class="col-xs-3">
+    <label>Birthday</label>
                                             <select class="form-control form-control-inline">
                                                 <?php include 'includes/month.php';?>
                                             </select>
