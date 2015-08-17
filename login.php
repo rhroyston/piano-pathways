@@ -189,10 +189,11 @@
                                 </form>
                                 <aside>
                                     <?php
-                                        if (isset($_SESSION["message"]))
+                                        if (isset($_SESSION["addusermessage"]))
                                         {
-                                        $message = $_SESSION["message"];
-                                        echo "<p class='red'>$message</p>";
+                                        $addusermessage = $_SESSION["addusermessage"];
+                                        echo "<p class='red'>$addusermessage</p>";
+                                        $addusermessage = null;
                                         }
                                     ?>
                                 </aside>                                
