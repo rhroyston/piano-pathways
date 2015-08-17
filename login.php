@@ -80,7 +80,7 @@
                                     <br>
 
                                     <div class="form-group">
-                                        <label for="state">State</label>
+                                        <label>Birthday</label>
                                         <div class="input-group navbar-form">
                                             <select class="form-control">
                                                 <?php include 'includes/day.php';?>
@@ -94,28 +94,29 @@
                                         </div>
                                     </div>
                                     
-                                    <h4>Grade</h4>
+                                    <div class="form-group">
+                                    <label>Grade</label>
                                     <select class="form-control">
                                         <?php include 'includes/grade.php';?>
                                     </select>
                                     <br>
                                     
-  <div class="form-group">
-    <label for="street">Stree Address</label>
-    <input type="text" class="form-control" id="street" placeholder="Street Address">
-  </div>
-  <div class="form-group">
-    <label for="city">City</label>
-    <input type="text" class="form-control" id="city" placeholder="City">
-  </div>
-    <div class="form-group">
-    <label for="state">State</label>
-    <input type="text" class="form-control" id="state" placeholder="State">
-  </div>
-  <div class="form-group">
-    <label for="zip">Zip</label>
-    <input type="number" class="form-control" id="zip" placeholder="Zip">
-  </div>
+                                    <div class="form-group">
+                                        <label for="street">Stree Address</label>
+                                        <input type="text" class="form-control" id="street" placeholder="Street Address">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="city">City</label>
+                                        <input type="text" class="form-control" id="city" placeholder="City">
+                                    </div>
+                                        <div class="form-group">
+                                        <label for="state">State</label>
+                                        <input type="text" class="form-control" id="state" placeholder="State">
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="zip">Zip</label>
+                                        <input type="number" class="form-control" id="zip" placeholder="Zip">
+                                    </div>
   
   
                                     <div class="input-group">
