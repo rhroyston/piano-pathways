@@ -109,11 +109,11 @@ else
 // redirect back w message to login pane if successful and to register pane if not
 if($message == 'New user added'){
     header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
-    exit();
+    //exit();
 }
 else{
     header("Location: http://thepianopathway-rhroyston.rhcloud.com/login#tab-register");
-    exit();
+    //exit();
 }
 
 ?>
