@@ -89,31 +89,19 @@
                                             <?php include 'includes/grade.php';?>
                                         </select>
                                     </div>
-                                    
-                                    <div class="col-xs-2">
-                                        <label>Day</label>
-                                        <select class="form-control form-control-inline">
-                                            <?php include 'includes/day.php';?>
-                                        </select>
+                                    <div class="form-group">
+                                        <label>Birthday</label>
+                                            <select class="form-control form-control-inline">
+                                                <?php include 'includes/day.php';?>
+                                            </select>
+                                            <select class="form-control form-control-inline">
+                                                <?php include 'includes/month.php';?>
+                                            </select>
+                                            <select class="form-control form-control-inline">
+                                                <?php include 'includes/year.php';?>
+                                            </select>
                                     </div>
-                                    <div class="col-xs-3">
-                                        <label>Month</label>
-                                        <select class="form-control form-control-inline">
-                                            <?php include 'includes/month.php';?>
-                                        </select>
-                                    </div>
-                                    <div class="col-xs-2">
-                                    <label>Year</label>
-                                        <select class="form-control form-control-inline">
-                                            <?php include 'includes/year.php';?>
-                                        </select>
-                                    </div>
-
-                                   
                                     
-                                    
-                                    
-                                
                                     <div class="form-group">
                                         <label for="street">Stree Address</label>
                                         <input type="text" class="form-control" id="street" placeholder="Street Address">
