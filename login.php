@@ -107,7 +107,7 @@
                                     </div>
                                     
                                     <div class="form-horizontal">
-                                    <div class="form-group">
+                                    <div class="form-group col-lg-4">
                                         <label for="city">City</label>
                                         <input type="text" class="form-control" id="city" placeholder="City">
                                     </div>
