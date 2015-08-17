@@ -80,20 +80,22 @@
                                     <br>
                                     <h4>Birthdate</h4>
                                     <div class="input-group navbar-form">
-                                        <label>Test</label>
-                                        <select class="form-control">>
+                                        <select class="form-control">
                                             <?php include 'includes/day.php';?>
                                         </select>
-                                        <select class="form-control">>
+                                        <select class="form-control">
                                             <?php include 'includes/month.php';?>
                                         </select>
-                                        <select class="form-control">>
+                                        <select class="form-control">
                                             <?php include 'includes/year.php';?>
                                         </select>
                                     </div>
                                     <br>
-                                    <h4>Birthdate</h4>
+                                    <h4>Grade</h4>
                                     <div class="input-group">
+                                        <select class="form-control">
+                                            <?php include 'includes/grade.php';?>
+                                        </select>
                                     </div>                                    
                                     <br>
                                     <div class="input-group">
