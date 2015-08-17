@@ -104,7 +104,7 @@ else
 // If there is a message, then pass it in session variable.
 if (isset($message)){
     $_SESSION["message"] = $message;
-    alert ($message);
+    alert ($message . 'that was my message');
 }
 // redirect back w message to login pane if successful and to register pane if not
 if($message == 'New user added'){
