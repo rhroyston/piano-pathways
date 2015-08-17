@@ -79,17 +79,19 @@
                                     </div>                                    
                                     <br>
 
-                                    <h4>Birthdate</h4>
-                                    <div class="input-group navbar-form">
-                                        <select class="form-control">
-                                            <?php include 'includes/day.php';?>
-                                        </select>
-                                        <select class="form-control">
-                                            <?php include 'includes/month.php';?>
-                                        </select>
-                                        <select class="form-control">
-                                            <?php include 'includes/year.php';?>
-                                        </select>
+                                    <div class="form-group">
+                                        <label for="state">State</label>
+                                        <div class="input-group navbar-form">
+                                            <select class="form-control">
+                                                <?php include 'includes/day.php';?>
+                                            </select>
+                                            <select class="form-control">
+                                                <?php include 'includes/month.php';?>
+                                            </select>
+                                            <select class="form-control">
+                                                <?php include 'includes/year.php';?>
+                                            </select>
+                                        </div>
                                     </div>
                                     
                                     <h4>Grade</h4>
@@ -99,19 +101,19 @@
                                     <br>
                                     
   <div class="form-group">
-    <label for="exampleInputEmail1">Stree Address</label>
+    <label for="street">Stree Address</label>
     <input type="text" class="form-control" id="street" placeholder="Street Address">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">City</label>
+    <label for="city">City</label>
     <input type="text" class="form-control" id="city" placeholder="City">
   </div>
     <div class="form-group">
-    <label for="exampleInputEmail1">State</label>
+    <label for="state">State</label>
     <input type="text" class="form-control" id="state" placeholder="State">
   </div>
   <div class="form-group">
-    <label for="exampleInputPassword1">Zip</label>
+    <label for="zip">Zip</label>
     <input type="number" class="form-control" id="zip" placeholder="Zip">
   </div>
   
