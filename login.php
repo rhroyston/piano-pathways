@@ -106,7 +106,7 @@
                                         <input type="text" class="form-control" id="street" placeholder="Street Address">
                                     </div>
                                     
-                                    <div class="control-group">
+                                    <div class="form-horizontal">
                                     <div class="form-group">
                                         <label for="city">City</label>
                                         <input type="text" class="form-control" id="city" placeholder="City">
