@@ -54,12 +54,7 @@
                                             // if the target is the registration pane then don't display and don't kill message
                                             if(!strpos($_SERVER['REQUEST_URI'],"/login#tab-register")===0){
                                                 $message = $_SESSION["message"];
-                                                if (strpos($message,'Success') !== false) {
-                                                    echo "<div class='alert alert-success alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
-                                                }
-                                                if (strpos($message,'Error') !== false) {
-                                                    echo "<div class='alert alert-danger alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
-                                                }
+echo $message;
                                             $message = NULL;
                                             unset ($_SESSION["message"]);
                                             }
