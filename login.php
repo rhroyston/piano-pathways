@@ -85,16 +85,22 @@
                                     <br>
 
                                     <label>Birthday</label>
+                                    <div class="form-horizontal">
                                     <div class="form-group">
                                         <select class="form-control form-control-inline">
                                             <?php include 'includes/day.php';?>
                                         </select>
+                                    </div>
+                                    <div class="form-group">
                                         <select class="form-control form-control-inline">
                                             <?php include 'includes/month.php';?>
                                         </select>
+                                    </div>
+                                    <div class="form-group">
                                         <select class="form-control form-control-inline">
                                             <?php include 'includes/year.php';?>
                                         </select>
+                                    </div>
                                     </div>
 
                                     <label>Grade</label>
@@ -104,8 +110,6 @@
                                         </select>
                                     </div>
                                     </div>
-                                    
-
                                     <br>
 
                                     <div class="input-group col-lg-6">
