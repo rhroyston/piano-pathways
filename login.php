@@ -90,23 +90,7 @@
                                         </select>
                                     </div>
                                     <br>
-                                    <div class="form-horizontal">
-                                    <div class="form-group col-lg-6">
-                                        <label>Birthday</label>
-                                        
-                                            <select class="form-control">
-                                                <?php include 'includes/day.php';?>
-                                            </select>
-                                            <select class="form-control">
-                                                <?php include 'includes/month.php';?>
-                                            </select>
-                                            <select class="form-control">
-                                                <?php include 'includes/year.php';?>
-                                            </select>
-                                        
-                                    </div>
 
-                                    </div>
                                     <div class="input-group col-lg-6">
                                         <label for="street">Stree Address</label>
                                         <input type="text" class="form-control" id="street" placeholder="Street Address">
