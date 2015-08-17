@@ -111,10 +111,12 @@
                                         <label for="city">City</label>
                                         <input type="text" class="form-control" id="city" placeholder="City">
                                     </div>
-                                        <div class="form-group col-lg-4">
+                                    <br>
+                                    <div class="form-group col-lg-4">
                                         <label for="state">State</label>
                                         <input type="text" class="form-control" id="state" placeholder="State">
                                     </div>
+                                    <br>
                                     <div class="form-group col-lg-2">
                                         <label for="zip">Zip</label>
                                         <input type="number" class="form-control" id="zip" placeholder="Zip">
