@@ -106,7 +106,7 @@
                                         <input type="text" class="form-control" id="street" placeholder="Street Address">
                                     </div>
                                     
-                                    <form class="form-inline">
+                                    <div class="control-group">
                                     <div class="form-group">
                                         <label for="city">City</label>
                                         <input type="text" class="form-control" id="city" placeholder="City">
@@ -119,7 +119,7 @@
                                         <label for="zip">Zip</label>
                                         <input type="number" class="form-control" id="zip" placeholder="Zip">
                                     </div>
-                                    </form>
+                                    </div>
   
   
                                     <div class="input-group">
