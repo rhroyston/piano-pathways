@@ -103,7 +103,7 @@
                                         </select>
                                     </div>
 
-                                    <div class="input-group col-lg-6">
+                                    <div class="form-group col-lg-6">
                                         <label for="street">Stree Address</label>
                                         <input type="text" class="form-control" id="street" placeholder="Street Address">
                                     </div>
