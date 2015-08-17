@@ -82,9 +82,9 @@
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
                                         <input type="text" class="form-control" id="phpro_phone" name="phpro_phone" placeholder="Telephone Number">
                                     </div>
-
+                                    <br>
                                     <div class="form-horizontal">
-                                        <div class="form-group col-lg-8">
+                                        <div class="form-group col-lg-6">
                                             <label>Birthday</label>
                                             <div class="input-group navbar-form">
                                                 <select class="form-control">
@@ -98,7 +98,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                        <div class="form-group col-lg-1"></div>
+                                        
                                         <div class="form-group col-lg-4">
                                             <label>Grade</label>
                                             <select class="form-control">
