@@ -83,44 +83,36 @@
                                         <input type="text" class="form-control" id="phpro_phone" name="phpro_phone" placeholder="Telephone Number">
                                     </div>
                                     <br>
-                                    <div class="form-group">
-                                        <label>Birthday</label>
-                                            <select class="form-control form-control-inline">
-                                                <?php include 'includes/day.php';?>
-                                            </select>
-                                            <select class="form-control form-control-inline">
-                                                <?php include 'includes/month.php';?>
-                                            </select>
-                                            <select class="form-control form-control-inline">
-                                                <?php include 'includes/year.php';?>
-                                            </select>
-                                    </div>
-                                    
-<div class="col-xs-2">
-  <label for="ex1">col-xs-2</label>
-  <input class="form-control" id="ex1" type="text">
-</div>
-<div class="col-xs-3">
-    <label>Birthday</label>
-                                            <select class="form-control form-control-inline">
-                                                <?php include 'includes/month.php';?>
-                                            </select>
-</div>
-<div class="col-xs-4">
-  <label for="ex3">col-xs-4</label>
-  <input class="form-control" id="ex3" type="text">
-</div>                                    
-                                    
-                                    
-                                    
-                                    
-                                    
                                     <label>Grade</label>
                                     <div class="form-group">
                                         <select class="form-control form-control-inline">
                                             <?php include 'includes/grade.php';?>
                                         </select>
                                     </div>
+                                    
+                                    <div class="col-xs-2">
+                                        <label>Day</label>
+                                        <select class="form-control form-control-inline">
+                                            <?php include 'includes/day.php';?>
+                                        </select>
+                                    </div>
+                                    <div class="col-xs-3">
+                                        <label>Month</label>
+                                        <select class="form-control form-control-inline">
+                                            <?php include 'includes/month.php';?>
+                                        </select>
+                                    </div>
+                                    <label>Year</label>
+                                        <select class="form-control form-control-inline">
+                                            <?php include 'includes/year.php';?>
+                                        </select>
+                                    </div>
+                                    
+                                   
+                                    
+                                    
+                                    
+                                
                                     <div class="form-group">
                                         <label for="street">Stree Address</label>
                                         <input type="text" class="form-control" id="street" placeholder="Street Address">
