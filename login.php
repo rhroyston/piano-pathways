@@ -102,9 +102,7 @@
                                             </select>
                                         </div>
                                     </div>
-                                    
                                     <br>
-                                    
                                     <div class="form-horizontal">
                                         <div class="form-group col-lg-4">
                                             <label for="street">Telephone Number</label>
@@ -133,22 +131,13 @@
                                             <input type="number" class="form-control" id="zip" placeholder="Zip">
                                         </div>
                                     </div>
-  
-  
-                                    <div class="input-group">
-                                    </div>                                    
                                     <br>
-                                    <div class="input-group">
-                                    </div>                                    
-                                    <br>
-                                    <div class="input-group">
-                                        <input type="hidden" name="form_token" value="<?php echo $form_token; ?>" />
-                                        <input type="submit" value="Add" />
-                                    </div>                                    
-                                    <br>
-
-                                    
-                                    
+                                    <div class="form-horizontal">
+                                        <div class="input-group pull-right">
+                                            <input type="hidden" name="form_token" value="<?php echo $form_token; ?>" />
+                                            <input type="submit" value="Add" />
+                                        </div> 
+                                    </div>
                                 </form>
                                 <aside>
                                     <?php
