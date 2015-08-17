@@ -63,21 +63,25 @@
                                 <h2>Register</h2>
                                 <br>
                                 <form action="includes/adduser_submit" method="post">
-                                    <div class="input-group">
+                                    <div class="input-group col-lg-8">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                         <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" />
                                     </div>
                                     <br>
-                                    <div class="input-group">
+                                    <div class="input-group col-lg-8">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
                                         <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Enter A Password" maxlength="20" />
                                     </div>
                                     <br>
-                                    <div class="input-group">
+                                    <div class="input-group col-lg-8">
                                         <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
                                         <input type="text" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40" />
                                     </div>                                    
                                     <br>
+                                    <div class="form-group col-lg-8">
+                                        <span class="input-group-addon"><i class="fa fa-phone"></i></span>
+                                        <input type="text" class="form-control" id="phpro_phone" name="phpro_phone" placeholder="Telephone Number">
+                                    </div>
 
                                     <div class="form-horizontal">
                                         <div class="form-group col-lg-8">
@@ -127,10 +131,7 @@
                                         </div>
                                     </div>
                                     <br>
-                                    <div class="form-group col-lg-4">
-                                        <label for="street">Telephone Number</label>
-                                        <input type="text" class="form-control" id="phone" placeholder="Telephone Number">
-                                    </div>
+
                                     <br>
                                     <div class="form-horizontal">
                                         <div class="input-group pull-right">
