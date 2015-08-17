@@ -56,10 +56,10 @@
                                             // if the target is the login pane then display message and then kill the session variable 
                                             if($host == 'thepianopathway-rhroyston.rhcloud.com/login') {
                                                 if (strpos($message,'Success') !== false) {
-                                                    echo "<div class='alert alert-success alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
+                                                    echo "<div class='alert alert-success alert-dismissible form-control-inline'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
                                                 }
                                                 if (strpos($message,'Error') !== false) {
-                                                    echo "<div class='alert alert-danger alert-dismissible'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
+                                                    echo "<div class='alert alert-danger alert-dismissible form-control-inline'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
                                                 }                                                
                                                 $message = NULL;
                                                 unset ($_SESSION["message"]);
