@@ -126,12 +126,23 @@
                                         </div>
                                     </div>
                                     <br>
-                                    <label>Lesson Option</label>
-                                    <div class="form-group">
-                                        <select class="form-control form-control-inline">
-                                            <?php include 'includes/lesson.php';?>
-                                        </select>
-                                    </div>                                    
+
+                                    
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" value="Private 30">Private Lesson &#40;30-minutes&#41;</label>
+                                    </div>
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" value="Private 45">Private Lesson &#40;45-minutes&#41;</label>
+                                    </div>
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" value="Partner">Partner Lesson</label>
+                                    </div>
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" value="Childrens Group">Childrens Group Class</label>
+                                    </div>
+                                    <div class="checkbox">
+                                      <label><input type="checkbox" value="Adult Leisure">Adult Leisure Class</label>
+                                    </div>
 
                                     <br>
                                     <div class="form-horizontal">
