@@ -92,11 +92,11 @@
                                     </div>
                                     <br>
                                     <h4>Grade</h4>
-                                    
+                                    <div class="form-group">
                                         <select class="form-control">
                                             <?php include 'includes/grade.php';?>
                                         </select>
-                                                                        
+                                    </div>                                   
                                     <br>
                                     <div class="input-group">
                                     </div>                                    
