@@ -136,7 +136,7 @@
 
                                         <div class="col-lg-5" id="grade">
                                             <label for="phpro_grade">Grade</label>
-                                            <select class="form-control form-control-inline" id="phpro_grade" name="phpro_grade">
+                                            <select class="form-control" id="phpro_grade" name="phpro_grade">
                                                 <?php include 'includes/grade.php';?>
                                             </select>
                                         </div>
