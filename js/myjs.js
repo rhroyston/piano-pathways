@@ -42,7 +42,7 @@ $('[data-toggle="popover"]').popover({
     container: 'body'
 });
 
-$('#phpro_firstname').popover({html: "true", title: "<i class='fa fa-info-circle'></i>Student First Name", content: "Please enter the <b>students</b> name when registering", placement: "right", trigger: "focus"});
+$('#phpro_firstname').popover({html: "true", title: "<i class='fa fa-info-circle'></i> Student First Name", content: "Please enter the <b>students</b> name when registering", placement: "right", trigger: "focus"});
 });
 
 
