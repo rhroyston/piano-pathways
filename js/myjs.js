@@ -40,8 +40,8 @@ $('[data-toggle="popover"]').popover();
 
 
 
-$("#phpro_username").focusin(function(){
-  $(this).delay( 1800 ).popover("show");
+$("#phpro_username").focusin.delay( 1800 )(function(){
+  $(this).popover("show");
 });
 $("#phpro_username").focusout(function(){
   $(this).popover("hide");
