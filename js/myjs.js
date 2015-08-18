@@ -50,7 +50,7 @@ $(document).ready(function () {
 //    $('#tab-register').tab('show');
 //  });
 var $tabs = $('.tabbable li');
-$('#nexttab').on('click', function() {
+$('#register-button').on('click', function() {
     $tabs.filter('.active').next('li').find('a[data-toggle="tab"]').tab('show');
 });
   
