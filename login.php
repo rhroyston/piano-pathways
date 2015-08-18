@@ -52,7 +52,7 @@
                                     <?php
                                         if ($message !== ''){
                                             //capture the current url
-                                            $host = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+                                            $host = (string)$_SERVER['SERVER_NAME'] . (string)$_SERVER['REQUEST_URI'];
                                             // if the target is login pane then display message and then kill the session variable 
                                             if($host == 'thepianopathway-rhroyston.rhcloud.com/login') {
                                                 if (strpos($message,'Success') !== false) {
