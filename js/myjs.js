@@ -21,7 +21,7 @@ $(document).ready(function(event) {
 function checkPasswordMatch() {
   var password = $("#phpro_password").val();
   var confirmPassword = $("#phpro_password_confirm").val();
-  alert (password);
+  //alert (password);
   if (password !== confirmPassword){
     if(!$("#password_confirm").hasClass("has-error")){
       //alert ('#password_confirm does not have error class and phpro_password.val is ' + password + ' and pass_con is ' + confirmPassword);
@@ -29,14 +29,13 @@ function checkPasswordMatch() {
     }
   }
   if (password === confirmPassword){
-    alert ('passwords matched');
+    //alert ('passwords matched');
       $("#password_confirm").removeClass("has-error");
   }
 }    
 
 $(document).ready(function () {
    $("#phpro_password_confirm").keyup(checkPasswordMatch);
-   $("#phpro_password").change(checkPasswordMatch);
 });
 
 
