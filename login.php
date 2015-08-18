@@ -111,12 +111,12 @@
                                     <br>
 
                                     <div class="form-group form-horizontal">
-                                        <div class="form-group col-lg-6" id="firstname">
+                                        <div class="col-lg-6" id="firstname">
                                             <label for="phpro_firstname">Student First Name</label>
                                             <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name" required>
                                         </div>
-                                        <div class="form-group col-lg-1"></div>
-                                        <div class="form-group col-lg-6" id="lastname">
+                                        <div class="col-lg-1"></div>
+                                        <div class="col-lg-6" id="lastname">
                                             <label for="phpro_lastname">Student Last Name</label>
                                             <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" required>
                                         </div>
