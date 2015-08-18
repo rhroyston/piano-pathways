@@ -134,24 +134,26 @@
                                             <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
                                         </div>
 
-                                        <div class="col-lg-4" id="grade">
+                                        <div class="col-lg-5" id="grade">
                                             <label for="phpro_grade">Grade</label>
                                             <select class="form-control form-control-inline" id="phpro_grade" name="phpro_grade">
                                                 <?php include 'includes/grade.php';?>
                                             </select>
                                         </div>
-                                        <div class="col-lg-1" id="birthday">
-                                            <label for="birthday">Birthday</label>
+                                        <div class="col-lg-2" id="birthday">
+                                            <label for="birthday">Birthday &#40;d&#41;</label>
                                             <select class="form-control form-control-inline" id="day" name="day">
                                                 <?php include 'includes/day.php';?>
                                             </select>
                                         </div>
-                                        <div class="col-lg-1">
+                                        <div class="col-lg-2">
+                                            <label for="birthday">Birthday &#40;m&#41;</label>
                                             <select class="form-control form-control-inline" id="month" name="month">
                                                 <?php include 'includes/month.php';?>
                                             </select>
                                         </div>
-                                        <div class="col-lg-1">
+                                        <div class="col-lg-2">
+                                            <label for="birthday">Birthday &#40;y&#41;</label>
                                             <select class="form-control form-control-inline" id="year" name="year">
                                                 <?php include 'includes/year.php';?>
                                             </select>
