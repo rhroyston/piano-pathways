@@ -36,8 +36,7 @@ $(document).ready(function () {
 
 // Throw up some popups
 $(document).ready(function () {
-$('#phpro_password_confirm').popover({title: "Password", content: "Passwords must match", placement: "right", trigger: "focus"});
-$('#phpro_firstname').popover({title: "Student First Name", content: "Please enter the students name", placement: "right", trigger: "focus"});
+$('#phpro_firstname').popover({title: "Student First Name", content: "Please enter the students name when registering", placement: "right", trigger: "focus"});
 });
 
 
