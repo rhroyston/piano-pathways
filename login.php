@@ -85,7 +85,7 @@
                                 ?>
                                 <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration">
                                     <div class="form-group col-lg-8" id="username">
-                                        <label for="phpro_username">Student First Name</label>
+                                        <label for="phpro_username">Username</label>
                                         <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required autofocus/>
                                     </div>
                                     <br>
@@ -121,9 +121,9 @@
                                             <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" required>
                                         </div>
                                     </div>
-                                    <div class="form-group" id="street">
+                                    <div class="form-group col-lg-8">
                                         <label for="phpro_street">Stree Address</label>
-                                        <input type="text" class="form-control" id="phpro_street" name="phpro_street" placeholder="Street Address" required>
+                                        <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" required>
                                     </div>
                                     <div class="form-horizontal">
                                         <div class="form-group col-lg-6" id="city">
