@@ -84,7 +84,7 @@
                                     unset ($_SESSION["message"]);
                                 ?>
                                 <form action="includes/adduser_submit" method="post" data-toggle="validator">
-                                    <div class="form-group col-lg-8">
+                                    <div class="input-group col-lg-8">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                         <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" />
                                     </div>
@@ -96,7 +96,7 @@
                                     <br>
                                     <div class="input-group col-lg-8">
                                         <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                        <input type="email" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40"/>
+                                        <input type="email" class="form-group" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40"/>
                                     </div>                                    
                                     <br>
                                     <div class="input-group col-lg-8">
