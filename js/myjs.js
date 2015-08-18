@@ -37,12 +37,13 @@ $(document).ready(function () {
 
 $(document).ready(function () {
   
+$('#phpro_password').popover({title: "Sample Header", content: "Blabla content", placement: "right", trigger: "focus"}); 
 // Select all elements with data-toggle="popover" in the document
 //$('[data-toggle="popover"]').popover(); 
  
-$("#phpro_username").focus(function(){
-  $("#phpro_username").popover("show");
-});
+//$("#phpro_username").focus(function(){
+//  $("#phpro_username").popover("show");
+//});
 $("#phpro_username").blur(function(){
   $("#phpro_username").popover("hide");
 });
