@@ -141,7 +141,7 @@
                                     </div>
                                     
                                     <div class="form-group form-horizontal">
-                                        <div class="col-lg-2" id="grade">
+                                        <div class="col-lg-4" id="grade">
                                             <label for="phpro_grade">Grade</label>
                                             <select class="form-control form-control-inline" id="phpro_grade" name="phpro_grade">
                                                 <?php include 'includes/grade.php';?>
