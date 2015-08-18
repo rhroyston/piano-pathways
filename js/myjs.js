@@ -24,11 +24,8 @@ $(document).ready(function() {
         $('#password_confirm').toggleClass("has-error");
       }
     }
-    else {
-      //if phpro_password_confirm's has-error class is not set then toggle it on
-      //if(!$("#password_confirm").hasClass('has-error')){
-        $('#password_confirm').removeClass("has-error");
-      //}
+    if($('#phpro_password').val() == $('#phpro_password_confirm').val()) {
+alert('match');
     }
     
     
