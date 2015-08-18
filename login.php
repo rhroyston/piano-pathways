@@ -85,7 +85,7 @@
                                 <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration">
                                     <div class="input-group col-lg-8" id="username">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required autofocus required data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"/>
+                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required autofocus required/>
                                     </div>
                                     <br>
                                     <div class="input-group col-lg-8" id="password">
