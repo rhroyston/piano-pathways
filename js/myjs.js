@@ -24,11 +24,7 @@ $(document).ready(function() {
         $('#password_confirm').toggleClass("has-error");
       }
     }
-    else{
-      if(!$("#phpro_password_confirm").hasClass("has-error")){
-        $('#password_confirm').toggleClass("has-error");
-      }      
-    }
+
     
     
     
