@@ -41,7 +41,7 @@ $('[data-toggle="popover"]').popover();
 
 
 $("#phpro_username").focusin(function(){
-  $(this).popover("show");
+  $(this).delay( 800 ).popover("show");
 });
 $("#phpro_username").focusout(function(){
   $(this).popover("hide");
