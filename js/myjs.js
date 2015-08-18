@@ -18,14 +18,9 @@ $(document).ready(function(event) {
 
 $(document).ready(function() {
   $("#phpro_password_confirm").bind("change paste keyup", function() {
-    if($('#phpro_password').val() != $('#phpro_password_confirm').val()) {
-      //if phpro_password_confirm's has-error class is not set then toggle it on
-      if(!$("#password_confirm").hasClass('has-error')){
-        $('#password_confirm').toggleClass("has-error");
-      }
-    }
+
     if($('#phpro_password').val() == $('#phpro_password_confirm').val()) {
-alert('match');
+      alert('match');
     }
     
     
