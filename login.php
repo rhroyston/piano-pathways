@@ -141,14 +141,14 @@
                                     </div>
                                     
                                     <div class="form-group form-horizontal">
-                                    <label for="phpro_grade">Grade</label>
-                                        <select class="form-control form-control-inline" id="phpro_grade" name="phpro_grade">
-                                            <?php include 'includes/grade.php';?>
-                                        </select>
-                                    </div>
-                                    <div class="form-group form-horizontal">
-                                        <label for="birthday">Birthday</label>
-                                        <div id="birthday" class="col-lg-8">
+                                        <div class="col-lg-2" id="grade">
+                                            <label for="phpro_grade">Grade</label>
+                                            <select class="form-control form-control-inline" id="phpro_grade" name="phpro_grade">
+                                                <?php include 'includes/grade.php';?>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-8" id="birthday">
+                                            <label for="birthday">Birthday</label>
                                             <select class="form-control form-control-inline" id="day" name="day">
                                                 <?php include 'includes/day.php';?>
                                             </select>
@@ -160,6 +160,7 @@
                                             </select>
                                         </div>
                                     </div>
+                                    
                                     <label>Lesson Option</label>
                                     <div class="form-group" id="lesson">
                                         <select class="form-control form-control-inline" id="phpro_lesson_option" name="phpro_lesson_option">
