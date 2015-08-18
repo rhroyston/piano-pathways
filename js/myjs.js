@@ -36,6 +36,12 @@ $(document).ready(function () {
 
 // Throw up some popups
 $(document).ready(function () {
+
+// Contain the popover within the body NOT the element it was called in.
+$('[data-toggle="popover"]').popover({
+    container: 'body'
+});
+
 $('#phpro_firstname').popover({title: "Student First Name", content: "Please enter the students name when registering", placement: "right", trigger: "focus"});
 });
 
