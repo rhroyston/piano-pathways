@@ -103,6 +103,38 @@
                                         <input type="text" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number">
                                     </div>
                                     <br>
+
+                                    <div class="form-horizontal">
+                                        <div class="form-group col-lg-6" id="firstname">
+                                            <label for="phpro_firstname">First Name</label>
+                                            <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name">
+                                        </div>
+                                        <div class="form-group col-lg-1"></div>
+                                        <div class="form-group col-lg-6" id="lastname">
+                                            <label for="phpro_lastname">Last Name</label>
+                                            <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-group" id="street">
+                                        <label for="street">Stree Address</label>
+                                        <input type="text" class="form-control" id="phpro_street" name="phpro_street" placeholder="Street Address">
+                                    </div>
+                                    <div class="form-horizontal">
+                                        <div class="form-group col-lg-6" id="city">
+                                            <label for="city">City</label>
+                                            <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City">
+                                        </div>
+                                        <div class="form-group col-lg-1"></div>
+                                        <div class="form-group col-lg-4" id="state">
+                                            <label for="state">State</label>
+                                            <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State">
+                                        </div>
+                                        <div class="form-group col-lg-1"></div>
+                                        <div class="form-group col-lg-2" id="zip">
+                                            <label for="zip">Zip</label>
+                                            <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip">
+                                        </div>
+                                    </div>
                                     <label>Grade</label>
                                     <div class="form-group">
                                         <select class="form-control form-control-inline" id="phpro_grade" name="phpro_grade">
@@ -120,37 +152,6 @@
                                             <select class="form-control form-control-inline" id="year" name="year">
                                                 <?php include 'includes/year.php';?>
                                             </select>
-                                    </div>
-                                    <div class="form-group" id="street">
-                                        <label for="street">Stree Address</label>
-                                        <input type="text" class="form-control" id="phpro_street" name="phpro_street" placeholder="Street Address">
-                                    </div>
-                                    <div class="form-horizontal">
-                                        <div class="form-group col-lg-6" id="firstname">
-                                            <label for="phpro_firstname">City</label>
-                                            <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name">
-                                        </div>
-                                        <div class="form-group col-lg-1"></div>
-                                        <div class="form-group col-lg-6" id="lastname">
-                                            <label for="phpro_lastname">State</label>
-                                            <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name">
-                                        </div>
-                                    </div>
-                                    <div class="form-horizontal">
-                                        <div class="form-group col-lg-6" id="city">
-                                            <label for="city">City</label>
-                                            <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City">
-                                        </div>
-                                        <div class="form-group col-lg-1"></div>
-                                        <div class="form-group col-lg-4" id="state">
-                                            <label for="state">State</label>
-                                            <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State">
-                                        </div>
-                                        <div class="form-group col-lg-1"></div>
-                                        <div class="form-group col-lg-2" id="zip">
-                                            <label for="zip">Zip</label>
-                                            <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip">
-                                        </div>
                                     </div>
                                     <label>Lesson Option</label>
                                     <div class="form-group" id="lesson">
