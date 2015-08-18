@@ -40,12 +40,12 @@
                                 <form action="includes/login_submit" method="post">
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Username" maxlength="20" />
+                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Username" maxlength="20" required autofocus/>
                                     </div>
                                     <br>
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Password" maxlength="20" />
+                                        <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Password" maxlength="20" required/>
                                     </div>
                                     <br>  
                                     <button type="submit" class="btn btn-default btn-sm pull-right">Login</button>
@@ -85,12 +85,17 @@
                                 <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration">
                                     <div class="input-group col-lg-8" id="username">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" required/>
+                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required autofocus/>
                                     </div>
                                     <br>
                                     <div class="input-group col-lg-8" id="password">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Enter A Password" maxlength="20" required/>
+                                        <input type="password" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Enter A Password" maxlength="20" required/>
+                                    </div>
+                                    <br>
+                                    <div class="input-group col-lg-8" id="password_confirm">
+                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                        <input type="password" class="form-control" id="phpro_password_confirm" name="phpro_password_confirm" value="" placeholder="Confirm Password" maxlength="20" required/>
                                     </div>
                                     <br>
                                     <div class="input-group col-lg-8" id="email">
@@ -100,7 +105,7 @@
                                     <br>
                                     <div class="input-group col-lg-8" id="telephone">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                        <input type="tel" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number" required>
+                                        <input type="tel" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}" required>
                                     </div>
                                     <br>
 
@@ -117,22 +122,22 @@
                                     </div>
                                     <div class="form-group" id="street">
                                         <label for="street">Stree Address</label>
-                                        <input type="text" class="form-control" id="phpro_street" name="phpro_street" placeholder="Street Address">
+                                        <input type="text" class="form-control" id="phpro_street" name="phpro_street" placeholder="Street Address" required>
                                     </div>
                                     <div class="form-horizontal">
                                         <div class="form-group col-lg-6" id="city">
                                             <label for="city">City</label>
-                                            <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City">
+                                            <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" required>
                                         </div>
                                         <div class="form-group col-lg-1"></div>
                                         <div class="form-group col-lg-4" id="state">
                                             <label for="state">State</label>
-                                            <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State">
+                                            <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State" required>
                                         </div>
                                         <div class="form-group col-lg-1"></div>
                                         <div class="form-group col-lg-2" id="zip">
                                             <label for="zip">Zip</label>
-                                            <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip">
+                                            <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
                                         </div>
                                     </div>
                                     <label>Grade</label>
@@ -202,12 +207,12 @@
                         
                                     <label for="street">Policy Agreement</label>
                                     <div class="checkbox">
-                                      <label><input type="checkbox" name="phpro_studio_agreement" value="Yes">Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
+                                      <label><input type="checkbox" name="phpro_studio_agreement" value="Yes" required>Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
                                     </div>                        
                         
                                     <label for="street">Tuition Agreement</label>
                                     <div class="checkbox">
-                                      <label><input type="checkbox" name="phpro_tuition_agreement" value="Yes">Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
+                                      <label><input type="checkbox" name="phpro_tuition_agreement" value="Yes" required>Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
                                     </div>
                                     
                                     <br>

@@ -14,3 +14,17 @@ $(document).ready(function(event) {
         window.location.hash= event.target.hash;
     });
 });
+
+var password = document.getElementById("phpro_password")
+  , confirm_password = document.getElementById("phpro_password_confirm");
+
+function validatePassword(){
+  if(password.value != confirm_password.value) {
+    confirm_password.setCustomValidity("Passwords Don't Match");
+  } else {
+    confirm_password.setCustomValidity('');
+  }
+}
+
+password.onchange = validatePassword;
+confirm_password.onkeyup = validatePassword;
