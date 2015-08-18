@@ -45,8 +45,9 @@ $(document).ready(function () {
   $('#phpro_firstname').popover({html: "true", title: "<i class='fa fa-info-circle'></i> Student First Name", content: "Please enter the <b>students</b> name when registering", placement: "right", trigger: "focus"});
 
   $('#register-button a').click(function (e) {
-    e.preventDefault();
-    $('#myTabs a[href="#tab-register"]').tab('show');
+    //e.preventDefault();
+    //$('$('#tab-register a[href="#tab-register"]').tab('show');
+    $('#tab-register').tab('show');
   });
 
 
