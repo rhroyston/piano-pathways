@@ -15,6 +15,9 @@ $(document).ready(function(event) {
     });
 });
 
+
+$(function() {
+
 var password = document.getElementById("phpro_password")
   , confirm_password = document.getElementById("phpro_password_confirm");
 
@@ -28,3 +31,5 @@ function validatePassword(){
 
 password.onchange = validatePassword;
 confirm_password.onkeyup = validatePassword;
+
+  /* code here */ });
