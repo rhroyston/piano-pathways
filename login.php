@@ -189,16 +189,19 @@
                                       <label><input type="checkbox" name="phpro_online" value="Yes">I am registering for online lessons.</label>
                                     </div>
                                     
-                                    <div class="form-group">
+                                    <div class="input-group">
                                       <label for="lesson-choice-1">Lesson Preference Day and Time&#58; 1st choice</label>
+                                      <span class="input-group-addon" id="lesson-choice-1">1st Choice</span>
                                       <input type="text" class="form-control" id="lesson-choice-1" name="lesson-choice-1">
                                     </div>
                                     <div class="form-group">
                                       <label for="lesson-choice-2">Lesson Preference Day and Time&#58; 2nd choice</label>
+                                      <span class="input-group-addon" id="lesson-choice-2">2nd Choice</span>
                                       <input type="text" class="form-control" id="lesson-choice-2" name="lesson-choice-2">
                                     </div>
                                     <div class="form-group">
                                       <label for="lesson-choice-3">Lesson Preference Day and Time&#58; 3rd choice</label>
+                                      <span class="input-group-addon" id="lesson-choice-3">3rd Choice</span>
                                       <input type="text" class="form-control" id="lesson-choice-3" name="lesson-choice-3">
                                     </div>
                         
