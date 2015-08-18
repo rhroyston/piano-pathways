@@ -94,15 +94,15 @@
                                             <input type="email" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40" required/>
                                         </div>
                                     </div>
-                                    <div class="form-group form-horizontal">
-                                    <div class="col-lg-6" id="password">
-                                        <label for="phpro_username">Password</label>
-                                        <input type="password" class="form-control" id="phpro_password" name="phpro_password" placeholder="Enter A Password" maxlength="20" required/>
-                                    </div>
-                                    <div class="col-lg-6" id="password_confirm">
-                                        <label for="phpro_username">Confirm Password</label>
-                                        <input type="password" class="form-control" id="phpro_password_confirm" name="phpro_password_confirm" placeholder="Confirm Password" maxlength="20" required/>
-                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-lg-6" id="password">
+                                            <label for="phpro_username">Password</label>
+                                            <input type="password" class="form-control" id="phpro_password" name="phpro_password" placeholder="Enter A Password" maxlength="20" required/>
+                                        </div>
+                                        <div class="col-lg-6" id="password_confirm">
+                                            <label for="phpro_username">Confirm Password</label>
+                                            <input type="password" class="form-control" id="phpro_password_confirm" name="phpro_password_confirm" placeholder="Confirm Password" maxlength="20" required/>
+                                        </div>
                                     </div>
                                     <div class="form-group form-horizontal">
                                         <div class="col-lg-6" id="firstname">
