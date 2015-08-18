@@ -104,10 +104,6 @@
                                         <input type="password" class="form-control" id="phpro_password_confirm" name="phpro_password_confirm" placeholder="Confirm Password" maxlength="20" required/>
                                     </div>
                                     </div>
-                                    <div class="form-group col-lg-8" id="telephone">
-                                        <label for="phpro_username">Telephone Number</label>
-                                        <input type="tel" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}" required>
-                                    </div>
                                     <div class="form-group form-horizontal">
                                         <div class="col-lg-6" id="firstname">
                                             <label for="phpro_firstname">Student First Name</label>
@@ -119,6 +115,11 @@
                                             <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" required>
                                         </div>
                                     </div>
+                                    <div class="form-group col-lg-8" id="telephone">
+                                        <label for="phpro_username">Telephone Number</label>
+                                        <input type="tel" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}" required>
+                                    </div>
+
                                     <div class="form-group form-horizontal">
                                         <div class="col-lg-8">
                                             <label for="phpro_street">Stree Address</label>
