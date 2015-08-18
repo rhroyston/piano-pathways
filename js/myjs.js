@@ -49,8 +49,10 @@ $(document).ready(function () {
     //$('$('#tab-register a[href="#tab-register"]').tab('show');
 //    $('#tab-register').tab('show');
 //  });
-
-
+var $tabs = $('.tabbable li');
+$('#nexttab').on('click', function() {
+    $tabs.filter('.active').next('li').find('a[data-toggle="tab"]').tab('show');
+});
   
   
   

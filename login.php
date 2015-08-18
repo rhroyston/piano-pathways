@@ -26,7 +26,7 @@
                     <div class="col-md-2">
                     </div>
                     <div class="col-md-8">
-                        <div>
+                        <div class="tabbable">
                           <!-- Nav tabs -->
                           <ul class="nav nav-tabs" role="tablist">
                             <li role="presentation" class="active"><a href="#tab-login" aria-controls="home" role="tab" data-toggle="tab">Login</a></li>
