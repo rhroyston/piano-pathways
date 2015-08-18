@@ -95,7 +95,7 @@
                                     <br>
                                     <div class="input-group col-lg-8" id="password_confirm">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="password" class="form-control" id="phpro_password_confirm" name="phpro_password_confirm" placeholder="Confirm Password" maxlength="20" required/>
+                                        <input type="password" class="form-control" equalto="#phpro_password" id="phpro_password_confirm" name="phpro_password_confirm" placeholder="Confirm Password" maxlength="20" required/>
                                     </div>
                                     <br>
                                     <div class="input-group col-lg-8" id="email">
