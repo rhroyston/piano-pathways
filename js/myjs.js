@@ -37,9 +37,15 @@ $(document).ready(function () {
 // Select all elements with data-toggle="popover" in the document
 $('[data-toggle="popover"]').popover(); 
 
-// Select a specified element
-$('#phpro_username').focusin().popover("show");
-$('#phpro_username').focusout().popover("hide");
+
+
+
+$("#phpro_username").focusin(function(){
+  $(this).popover();
+});
+$("#phpro_username").focusout(function(){
+  $(this).popover("hide");
+});
 
 });
 
