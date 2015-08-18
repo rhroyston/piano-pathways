@@ -16,23 +16,22 @@ $(document).ready(function(event) {
 });
 
 
-$(document).ready(function() {
-  $("#phpro_password_confirm").bind("change paste keyup", function() {
 
-    if($('#phpro_password').val() != $('#phpro_password_confirm').val()) {
-      //if phpro_password_confirm's has-error class is not set then toggle it on
+
+function checkPasswordMatch() {
+    var password = $("#phpro_password").val();
+    var confirmPassword = $("#phpro_password_confirm").val();
+
+    if (password != confirmPassword)
       if(!$("#password_confirm").hasClass('has-error')){
         $('#password_confirm').toggleClass("has-error");
       }
-    }
-    
-    if($('#phpro_password_confirm').val() == $('#phpro_password').val()) {
-      $("#password_confirm").setClass("has-success");
-    }
-    
-    
-    
-  });
+    else
+        $("#password_confirm").setClass("has-success");
+}
+
+$(document).ready(function () {
+   $("#phpro_password_confirm").keyup(checkPasswordMatch);
 });
 
 
