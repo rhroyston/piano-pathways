@@ -131,7 +131,7 @@
                                             <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" required>
                                         </div>
                                         <div class="col-lg-1"></div>
-                                        <div class="col-lg-4" id="state">
+                                        <div class="col-lg-2" id="state">
                                             <label for="state">State</label>
                                             <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State" required>
                                         </div>
@@ -141,8 +141,10 @@
                                             <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
                                         </div>
                                     </div>
-                                    <label for="phpro_grade">Grade</label>
+                                    
                                     <div class="form-group">
+                                    <label for="phpro_grade">Grade</label>
+                                    
                                         <select class="form-control form-control-inline" id="phpro_grade" name="phpro_grade">
                                             <?php include 'includes/grade.php';?>
                                         </select>
