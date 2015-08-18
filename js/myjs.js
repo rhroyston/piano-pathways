@@ -24,11 +24,12 @@ function checkPasswordMatch() {
 
   if (password != confirmPassword){
     if(!$("#password_confirm").hasClass("has-error")){
-      //alert('#password_confirm does not have error class');
-      $('#password_confirm').toggleClass("has-error");
+      alert ('#password_confirm does not have error class');
+      $("#password_confirm").toggleClass("has-error");
     }
   }
   if (password == confirmPassword){
+    alert ('passwords matched');
       $("#password_confirm").removeClass("has-error");
   }
 }    
