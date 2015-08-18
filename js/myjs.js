@@ -21,10 +21,10 @@ $(document).ready(function(event) {
 function checkPasswordMatch() {
   var password = $("#phpro_password").val();
   var confirmPassword = $("#phpro_password_confirm").val();
-
+  alert (password);
   if (password !== confirmPassword){
     if(!$("#password_confirm").hasClass("has-error")){
-      alert ('#password_confirm does not have error class and phpro_password.val is ' + password + ' and pass_con is ' + confirmPassword);
+      //alert ('#password_confirm does not have error class and phpro_password.val is ' + password + ' and pass_con is ' + confirmPassword);
       $("#password_confirm").toggleClass("has-error");
     }
   }
