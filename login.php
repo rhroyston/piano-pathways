@@ -84,7 +84,7 @@
                                     unset ($_SESSION["message"]);
                                 ?>
                                 <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration">
-                                    <div class="form-group form-horizontal">
+                                    <div class="form-group">
                                         <div class="col-lg-6" id="username">
                                             <label for="phpro_username">Username</label>
                                             <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required autofocus/>
@@ -93,8 +93,7 @@
                                             <label for="phpro_username">Email</label>
                                             <input type="email" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40" required/>
                                         </div>
-                                    </div>
-                                    <div class="form-group">
+
                                         <div class="col-lg-6" id="password">
                                             <label for="phpro_username">Password</label>
                                             <input type="password" class="form-control" id="phpro_password" name="phpro_password" placeholder="Enter A Password" maxlength="20" required/>
@@ -104,6 +103,7 @@
                                             <input type="password" class="form-control" id="phpro_password_confirm" name="phpro_password_confirm" placeholder="Confirm Password" maxlength="20" required/>
                                         </div>
                                     </div>
+                                    
                                     <div class="form-group">
                                         <div class="col-lg-6" id="firstname">
                                             <label for="phpro_firstname">Student First Name</label>
@@ -125,6 +125,7 @@
                                             <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" required>
                                         </div>
                                     </div>
+                                    
                                     <div class="form-group">
                                         <div class="col-lg-6" id="city">
                                             <label for="city">City</label>
