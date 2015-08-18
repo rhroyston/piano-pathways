@@ -45,7 +45,7 @@
                                     <br>
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="text" class="form-control" id="phpro_password_login" name="phpro_password" value="" placeholder="Password" maxlength="20" required data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"/>
+                                        <input type="text" class="form-control" id="phpro_password_login" name="phpro_password" value="" placeholder="Password" maxlength="20"/>
                                     </div>
                                     <br>  
                                     <button type="submit" class="btn btn-default btn-sm pull-right">Login</button>
@@ -85,7 +85,7 @@
                                 <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration">
                                     <div class="input-group col-lg-8" id="username">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required autofocus/>
+                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required autofocus required data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"/>
                                     </div>
                                     <br>
                                     <div class="input-group col-lg-8" id="password">
