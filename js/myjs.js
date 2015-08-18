@@ -20,7 +20,7 @@ $(document).ready(function() {
   $("#phpro_password_confirm").bind("change paste keyup", function() {
 
     if($('#phpro_password').val() == $('#phpro_password_confirm').val()) {
-      alert('match');
+      $("#password_confirm").setClass("has-success");
     }
     
     
