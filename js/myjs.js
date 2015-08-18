@@ -20,7 +20,7 @@ $(document).ready(function() {
   $("#phpro_password_confirm").bind("change paste keyup", function() {
     if($('#phpro_password').val() != $('#phpro_password_confirm').val()) {
       //if phpro_password_confirm's has-error class is not set then toggle it on
-      if(!$("#phpro_password_confirm").hasClass("has-error")){
+      if($("#phpro_password_confirm").not.hasClass("has-error")){
         alert('does not have has-error class');
         $('#password_confirm').toggleClass("has-error");
       }
