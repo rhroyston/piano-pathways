@@ -49,7 +49,7 @@
                                     </div>
                                     <br>  
                                     <button type="submit" class="btn btn-primary btn-sm" id="register-button"><i class="fa fa-sign-in"></i> Login</button>
-                                    <a class="btn btn-primary btn-sm" href="/login#tab-register" role="button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
+                                    <a class="btn btn-primary btn-sm" href="#tab-register" role="button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
                                 </form>
                                     <?php
                                         if ($message !== ''){
