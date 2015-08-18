@@ -42,11 +42,11 @@ $('[data-toggle="popover"]').popover();
 
 $("#phpro_username").focusin(function(){
   $(this).popover("show");
-  alert('focusin');
+  //alert('focusin');
 });
 $("#phpro_username").focusout(function(){
   $(this).popover("hide");
-  alert('focusout');
+  //alert('focusout');
 });
 
 });
