@@ -33,6 +33,15 @@ function checkPasswordMatch() {
 
 $(document).ready(function () {
    $("#phpro_password_confirm").keyup(checkPasswordMatch);
+   
+// Select all elements with data-toggle="popover" in the document
+$('[data-toggle="popover"]').popover(); 
+
+// Select a specified element
+$('#phpro_password_login').popover();   
+   
+
+   
 });
 
 
