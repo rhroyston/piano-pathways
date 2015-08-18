@@ -38,12 +38,10 @@ $(document).ready(function () {
 $('[data-toggle="popover"]').popover(); 
 
 
-
-
-$.when($("#phpro_username").focusin()).done(function(){
+$("#phpro_username").focus(function(){
   $(this).popover("show");
 });
-$("#phpro_username").focusout(function(){
+$("#phpro_username").blur(function(){
   $(this).popover("hide");
 });
 
