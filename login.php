@@ -147,13 +147,13 @@
                                     
                                     <div class="form-group">
                                     <label for="phpro_grade">Grade</label>
-                                    
                                         <select class="form-control form-control-inline" id="phpro_grade" name="phpro_grade">
                                             <?php include 'includes/grade.php';?>
                                         </select>
                                     </div>
-                                    <div class="form-group">
-                                        <label>Birthday</label>
+                                    <div class="form-group form-horizontal">
+                                        <label for="birthday">Birthday</label>
+                                        <div id="birthday" class="col-lg-8">
                                             <select class="form-control form-control-inline" id="day" name="day">
                                                 <?php include 'includes/day.php';?>
                                             </select>
@@ -163,6 +163,7 @@
                                             <select class="form-control form-control-inline" id="year" name="year">
                                                 <?php include 'includes/year.php';?>
                                             </select>
+                                        </div>
                                     </div>
                                     <label>Lesson Option</label>
                                     <div class="form-group" id="lesson">
