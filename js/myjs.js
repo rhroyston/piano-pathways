@@ -16,7 +16,13 @@ $(document).ready(function(event) {
 });
 
 
-
+$(document).ready(function() {
+  $("#phpro_password_confirm").bind("change paste keyup", function() {
+    if($('#phpro_password').val() != $('#phpro_password_confirm').val()) {
+      $('#password_confirm').toggleClass("has-error"); 
+    }
+  });
+});
 
 
 
