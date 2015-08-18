@@ -140,24 +140,31 @@
                                                 <?php include 'includes/grade.php';?>
                                             </select>
                                         </div>
-                                        <div class="col-lg-2" id="birthday">
-                                            <label for="birthday">Birthday</label>
-                                            <select class="form-control" id="day" name="day">
-                                                <?php include 'includes/day.php';?>
-                                            </select>
+                                        
+                                        
+                                        <div class="form-inline">
+                                            <div class="col-lg-2" id="birthday">
+                                                <label for="birthday">Birthday</label>
+                                                <select class="form-control" id="day" name="day">
+                                                    <?php include 'includes/day.php';?>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                
+                                                <select class="form-control" id="month" name="month">
+                                                    <?php include 'includes/month.php';?>
+                                                </select>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                
+                                                <select class="form-control" id="year" name="year">
+                                                    <?php include 'includes/year.php';?>
+                                                </select>
+                                            </div>
                                         </div>
-                                        <div class="col-lg-2">
-                                            <label for="birthday">&#32; </label>
-                                            <select class="form-control" id="month" name="month">
-                                                <?php include 'includes/month.php';?>
-                                            </select>
-                                        </div>
-                                        <div class="col-lg-2">
-                                            <label for="birthday">&#32; </label>
-                                            <select class="form-control" id="year" name="year">
-                                                <?php include 'includes/year.php';?>
-                                            </select>
-                                        </div>
+                                        
+                                        
+                                        
                                     </div>
                                     
                                     <label>Lesson Option</label>
