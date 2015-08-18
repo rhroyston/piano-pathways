@@ -147,13 +147,13 @@
                                             </select>
                                         </div>
                                         <div class="col-lg-2">
-                                            <label for="birthday"> </label>
+                                            <label for="birthday">&#32; </label>
                                             <select class="form-control" id="month" name="month">
                                                 <?php include 'includes/month.php';?>
                                             </select>
                                         </div>
                                         <div class="col-lg-2">
-                                            <label for="birthday"> </label>
+                                            <label for="birthday">&#32; </label>
                                             <select class="form-control" id="year" name="year">
                                                 <?php include 'includes/year.php';?>
                                             </select>
