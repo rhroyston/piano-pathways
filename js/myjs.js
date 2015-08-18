@@ -38,8 +38,8 @@ $(document).ready(function () {
 $('[data-toggle="popover"]').popover(); 
 
 // Select a specified element
-$('#phpro_username').focusin().popover();
-$('#phpro_username').focusout().popover();
+$('#phpro_username').focusin().popover("show");
+$('#phpro_username').focusout().popover("hide");
 
 });
 
