@@ -110,7 +110,7 @@
                                     </div>
                                     <br>
 
-                                    <div class="form-horizontal">
+                                    <div class="form-group form-horizontal">
                                         <div class="form-group col-lg-6" id="firstname">
                                             <label for="phpro_firstname">Student First Name</label>
                                             <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name" required>
@@ -122,7 +122,7 @@
                                         </div>
                                     </div>
                                     <div class="form-group" id="street">
-                                        <label for="street">Stree Address</label>
+                                        <label for="phpro_street">Stree Address</label>
                                         <input type="text" class="form-control" id="phpro_street" name="phpro_street" placeholder="Street Address" required>
                                     </div>
                                     <div class="form-horizontal">
