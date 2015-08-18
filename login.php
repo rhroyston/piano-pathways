@@ -121,11 +121,18 @@
                                             <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" required>
                                         </div>
                                     </div>
-                                    <div class="form-group col-lg-8">
-                                        <label for="phpro_street">Stree Address</label>
-                                        <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" required>
+                                        <div class="form-group form-horizontal">
+                                            <div class="col-lg-8">
+                                            <label for="phpro_street">Stree Address</label>
+                                            <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" required>
+                                        </div>
+                                        <div class="col-lg-1"></div>
+                                        <div class="col-lg-2" id="zip">
+                                            <label for="zip">Zip</label>
+                                            <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
+                                        </div>
                                     </div>
-                                    <div class="form-horizontal form-group">
+                                    <div class="form-group form-horizontal">
                                         <div class="col-lg-6" id="city">
                                             <label for="city">City</label>
                                             <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" required>
@@ -135,11 +142,7 @@
                                             <label for="state">State</label>
                                             <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State" required>
                                         </div>
-                                        <div class="col-lg-1"></div>
-                                        <div class="col-lg-2" id="zip">
-                                            <label for="zip">Zip</label>
-                                            <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
-                                        </div>
+
                                     </div>
                                     
                                     <div class="form-group">
