@@ -45,7 +45,7 @@
                                     <br>
                                     <div class="input-group">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="text" class="form-control" id="phpro_password_login" name="phpro_password" value="" placeholder="Password" maxlength="20" required/>
+                                        <input type="text" class="form-control" id="phpro_password_login" name="phpro_password" value="" placeholder="Password" maxlength="20" required data-toggle="popover" title="Popover title" data-content="And here's some amazing content. It's very engaging. Right?"/>
                                     </div>
                                     <br>  
                                     <button type="submit" class="btn btn-default btn-sm pull-right">Login</button>
