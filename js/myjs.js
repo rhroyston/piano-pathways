@@ -41,10 +41,10 @@ $(document).ready(function () {
 //$('[data-toggle="popover"]').popover(); 
  
 $("#phpro_username").focus(function(){
-  $(this).popover("show");
+  $("#phpro_username").popover("show");
 });
 $("#phpro_username").blur(function(){
-  $(this).popover("hide");
+  $("#phpro_username").popover("hide");
 });
 
 });
