@@ -126,17 +126,17 @@
                                         <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" required>
                                     </div>
                                     <div class="form-horizontal form-group">
-                                        <div class="form-group col-lg-6" id="city">
+                                        <div class="col-lg-6" id="city">
                                             <label for="city">City</label>
                                             <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" required>
                                         </div>
-                                        <div class="form-group col-lg-1"></div>
-                                        <div class="form-group col-lg-4" id="state">
+                                        <div class="col-lg-1"></div>
+                                        <div class="col-lg-4" id="state">
                                             <label for="state">State</label>
                                             <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State" required>
                                         </div>
-                                        <div class="form-group col-lg-1"></div>
-                                        <div class="form-group col-lg-2" id="zip">
+                                        <div class="col-lg-1"></div>
+                                        <div class="col-lg-2" id="zip">
                                             <label for="zip">Zip</label>
                                             <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
                                         </div>
