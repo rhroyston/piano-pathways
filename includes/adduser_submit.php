@@ -113,6 +113,7 @@ if($message == 'Success&#58; New user added'){
 }
 else{
     header("Location: http://thepianopathway-rhroyston.rhcloud.com/login#tab-register");
+    $_SESSION["registerpane"] = 'true';
     //exit();
 }
 

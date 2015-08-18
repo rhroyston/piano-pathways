@@ -4,6 +4,7 @@
     <?php 
         $title = 'login';
         $message = $_SESSION["message"];
+        $registerpane = $_SESSION["registerpane"];
         include 'includes/head.php';
         
         // capture url of original page and store it in variable called original-page
@@ -51,11 +52,8 @@
                                 </form>
                                     <?php
                                         if ($message !== ''){
-                                            //capture the current url
-                                            $host = (string)$_SERVER['SERVER_NAME'] . (string)$_SERVER['REQUEST_URI'];
-                                            echo "<script type='text/javascript'>alert('$host');</script>";
-                                            // if the target is login pane then display message and then kill the session variable 
-                                            if($host == 'thepianopathway-rhroyston.rhcloud.com/login') {
+                                            // if registration session var not set then display message and then kill the session variable 
+                                            if($registerpane !== 'true') {
                                                 if (strpos($message,'Success') !== false) {
                                                     echo "<div class='alert alert-success alert-dismissible alert-auto'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
                                                 }
