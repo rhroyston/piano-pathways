@@ -141,19 +141,19 @@
                                             </select>
                                         </div>
                                         <div class="col-lg-2" id="birthday">
-                                            <label for="birthday">Birthday &#40;d&#41;</label>
+                                            <label for="birthday">Birthday</label>
                                             <select class="form-control" id="day" name="day">
                                                 <?php include 'includes/day.php';?>
                                             </select>
                                         </div>
                                         <div class="col-lg-2">
-                                            <label for="birthday"></label>
+                                            <label for="birthday"> </label>
                                             <select class="form-control" id="month" name="month">
                                                 <?php include 'includes/month.php';?>
                                             </select>
                                         </div>
                                         <div class="col-lg-2">
-                                            <label for="birthday"></label>
+                                            <label for="birthday"> </label>
                                             <select class="form-control" id="year" name="year">
                                                 <?php include 'includes/year.php';?>
                                             </select>
