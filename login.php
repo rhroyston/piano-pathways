@@ -126,6 +126,17 @@
                                         <input type="text" class="form-control" id="phpro_street" name="phpro_street" placeholder="Street Address">
                                     </div>
                                     <div class="form-horizontal">
+                                        <div class="form-group col-lg-6" id="firstname">
+                                            <label for="phpro_firstname">City</label>
+                                            <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name">
+                                        </div>
+                                        <div class="form-group col-lg-1"></div>
+                                        <div class="form-group col-lg-6" id="lastname">
+                                            <label for="phpro_lastname">State</label>
+                                            <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name">
+                                        </div>
+                                    </div>
+                                    <div class="form-horizontal">
                                         <div class="form-group col-lg-6" id="city">
                                             <label for="city">City</label>
                                             <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City">
