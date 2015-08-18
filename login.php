@@ -3,6 +3,7 @@
 <html lang="en">
     <?php 
         $title = 'login';
+        $message = $_SESSION["message"];
         include 'includes/head.php';
         
         // capture url of original page and store it in variable called original-page
@@ -48,12 +49,11 @@
                                     <br>  
                                     <button type="submit" class="btn btn-default btn-sm pull-right">Login</button>
                                 </form>
-                                
                                     <?php
-                                        $host = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
-                                        if (isset($_SESSION["message"])){
-                                            $message = $_SESSION["message"];
-                                            // if the target is the login pane then display message and then kill the session variable 
+                                        if ($message !== ''){
+                                            //capture the current url
+                                            $host = $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'];
+                                            // if the target is login pane then display message and then kill the session variable 
                                             if($host == 'thepianopathway-rhroyston.rhcloud.com/login') {
                                                 if (strpos($message,'Success') !== false) {
                                                     echo "<div class='alert alert-success alert-dismissible alert-auto'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
@@ -73,7 +73,7 @@
                                 <br>
                                 <?php
                                     // If we have a message then display it and then kill it  
-                                    $message = $_SESSION["message"];
+                                    //$message = $_SESSION["message"];
                                     if (strpos($message,'Success') !== false) {
                                         echo "<div class='alert alert-success alert-dismissible alert-auto'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
                                     }
