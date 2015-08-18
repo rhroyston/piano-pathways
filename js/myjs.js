@@ -36,6 +36,7 @@ function checkPasswordMatch() {
 
 $(document).ready(function () {
    $("#phpro_password_confirm").keyup(checkPasswordMatch);
+   $("#phpro_password_confirm").change(checkPasswordMatch);
 });
 
 
