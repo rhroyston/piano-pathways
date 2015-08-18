@@ -36,7 +36,7 @@ body {
 }
 /* The max width is dependant on the container (more info below) */
 .popover{
-    max-width: 100%; /* Max Width of the popover (depending on the container!) */
+    min-width: 400px; /* Max Width of the popover (depending on the container!) */
 }
 .credentials{
 color:white;
