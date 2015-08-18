@@ -141,7 +141,7 @@
                                             <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
                                         </div>
                                     </div>
-                                    <label>Grade</label>
+                                    <label for="phpro_grade">Grade</label>
                                     <div class="form-group">
                                         <select class="form-control form-control-inline" id="phpro_grade" name="phpro_grade">
                                             <?php include 'includes/grade.php';?>
