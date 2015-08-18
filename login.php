@@ -85,34 +85,34 @@
                                 <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration">
                                     <div class="input-group col-lg-8" id="username">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" />
+                                        <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" required/>
                                     </div>
                                     <br>
                                     <div class="input-group col-lg-8" id="password">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Enter A Password" maxlength="20" />
+                                        <input type="text" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Enter A Password" maxlength="20" required/>
                                     </div>
                                     <br>
                                     <div class="input-group col-lg-8" id="email">
                                         <span class="input-group-addon"><i class="fa fa-envelope"></i></span>
-                                        <input type="email" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40"/>
+                                        <input type="email" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40" required/>
                                     </div>                                    
                                     <br>
                                     <div class="input-group col-lg-8" id="telephone">
                                         <span class="input-group-addon"><i class="fa fa-phone"></i></span>
-                                        <input type="text" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number">
+                                        <input type="tel" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number" required>
                                     </div>
                                     <br>
 
                                     <div class="form-horizontal">
                                         <div class="form-group col-lg-6" id="firstname">
-                                            <label for="phpro_firstname">First Name</label>
-                                            <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name">
+                                            <label for="phpro_firstname">Student First Name</label>
+                                            <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name" required>
                                         </div>
                                         <div class="form-group col-lg-1"></div>
                                         <div class="form-group col-lg-6" id="lastname">
-                                            <label for="phpro_lastname">Last Name</label>
-                                            <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name">
+                                            <label for="phpro_lastname">Student Last Name</label>
+                                            <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" required>
                                         </div>
                                     </div>
                                     <div class="form-group" id="street">
