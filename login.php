@@ -90,12 +90,12 @@
                                     <br>
                                     <div class="input-group col-lg-8" id="password">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="password" class="form-control" id="phpro_password" name="phpro_password" value="" placeholder="Enter A Password" maxlength="20" required/>
+                                        <input type="password" class="form-control" id="phpro_password" name="phpro_password" placeholder="Enter A Password" maxlength="20" required/>
                                     </div>
                                     <br>
                                     <div class="input-group col-lg-8" id="password_confirm">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="password" class="form-control" id="phpro_password_confirm" name="phpro_password_confirm" value="" placeholder="Confirm Password" maxlength="20" required/>
+                                        <input type="password" class="form-control" id="phpro_password_confirm" name="phpro_password_confirm" placeholder="Confirm Password" maxlength="20" required/>
                                     </div>
                                     <br>
                                     <div class="input-group col-lg-8" id="email">
