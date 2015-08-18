@@ -39,7 +39,7 @@ $('[data-toggle="popover"]').popover();
 
 // Select a specified element
 $('#phpro_username').focusin().popover("show");
-$('#phpro_username').blur().popover("hide");
+$('#phpro_username').focusout().popover("hide");
 
 });
 
