@@ -35,9 +35,9 @@ $(document).ready(function () {
   $("#phpro_password_confirm").keyup(checkPasswordMatch);
 
 // Select all elements with data-toggle="popover" in the document
-$('[data-toggle="popover"]').popover(); 
+//$('[data-toggle="popover"]').popover(); 
 
-
+//$('.btn-warning').popover({title: "Header", content: "Blabla", placement: "top"}); 
 $("#phpro_username").focus(function(){
   $(this).popover("show");
 });
