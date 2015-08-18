@@ -24,7 +24,7 @@ function checkPasswordMatch() {
 
   if (password !== confirmPassword){
     if(!$("#password_confirm").hasClass("has-error")){
-      alert ('#password_confirm does not have error class');
+      alert ('#password_confirm does not have error class and pass_confrm.val is' + $("#phpro_password_confirm").val());
       $("#password_confirm").toggleClass("has-error");
     }
   }
