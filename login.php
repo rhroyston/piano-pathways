@@ -125,7 +125,7 @@
                                         <label for="phpro_street">Stree Address</label>
                                         <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" required>
                                     </div>
-                                    <div class="form-horizontal">
+                                    <div class="form-horizontal form-group">
                                         <div class="form-group col-lg-6" id="city">
                                             <label for="city">City</label>
                                             <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" required>
