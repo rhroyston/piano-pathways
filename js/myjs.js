@@ -16,10 +16,10 @@ $(document).ready(function(event) {
 });
 
 
-//$(function() {
+$(document).ready(function() {
 
-var password = document.getElementById("phpro_password")
-  , confirm_password = document.getElementById("phpro_password_confirm");
+var password = document.getElementById("phpro_password");
+var confirm_password = document.getElementById("phpro_password_confirm");
 
 function validatePassword(){
   if(password.value != confirm_password.value) {
@@ -32,4 +32,4 @@ function validatePassword(){
 password.onchange = validatePassword;
 confirm_password.onkeyup = validatePassword;
 
-//  /* code here */ });
+ /* code here */ });
