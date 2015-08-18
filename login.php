@@ -48,8 +48,8 @@
                                         <input type="text" class="form-control" id="phpro_password_login" name="phpro_password" value="" placeholder="Password" maxlength="20"/>
                                     </div>
                                     <br>  
-                                    <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-sign-in"></i> Login</button>
-                                    <a class="btn btn-primary btn-sm" href="/login#tab-register" role="button"><i class="fa fa-phone"></i><i class="fa fa-pencil-square-o"></i> Register</a>
+                                    <button type="submit" class="btn btn-primary btn-sm" id="register-button"><i class="fa fa-sign-in"></i> Login</button>
+                                    <a class="btn btn-primary btn-sm" href="/login#tab-register" role="button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
                                 </form>
                                     <?php
                                         if ($message !== ''){

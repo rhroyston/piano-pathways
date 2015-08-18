@@ -36,13 +36,24 @@ $(document).ready(function () {
 
 // Throw up some popups
 $(document).ready(function () {
+  
+  // Contain the popover within the body NOT the element it was called in.
+  $('[data-toggle="popover"]').popover({
+      container: 'body'
+  });
+  
+  $('#phpro_firstname').popover({html: "true", title: "<i class='fa fa-info-circle'></i> Student First Name", content: "Please enter the <b>students</b> name when registering", placement: "right", trigger: "focus"});
 
-// Contain the popover within the body NOT the element it was called in.
-$('[data-toggle="popover"]').popover({
-    container: 'body'
-});
+  $('#register-button a').click(function (e) {
+    e.preventDefault();
+    $('#myTabs a[href="#tab-register"]').tab('show');
+  });
 
-$('#phpro_firstname').popover({html: "true", title: "<i class='fa fa-info-circle'></i> Student First Name", content: "Please enter the <b>students</b> name when registering", placement: "right", trigger: "focus"});
+
+  
+  
+  
+  
 });
 
 
