@@ -84,6 +84,9 @@
                                     unset ($_SESSION["message"]);
                                 ?>
                                 <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration">
+                                    
+                                    <legend>Form legend</legend>
+                                    
                                     <div class="form-group">
                                         <div class="col-lg-6" id="username">
                                             <label for="phpro_username">Username</label>
@@ -142,7 +145,7 @@
                                         </div>
                                         
                                         
-                                        <div class="form-inline">
+                                        <div class="control-group">
                                             <div class="col-lg-2" id="birthday">
                                                 <label for="birthday">Birthday</label>
                                                 <select class="form-control" id="day" name="day">
@@ -167,7 +170,7 @@
                                         
                                     </div>
                                     
-                                    <label>Lesson Option</label>
+                                    <label for="phpro_lesson_option">Lesson Option</label>
                                     <div class="form-group" id="lesson">
                                         <select class="form-control form-control-inline" id="phpro_lesson_option" name="phpro_lesson_option">
                                             <?php include 'includes/lesson.php';?>
