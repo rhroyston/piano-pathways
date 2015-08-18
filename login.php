@@ -122,7 +122,6 @@
                                                 <?php include 'includes/year.php';?>
                                             </select>
                                     </div>
-                                    
                                     <div class="form-group" id="street">
                                         <label for="street">Stree Address</label>
                                         <input type="text" class="form-control" id="phpro_street" name="phpro_street" placeholder="Street Address">
@@ -208,26 +207,6 @@
                                         </div> 
                                     </div>
                                 </form>
-                                <script>
-                                $("#registration").validate();
-$.validator.setDefaults({
-    errorElement: "span",
-    errorClass: "help-block",
-    highlight: function (element, errorClass, validClass) {
-        $(element).closest('.form-group').addClass('has-error');
-    },
-    unhighlight: function (element, errorClass, validClass) {
-        $(element).closest('.form-group').removeClass('has-error');
-    },
-    errorPlacement: function (error, element) {
-        if (element.parent('.input-group').length || element.prop('type') === 'checkbox' || element.prop('type') === 'radio') {
-            error.insertAfter(element.parent());
-        } else {
-            error.insertAfter(element);
-        }
-    }
-});
-                                </script>
                             </div>
                           </div>
                         </div>                        
