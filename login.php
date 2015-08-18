@@ -121,6 +121,7 @@
                                             <label for="phpro_username">Telephone Number</label>
                                             <input type="tel" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}" required>
                                         </div>
+                                        <div class="col-lg-1"></div>
                                         <div class="col-lg-8"></div>
                                     </div>
                                     
