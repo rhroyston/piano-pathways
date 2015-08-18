@@ -28,7 +28,7 @@ function checkPasswordMatch() {
       $('#password_confirm').toggleClass("has-error");
     }
   }
-  else {
+  if (password == confirmPassword){
       $("#password_confirm").removeClass("has-error");
   }
 }    
