@@ -133,23 +133,25 @@
                                             <label for="zip">Zip</label>
                                             <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
                                         </div>
-                                    </div>
-                                    
-                                    <div class="form-group">
+
                                         <div class="col-lg-4" id="grade">
                                             <label for="phpro_grade">Grade</label>
                                             <select class="form-control form-control-inline" id="phpro_grade" name="phpro_grade">
                                                 <?php include 'includes/grade.php';?>
                                             </select>
                                         </div>
-                                        <div class="col-lg-8" id="birthday">
+                                        <div class="col-lg-1" id="birthday">
                                             <label for="birthday">Birthday</label>
                                             <select class="form-control form-control-inline" id="day" name="day">
                                                 <?php include 'includes/day.php';?>
                                             </select>
+                                        </div>
+                                        <div class="col-lg-1">
                                             <select class="form-control form-control-inline" id="month" name="month">
                                                 <?php include 'includes/month.php';?>
                                             </select>
+                                        </div>
+                                        <div class="col-lg-1">
                                             <select class="form-control form-control-inline" id="year" name="year">
                                                 <?php include 'includes/year.php';?>
                                             </select>
