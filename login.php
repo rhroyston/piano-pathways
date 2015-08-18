@@ -38,17 +38,17 @@
                             <div role="tabpanel" class="tab-pane active" id="tab-login">
                                 <h2>Login</h2>
                                 <form action="includes/login_submit" method="post">
-                                    <div class="input-group">
+                                    <div class="input-group col-lg-8">
                                         <span class="input-group-addon"><i class="fa fa-user"></i></span>
                                         <input type="text" class="form-control" id="phpro_username_login" name="phpro_username" value="" placeholder="Username" maxlength="20" required autofocus/>
                                     </div>
                                     <br>
-                                    <div class="input-group">
+                                    <div class="input-group col-lg-8">
                                         <span class="input-group-addon"><i class="fa fa-lock"></i></span>
                                         <input type="text" class="form-control" id="phpro_password_login" name="phpro_password" value="" placeholder="Password" maxlength="20"/>
                                     </div>
                                     <br>  
-                                    <button type="submit" class="btn btn-default btn-sm pull-right">Login</button>
+                                    <button type="submit" class="btn btn-primary btn-sm pull-right">Login</button>
                                 </form>
                                     <?php
                                         if ($message !== ''){
