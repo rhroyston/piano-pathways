@@ -19,17 +19,18 @@ $(document).ready(function(event) {
 
 
 function checkPasswordMatch() {
-    var password = $("#phpro_password").val();
-    var confirmPassword = $("#phpro_password_confirm").val();
+  var password = $("#phpro_password").val();
+  var confirmPassword = $("#phpro_password_confirm").val();
 
-    if (password != confirmPassword)
-      if(!$("#password_confirm").hasClass("has-error")){
-        //alert('#password_confirm does not have error class');
-        $('#password_confirm').toggleClass("has-error");
-      }
-    else {
-        $("#password_confirm").removeClass("has-error");
-      }
+  if (password != confirmPassword){
+    if(!$("#password_confirm").hasClass("has-error")){
+      //alert('#password_confirm does not have error class');
+      $('#password_confirm').toggleClass("has-error");
+    }
+  }
+  else {
+      $("#password_confirm").removeClass("has-error");
+  }
 }    
 
 $(document).ready(function () {
