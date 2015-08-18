@@ -23,7 +23,7 @@ function checkPasswordMatch() {
     var confirmPassword = $("#phpro_password_confirm").val();
 
     if (password != confirmPassword)
-      if(!$("#password_confirm").hasClass('has-error')){
+      if(!$("#password_confirm").hasClass("has-error")){
         $('#password_confirm').toggleClass("has-error");
       }
     else
