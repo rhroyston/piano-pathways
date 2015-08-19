@@ -194,11 +194,11 @@
                                       <span class="input-group-addon lesson-pref" id="lesson-choice-1">1st Choice</span>
                                       <input type="text" class="form-control lesson-pref-input" id="lesson-choice-1" name="lesson-choice-1">
                                     <div class="input-group">
-                                    </div>
+
                                       <span class="input-group-addon lesson-pref" id="lesson-choice-2">2nd Choice</span>
                                       <input type="text" class="form-control lesson-pref-input" id="lesson-choice-2" name="lesson-choice-2">
                                     <div class="input-group">
-                                    </div>
+
                                       <span class="input-group-addon lesson-pref" id="lesson-choice-3">3rd Choice</span>
                                       <input type="text" class="form-control lesson-pref-input" id="lesson-choice-3" name="lesson-choice-3">
                                     </div>
