@@ -66,7 +66,7 @@
 
                                         <div class="col-sm-12 control">
                                         <div class="input-group center-block ">
-                                        <a class="btn btn-default btn-sm control pull-right" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
+                                        <a id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register for an account here</a>
                                         </div>
                                         </div>
                                     </div>
