@@ -34,6 +34,9 @@ body {
 .lesson-pref{
     width:10em;
 }
+.lesson-pref-input{
+    width:20em;
+}
 .alert-auto {
     display:inline-block;
 }
