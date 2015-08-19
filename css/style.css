@@ -32,10 +32,10 @@ body {
     margin-bottom: -.5em;
 }
 .lesson-pref{
-    width:120px;
+    width:100px;
 }
 .lesson-pref-input{
-    width:600px;
+    width:800px;
 }
 .alert-auto {
     display:inline-block;
