@@ -236,7 +236,7 @@
                                         </div>
                                         
                                         <br>
-                                        <div class="form-horizontal">
+                                        <div class="col-sm-12 control">
                                             <div class="input-group pull-right">
                                                 <input type="hidden" name="form_token" value="<?php echo $form_token; ?>" />
                                                 <input type="submit" class="btn btn-primary" value="Submit" />
