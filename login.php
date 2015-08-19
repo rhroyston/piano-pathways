@@ -145,26 +145,22 @@
                                         </div>
                                         
                                         
-                                        <div class="input-group birthday-picker">
+                                        
                                             <label for="birthday">Birthday</label>
-                                            <div class="col-lg-2" id="birthday">
-                                                <select class="form-control" id="day" name="day">
-                                                    <?php include 'includes/day.php';?>
-                                                </select>
-                                            </div>
                                             <div class="col-lg-2">
                                                 
                                                 <select class="form-control" id="month" name="month">
                                                     <?php include 'includes/month.php';?>
                                                 </select>
                                             </div>
-                                            <div class="col-lg-2">
-                                                
-                                                <select class="form-control" id="year" name="year">
-                                                    <?php include 'includes/year.php';?>
-                                                </select>
-                                            </div>
-                                        </div>
+                                            
+                                            
+                                            
+                                        <input type="text" class="form-control" id="day" name="day" placeholder="Day" required>
+                                        <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
+                                            
+
+                                        
                                         
                                         
                                         
