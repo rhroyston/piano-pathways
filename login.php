@@ -85,8 +85,6 @@
                                 ?>
                                 <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration">
                                     
-                                    <legend>Form legend</legend>
-                                    
                                     <div class="form-group">
                                         <div class="col-lg-6" id="username">
                                             <label for="phpro_username">Username</label>
@@ -162,12 +160,12 @@
                                             <label for="year">Year</label>
                                             <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
                                         </div>
-                                       
-                                        <label for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
-                                        <div class="radio">
+                                        
+                                        <label class="col-lg-10" for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
+                                        <div class="radio col-lg-10">
                                           <label><input type="radio" value="Yes" name="phpro_has_friend">I have a friend that I would like to take lessons with.</label>
                                         </div>
-                                        <div class="radio">
+                                        <div class="radio col-lg-10">
                                           <label><input type="radio" value="No" name="phpro_has_friend">Please place me with someone at Piano Pathways to take partner lessons.</label>
                                         </div>
                                      
@@ -222,6 +220,7 @@
                                                 <input type="submit" class="btn btn-primary" value="Submit" />
                                             </div> 
                                         </div>
+                                        
                                     </div>
                                 </form>
                             </div>
