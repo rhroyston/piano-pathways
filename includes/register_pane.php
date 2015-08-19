@@ -16,11 +16,11 @@
                                     <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration">
                                         
                                         <div class="form-group">
-                                            <div class="col-sm-6" id="username">
+                                            <div class="col-sm-8" id="username">
                                                 <label class="control-label" for="phpro_username">Username</label>
                                                 <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required autofocus/>
                                             </div>
-                                            <div class="col-sm-6" id="email">
+                                            <div class="col-sm-4" id="email">
                                                 <label class="control-label" for="phpro_username">Email</label>
                                                 <input type="email" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40" required/>
                                             </div>
