@@ -152,21 +152,22 @@
                                                 <select class="form-control" id="month" name="month"><?php include 'includes/month.php';?></select>
                                             </div>
                                             <div class="col-lg-2">
-                                                <label for="day"></label>
+                                                <label for="day">g</label>
                                                 <input type="text" class="form-control" id="day" name="day" placeholder="Day" required>
                                             </div>
                                             <div class="col-lg-2">
-                                                <label for="year"></label>
+                                                <label for="year">g</label>
                                                 <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
                                             </div>
                                         </div>
                                         
                                         <div class="col-lg-4" id="lesson">
                                             <label for="phpro_lesson_option">Lesson Option</label>
-                                            <select class="form-control form-control-inline" id="phpro_lesson_option" name="phpro_lesson_option">
+                                            <select class="form-control " id="phpro_lesson_option" name="phpro_lesson_option">
                                                 <?php include 'includes/lesson.php';?>
                                             </select>
                                         </div>
+                                        
                                         <label for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
                                         <div class="radio">
                                           <label><input type="radio" value="Yes" name="phpro_has_friend">I have a friend that I would like to take lessons with.</label>
