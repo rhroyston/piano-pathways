@@ -56,15 +56,17 @@
                                         </div>
                                         <br>
                                         <br>
-                                        <div class="col-sm-6 control">
-                                        <div class="input-group">
-                                        <a class="btn btn-default btn-sm control pull-right" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
+                                        <div class="col-sm-12 control">
+                                        <div class="input-group pull-right">
+                                        <button type="submit" class="btn btn-primary btn-sm control"><i class="fa fa-sign-in"></i> Login</button>
                                         </div>
                                         </div>
                                         </fieldset>
+
+
                                         <div class="col-sm-6 control">
-                                        <div class="input-group pull-right">
-                                        <button type="submit" class="btn btn-primary btn-sm control"><i class="fa fa-sign-in"></i> Login</button>
+                                        <div class="input-group">
+                                        <a class="btn btn-default btn-sm control pull-right" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
                                         </div>
                                         </div>
                                     </div>
