@@ -34,9 +34,11 @@
                           </ul>
                           <!-- Tab panes -->
                           <div class="tab-content">
+                            <h2>Login</h2>
+                            <br>
                             <!-- Login Pane -->
                             <div role="tabpanel" class="tab-pane active" id="tab-login">
-                                <h2>Login</h2>
+                                
                                 <form action="includes/login_submit" method="post">
                                     <div class="form-group">
                                         <div class="col-sm-12 control">
@@ -53,7 +55,7 @@
                                         </div>
                                         <br>  
                                         <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-sign-in"></i> Login</button>
-                                        <a class="btn btn-primary btn-sm pull-right" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
+                                        <a class="btn btn-default btn-sm" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
                                     </div>
                                 </form>
                                     <?php
