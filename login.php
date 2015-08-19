@@ -55,9 +55,11 @@
                                         </div>
                                         <br>
                                         <br>
-                                        <div>
+                                        <div class="form-horizontal">
+                                            <div class="input-group pull-right">
                                         <button type="submit" class="btn btn-primary btn-sm control"><i class="fa fa-sign-in"></i> Login</button>
                                         <a class="btn btn-default btn-sm control" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
+                                        </div>
                                         </div>
                                     </div>
                                 </form>
