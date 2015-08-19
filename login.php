@@ -190,9 +190,9 @@
                                     </div>
                                     
                                     <label for="lesson-choice-1">Lesson Preference &#40;Day and Time&#41;</label>
-                                    <div class="input-group">
+                                    <div class="input-group col-lg-6">
                                       <span class="input-group-addon lesson-pref" id="lesson-choice-1">1st Choice</span>
-                                      <input type="text" class="form-control lesson-pref-input" id="lesson-choice-1" name="lesson-choice-1">
+                                      <input type="text" class="form-control" id="lesson-choice-1" name="lesson-choice-1">
                                     </div>
                                     <div class="input-group">
 
