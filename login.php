@@ -56,8 +56,8 @@
                                         </div>
                                         <br>
                                         <br>
-                                        <div class="col-sm-12 control">
-                                        <div class="input-group pull-right">
+                                        <div class="col-sm-12 text-center control">
+                                        <div class="input-group">
                                         <button type="submit" class="btn btn-primary btn-sm control"><i class="fa fa-sign-in"></i> Login</button>
                                         </div>
                                         </div>
