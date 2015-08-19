@@ -143,7 +143,7 @@
                                         </div>
                                             
                                         <div class="col-lg-2">
-                                            <label for="month">Birthday</label>
+                                            <label for="month control-label">Birthday</label>
                                             <select class="form-control" id="month" name="month"><?php include 'includes/month.php';?></select>
                                         </div>
                                         <div class="col-lg-2">
@@ -170,8 +170,8 @@
                                           <label><input type="radio" value="No" name="phpro_has_friend">Please place me with someone at Piano Pathways to take partner lessons.</label>
                                         </div>
                                         
-                                        <label class="col-lg-12" for="lesson-choice-1">Lesson Preference &#40;Day and Time&#41;</label>
-                                        <div class="form-control">
+                                        <label class="col-lg-12 control-label" for="lesson-choice-1">Lesson Preference &#40;Day and Time&#41;</label>
+                                        <div class="col-lg-12 control">
                                         <div class="input-group col-lg-10">
                                           <span class="input-group-addon lesson-pref" id="lesson-choice-1">1st Choice</span>
                                           <input type="text" class="form-control" id="lesson-choice-1" name="lesson-choice-1">
