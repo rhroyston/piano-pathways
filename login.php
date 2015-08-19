@@ -38,21 +38,23 @@
                             <div role="tabpanel" class="tab-pane active" id="tab-login">
                                 <h2>Login</h2>
                                 <form action="includes/login_submit" method="post">
-                                    <div class="col-sm-12 control">
-                                    <div class="input-group col-sm-8">
-                                        <span class="input-group-addon"><i class="fa fa-user"></i></span>
-                                        <input type="text" class="form-control" id="phpro_username_login" name="phpro_username" value="" placeholder="Username" maxlength="20" required autofocus/>
+                                    <div class="form-group">
+                                        <div class="col-sm-12 control">
+                                            <div class="input-group col-sm-6">
+                                                <span class="input-group-addon"><i class="fa fa-user"></i></span>
+                                                <input type="text" class="form-control" id="phpro_username_login" name="phpro_username" value="" placeholder="Username" maxlength="20" required autofocus/>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-12 control">
+                                            <div class="input-group col-sm-6">
+                                                <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                                                <input type="text" class="form-control" id="phpro_password_login" name="phpro_password" value="" placeholder="Password" maxlength="20"/>
+                                            </div>
+                                        </div>
+                                        <br>  
+                                        <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-sign-in"></i> Login</button>
+                                        <a class="btn btn-primary btn-sm pull-right" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
                                     </div>
-                                    </div>
-                                    <div class="col-sm-12 control">
-                                    <div class="input-group col-sm-8">
-                                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
-                                        <input type="text" class="form-control" id="phpro_password_login" name="phpro_password" value="" placeholder="Password" maxlength="20"/>
-                                    </div>
-                                    </div>
-                                    <br>  
-                                    <button type="submit" class="btn btn-primary btn-sm"><i class="fa fa-sign-in"></i> Login</button>
-                                    <a class="btn btn-primary btn-sm" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
                                 </form>
                                     <?php
                                         if ($message !== ''){
