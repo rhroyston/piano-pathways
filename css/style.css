@@ -37,9 +37,8 @@ body {
 .lesson-pref-input{
     width:800px;
 }
-.birthday-picker select
-{
-  display: inline-block;
+.control-label{
+    margin-top:12px;
 }
 .alert-auto {
     display:inline-block;
