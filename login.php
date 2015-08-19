@@ -162,19 +162,19 @@
                                         </div>
                                         
                                         <label class="col-lg-10" for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
-                                        <div class="radio col-lg-10">
+                                        <div class="radio col-lg-12">
                                           <label><input type="radio" value="Yes" name="phpro_has_friend">I have a friend that I would like to take lessons with.</label>
                                         </div>
-                                        <div class="radio col-lg-10">
+                                        <div class="radio col-lg-12">
                                           <label><input type="radio" value="No" name="phpro_has_friend">Please place me with someone at Piano Pathways to take partner lessons.</label>
                                         </div>
                                      
-                                        <label for="street">Online Lessons</label>
+                                        <label class="radio col-lg-12" for="street">Online Lessons</label>
                                         <div class="checkbox">
                                           <label><input type="checkbox" name="phpro_online" value="Yes">I am registering for online lessons.</label>
                                         </div>
                                         
-                                        <label for="lesson-choice-1">Lesson Preference &#40;Day and Time&#41;</label>
+                                        <label class="radio col-lg-12" for="lesson-choice-1">Lesson Preference &#40;Day and Time&#41;</label>
                                         <div class="input-group col-lg-10">
                                           <span class="input-group-addon lesson-pref" id="lesson-choice-1">1st Choice</span>
                                           <input type="text" class="form-control" id="lesson-choice-1" name="lesson-choice-1">
@@ -188,7 +188,7 @@
                                           <input type="text" class="form-control lesson-pref-input" id="lesson-choice-3" name="lesson-choice-3">
                                         </div>
                             
-                                        <label>Choose a Payment Plan</label>
+                                        <label class="col-lg-12" for="phpro_payment_plan">Choose a Payment Plan</label>
                                         <div class="form-group">
                                             <select class="form-control form-control-inline" id="phpro_payment_plan" name="phpro_payment_plan">
                                                 <option value="">Choose One</option>
@@ -198,18 +198,18 @@
                                             </select>
                                         </div>                        
                             
-                                        <div class="form-group">
-                                          <label for="prior-study">Prior Music Study and Teacher&#58;</label>
+                                        <label class="col-lg-12" for="prior-study">Prior Music Study and Teacher&#58;</label>
+                                        <div class="col-lg-10">
                                           <textarea class="form-control" rows="5" id="phpro_lesson_history" name="phpro_lesson_history"></textarea>
                                         </div>                        
                             
-                                        <label for="street">Policy Agreement</label>
-                                        <div class="checkbox">
+                                        <label class="col-lg-12" for="street">Policy Agreement</label>
+                                        <div class="checkbox col-lg-10">
                                           <label><input type="checkbox" name="phpro_studio_agreement" value="Yes" required>Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
                                         </div>                        
                             
-                                        <label for="street">Tuition Agreement</label>
-                                        <div class="checkbox">
+                                        <label class="col-lg-12" for="street">Tuition Agreement</label>
+                                        <div class="checkbox col-lg-10">
                                           <label><input type="checkbox" name="phpro_tuition_agreement" value="Yes" required>Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
                                         </div>
                                         
