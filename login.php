@@ -169,13 +169,9 @@
                                         <div class="radio col-lg-12">
                                           <label><input type="radio" value="No" name="phpro_has_friend">Please place me with someone at Piano Pathways to take partner lessons.</label>
                                         </div>
-                                     
-                                        <label class="col-lg-12" for="phpro_online">Online Lessons</label>
-                                        <div class="checkbox">
-                                          <label><input type="checkbox" id="phpro_online" name="phpro_online" value="Yes">I am registering for online lessons.</label>
-                                        </div>
                                         
                                         <label class="col-lg-12" for="lesson-choice-1">Lesson Preference &#40;Day and Time&#41;</label>
+                                        <div class="form-control">
                                         <div class="input-group col-lg-10">
                                           <span class="input-group-addon lesson-pref" id="lesson-choice-1">1st Choice</span>
                                           <input type="text" class="form-control" id="lesson-choice-1" name="lesson-choice-1">
@@ -188,6 +184,8 @@
                                           <span class="input-group-addon lesson-pref" id="lesson-choice-3">3rd Choice</span>
                                           <input type="text" class="form-control lesson-pref-input" id="lesson-choice-3" name="lesson-choice-3">
                                         </div>
+                                        </div>
+                            
                             
                                         <label class="col-lg-12" for="phpro_payment_plan">Choose a Payment Plan</label>
                                         <div class="col-lg-8">

@@ -4,3 +4,4 @@
 <option value="Partner">Partner Lesson</option>
 <option value="Childrens Group">Childrens Group Class</option>
 <option value="Adult Leisure">Adult Leisure Class</option>
+<option value="Adult Leisure">Online Lesson</option>
