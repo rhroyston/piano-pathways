@@ -31,6 +31,9 @@ body {
 .instructoradjust{
     margin-bottom: -.5em;
 }
+.lesson-pref{
+    width:10em;
+}
 .alert-auto {
     display:inline-block;
 }
