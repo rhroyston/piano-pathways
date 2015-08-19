@@ -87,82 +87,82 @@
                                     
                                     <div class="form-group">
                                         <div class="col-lg-6" id="username">
-                                            <label for="phpro_username">Username</label>
+                                            <label class="control-label" for="phpro_username">Username</label>
                                             <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required autofocus/>
                                         </div>
                                         <div class="col-lg-6" id="email">
-                                            <label for="phpro_username">Email</label>
+                                            <label class="control-label" for="phpro_username">Email</label>
                                             <input type="email" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40" required/>
                                         </div>
 
                                         <div class="col-lg-6" id="password">
-                                            <label for="phpro_username">Password</label>
+                                            <label class="control-label" for="phpro_username">Password</label>
                                             <input type="password" class="form-control" id="phpro_password" name="phpro_password" placeholder="Enter A Password" maxlength="20" required/>
                                         </div>
                                         <div class="col-lg-6" id="password_confirm">
-                                            <label for="phpro_username">Confirm Password</label>
+                                            <label class="control-label" for="phpro_username">Confirm Password</label>
                                             <input type="password" class="form-control" id="phpro_password_confirm" name="phpro_password_confirm" placeholder="Confirm Password" maxlength="20" required/>
                                         </div>
 
                                         <div class="col-lg-6" id="firstname">
-                                            <label for="phpro_firstname">Student First Name</label>
+                                            <label class="control-label" for="phpro_firstname">Student First Name</label>
                                             <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name" required>
                                         </div>
                                         <div class="col-lg-6" id="lastname">
-                                            <label for="phpro_lastname">Student Last Name</label>
+                                            <label class="control-label" for="phpro_lastname">Student Last Name</label>
                                             <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" required>
                                         </div>
 
                                         <div class="col-lg-4" id="telephone">
-                                            <label for="phpro_username">Telephone Number</label>
+                                            <label class="control-label" for="phpro_username">Telephone Number</label>
                                             <input type="tel" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}" required>
                                         </div>
                                         <div class="col-lg-8">
-                                            <label for="phpro_street">Stree Address</label>
+                                            <label class="control-label" for="phpro_street">Stree Address</label>
                                             <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" required>
                                         </div>
 
                                         <div class="col-lg-6" id="city">
-                                            <label for="city">City</label>
+                                            <label class="control-label" for="city">City</label>
                                             <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" required>
                                         </div>
                                         <div class="col-lg-4" id="state">
-                                            <label for="state">State</label>
+                                            <label class="control-label" for="state">State</label>
                                             <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State" required>
                                         </div>
                                         <div class="col-lg-2" id="zip">
-                                            <label for="zip">Zip</label>
+                                            <label class="control-label" for="zip">Zip</label>
                                             <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
                                         </div>
 
                                         <div class="col-lg-6" id="grade">
-                                            <label for="phpro_grade">Grade</label>
+                                            <label class="control-label" for="phpro_grade">Grade</label>
                                             <select class="form-control" id="phpro_grade" name="phpro_grade">
                                                 <?php include 'includes/grade.php';?>
                                             </select>
                                         </div>
                                             
                                         <div class="col-lg-2">
-                                            <label for="month control-label">Birthday</label>
+                                            <label class="control-label" for="month control-label">Birthday</label>
                                             <select class="form-control" id="month" name="month"><?php include 'includes/month.php';?></select>
                                         </div>
                                         <div class="col-lg-2">
-                                            <label for="day">Day</label>
+                                            <label class="control-label" for="day">Day</label>
                                             <input type="text" class="form-control" id="day" name="day" placeholder="Day" required>
                                         </div>
                                         <div class="col-lg-2">
-                                            <label for="year">Year</label>
+                                            <label class="control-label" for="year">Year</label>
                                             <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
                                         </div>
 
                                         <div class="col-lg-6" id="lesson">
-                                            <label for="phpro_lesson_option">Lesson Option</label>
+                                            <label class="control-label" for="phpro_lesson_option">Lesson Option</label>
                                             <select class="form-control " id="phpro_lesson_option" name="phpro_lesson_option">
                                                 <?php include 'includes/lesson.php';?>
                                             </select>
                                         </div>
                                         
-                                        <label class="col-lg-10" for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
+                                        <label class="col-lg-10 control-label" for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
                                         <div class="radio col-lg-12">
                                           <label><input type="radio" value="Yes" name="phpro_has_friend">I have a friend that I would like to take lessons with.</label>
                                         </div>
@@ -190,7 +190,7 @@
                                             </div>
                                         </div>
 
-                                        <label class="col-lg-12" for="phpro_payment_plan">Choose a Payment Plan</label>
+                                        <label class="col-lg-12 control-label" for="phpro_payment_plan">Choose a Payment Plan</label>
                                         <div class="col-lg-8">
                                             <select class="form-control form-control-inline" id="phpro_payment_plan" name="phpro_payment_plan">
                                                 <option value="">Choose One</option>
@@ -200,17 +200,17 @@
                                             </select>
                                         </div>                        
                             
-                                        <label class="col-lg-12" for="prior-study">Prior Music Study and Teacher&#58;</label>
+                                        <label class="col-lg-12 control-label" for="prior-study">Prior Music Study and Teacher&#58;</label>
                                         <div class="col-lg-10">
                                           <textarea class="form-control" rows="5" id="phpro_lesson_history" name="phpro_lesson_history"></textarea>
                                         </div>                        
                             
-                                        <label class="col-lg-12" for="street">Policy Agreement</label>
+                                        <label class="col-lg-12 control-label" for="street">Policy Agreement</label>
                                         <div class="checkbox col-lg-10">
                                           <label><input type="checkbox" name="phpro_studio_agreement" value="Yes" required>Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
                                         </div>                        
                             
-                                        <label class="col-lg-12" for="street">Tuition Agreement</label>
+                                        <label class="col-lg-12 control-label" for="street">Tuition Agreement</label>
                                         <div class="checkbox col-lg-10">
                                           <label><input type="checkbox" name="phpro_tuition_agreement" value="Yes" required>Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
                                         </div>
