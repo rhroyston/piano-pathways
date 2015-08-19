@@ -55,7 +55,7 @@
                                         </div>
                                         <br>
                                         <br>
-                                        <div class="col-sm-8 control">
+                                        <div class="col-sm-12 control">
                                         <div class="input-group">
                                         <button type="submit" class="btn btn-primary btn-sm control"><i class="fa fa-sign-in"></i> Login</button>
                                         <a class="btn btn-default btn-sm control pull-right" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
