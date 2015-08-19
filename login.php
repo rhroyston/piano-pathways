@@ -46,6 +46,7 @@
                                                 <input type="text" class="form-control" id="phpro_username_login" name="phpro_username" value="" placeholder="Username" maxlength="20" required autofocus/>
                                             </div>
                                         </div>
+                                        <br>
                                         <div class="col-sm-12 control">
                                             <div class="input-group col-sm-6">
                                                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
