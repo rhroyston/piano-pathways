@@ -137,37 +137,32 @@
                                             <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
                                         </div>
 
-                                        <div class="col-lg-4" id="grade">
-                                            <label for="phpro_grade">Grade</label>
-                                            <select class="form-control" id="phpro_grade" name="phpro_grade">
-                                                <?php include 'includes/grade.php';?>
-                                            </select>
-                                        </div>
-                                        
-                                        
-                                        <div class="form-horizontal">
-                                            
-                                            <div class="col-lg-2">
-                                                <label for="month">Birthday</label>
-                                                <select class="form-control" id="month" name="month"><?php include 'includes/month.php';?></select>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <label for="day">Day</label>
-                                                <input type="text" class="form-control" id="day" name="day" placeholder="Day" required>
-                                            </div>
-                                            <div class="col-lg-2">
-                                                <label for="year">Year</label>
-                                                <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
-                                            </div>
-                                        </div>
-                                        
-                                        <div class="col-lg-4" id="lesson">
+                                        <div class="col-lg-6" id="lesson">
                                             <label for="phpro_lesson_option">Lesson Option</label>
                                             <select class="form-control " id="phpro_lesson_option" name="phpro_lesson_option">
                                                 <?php include 'includes/lesson.php';?>
                                             </select>
                                         </div>
-                                        
+                                        <div class="col-lg-6" id="grade">
+                                            <label for="phpro_grade">Grade</label>
+                                            <select class="form-control" id="phpro_grade" name="phpro_grade">
+                                                <?php include 'includes/grade.php';?>
+                                            </select>
+                                        </div>
+                                            
+                                        <div class="col-lg-2">
+                                            <label for="month">Birthday</label>
+                                            <select class="form-control" id="month" name="month"><?php include 'includes/month.php';?></select>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label for="day">Day</label>
+                                            <input type="text" class="form-control" id="day" name="day" placeholder="Day" required>
+                                        </div>
+                                        <div class="col-lg-2">
+                                            <label for="year">Year</label>
+                                            <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
+                                        </div>
+                                       
                                         <label for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
                                         <div class="radio">
                                           <label><input type="radio" value="Yes" name="phpro_has_friend">I have a friend that I would like to take lessons with.</label>
