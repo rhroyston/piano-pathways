@@ -145,7 +145,7 @@
                                         </div>
                                         
                                         
-                                        
+                                        <div class="form-horizontal">
                                             <label for="month">Birthday</label>
                                             <div class="col-lg-2 form-horizontal">
                                                 <select class="form-control" id="month" name="month"><?php include 'includes/month.php';?></select>
@@ -156,7 +156,7 @@
                                             <div class="col-lg-2 form-horizontal">
                                                 <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
                                             </div>
-
+                                        </div>
                                         
                                         
                                         
