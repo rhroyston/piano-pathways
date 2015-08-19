@@ -189,6 +189,7 @@
                                       <label><input type="checkbox" name="phpro_online" value="Yes">I am registering for online lessons.</label>
                                     </div>
                                     
+                                    <label for="lesson-choice-3">Lesson Preference Day and Time&#58; 3rd choice</label>
                                     <div class="input-group">
                                       
                                       <span class="input-group-addon" id="lesson-choice-1">1st Choice</span>
