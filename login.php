@@ -135,12 +135,6 @@
                                             <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
                                         </div>
 
-                                        <div class="col-lg-6" id="lesson">
-                                            <label for="phpro_lesson_option">Lesson Option</label>
-                                            <select class="form-control " id="phpro_lesson_option" name="phpro_lesson_option">
-                                                <?php include 'includes/lesson.php';?>
-                                            </select>
-                                        </div>
                                         <div class="col-lg-6" id="grade">
                                             <label for="phpro_grade">Grade</label>
                                             <select class="form-control" id="phpro_grade" name="phpro_grade">
@@ -159,6 +153,13 @@
                                         <div class="col-lg-2">
                                             <label for="year">Year</label>
                                             <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
+                                        </div>
+
+                                        <div class="col-lg-6" id="lesson">
+                                            <label for="phpro_lesson_option">Lesson Option</label>
+                                            <select class="form-control " id="phpro_lesson_option" name="phpro_lesson_option">
+                                                <?php include 'includes/lesson.php';?>
+                                            </select>
                                         </div>
                                         
                                         <label class="col-lg-10" for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
