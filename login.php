@@ -137,7 +137,7 @@
                                             <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
                                         </div>
 
-                                        <div class="col-lg-5" id="grade">
+                                        <div class="col-lg-4" id="grade">
                                             <label for="phpro_grade">Grade</label>
                                             <select class="form-control" id="phpro_grade" name="phpro_grade">
                                                 <?php include 'includes/grade.php';?>
@@ -147,21 +147,21 @@
                                         
                                         <div class="form-horizontal">
                                             
-                                            <div class="col-lg-2 form-horizontal">
+                                            <div class="col-lg-2">
                                                 <label for="month">Birthday</label>
                                                 <select class="form-control" id="month" name="month"><?php include 'includes/month.php';?></select>
                                             </div>
-                                            <div class="col-lg-2 form-horizontal">
+                                            <div class="col-lg-2">
                                                 <label for="day"></label>
                                                 <input type="text" class="form-control" id="day" name="day" placeholder="Day" required>
                                             </div>
-                                            <div class="col-lg-2 form-horizontal">
+                                            <div class="col-lg-2">
                                                 <label for="year"></label>
                                                 <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
                                             </div>
                                         </div>
                                         
-                                        <div class="form-group" id="lesson">
+                                        <div class="col-lg-4" id="lesson">
                                             <label for="phpro_lesson_option">Lesson Option</label>
                                             <select class="form-control form-control-inline" id="phpro_lesson_option" name="phpro_lesson_option">
                                                 <?php include 'includes/lesson.php';?>
