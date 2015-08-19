@@ -65,8 +65,8 @@
 
 
                                         <div class="col-sm-12 control">
-                                        <div class="input-group center-block ">
-                                        <a id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register for an account here</a>
+                                        <div class="input-group">
+                                        <a class="center-block" href="#" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register for an account here</a>
                                         </div>
                                         </div>
                                     </div>
