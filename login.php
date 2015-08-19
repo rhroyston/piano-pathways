@@ -148,7 +148,7 @@
                                         <div class="form-horizontal">
                                             
                                             <div class="col-lg-2">
-                                                <label for="month">Birthday</label>
+                                                <label for="month" class="sr-only" >Birthday</label>
                                                 <select class="form-control" id="month" name="month"><?php include 'includes/month.php';?></select>
                                             </div>
                                             <div class="col-lg-2">
