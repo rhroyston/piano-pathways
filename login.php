@@ -40,6 +40,7 @@
                             <br>    
                                 <form action="includes/login_submit" method="post">
                                     <div class="form-group">
+                                        <fieldset>
                                         <div class="col-sm-6 control">
                                             <div class="input-group col-sm-12">
                                                 <span class="input-group-addon"><i class="fa fa-user"></i></span>
@@ -60,6 +61,7 @@
                                         <a class="btn btn-default btn-sm control pull-right" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
                                         </div>
                                         </div>
+                                        </fieldset>
                                         <div class="col-sm-6 control">
                                         <div class="input-group pull-right">
                                         <button type="submit" class="btn btn-primary btn-sm control"><i class="fa fa-sign-in"></i> Login</button>
