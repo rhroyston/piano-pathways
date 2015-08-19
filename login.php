@@ -83,7 +83,7 @@
                                     $message = NULL;
                                     unset ($_SESSION["message"]);
                                 ?>
-                                <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration">
+                                <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration" class="form-inline">
                                     
                                     <legend>Form legend</legend>
                                     
@@ -146,7 +146,7 @@
                                         
                                         
                                         
-                                            <label for="birthday">Birthday</label>
+                                            <label for="month">Birthday</label>
                                             <div class="col-lg-2">
                                                 <select class="form-control" id="month" name="month"><?php include 'includes/month.php';?></select>
                                             </div>
