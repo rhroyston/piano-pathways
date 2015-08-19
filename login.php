@@ -148,15 +148,15 @@
                                         <div class="form-horizontal">
                                             
                                             <div class="col-lg-2">
-                                                <label for="month" class="sr-only" >Birthday</label>
+                                                <label for="month">Birthday</label>
                                                 <select class="form-control" id="month" name="month"><?php include 'includes/month.php';?></select>
                                             </div>
                                             <div class="col-lg-2">
-                                                <label for="day">g</label>
+                                                <label for="day">Day</label>
                                                 <input type="text" class="form-control" id="day" name="day" placeholder="Day" required>
                                             </div>
                                             <div class="col-lg-2">
-                                                <label for="year">g</label>
+                                                <label for="year">Year</label>
                                                 <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
                                             </div>
                                         </div>
