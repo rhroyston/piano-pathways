@@ -161,75 +161,71 @@
                                             </div>
                                         </div>
                                         
+                                        <div class="form-group" id="lesson">
+                                            <label for="phpro_lesson_option">Lesson Option</label>
+                                            <select class="form-control form-control-inline" id="phpro_lesson_option" name="phpro_lesson_option">
+                                                <?php include 'includes/lesson.php';?>
+                                            </select>
+                                        </div>
+                                        <label for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
+                                        <div class="radio">
+                                          <label><input type="radio" value="Yes" name="phpro_has_friend">I have a friend that I would like to take lessons with.</label>
+                                        </div>
+                                        <div class="radio">
+                                          <label><input type="radio" value="No" name="phpro_has_friend">Please place me with someone at Piano Pathways to take partner lessons.</label>
+                                        </div>
+                                     
+                                        <label for="street">Online Lessons</label>
+                                        <div class="checkbox">
+                                          <label><input type="checkbox" name="phpro_online" value="Yes">I am registering for online lessons.</label>
+                                        </div>
                                         
+                                        <label for="lesson-choice-1">Lesson Preference &#40;Day and Time&#41;</label>
+                                        <div class="input-group col-lg-10">
+                                          <span class="input-group-addon lesson-pref" id="lesson-choice-1">1st Choice</span>
+                                          <input type="text" class="form-control" id="lesson-choice-1" name="lesson-choice-1">
+                                        </div>
+                                        <div class="input-group col-lg-10">
+                                          <span class="input-group-addon lesson-pref" id="lesson-choice-2">2nd Choice</span>
+                                          <input type="text" class="form-control lesson-pref-input" id="lesson-choice-2" name="lesson-choice-2">
+                                        </div>
+                                        <div class="input-group col-lg-10">
+                                          <span class="input-group-addon lesson-pref" id="lesson-choice-3">3rd Choice</span>
+                                          <input type="text" class="form-control lesson-pref-input" id="lesson-choice-3" name="lesson-choice-3">
+                                        </div>
+                            
+                                        <label>Choose a Payment Plan</label>
+                                        <div class="form-group">
+                                            <select class="form-control form-control-inline" id="phpro_payment_plan" name="phpro_payment_plan">
+                                                <option value="">Choose One</option>
+                                                <option value="Senior in College">1 Payment of Semester Tuition</option>
+                                                <option value="Junior in College">2 Payments of Semester Tuition</option>
+                                                <option value="Junior in College">Monthly Payments of Semester Tuition</option>
+                                            </select>
+                                        </div>                        
+                            
+                                        <div class="form-group">
+                                          <label for="prior-study">Prior Music Study and Teacher&#58;</label>
+                                          <textarea class="form-control" rows="5" id="phpro_lesson_history" name="phpro_lesson_history"></textarea>
+                                        </div>                        
+                            
+                                        <label for="street">Policy Agreement</label>
+                                        <div class="checkbox">
+                                          <label><input type="checkbox" name="phpro_studio_agreement" value="Yes" required>Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
+                                        </div>                        
+                            
+                                        <label for="street">Tuition Agreement</label>
+                                        <div class="checkbox">
+                                          <label><input type="checkbox" name="phpro_tuition_agreement" value="Yes" required>Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
+                                        </div>
                                         
-                                        
-                                    </div>
-                                    
-                                    <label for="phpro_lesson_option">Lesson Option</label>
-                                    <div class="form-group" id="lesson">
-                                        <select class="form-control form-control-inline" id="phpro_lesson_option" name="phpro_lesson_option">
-                                            <?php include 'includes/lesson.php';?>
-                                        </select>
-                                    </div>
-                                    <label for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
-                                    <div class="radio">
-                                      <label><input type="radio" value="Yes" name="phpro_has_friend">I have a friend that I would like to take lessons with.</label>
-                                    </div>
-                                    <div class="radio">
-                                      <label><input type="radio" value="No" name="phpro_has_friend">Please place me with someone at Piano Pathways to take partner lessons.</label>
-                                    </div>
-                                 
-                                    <label for="street">Online Lessons</label>
-                                    <div class="checkbox">
-                                      <label><input type="checkbox" name="phpro_online" value="Yes">I am registering for online lessons.</label>
-                                    </div>
-                                    
-                                    <label for="lesson-choice-1">Lesson Preference &#40;Day and Time&#41;</label>
-                                    <div class="input-group col-lg-10">
-                                      <span class="input-group-addon lesson-pref" id="lesson-choice-1">1st Choice</span>
-                                      <input type="text" class="form-control" id="lesson-choice-1" name="lesson-choice-1">
-                                    </div>
-                                    <div class="input-group col-lg-10">
-                                      <span class="input-group-addon lesson-pref" id="lesson-choice-2">2nd Choice</span>
-                                      <input type="text" class="form-control lesson-pref-input" id="lesson-choice-2" name="lesson-choice-2">
-                                    </div>
-                                    <div class="input-group col-lg-10">
-                                      <span class="input-group-addon lesson-pref" id="lesson-choice-3">3rd Choice</span>
-                                      <input type="text" class="form-control lesson-pref-input" id="lesson-choice-3" name="lesson-choice-3">
-                                    </div>
-                        
-                                    <label>Choose a Payment Plan</label>
-                                    <div class="form-group">
-                                        <select class="form-control form-control-inline" id="phpro_payment_plan" name="phpro_payment_plan">
-                                            <option value="">Choose One</option>
-                                            <option value="Senior in College">1 Payment of Semester Tuition</option>
-                                            <option value="Junior in College">2 Payments of Semester Tuition</option>
-                                            <option value="Junior in College">Monthly Payments of Semester Tuition</option>
-                                        </select>
-                                    </div>                        
-                        
-                                    <div class="form-group">
-                                      <label for="prior-study">Prior Music Study and Teacher&#58;</label>
-                                      <textarea class="form-control" rows="5" id="phpro_lesson_history" name="phpro_lesson_history"></textarea>
-                                    </div>                        
-                        
-                                    <label for="street">Policy Agreement</label>
-                                    <div class="checkbox">
-                                      <label><input type="checkbox" name="phpro_studio_agreement" value="Yes" required>Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
-                                    </div>                        
-                        
-                                    <label for="street">Tuition Agreement</label>
-                                    <div class="checkbox">
-                                      <label><input type="checkbox" name="phpro_tuition_agreement" value="Yes" required>Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
-                                    </div>
-                                    
-                                    <br>
-                                    <div class="form-horizontal">
-                                        <div class="input-group pull-right">
-                                            <input type="hidden" name="form_token" value="<?php echo $form_token; ?>" />
-                                            <input type="submit" class="btn btn-primary" value="Submit" />
-                                        </div> 
+                                        <br>
+                                        <div class="form-horizontal">
+                                            <div class="input-group pull-right">
+                                                <input type="hidden" name="form_token" value="<?php echo $form_token; ?>" />
+                                                <input type="submit" class="btn btn-primary" value="Submit" />
+                                            </div> 
+                                        </div>
                                     </div>
                                 </form>
                             </div>
