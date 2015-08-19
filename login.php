@@ -172,22 +172,24 @@
                                         
                                         <label class="col-lg-12 control-label" for="lesson-choice-1">Lesson Preference &#40;Day and Time&#41;</label>
                                         <div class="col-lg-12 control">
-                                        <div class="input-group col-lg-10">
-                                          <span class="input-group-addon lesson-pref" id="lesson-choice-1">1st Choice</span>
-                                          <input type="text" class="form-control" id="lesson-choice-1" name="lesson-choice-1">
+                                            <div class="input-group col-lg-10">
+                                              <span class="input-group-addon lesson-pref" id="lesson-choice-1">1st Choice</span>
+                                              <input type="text" class="form-control" id="lesson-choice-1" name="lesson-choice-1">
+                                            </div>
                                         </div>
+                                        <div class="col-lg-12 control">
+                                            <div class="input-group col-lg-10">
+                                              <span class="input-group-addon lesson-pref" id="lesson-choice-2">2nd Choice</span>
+                                              <input type="text" class="form-control lesson-pref-input" id="lesson-choice-2" name="lesson-choice-2">
+                                            </div>
                                         </div>
-                                        <div class="input-group col-lg-10">
-                                          <span class="input-group-addon lesson-pref" id="lesson-choice-2">2nd Choice</span>
-                                          <input type="text" class="form-control lesson-pref-input" id="lesson-choice-2" name="lesson-choice-2">
+                                        <div class="col-lg-12 control">
+                                            <div class="input-group col-lg-10">
+                                              <span class="input-group-addon lesson-pref" id="lesson-choice-3">3rd Choice</span>
+                                              <input type="text" class="form-control lesson-pref-input" id="lesson-choice-3" name="lesson-choice-3">
+                                            </div>
                                         </div>
-                                        <div class="input-group col-lg-10">
-                                          <span class="input-group-addon lesson-pref" id="lesson-choice-3">3rd Choice</span>
-                                          <input type="text" class="form-control lesson-pref-input" id="lesson-choice-3" name="lesson-choice-3">
-                                        </div>
-                                        
-                            
-                            
+
                                         <label class="col-lg-12" for="phpro_payment_plan">Choose a Payment Plan</label>
                                         <div class="col-lg-8">
                                             <select class="form-control form-control-inline" id="phpro_payment_plan" name="phpro_payment_plan">
