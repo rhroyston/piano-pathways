@@ -66,7 +66,7 @@
 
                                         <div class="col-sm-12 control">
                                         <div class="input-group">
-                                        <a href="#" id="register-anchor"></i><i class="fa fa-pencil-square-o"></i> Register for an account here</a>
+                                        <a href="#" id="register-anchor"></i><i class="fa fa-pencil-square-o"></i> Register for an account</a>
                                         </div>
                                         </div>
                                     </div>
