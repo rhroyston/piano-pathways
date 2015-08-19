@@ -46,7 +46,7 @@
                                                 <input type="text" class="form-control" id="phpro_username_login" name="phpro_username" value="" placeholder="Username" maxlength="20" required autofocus/>
                                             </div>
                                         </div>
-                                        <br>
+                                        <div class="col-sm-12 control"></div>
                                         <div class="col-sm-12 control">
                                             <div class="input-group col-sm-6">
                                                 <span class="input-group-addon"><i class="fa fa-lock"></i></span>
@@ -55,8 +55,10 @@
                                         </div>
                                         <br>
                                         <br>
+                                        <div>
                                         <button type="submit" class="btn btn-primary btn-sm control"><i class="fa fa-sign-in"></i> Login</button>
                                         <a class="btn btn-default btn-sm control" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
+                                        </div>
                                     </div>
                                 </form>
                                     <?php
