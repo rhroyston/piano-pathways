@@ -64,8 +64,8 @@
                                         </fieldset>
 
 
-                                        <div class="col-sm-2 center-block control">
-                                        <div class="input-group">
+                                        <div class="col-sm-12 control">
+                                        <div class="input-group center-block ">
                                         <a class="btn btn-default btn-sm control pull-right" role="button" id="register-button"></i><i class="fa fa-pencil-square-o"></i> Register</a>
                                         </div>
                                         </div>
