@@ -148,17 +148,14 @@
                                         
                                             <label for="birthday">Birthday</label>
                                             <div class="col-lg-2">
-                                                
-                                                <select class="form-control" id="month" name="month">
-                                                    <?php include 'includes/month.php';?>
-                                                </select>
+                                                <select class="form-control" id="month" name="month"><?php include 'includes/month.php';?></select>
                                             </div>
-                                            
-                                            
-                                            
-                                        <input type="text" class="form-control" id="day" name="day" placeholder="Day" required>
-                                        <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
-                                            
+                                            <div class="col-lg-2">
+                                                <input type="text" class="form-control" id="day" name="day" placeholder="Day" required>
+                                            </div>
+                                            <div class="col-lg-2">
+                                                <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
+                                            </div>
 
                                         
                                         
