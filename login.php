@@ -145,7 +145,7 @@
                                         </div>
                                         
                                         
-                                        <div class="control-group">
+                                        <div class="control-group birthday-picker">
                                             <div class="col-lg-2" id="birthday">
                                                 <label for="birthday">Birthday</label>
                                                 <select class="form-control" id="day" name="day">
