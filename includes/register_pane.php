@@ -94,11 +94,11 @@
                                             
                                             <label class="col-sm-10 control-label" for="phpro_has_friend">If registering for partner lessons&#44; please choose from the following&#58;</label>
                                             <div class="radio col-sm-12">
-                                              <label><input type="radio" value="Yes" name="phpro_has_friend">I have a friend that I would like to take lessons with.</label>
+                                              <label><input type="radio" value="yes" name="phpro_has_friend">I have a friend that I would like to take lessons with.</label>
                                             </div>
                                             
                                             <div class="radio col-sm-12">
-                                              <label><input type="radio" value="No" name="phpro_has_friend">Please place me with someone at Piano Pathways to take partner lessons.</label>
+                                              <label><input type="radio" value="no" name="phpro_has_friend">Please place me with someone at Piano Pathways to take partner lessons.</label>
                                             </div>
                                             
                                             <label class="col-sm-12 control-label" for="lesson-choice-1">Lesson Preference &#40;Day and Time&#41;</label>

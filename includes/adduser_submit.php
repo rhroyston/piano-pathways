@@ -2,11 +2,13 @@
 /*** begin our session ***/
 session_start();
 
-if($_POST["phpro_has_friend"] != "yes" || $_POST["phpro_has_friend"] != "no"){
+if (!isset($_POST['phpro_has_friend'])) {
+    $phpro_has_friend_var = "Not Selected";
+} else if($_POST['phpro_has_friend'] != "yes" || $_POST['phpro_has_friend'] != "no"){
     $phpro_has_friend_var = "Not Selected";
 }
 else{
-    $phpro_has_friend_var = $_POST["phpro_has_friend"];
+    $phpro_has_friend_var = $_POST['phpro_has_friend'];
 }
 
 
@@ -93,7 +95,7 @@ elseif (strlen( $_POST['phpro_lesson_option']) > 40)
     $message = 'Error&#58; Incorrect Length for lesson option';
 }
 /*** check the has friend option is the correct length ***/
-elseif (strlen( $_POST['phpro_has_friend']) > 20)
+elseif (strlen( $phpro_has_friend_var) > 20)
 {
     $message = 'Error&#58; Incorrect Length for has friend option';
 }
