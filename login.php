@@ -17,7 +17,15 @@
         }
     ?>
     <body>
-        <?php include 'includes/header-min.php';?>
+        <?php include 'includes/header-min.php';
+        
+        $mydate = $_SESSION["mydate"];
+        
+        
+        echo "<script type='text/javascript'>alert('$mydate');</script>";
+        
+        ?>
+        
         <br>
         <br>
         <section>

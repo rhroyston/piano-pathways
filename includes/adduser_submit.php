@@ -179,7 +179,7 @@ else
     
     // This is in the PHP file and sends a Javascript alert to the client
 
-echo "<script type='text/javascript'>alert('$phpro_birthday');</script>";
+    $_SESSION["mydate"] = $phpro_birthday;
 
 
 
