@@ -201,7 +201,7 @@ else
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         /*** prepare the insert ***/
-        $stmt = $dbh->prepare("INSERT INTO phpro_users (phpro_username, phpro_email, phpro_password, phpro_firstname, phpro_lastname) VALUES (:phpro_username, :phpro_email, :phpro_password, :phpro_firstname, :phpro_lastname)");
+        $stmt = $dbh->prepare("INSERT INTO phpro_users (phpro_username, phpro_email, phpro_password, phpro_firstname, phpro_lastname, phpro_telephone, phpro_street, phpro_city, phpro_state, phpro_zip) VALUES (:phpro_username, :phpro_email, :phpro_password, :phpro_firstname, :phpro_lastname, :phpro_telephone, :phpro_street, :phpro_city, :phpro_state, :phpro_zip)");
 
         /*** bind the parameters ***/
         $stmt->bindParam(':phpro_username', $phpro_username, PDO::PARAM_STR);
@@ -209,7 +209,11 @@ else
         $stmt->bindParam(':phpro_password', $phpro_password, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_firstname', $phpro_firstname, PDO::PARAM_STR);
         $stmt->bindParam(':phpro_lastname', $phpro_lastname, PDO::PARAM_STR);
-
+        $stmt->bindParam(':phpro_telephone', $phpro_telephone, PDO::PARAM_STR);
+        $stmt->bindParam(':phpro_street', $phpro_street, PDO::PARAM_STR, 40);
+        $stmt->bindParam(':phpro_city', $phpro_city, PDO::PARAM_STR, 40);
+        $stmt->bindParam(':phpro_state', $phpro_state, PDO::PARAM_STR, 40);
+        $stmt->bindParam(':phpro_zip', $phpro_zip, PDO::PARAM_STR, 40);
 
         /*** execute the prepared statement ***/
         $stmt->execute();
