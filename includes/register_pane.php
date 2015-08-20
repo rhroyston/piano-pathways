@@ -105,19 +105,19 @@
                                             <div class="col-sm-12 control">
                                                 <div class="input-group col-sm-10">
                                                   <span class="input-group-addon lesson-pref">1st Choice</span>
-                                                  <input type="text" class="form-control" id="lesson_pref_1" name="lesson_pref_1">
+                                                  <input type="text" class="form-control" id="phpro_lesson_pref_1" name="phpro_lesson_pref_1">
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 control">
                                                 <div class="input-group col-sm-10">
                                                   <span class="input-group-addon lesson-pref">2nd Choice</span>
-                                                  <input type="text" class="form-control" id="lesson_pref_2" name="lesson_pref_2">
+                                                  <input type="text" class="form-control" id="phpro_lesson_pref_2" name="phpro_lesson_pref_2">
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 control">
                                                 <div class="input-group col-sm-10">
                                                   <span class="input-group-addon lesson-pref">3rd Choice</span>
-                                                  <input type="text" class="form-control" id="lesson_pref_3" name="lesson_pref_3">
+                                                  <input type="text" class="form-control" id="phpro_lesson_pref_3" name="phpro_lesson_pref_3">
                                                 </div>
                                             </div>
     
