@@ -2,13 +2,15 @@
 /*** begin our session ***/
 session_start();
 
-if (!isset($_POST['phpro_has_friend'])) {
-    $phpro_has_friend_var = "Not Selected";
+if (isset($_POST['PayPlatform']) && $_POST['PayPlatform'] == 'Yes') {
+    $phpro_has_friend_var = "Yes";
 }
 else{
-    $phpro_has_friend_var = $_POST['phpro_has_friend'];
-    $_SESSION['mycheck'] = $_POST['phpro_has_friend'];
+    $phpro_has_friend_var = "No";
+    //$_SESSION['mycheck'] = $_POST['phpro_has_friend'];
 }
+
+//$p = (isset($_POST['PayPlatform']) && $_POST['PayPlatform'] == 'Yes');
 
 
 
