@@ -22,7 +22,7 @@
                                             </div>
                                             <div class="col-sm-8" id="email">
                                                 <label class="control-label" for="phpro_username">Email</label>
-                                                <input type="email" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40" required/>
+                                                <input type="email" class="form-control" id="phpro_email" name="phpro_email" value="" placeholder="Enter Your Email Address" maxlength="40" pattern=".{4,20}" required/>
                                             </div>
     
                                             <div class="col-sm-6" id="password">
@@ -84,7 +84,7 @@
                                                 <label class="control-label" for="year">Year</label>
                                                 <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
                                             </div>
-    
+                                            
                                             <div class="col-sm-6" id="lesson">
                                                 <label class="control-label" for="phpro_lesson_option">Lesson Option</label>
                                                 <select class="form-control " id="phpro_lesson_option" name="phpro_lesson_option">
@@ -92,10 +92,11 @@
                                                 </select>
                                             </div>
                                             
-                                            <label class="col-sm-10 control-label" for="street">If registering for partner lessons&#44; please choose from the following&#58;</label>
+                                            <label class="col-sm-10 control-label" for="phpro_has_friend">If registering for partner lessons&#44; please choose from the following&#58;</label>
                                             <div class="radio col-sm-12">
                                               <label><input type="radio" value="Yes" name="phpro_has_friend">I have a friend that I would like to take lessons with.</label>
                                             </div>
+                                            
                                             <div class="radio col-sm-12">
                                               <label><input type="radio" value="No" name="phpro_has_friend">Please place me with someone at Piano Pathways to take partner lessons.</label>
                                             </div>
@@ -103,20 +104,20 @@
                                             <label class="col-sm-12 control-label" for="lesson-choice-1">Lesson Preference &#40;Day and Time&#41;</label>
                                             <div class="col-sm-12 control">
                                                 <div class="input-group col-sm-10">
-                                                  <span class="input-group-addon lesson-pref" id="lesson-choice-1">1st Choice</span>
-                                                  <input type="text" class="form-control" id="lesson-choice-1" name="lesson-choice-1">
+                                                  <span class="input-group-addon lesson-pref">1st Choice</span>
+                                                  <input type="text" class="form-control" id="lesson_pref_1" name="lesson_pref_1">
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 control">
                                                 <div class="input-group col-sm-10">
-                                                  <span class="input-group-addon lesson-pref" id="lesson-choice-2">2nd Choice</span>
-                                                  <input type="text" class="form-control lesson-pref-input" id="lesson-choice-2" name="lesson-choice-2">
+                                                  <span class="input-group-addon lesson-pref">2nd Choice</span>
+                                                  <input type="text" class="form-control" id="lesson_pref_2" name="lesson_pref_2">
                                                 </div>
                                             </div>
                                             <div class="col-sm-12 control">
                                                 <div class="input-group col-sm-10">
-                                                  <span class="input-group-addon lesson-pref" id="lesson-choice-3">3rd Choice</span>
-                                                  <input type="text" class="form-control lesson-pref-input" id="lesson-choice-3" name="lesson-choice-3">
+                                                  <span class="input-group-addon lesson-pref">3rd Choice</span>
+                                                  <input type="text" class="form-control" id="lesson_pref_3" name="lesson_pref_3">
                                                 </div>
                                             </div>
     
@@ -137,12 +138,12 @@
                                 
                                             <label class="col-sm-12 control-label" for="street">Policy Agreement</label>
                                             <div class="checkbox col-sm-12">
-                                              <label><input type="checkbox" name="phpro_studio_agreement" value="Yes" required>Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
+                                              <label><input type="checkbox" id="phpro_policy_agreement" name="phpro_policy_agreement" value="Yes" required>Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
                                             </div>                        
                                 
                                             <label class="col-sm-12 control-label" for="street">Tuition Agreement</label>
                                             <div class="checkbox col-sm-12">
-                                              <label><input type="checkbox" name="phpro_tuition_agreement" value="Yes" required>Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
+                                              <label><input type="checkbox" id="phpro_tuition_agreement" name="phpro_tuition_agreement" value="Yes" required>Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
                                             </div>
                                             
                                             <br>
