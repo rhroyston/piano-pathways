@@ -21,7 +21,7 @@
         
         
         
-        $mydate = $_SESSION["mydate"];
+        $mycheck = $_SESSION["mycheck"];
         echo "<script type='text/javascript'>alert('$mycheck');</script>";
         
 
