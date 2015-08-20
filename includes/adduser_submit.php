@@ -146,12 +146,6 @@ elseif (ctype_alnum($_POST['phpro_lastname']) != true)
     /*** if there is no match ***/
     $message = "Error&#58; Last name must be alpha numeric characters only";
 }
-/*** check the lesson history has only alpha numeric characters ***/
-elseif (ctype_alnum($_POST['phpro_lesson_history']) != true)
-{
-    /*** if there is no match ***/
-    $message = "Error&#58; Lesson history must be alpha numeric characters only";
-}
 
 else
 {
