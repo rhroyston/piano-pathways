@@ -174,7 +174,8 @@ else
     $phpro_policy_agreement = filter_var($_POST['phpro_policy_agreement'], FILTER_SANITIZE_STRING);
     $phpro_tuition_agreement = filter_var($_POST['phpro_tuition_agreement'], FILTER_SANITIZE_STRING);
     
-    $phpro_birthday = $year . "-" . date_parse($month) . "-" . $day;
+    $phpro_birthday = $year . "-" . date('m', strtotime($month)) . "-" . $day;
+    
     
     
     // This is in the PHP file and sends a Javascript alert to the client
