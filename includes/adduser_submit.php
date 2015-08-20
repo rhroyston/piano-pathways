@@ -4,11 +4,10 @@ session_start();
 
 if (!isset($_POST['phpro_has_friend'])) {
     $phpro_has_friend_var = "Not Selected";
-} else if($_POST['phpro_has_friend'] != "yes" || $_POST['phpro_has_friend'] != "no"){
-    $phpro_has_friend_var = "Not Selected";
 }
 else{
     $phpro_has_friend_var = $_POST['phpro_has_friend'];
+    $_SESSION['mycheck'] = $_POST['phpro_has_friend'];
 }
 
 
