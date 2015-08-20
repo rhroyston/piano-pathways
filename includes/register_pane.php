@@ -45,24 +45,24 @@
     
                                             <div class="col-sm-4" id="telephone">
                                                 <label class="control-label" for="phpro_username">Telephone Number</label>
-                                                <input type="tel" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}" required>
+                                                <input type="tel" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}" >
                                             </div>
                                             <div class="col-sm-8">
                                                 <label class="control-label" for="phpro_street">Stree Address</label>
-                                                <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" required>
+                                                <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" >
                                             </div>
     
                                             <div class="col-sm-6" id="city">
                                                 <label class="control-label" for="city">City</label>
-                                                <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" required>
+                                                <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" >
                                             </div>
                                             <div class="col-sm-4" id="state">
                                                 <label class="control-label" for="state">State</label>
-                                                <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State" required>
+                                                <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State" >
                                             </div>
                                             <div class="col-sm-2" id="zip">
                                                 <label class="control-label" for="zip">Zip</label>
-                                                <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
+                                                <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" >
                                             </div>
     
                                             <div class="col-sm-6" id="grade">
@@ -78,11 +78,11 @@
                                             </div>
                                             <div class="col-sm-2">
                                                 <label class="control-label" for="day">Day</label>
-                                                <input type="text" class="form-control" id="day" name="day" placeholder="Day" required>
+                                                <input type="text" class="form-control" id="day" name="day" placeholder="Day" >
                                             </div>
                                             <div class="col-sm-2">
                                                 <label class="control-label" for="year">Year</label>
-                                                <input type="text" class="form-control" id="year" name="year" placeholder="Year" required>
+                                                <input type="text" class="form-control" id="year" name="year" placeholder="Year" >
                                             </div>
                                             
                                             <div class="col-sm-6" id="lesson">
@@ -138,12 +138,12 @@
                                 
                                             <label class="col-sm-12 control-label" for="street">Policy Agreement</label>
                                             <div class="checkbox col-sm-12">
-                                              <label><input type="checkbox" id="phpro_policy_agreement" name="phpro_policy_agreement" value="Yes" required>Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
+                                              <label><input type="checkbox" id="phpro_policy_agreement" name="phpro_policy_agreement" value="Yes" >Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
                                             </div>                        
                                 
                                             <label class="col-sm-12 control-label" for="street">Tuition Agreement</label>
                                             <div class="checkbox col-sm-12">
-                                              <label><input type="checkbox" id="phpro_tuition_agreement" name="phpro_tuition_agreement" value="Yes" required>Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
+                                              <label><input type="checkbox" id="phpro_tuition_agreement" name="phpro_tuition_agreement" value="Yes" >Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
                                             </div>
                                             
                                             <br>

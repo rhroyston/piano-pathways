@@ -207,9 +207,9 @@ else
         $stmt->bindParam(':phpro_username', $phpro_username, PDO::PARAM_STR);
         $stmt->bindParam(':phpro_email', $phpro_email, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_password', $phpro_password, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_firstname', $phpro_firstname, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_lastname', $phpro_lastname, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_telephone', $phpro_telephone, PDO::PARAM_STR, 40);
+        $stmt->bindParam(':phpro_firstname', $phpro_firstname, PDO::PARAM_STR);
+        $stmt->bindParam(':phpro_lastname', $phpro_lastname, PDO::PARAM_STR);
+        $stmt->bindParam(':phpro_telephone', $phpro_telephone, PDO::PARAM_STR);
         $stmt->bindParam(':phpro_street', $phpro_street, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_city', $phpro_city, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_state', $phpro_state, PDO::PARAM_STR, 40);
