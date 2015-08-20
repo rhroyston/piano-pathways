@@ -209,22 +209,7 @@ else
         $stmt->bindParam(':phpro_password', $phpro_password, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_firstname', $phpro_firstname, PDO::PARAM_STR);
         $stmt->bindParam(':phpro_lastname', $phpro_lastname, PDO::PARAM_STR);
-        $stmt->bindParam(':phpro_telephone', $phpro_telephone, PDO::PARAM_STR);
-        $stmt->bindParam(':phpro_street', $phpro_street, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_city', $phpro_city, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_state', $phpro_state, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_zip', $phpro_zip, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_grade', $phpro_grade, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_birthday', $phpro_birthday, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_lesson_option', $phpro_lesson_option, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_has_friend', $phpro_has_friend, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_lesson_pref_1', $phpro_lesson_pref_1, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_lesson_pref_2', $phpro_lesson_pref_2, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_lesson_pref_3', $phpro_lesson_pref_3, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_payment_plan', $phpro_payment_plan, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_lesson_history', $phpro_lesson_history, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_policy_agreement', $phpro_policy_agreement, PDO::PARAM_STR, 40);
-        $stmt->bindParam(':phpro_tuition_agreement', $phpro_tuition_agreement, PDO::PARAM_STR, 40);
+
 
         /*** execute the prepared statement ***/
         $stmt->execute();
