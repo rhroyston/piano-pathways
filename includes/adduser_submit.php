@@ -210,7 +210,7 @@ else
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         /*** prepare the insert ***/
-        $stmt = $dbh->prepare("INSERT INTO phpro_users (phpro_username, phpro_email, phpro_password, phpro_firstname, phpro_lastname, phpro_telephone, phpro_street, phpro_city, phpro_state, phpro_zip, phpro_grade, phpro_birthday, phpro_lesson_option) VALUES (:phpro_username, :phpro_email, :phpro_password, :phpro_firstname, :phpro_lastname, :phpro_telephone, :phpro_street, :phpro_city, :phpro_state, :phpro_zip, :phpro_grade, :phpro_birthday, :phpro_lesson_option)");
+        $stmt = $dbh->prepare("INSERT INTO phpro_users (phpro_username, phpro_email, phpro_password, phpro_firstname, phpro_lastname, phpro_telephone, phpro_street, phpro_city, phpro_state, phpro_zip, phpro_grade, phpro_birthday, phpro_lesson_option, phpro_has_friend, lesson_pref_1, lesson_pref_2, lesson_pref_3) VALUES (:phpro_username, :phpro_email, :phpro_password, :phpro_firstname, :phpro_lastname, :phpro_telephone, :phpro_street, :phpro_city, :phpro_state, :phpro_zip, :phpro_grade, :phpro_birthday, :phpro_lesson_option, :phpro_has_friend, :lesson_pref_1, :lesson_pref_2, :lesson_pref_3)");
 
         /*** bind the parameters ***/
         $stmt->bindParam(':phpro_username', $phpro_username, PDO::PARAM_STR);
@@ -226,7 +226,10 @@ else
         $stmt->bindParam(':phpro_grade', $phpro_grade, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_birthday', $phpro_birthday, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_lesson_option', $phpro_lesson_option, PDO::PARAM_STR, 40);
-
+        $stmt->bindParam(':phpro_has_friend', $phpro_has_friend, PDO::PARAM_STR, 40);
+        $stmt->bindParam(':phpro_lesson_pref_1', $phpro_lesson_pref_1, PDO::PARAM_STR, 40);
+        $stmt->bindParam(':phpro_lesson_pref_2', $phpro_lesson_pref_2, PDO::PARAM_STR, 40);
+        $stmt->bindParam(':phpro_lesson_pref_3', $phpro_lesson_pref_3, PDO::PARAM_STR, 40);
 
         /*** execute the prepared statement ***/
         $stmt->execute();

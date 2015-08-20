@@ -19,10 +19,12 @@
     <body>
         <?php include 'includes/header-min.php';
         
+        
+        
         $mydate = $_SESSION["mydate"];
+        //echo "<script type='text/javascript'>alert('$mydate');</script>";
         
-        
-        echo "<script type='text/javascript'>alert('$mydate');</script>";
+
         
         ?>
         
