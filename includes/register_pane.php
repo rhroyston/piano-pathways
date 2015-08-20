@@ -36,11 +36,11 @@
     
                                             <div class="col-sm-6" id="firstname">
                                                 <label class="control-label" for="phpro_firstname">Student First Name</label>
-                                                <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name" required>
+                                                <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name" >
                                             </div>
                                             <div class="col-sm-6" id="lastname">
                                                 <label class="control-label" for="phpro_lastname">Student Last Name</label>
-                                                <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" required>
+                                                <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" >
                                             </div>
     
                                             <div class="col-sm-4" id="telephone">
