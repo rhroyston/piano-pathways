@@ -175,6 +175,14 @@ else
     $phpro_tuition_agreement = filter_var($_POST['phpro_tuition_agreement'], FILTER_SANITIZE_STRING);
     
     $phpro_birthday = $year . "-" . date_parse($month) . "-" . $day;
+    
+    
+    // This is in the PHP file and sends a Javascript alert to the client
+
+echo "<script type='text/javascript'>alert('$phpro_birthday');</script>";
+
+
+
 
     /*** now we can encrypt the password ***/
     $phpro_password = sha1( $phpro_password );
