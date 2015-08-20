@@ -2,6 +2,16 @@
 /*** begin our session ***/
 session_start();
 
+if($_POST["phpro_has_friend"] != "yes" || $_POST["phpro_has_friend"] != "no"){
+    $phpro_has_friend_var = "Not Selected";
+}
+else{
+    $phpro_has_friend_var = $_POST["phpro_has_friend"];
+}
+
+
+
+
 /*** first check that both the username, password and form token have been sent ***/
 if(!isset( $_POST['phpro_username'], $_POST['phpro_email'], $_POST['phpro_password'], $_POST['form_token']))
 {
@@ -165,7 +175,7 @@ else
     $day = filter_var($_POST['day'], FILTER_SANITIZE_STRING);
     $year = filter_var($_POST['year'], FILTER_SANITIZE_STRING);
     $phpro_lesson_option = filter_var($_POST['phpro_lesson_option'], FILTER_SANITIZE_STRING);
-    $phpro_has_friend = filter_var($_POST['phpro_has_friend'], FILTER_SANITIZE_STRING);
+    $phpro_has_friend = filter_var($phpro_has_friend_var, FILTER_SANITIZE_STRING);
     $lesson_pref_1 = filter_var($_POST['lesson_pref_1'], FILTER_SANITIZE_STRING);
     $lesson_pref_2 = filter_var($_POST['lesson_pref_2'], FILTER_SANITIZE_STRING);
     $lesson_pref_3 = filter_var($_POST['lesson_pref_2'], FILTER_SANITIZE_STRING);
