@@ -2,7 +2,12 @@
 <!doctype html>
 <html lang="en">
     <?php 
-        $title = 'login';
+        $title = 'Login';
+        // if we have a session message variable then capture it then clear the session variable
+        if (isset($_POST['message'])) {
+            $message = $_POST['message'];
+            unset ($_SESSION["message"]);
+        }
         $message = $_SESSION["message"];
         $registerpane = $_SESSION["registerpane"];
         include 'includes/head.php';
@@ -18,13 +23,9 @@
     ?>
     <body>
         <?php include 'includes/header-min.php';
-        
-        
-        
+
         $mycheck = $_SESSION["mycheck"];
         echo "<script type='text/javascript'>alert('$mycheck');</script>";
-        
-
         
         ?>
         
@@ -57,6 +58,10 @@
                 <br>
                 <br>
                 <br>
+                <?php 
+                    // clear the message after we have displayed it already
+                    $message = NULL;
+                ?>
                 <h6 class="text-center"><small>&#169; Copyright 2011&#45;2016 &#124; Piano Pathways &#124; 9270 Siegen Lane #304 &#124; Baton Rouge&#44; LA 70810</small></h6>
             </div>
         </section>
