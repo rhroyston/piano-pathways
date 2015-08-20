@@ -2,7 +2,7 @@
 /*** begin our session ***/
 session_start();
 
-if (isset($_POST['PayPlatform']) && $_POST['PayPlatform'] == 'Yes') {
+if (isset($_POST['PayPlatform']) && $_POST['PayPlatform'] == 'friend') {
     $phpro_has_friend_var = "Yes";
 }
 else{
