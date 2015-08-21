@@ -37,7 +37,7 @@ elseif( $_POST['form_token'] != $_SESSION['form_token'])
     $message = 'Error&#58; Invalid form submission';
 }
 /*** check the username is the correct length ***/
-elseif (strlen( $_POST['phpro_username']) > 20 || strlen($_POST['phpro_username']) < 4)
+elseif (strlen( $_POST['phpro_username']) > 20 || strlen($_POST['phpro_username']) < 3)
 {
     $message = 'Error&#58; Incorrect Length for Username';
 }
@@ -275,22 +275,19 @@ else
 // If there is a message, then pass it in session variable.
 
 $_SESSION["message"] = $message;
+$newuser_email = $_POST['phpro_email'];
 
 // redirect back w message to login pane if successful and to register pane if not
 if($message == 'Success&#58; Online Registration Complete'){
     $_SESSION["loginpane"] = 'true';
     header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
     
-
-    
-
-    
     // If the email is valid then send a confirmation email
     if (!filter_var($newuser_email, FILTER_VALIDATE_EMAIL) === false) {
         // Include the Mail package
         require "Mail.php";        
         $newuser_username = $_POST['phpro_username'];
-        $newuser_email = $_POST['phpro_email'];
+        
         $newuser_password = $_POST['phpro_password'];  
         $newuser_firstname = $_POST['phpro_firstname'];
         $newuser_lastname = $_POST['phpro_lastname'];
@@ -304,27 +301,24 @@ if($message == 'Success&#58; Online Registration Complete'){
        $subject   = "Piano Pathways Registration Confirmation";
        $body      = "$newuser_firstname, you have completed the online registration.  Your username and password are:\r\n\r\n" . "$newuser_username\r\n" . "$newuser_password";
         $adminbody = "$newuser_firstname $newuser_lastname has registered for the $newuser_lesson.";
-     
+        
        // Identify the mail server, username, password, and port
        $server   = "smtpout.secureserver.net";  
        $username = "ron@stndip.com";
        $password = "nic0tine";
-     
+       
        // Set up the mail headers
        $headers = array(
           "From"    => $sender,
           "To"      => $recipient,
           "Subject" => $subject
        );
-       
        // Set up the admin mail headers
        $adminheaders = array(
           "From"    => $sender,
           "To"      => $adminrecipient,
           "Subject" => $adminsubject
        );       
-       
-     
        // Configure the mailer mechanism
        $smtp = Mail::factory("smtp",
           array(

@@ -17,7 +17,7 @@
                                         <div class="form-group">
                                             <div class="col-sm-4" id="username">
                                                 <label class="control-label" for="phpro_username">Username</label>
-                                                <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{4,20}$" required autofocus/>
+                                                <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{3,20}$" required autofocus/>
                                             </div>
                                             <div class="col-sm-8" id="email">
                                                 <label class="control-label" for="phpro_username">Email</label>
