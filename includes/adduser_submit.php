@@ -177,12 +177,12 @@ else
     $phpro_username = filter_var($_POST['phpro_username'], FILTER_SANITIZE_STRING);
     $phpro_email = filter_var($_POST['phpro_email'], FILTER_SANITIZE_STRING);
     $phpro_password = filter_var($_POST['phpro_password'], FILTER_SANITIZE_STRING);
-    $phpro_firstname = filter_var($_POST['phpro_firstname'], FILTER_SANITIZE_STRING);
-    $phpro_lastname = filter_var($_POST['phpro_lastname'], FILTER_SANITIZE_STRING);
+    $phpro_firstname = ucfirst(filter_var($_POST['phpro_firstname'], FILTER_SANITIZE_STRING));
+    $phpro_lastname = ucfirst(filter_var($_POST['phpro_lastname'], FILTER_SANITIZE_STRING));
     $phpro_telephone = filter_var($_POST['phpro_telephone'], FILTER_SANITIZE_STRING);
-    $phpro_street = filter_var($_POST['phpro_street'], FILTER_SANITIZE_STRING);
-    $phpro_city = filter_var($_POST['phpro_city'], FILTER_SANITIZE_STRING);
-    $phpro_state = filter_var($_POST['phpro_state'], FILTER_SANITIZE_STRING);
+    $phpro_street = ucwords(filter_var($_POST['phpro_street'], FILTER_SANITIZE_STRING));
+    $phpro_city = ucfirst(filter_var($_POST['phpro_city'], FILTER_SANITIZE_STRING));
+    $phpro_state = strtoupper(filter_var($_POST['phpro_state'], FILTER_SANITIZE_STRING));
     $phpro_zip = filter_var($_POST['phpro_zip'], FILTER_SANITIZE_STRING);
     $phpro_grade = filter_var($_POST['phpro_grade'], FILTER_SANITIZE_STRING);
     $month = filter_var($_POST['month'], FILTER_SANITIZE_STRING);
@@ -192,21 +192,12 @@ else
     $phpro_has_friend = filter_var($phpro_has_friend_var, FILTER_SANITIZE_STRING);
     $phpro_lesson_pref_1 = filter_var($_POST['phpro_lesson_pref_1'], FILTER_SANITIZE_STRING);
     $phpro_lesson_pref_2 = filter_var($_POST['phpro_lesson_pref_2'], FILTER_SANITIZE_STRING);
-    $phpro_lesson_pref_3 = filter_var($_POST['phpro_lesson_pref_2'], FILTER_SANITIZE_STRING);
+    $phpro_lesson_pref_3 = filter_var($_POST['phpro_lesson_pref_3'], FILTER_SANITIZE_STRING);
     $phpro_payment_plan = filter_var($_POST['phpro_payment_plan'], FILTER_SANITIZE_STRING);
     $phpro_lesson_history = filter_var($_POST['phpro_lesson_history'], FILTER_SANITIZE_STRING);
     $phpro_policy_agreement = filter_var($phpro_policy_agreement, FILTER_SANITIZE_STRING);
     $phpro_tuition_agreement = filter_var($_POST['phpro_tuition_agreement'], FILTER_SANITIZE_STRING);
     $phpro_birthday = $year . "-" . date('m', strtotime($month)) . "-" . $day;
-    
-    
-    
-    // This is in the PHP file and sends a Javascript alert to the client
-
-    $_SESSION["mydate"] = $phpro_birthday;
-
-
-
 
     /*** now we can encrypt the password ***/
     $phpro_password = sha1( $phpro_password );
@@ -265,7 +256,7 @@ else
         unset( $_SESSION['form_token'] );
 
         /*** if all is done, say thanks ***/
-        $message = 'Success&#58; New user added';
+        $message = 'Success&#58; Online Registration Complete';
     }
     catch(Exception $e)
     {
@@ -287,7 +278,7 @@ else
 
 
 // redirect back w message to login pane if successful and to register pane if not
-if($message == 'Success&#58; New user added'){
+if($message == 'Success&#58; Online Registration Complete'){
     header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
     //exit();
 }

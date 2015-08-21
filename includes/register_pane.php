@@ -10,6 +10,7 @@
                                         if (strpos($message,'Error') !== false) {
                                             echo "<div class='alert alert-danger alert-dismissible alert-auto'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-exclamation-triangle'></i> $message</strong></div>";
                                         }
+                                        $message=NULL;
                                     ?>
                                     <form action="includes/adduser_submit" method="post" data-toggle="validator" id="registration">
                                         
