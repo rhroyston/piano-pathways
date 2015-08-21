@@ -43,6 +43,18 @@ body {
 .alert-auto {
     display:inline-block;
 }
+
+.alert {
+  position: fixed;
+  z-index: 9999;
+}
+
+/* Positioning */ 
+.alert {
+  right: 10px;
+  top: 25px;
+}
+
 /* The max width is dependant on the container (more info below) */
 .popover{
     min-width: 200px; /* Max Width of the popover (depending on the container!) */
