@@ -331,7 +331,7 @@ if($message == 'Success&#58; Online Registration Complete'){
      
        // Send the messages
        $mail = $smtp->send($recipient, $headers, $body);
-       //$mail = $smtp->send($recipient, $adminheaders, $adminbody);
+       $mail = $smtp->send($recipient, $adminheaders, $adminbody);
     } 
     exit();
 }
