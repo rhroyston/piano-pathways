@@ -136,12 +136,12 @@
                                 
                                             <label class="col-sm-12 control-label" for="street">Policy Agreement</label>
                                             <div class="checkbox col-sm-12">
-                                              <label><input type="checkbox" id="phpro_policy_agreement" name="phpro_policy_agreement" value="Yes" >Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
+                                              <label><input type="checkbox" id="phpro_policy_agreement" name="phpro_policy_agreement" value="Yes">Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
                                             </div>                        
                                 
                                             <label class="col-sm-12 control-label" for="street">Tuition Agreement</label>
                                             <div class="checkbox col-sm-12">
-                                              <label><input type="checkbox" id="phpro_tuition_agreement" name="phpro_tuition_agreement" value="Yes" >Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
+                                              <label><input type="checkbox" id="phpro_tuition_agreement" name="phpro_tuition_agreement" value="Yes">Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
                                             </div>
                                             
                                             <br>

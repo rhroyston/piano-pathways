@@ -7,7 +7,18 @@ if (isset($_POST['phpro_has_friend']) && $_POST['phpro_has_friend'] == 'Yes') {
 }
 else{
     $phpro_has_friend_var = "No";
-    
+}
+if (isset($_POST['phpro_policy_agreement']) && $_POST['phpro_policy_agreement'] == 'Yes') {
+    $phpro_policy_agreement = "Yes";
+}
+else{
+    $phpro_policy_agreement = "No";
+}
+if (isset($_POST['phpro_tuition_agreement']) && $_POST['phpro_tuition_agreement'] == 'Yes') {
+    $phpro_tuition_agreement = "Yes";
+}
+else{
+    $phpro_tuition_agreement = "No";
 }
 
 // $_SESSION['mycheck'] = $phpro_has_friend_var;
@@ -184,7 +195,7 @@ else
     $phpro_lesson_pref_3 = filter_var($_POST['phpro_lesson_pref_2'], FILTER_SANITIZE_STRING);
     $phpro_payment_plan = filter_var($_POST['phpro_payment_plan'], FILTER_SANITIZE_STRING);
     $phpro_lesson_history = filter_var($_POST['phpro_lesson_history'], FILTER_SANITIZE_STRING);
-    $phpro_policy_agreement = filter_var($_POST['phpro_policy_agreement'], FILTER_SANITIZE_STRING);
+    $phpro_policy_agreement = filter_var($phpro_policy_agreement, FILTER_SANITIZE_STRING);
     $phpro_tuition_agreement = filter_var($_POST['phpro_tuition_agreement'], FILTER_SANITIZE_STRING);
     $phpro_birthday = $year . "-" . date('m', strtotime($month)) . "-" . $day;
     
@@ -222,7 +233,7 @@ else
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         /*** prepare the insert ***/
-        $stmt = $dbh->prepare("INSERT INTO phpro_users (phpro_username, phpro_email, phpro_password, phpro_firstname, phpro_lastname, phpro_telephone, phpro_street, phpro_city, phpro_state, phpro_zip, phpro_grade, phpro_birthday, phpro_lesson_option, phpro_has_friend, phpro_lesson_pref_1, phpro_lesson_pref_2, phpro_lesson_pref_3) VALUES (:phpro_username, :phpro_email, :phpro_password, :phpro_firstname, :phpro_lastname, :phpro_telephone, :phpro_street, :phpro_city, :phpro_state, :phpro_zip, :phpro_grade, :phpro_birthday, :phpro_lesson_option, :phpro_has_friend, :phpro_lesson_pref_1, :phpro_lesson_pref_2, :phpro_lesson_pref_3)");
+        $stmt = $dbh->prepare("INSERT INTO phpro_users (phpro_username, phpro_email, phpro_password, phpro_firstname, phpro_lastname, phpro_telephone, phpro_street, phpro_city, phpro_state, phpro_zip, phpro_grade, phpro_birthday, phpro_lesson_option, phpro_has_friend, phpro_lesson_pref_1, phpro_lesson_pref_2, phpro_lesson_pref_3, phpro_payment_plan, phpro_lesson_history, phpro_policy_agreement, phpro_tuition_agreement) VALUES (:phpro_username, :phpro_email, :phpro_password, :phpro_firstname, :phpro_lastname, :phpro_telephone, :phpro_street, :phpro_city, :phpro_state, :phpro_zip, :phpro_grade, :phpro_birthday, :phpro_lesson_option, :phpro_has_friend, :phpro_lesson_pref_1, :phpro_lesson_pref_2, :phpro_lesson_pref_3, :phpro_payment_plan, :phpro_lesson_history, :phpro_policy_agreement, :phpro_tuition_agreement)");
 
         /*** bind the parameters ***/
         $stmt->bindParam(':phpro_username', $phpro_username, PDO::PARAM_STR);
@@ -242,7 +253,10 @@ else
         $stmt->bindParam(':phpro_lesson_pref_1', $phpro_lesson_pref_1, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_lesson_pref_2', $phpro_lesson_pref_2, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_lesson_pref_3', $phpro_lesson_pref_3, PDO::PARAM_STR, 40);
-
+        $stmt->bindParam(':phpro_payment_plan', $phpro_payment_plan, PDO::PARAM_STR, 40);
+        $stmt->bindParam(':phpro_lesson_history', $phpro_lesson_history, PDO::PARAM_STR, 40);
+        $stmt->bindParam(':phpro_policy_agreement', $phpro_policy_agreement, PDO::PARAM_STR, 40);
+        $stmt->bindParam(':phpro_tuition_agreement', $phpro_tuition_agreement, PDO::PARAM_STR, 40);
 
         /*** execute the prepared statement ***/
         $stmt->execute();
