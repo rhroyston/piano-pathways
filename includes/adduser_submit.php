@@ -287,7 +287,7 @@ if($message == 'Success&#58; Online Registration Complete'){
         // Include the Mail package
         require "Mail.php";        
         $newuser_username = $_POST['phpro_username'];
-        
+        $newuser_telephone = $_POST['phpro_telephone'];
         $newuser_password = $_POST['phpro_password'];  
         $newuser_firstname = $_POST['phpro_firstname'];
         $newuser_lastname = $_POST['phpro_lastname'];
@@ -297,10 +297,10 @@ if($message == 'Success&#58; Online Registration Complete'){
        $sender    = "ron@stndip.com";
        $recipient = $_POST['phpro_email'];
        $adminrecipient = "ron@stndip.com";
-       $adminsubject = "$newuser_firstname $newuser_lastname, $newuser_lesson";
+       $adminsubject = "Registered: $newuser_firstname $newuser_lastname, $newuser_lesson";
        $subject   = "Piano Pathways Registration Confirmation";
        $body      = "$newuser_firstname, you have completed the online registration.  Your username and password are:\r\n\r\n" . "$newuser_username\r\n" . "$newuser_password";
-        $adminbody = "$newuser_firstname $newuser_lastname has registered for the $newuser_lesson.";
+        $adminbody = "$newuser_firstname can be reached at $newuser_telephone or $newuser_email.";
         
        // Identify the mail server, username, password, and port
        $server   = "smtpout.secureserver.net";  
@@ -331,7 +331,7 @@ if($message == 'Success&#58; Online Registration Complete'){
      
        // Send the messages
        $mail = $smtp->send($recipient, $headers, $body);
-       $mail = $smtp->send($recipient, $adminheaders, $adminbody);
+       $mail = $smtp->send($adminrecipient, $adminheaders, $adminbody);
     } 
     exit();
 }
