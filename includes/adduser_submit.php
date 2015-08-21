@@ -289,45 +289,45 @@ if($message == 'Success&#58; Online Registration Complete'){
         $newuser_username = $_POST['phpro_username'];
         $newuser_telephone = $_POST['phpro_telephone'];
         $newuser_password = $_POST['phpro_password'];  
-        $newuser_firstname = $_POST['phpro_firstname'];
-        $newuser_lastname = $_POST['phpro_lastname'];
+        $newuser_firstname = ucfirst($_POST['phpro_firstname']);
+        $newuser_lastname = ucfirst($_POST['phpro_lastname']);
         $newuser_lesson = $_POST['phpro_lesson_option'];
       
-       // Identify the sender, recipient, mail subject, and body
-       $sender    = "ron@stndip.com";
-       $recipient = $_POST['phpro_email'];
-       $adminrecipient = "ron@stndip.com";
-       $adminsubject = "Registered: $newuser_firstname $newuser_lastname, $newuser_lesson";
-       $subject   = "Piano Pathways Registration Confirmation";
-       $body      = "$newuser_firstname, you have completed the online registration.  Your username and password are:\r\n\r\n" . "$newuser_username\r\n" . "$newuser_password";
+        // Identify the sender, recipient, mail subject, and body
+        $sender    = "ron@stndip.com";
+        $recipient = $_POST['phpro_email'];
+        $adminrecipient = "ron@stndip.com";
+        $adminsubject = "Registered: $newuser_firstname $newuser_lastname, $newuser_lesson";
+        $subject   = "Piano Pathways Registration Confirmation";
+        $body      = "$newuser_firstname, you have completed the online registration.  Your username and password are:\r\n\r\n" . "$newuser_username\r\n" . "$newuser_password\r\n\r\n" . "Thanks!\r\n" . "Piano Pathways\r\n" . "225-767-0030\r\n" . "9270 Siegen Lane #304\r\n" . "Baton Rouge, LA 70810";
         $adminbody = "$newuser_firstname can be reached at $newuser_telephone or $newuser_email.";
         
-       // Identify the mail server, username, password, and port
-       $server   = "smtpout.secureserver.net";  
-       $username = "ron@stndip.com";
-       $password = "nic0tine";
+        // Identify the mail server, username, password, and port
+        $server   = "smtpout.secureserver.net";  
+        $username = "ron@stndip.com";
+        $password = "nic0tine";
        
-       // Set up the mail headers
-       $headers = array(
-          "From"    => $sender,
-          "To"      => $recipient,
-          "Subject" => $subject
-       );
-       // Set up the admin mail headers
-       $adminheaders = array(
-          "From"    => $sender,
-          "To"      => $adminrecipient,
-          "Subject" => $adminsubject
-       );       
-       // Configure the mailer mechanism
-       $smtp = Mail::factory("smtp",
-          array(
+        // Set up the mail headers
+        $headers = array(
+            "From"    => $sender,
+            "To"      => $recipient,
+            "Subject" => $subject
+        );
+        // Set up the admin mail headers
+        $adminheaders = array(
+            "From"    => $sender,
+            "To"      => $adminrecipient,
+            "Subject" => $adminsubject
+        );       
+        // Configure the mailer mechanism
+        $smtp = Mail::factory("smtp",
+            array(
             "host"     => $server,
             "username" => $username,
             "password" => $password,
             "auth"     => true,
-          )
-       );
+            )
+        );
      
        // Send the messages
        $mail = $smtp->send($recipient, $headers, $body);
