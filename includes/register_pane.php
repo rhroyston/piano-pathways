@@ -17,7 +17,7 @@
                                         <div class="form-group">
                                             <div class="col-sm-4" id="username">
                                                 <label class="control-label" for="phpro_username">Username</label>
-                                                <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{1,20}$" required autofocus/>
+                                                <input type="text" class="form-control" id="phpro_username" name="phpro_username" value="" placeholder="Enter A Username" maxlength="20" pattern="^[a-zA-Z][a-zA-Z0-9-_\.]{4,20}$" required autofocus/>
                                             </div>
                                             <div class="col-sm-8" id="email">
                                                 <label class="control-label" for="phpro_username">Email</label>
@@ -26,20 +26,20 @@
     
                                             <div class="col-sm-6" id="password">
                                                 <label class="control-label" for="phpro_username">Password</label>
-                                                <input type="password" class="form-control" id="phpro_password" name="phpro_password" placeholder="Enter A Password" maxlength="20" required/>
+                                                <input type="password" class="form-control" id="phpro_password" name="phpro_password" placeholder="Enter A Password" maxlength="20" pattern=".{4,20}" required/>
                                             </div>
                                             <div class="col-sm-6" id="password_confirm">
                                                 <label class="control-label" for="phpro_username">Confirm Password</label>
-                                                <input type="password" class="form-control" id="phpro_password_confirm" name="phpro_password_confirm" placeholder="Confirm Password" maxlength="20" required/>
+                                                <input type="password" class="form-control" id="phpro_password_confirm" name="phpro_password_confirm" placeholder="Confirm Password" maxlength="20" pattern=".{4,20}" required/>
                                             </div>
     
                                             <div class="col-sm-6" id="firstname">
                                                 <label class="control-label" for="phpro_firstname">Student First Name</label>
-                                                <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name" required>
+                                                <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name" pattern=".{1,40}" required>
                                             </div>
                                             <div class="col-sm-6" id="lastname">
                                                 <label class="control-label" for="phpro_lastname">Student Last Name</label>
-                                                <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" required>
+                                                <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" pattern=".{1,40}" required>
                                             </div>
     
                                             <div class="col-sm-4" id="telephone">
@@ -48,20 +48,20 @@
                                             </div>
                                             <div class="col-sm-8">
                                                 <label class="control-label" for="phpro_street">Stree Address</label>
-                                                <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" required>
+                                                <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" pattern=".{0,40}" required>
                                             </div>
     
                                             <div class="col-sm-6" id="city">
                                                 <label class="control-label" for="city">City</label>
-                                                <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" required>
+                                                <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" pattern=".{1,40}" required>
                                             </div>
                                             <div class="col-sm-4" id="state">
                                                 <label class="control-label" for="state">State</label>
-                                                <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State" required>
+                                                <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State" pattern=".{2,2}" title="2 letters" required>
                                             </div>
                                             <div class="col-sm-2" id="zip">
                                                 <label class="control-label" for="zip">Zip</label>
-                                                <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
+                                                <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" title="5 numbers" required>
                                             </div>
     
                                             <div class="col-sm-6" id="grade">
