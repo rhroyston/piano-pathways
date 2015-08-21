@@ -3,16 +3,15 @@
    require "Mail.php";
  
    // Identify the sender, recipient, mail subject, and body
-   $sender    = "rhroyston@gmail.com";
+   $sender    = "ron@stndip.com";
    $recipient = "ron@stndip.com";
    $subject   = "Test mail";
    $body      = "Hello from Piano Pathways";
  
    // Identify the mail server, username, password, and port
-   $server   = "ssl://smtp.gmail.com";
-   $username = "rhroyston@gmail.com";
-   $password = "racks0nRacks";
-   $port     = "465";
+   $server   = "smtpout.secureserver.net";  
+   $username = "ron@stndip.com";
+   $password = "nic0tine";
  
    // Set up the mail headers
    $headers = array(
@@ -28,7 +27,6 @@
         "username" => $username,
         "password" => $password,
         "auth"     => true,
-        "port"     => 465
       )
    );
  
