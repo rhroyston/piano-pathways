@@ -52,7 +52,7 @@ body {
 /* Positioning */ 
 .alert {
   right: 10px;
-  top: 25px;
+  bottom: 25px;
 }
 
 /* The max width is dependant on the container (more info below) */

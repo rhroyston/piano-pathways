@@ -44,7 +44,7 @@ $(document).ready(function () {
   
   $('#phpro_firstname').popover({html: "true", title: "<i class='fa fa-info-circle'></i> Student First Name", content: "Please enter the <b>students</b> name when registering", placement: "right", trigger: "focus"});
 
-  $(".alert").delay(8000).fadeOut("slow");
+  $(".alert").delay(4000).fadeOut("slow");
 
 
   var $tabs = $('.tabbable li');
