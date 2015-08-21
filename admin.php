@@ -13,16 +13,16 @@ else
     {
         /*** connect to database ***/
         /*** mysql hostname ***/
-        $mysql_hostname = 'localhost';
+        $mysql_hostname = '127.8.99.130';
 
         /*** mysql username ***/
-        $mysql_username = 'mysql_username';
+        $mysql_username = 'adminRqmldJy';
 
         /*** mysql password ***/
-        $mysql_password = 'mysql_password';
+        $mysql_password = 'gQDlAVx3a66L';
 
         /*** database name ***/
-        $mysql_dbname = 'phpro_auth';
+        $mysql_dbname = 'thepianopathway';
 
 
         /*** select the users name from the database ***/
