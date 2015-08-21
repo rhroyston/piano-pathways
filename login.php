@@ -4,14 +4,11 @@
     <?php 
         $title = 'Login';
         // if we have a session message variable then capture it then clear the session variable
-        if (isset($_POST['message'])) {
-            $message = $_POST['message'];
-            unset ($_SESSION["message"]);
+        if (isset($_SESSION['message'])) {
+            $message = $_SESSION['message'];
         }
-        $message = $_SESSION["message"];
+        unset ($_SESSION["message"]);
         $registerpane = $_SESSION["registerpane"];
-        include 'includes/head.php';
-        
         // capture url of original page and store it in variable called original-page
         if ($_SERVER['HTTP_REFERER'] != "http://thepianopathway-rhroyston.rhcloud.com/login")
         {
@@ -20,6 +17,7 @@
         else{
             $_SESSION["original-page"] = "http://thepianopathway-rhroyston.rhcloud.com/";
         }
+        include 'includes/head.php';
     ?>
     <body>
         <?php include 'includes/header-min.php';

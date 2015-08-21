@@ -35,33 +35,33 @@
     
                                             <div class="col-sm-6" id="firstname">
                                                 <label class="control-label" for="phpro_firstname">Student First Name</label>
-                                                <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name" >
+                                                <input type="text" class="form-control" id="phpro_firstname" name="phpro_firstname" placeholder="First Name" required>
                                             </div>
                                             <div class="col-sm-6" id="lastname">
                                                 <label class="control-label" for="phpro_lastname">Student Last Name</label>
-                                                <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" >
+                                                <input type="text" class="form-control" id="phpro_lastname" name="phpro_lastname" placeholder="Last Name" required>
                                             </div>
     
                                             <div class="col-sm-4" id="telephone">
                                                 <label class="control-label" for="phpro_username">Telephone Number</label>
-                                                <input type="tel" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}" >
+                                                <input type="tel" class="form-control" id="phpro_telephone" name="phpro_telephone" placeholder="Telephone Number" pattern="(?:\(\d{3}\)|\d{3})[- ]?\d{3}[- ]?\d{4}" required>
                                             </div>
                                             <div class="col-sm-8">
                                                 <label class="control-label" for="phpro_street">Stree Address</label>
-                                                <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" >
+                                                <input type="text" class="form-control" id="phpro_street" name="phpro_street" value="" placeholder="Street Address" required>
                                             </div>
     
                                             <div class="col-sm-6" id="city">
                                                 <label class="control-label" for="city">City</label>
-                                                <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" >
+                                                <input type="text" class="form-control" id="phpro_city" name="phpro_city" placeholder="City" required>
                                             </div>
                                             <div class="col-sm-4" id="state">
                                                 <label class="control-label" for="state">State</label>
-                                                <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State" >
+                                                <input type="text" class="form-control" id="phpro_state" name="phpro_state" placeholder="State" required>
                                             </div>
                                             <div class="col-sm-2" id="zip">
                                                 <label class="control-label" for="zip">Zip</label>
-                                                <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" >
+                                                <input type="text" class="form-control" id="phpro_zip" name="phpro_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" required>
                                             </div>
     
                                             <div class="col-sm-6" id="grade">
@@ -122,7 +122,7 @@
     
                                             <label class="col-sm-12 control-label" for="phpro_payment_plan">Choose a Payment Plan</label>
                                             <div class="col-sm-8">
-                                                <select class="form-control form-control-inline" id="phpro_payment_plan" name="phpro_payment_plan">
+                                                <select class="form-control form-control-inline" id="phpro_payment_plan" name="phpro_payment_plan" required>
                                                     <option value="">Choose One</option>
                                                     <option value="Senior in College">1 Payment of Semester Tuition</option>
                                                     <option value="Junior in College">2 Payments of Semester Tuition</option>
@@ -137,12 +137,12 @@
                                 
                                             <label class="col-sm-12 control-label" for="street">Policy Agreement</label>
                                             <div class="checkbox col-sm-12">
-                                              <label><input type="checkbox" id="phpro_policy_agreement" name="phpro_policy_agreement" value="Yes">Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
+                                              <label><input type="checkbox" id="phpro_policy_agreement" name="phpro_policy_agreement" value="Yes" required>Studio Policy Agreement&#58; I have read the Studio Policy and agree to all terms and conditions outlined&#44; including lesson scheduling&#44; make&#45;up lessons&#44; owning a piano&#44; and abiding by parent and student expectations. By submitting this registration form&#44; I understand that I have committed to lessons in the current semester in Piano Pathways&#44; LLC.</label>
                                             </div>                        
                                 
                                             <label class="col-sm-12 control-label" for="street">Tuition Agreement</label>
                                             <div class="checkbox col-sm-12">
-                                              <label><input type="checkbox" id="phpro_tuition_agreement" name="phpro_tuition_agreement" value="Yes">Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
+                                              <label><input type="checkbox" id="phpro_tuition_agreement" name="phpro_tuition_agreement" value="Yes" required>Tuition Agreement&#58; I have read the tuition and payment information and agree to remit tuition due for the entire semester&#44; even if I withdraw from lessons before the conclusion of the current semester.</label>
                                             </div>
                                             
                                             <br>

@@ -274,18 +274,17 @@ else
 }
 // If there is a message, then pass it in session variable.
 
-    $_SESSION["message"] = $message;
-
+$_SESSION["message"] = $message;
 
 // redirect back w message to login pane if successful and to register pane if not
 if($message == 'Success&#58; Online Registration Complete'){
     header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
-    //exit();
+    exit();
 }
 else{
     header("Location: http://thepianopathway-rhroyston.rhcloud.com/login#tab-register");
     $_SESSION["registerpane"] = 'true';
-    //exit();
+    exit();
 }
 
 ?>
