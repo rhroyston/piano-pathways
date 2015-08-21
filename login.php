@@ -8,7 +8,8 @@
             $message = $_SESSION['message'];
         }
         unset ($_SESSION["message"]);
-        $registerpane = $_SESSION["registerpane"];
+        $loginpane = $_SESSION["loginpane"];
+        unset ($_SESSION["loginpane"]);
         // capture url of original page and store it in variable called original-page
         if ($_SERVER['HTTP_REFERER'] != "http://thepianopathway-rhroyston.rhcloud.com/login")
         {

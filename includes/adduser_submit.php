@@ -175,7 +175,7 @@ else
 {
     /*** if we are here the data is valid and we can insert it into database ***/
     $phpro_username = filter_var($_POST['phpro_username'], FILTER_SANITIZE_STRING);
-    $phpro_email = filter_var($_POST['phpro_email'], FILTER_SANITIZE_STRING);
+    $phpro_email = strtolower(filter_var($_POST['phpro_email'], FILTER_SANITIZE_STRING));
     $phpro_password = filter_var($_POST['phpro_password'], FILTER_SANITIZE_STRING);
     $phpro_firstname = ucfirst(filter_var($_POST['phpro_firstname'], FILTER_SANITIZE_STRING));
     $phpro_lastname = ucfirst(filter_var($_POST['phpro_lastname'], FILTER_SANITIZE_STRING));
@@ -279,11 +279,11 @@ $_SESSION["message"] = $message;
 // redirect back w message to login pane if successful and to register pane if not
 if($message == 'Success&#58; Online Registration Complete'){
     header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
+    $_SESSION["loginpane"] = 'true';
     exit();
 }
 else{
     header("Location: http://thepianopathway-rhroyston.rhcloud.com/login#tab-register");
-    $_SESSION["registerpane"] = 'true';
     exit();
 }
 
