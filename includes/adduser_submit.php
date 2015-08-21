@@ -42,7 +42,7 @@ elseif (strlen( $_POST['phpro_username']) > 20 || strlen($_POST['phpro_username'
     $message = 'Error&#58; Incorrect Length for Username';
 }
 /*** check the email is the correct length ***/
-elseif (strlen( $_POST['phpro_email']) > 40 || strlen($_POST['phpro_email']) < 4)
+elseif (strlen( $_POST['phpro_email']) > 60 || strlen($_POST['phpro_email']) < 4)
 {
     $message = 'Error&#58; Incorrect Length for Email';
 }
@@ -62,7 +62,7 @@ elseif (strlen( $_POST['phpro_lastname']) > 20)
     $message = 'Error&#58; Incorrect Length for last name';
 }
 /*** check the street is the correct length ***/
-elseif (strlen( $_POST['phpro_street']) > 20)
+elseif (strlen( $_POST['phpro_street']) > 60)
 {
     $message = 'Error&#58; Incorrect Length for street';
 }

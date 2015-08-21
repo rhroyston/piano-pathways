@@ -44,15 +44,13 @@ $(document).ready(function () {
   
   $('#phpro_firstname').popover({html: "true", title: "<i class='fa fa-info-circle'></i> Student First Name", content: "Please enter the <b>students</b> name when registering", placement: "right", trigger: "focus"});
 
-//  $('#register-button a').click(function (e) {
-    //e.preventDefault();
-    //$('$('#tab-register a[href="#tab-register"]').tab('show');
-//    $('#tab-register').tab('show');
-//  });
-var $tabs = $('.tabbable li');
-$('#register-anchor').on('click', function() {
-    $tabs.filter('.active').next('li').find('a[data-toggle="tab"]').tab('show');
-});
+  $(".alert").fadeOut(2000);
+
+
+  var $tabs = $('.tabbable li');
+  $('#register-anchor').on('click', function() {
+      $tabs.filter('.active').next('li').find('a[data-toggle="tab"]').tab('show');
+  });
   
   
   
