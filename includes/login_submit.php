@@ -117,6 +117,7 @@ else{
     //    header("Location: $url");
     //}
     //else {
+    $_SESSION["loginpane"] = "true";
         header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
     //}
 }
