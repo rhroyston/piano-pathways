@@ -4,21 +4,6 @@
 <html lang="en">
   <?php 
     $title = 'Login';
-    // if we have a session message variable then capture it then clear the session variable
-    if (isset($_SESSION['message'])) {
-      $message = $_SESSION['message'];
-    }
-    unset ($_SESSION["message"]);
-    $loginpane = $_SESSION["loginpane"];
-    unset ($_SESSION["loginpane"]);
-    // capture url of original page and store it in variable called original-page
-    if ($_SERVER['HTTP_REFERER'] != "http://thepianopathway-rhroyston.rhcloud.com/login")
-    {
-      $_SESSION["original-page"] = $_SERVER['HTTP_REFERER'];
-    }
-    else{
-      $_SESSION["original-page"] = "http://thepianopathway-rhroyston.rhcloud.com/";
-    }
     include 'includes/head.php';
   ?>
   <body>

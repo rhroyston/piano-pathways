@@ -100,7 +100,7 @@ else
         $message = 'We are unable to process your request. Please try again later"';
     }
 }
-$_SESSION["message"] = $message;
+
 // if the user successfully logged in redirect them to original page else redirect them to login page w error reason
 
     if ($message = 'Success: You are now logged in'){
@@ -109,9 +109,7 @@ $_SESSION["message"] = $message;
     }
     else {
         $_SESSION["loginpane"] = "true";
+        $_SESSION["message"] = $message;
         header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
     }
-
-
-
 ?>
