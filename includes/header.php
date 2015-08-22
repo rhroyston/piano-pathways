@@ -13,7 +13,7 @@
                 }
                 else
                 {
-                    echo '<span><a class="white" href="/logout"> <i class="fa fa-sign-in"></i>logout</a></span>';
+                    echo '<span><a class="white" href="/logout"> <i class="fa fa-sign-in"></i> logout</a></span>';
                 }
             ?>
     </h6>
