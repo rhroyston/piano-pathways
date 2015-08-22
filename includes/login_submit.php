@@ -6,34 +6,34 @@ session_start();
 /*** check if the users is already logged in ***/
 if(isset( $_SESSION['user_id'] ))
 {
-    $message = 'Users is already logged in';
+    $message = 'Error&#58; User is already logged in';
 }
 /*** check that both the username, password have been submitted ***/
 if(!isset( $_POST['phpro_username'], $_POST['phpro_password']))
 {
-    $message = 'Please enter a valid username and password';
+    $message = 'Error&#58; Please enter a valid username and password';
 }
 /*** check the username is the correct length ***/
 elseif (strlen( $_POST['phpro_username']) > 20 || strlen($_POST['phpro_username']) < 4)
 {
-    $message = 'Incorrect Length for Username';
+    $message = 'Error&#58; Incorrect Length for Username';
 }
 /*** check the password is the correct length ***/
 elseif (strlen( $_POST['phpro_password']) > 20 || strlen($_POST['phpro_password']) < 4)
 {
-    $message = 'Incorrect Length for Password';
+    $message = 'Error&#58; Incorrect Length for Password';
 }
 /*** check the username has only alpha numeric characters ***/
 elseif (ctype_alnum($_POST['phpro_username']) != true)
 {
     /*** if there is no match ***/
-    $message = "Username must be alpha numeric";
+    $message = "Error&#58; Username must be alpha numeric";
 }
 /*** check the password has only alpha numeric characters ***/
 elseif (ctype_alnum($_POST['phpro_password']) != true)
 {
         /*** if there is no match ***/
-        $message = "Password must be alpha numeric";
+        $message = "Error&#58; Password must be alpha numeric";
 }
 else
 {
@@ -82,7 +82,7 @@ else
         /*** if we have no result then fail boat ***/
         if($user_id == false)
         {
-                $message = 'Login Failed';
+                $message = 'Error: Login Failed';
         }
         /*** if we do have a result, all is well ***/
         else
@@ -97,7 +97,7 @@ else
     catch(Exception $e)
     {
         /*** if we are here, something has gone wrong with the database ***/
-        $message = 'We are unable to process your request. Please try again later"';
+        $message = 'Error&#58; We are unable to process your request. Please try again later"';
     }
 }
 
