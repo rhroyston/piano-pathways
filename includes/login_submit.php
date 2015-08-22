@@ -91,7 +91,7 @@ else
                 $_SESSION['user_id'] = $user_id;
 
                 /*** tell the user we are logged in ***/
-                $message = 'You are now logged in';
+                $message = 'Success: You are now logged in';
         }
     }
     catch(Exception $e)
@@ -100,10 +100,11 @@ else
         $message = 'We are unable to process your request. Please try again later"';
     }
 }
+$_SESSION["message"] = $message;
 // if the user successfully logged in redirect them to original page else redirect them to login page w error reason
 if (isset($_SESSION['user_id']))
 {
-    if ($message = 'You are now logged in')
+    if ($message = 'Success: You are now logged in')
     {
     $url = $_SESSION["original-page"];
     header("Location: $url");
@@ -122,7 +123,6 @@ else{
     else {
         header("Location: http://thepianopathway-rhroyston.rhcloud.com/");
     }
-
 }
 
 ?>
