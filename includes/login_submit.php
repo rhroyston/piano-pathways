@@ -14,7 +14,7 @@ if(!isset( $_POST['phpro_username'], $_POST['phpro_password']))
     $message = 'Error&#58; Please enter a valid username and password';
 }
 /*** check the username is the correct length ***/
-elseif (strlen( $_POST['phpro_username']) > 20 || strlen($_POST['phpro_username']) < 4)
+elseif (strlen( $_POST['phpro_username']) > 20 || strlen($_POST['phpro_username']) < 3)
 {
     $message = 'Error&#58; Incorrect Length for Username';
 }
