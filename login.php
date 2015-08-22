@@ -13,7 +13,7 @@
         if (isset($_SESSION['loginpane'])) {
             $loginpane = $_SESSION['loginpane'];
             unset ($_SESSION["loginpane"]);
-            echo "<script type='text/javascript'>alert('$loginpane');</script>";
+            echo "<script type='text/javascript'>alert('$loginpane $message');</script>";
         }        
 
         // capture url of original page and store it in variable called original-page
