@@ -37,8 +37,8 @@
                                     <br>
                                     <?php
                                         if (isset($message)){
-                                            // if registration session var not set then display message and then kill the session variable 
-                                            if($loginpane == 'true') {
+                                            // display message and then kill the session variable 
+                                            if($loginpane === 'true') {
                                                 if (strpos($message,'Success') !== false) {
                                                     echo "<div class='alert alert-success alert-dismissible alert-auto'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
                                                 }
