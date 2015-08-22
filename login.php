@@ -6,10 +6,16 @@
         // if we have a session message variable then capture it then clear the session variable
         if (isset($_SESSION['message'])) {
             $message = $_SESSION['message'];
+            unset ($_SESSION["message"]);
         }
-        unset ($_SESSION["message"]);
-        $loginpane = $_SESSION["loginpane"];
-        unset ($_SESSION["loginpane"]);
+
+        // if we have a login pane message variable then capture it then clear the session variable
+        if (isset($_SESSION['loginpane'])) {
+            $loginpane = $_SESSION['loginpane'];
+            unset ($_SESSION["loginpane"]);
+            echo "<script type='text/javascript'>alert('$loginpane');</script>";
+        }        
+
         // capture url of original page and store it in variable called original-page
         if ($_SERVER['HTTP_REFERER'] != "http://thepianopathway-rhroyston.rhcloud.com/login")
         {

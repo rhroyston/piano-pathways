@@ -3,7 +3,6 @@
                                     <br>
                                     <?php
                                         // If we have a message then display it and then kill it  
-                                        //$message = $_SESSION["message"];
                                         if (strpos($message,'Success') !== false) {
                                             echo "<div class='alert alert-success alert-dismissible alert-auto'><a class='close' data-dismiss='alert'><i class='fa fa-times'></i></a><strong><i class='fa fa-check'></i> $message</strong></div>";
                                         }
