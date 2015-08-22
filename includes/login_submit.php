@@ -117,7 +117,6 @@ else{
     if (isset($_SESSION["original-page"]))
     {
     $url = $_SERVER['HTTP_REFERER'];
-    $_SESSION["message"] = $message;
     header("Location: $url");
     }
     else {
