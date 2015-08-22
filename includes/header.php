@@ -1,5 +1,5 @@
 <div class="container-fluid header">
-    <h6 class="text-right">
+    <h5 class="text-right">
         <!-- Button trigger modal -->
         <a href="https://twitter.com/PianoPathwaysBR"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
         <a href="https://www.facebook.com/PianoPathwaysStudio"><i class="fa fa-facebook-square"></i></a>&nbsp;&nbsp;
@@ -16,7 +16,7 @@
                     echo '<span><a class="white" href="/logout"> <i class="fa fa-sign-in"></i> logout</a></span>';
                 }
             ?>
-    </h6>
+    </h5>
     <div class="logo-wrap">
         <a href="/" class="logo">
             <img src="/images/logo.png">
