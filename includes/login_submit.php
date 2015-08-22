@@ -102,26 +102,23 @@ else
 }
 $_SESSION["message"] = $message;
 // if the user successfully logged in redirect them to original page else redirect them to login page w error reason
-if (isset($_SESSION['user_id']))
-{
-    if ($message = 'Success: You are now logged in')
-    {
-    $url = $_SESSION["original-page"];
-    header("Location: $url");
-    }
-    else {
-    header("Location: http://thepianopathway-rhroyston.rhcloud.com/");
-    }
-}
-else{
-    if (isset($_SESSION["original-page"]))
-    {
-    $url = $_SERVER['HTTP_REFERER'];
-    header("Location: $url");
+if (isset($_SESSION['user_id'])){
+    if ($message = 'Success: You are now logged in'){
+        $url = $_SESSION["original-page"];
+        header("Location: $url");
     }
     else {
         header("Location: http://thepianopathway-rhroyston.rhcloud.com/");
     }
+}
+else{
+    //if (isset($_SESSION["original-page"])){
+    //    $url = $_SERVER['HTTP_REFERER'];
+    //    header("Location: $url");
+    //}
+    //else {
+        header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
+    //}
 }
 
 ?>
