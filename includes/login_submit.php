@@ -103,10 +103,11 @@ else
 
 // if the user successfully logged in redirect them to original page else redirect them to login page w error reason
 
-    if ($message = 'Success: You are now logged in'){
+    if ($message == 'Success: You are now logged in'){
         $url = $_SESSION["original-page"];
         header("Location: $url");
     }
+    
     else {
         $_SESSION["loginpane"] = "true";
         $_SESSION["message"] = $message;
