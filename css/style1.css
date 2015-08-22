@@ -1,0 +1,104 @@
+body {
+    background-image: url("images/music-tile.gif");
+    font-family: 'Raleway', sans-serif;
+}
+.header{
+    background-color: #BDCCD1;
+    color: white;
+}
+.logo-wrap{
+    text-align: center;
+}
+.logo {
+
+    margin:0 auto;
+    width:223px;
+    display:block;
+    line-height:0;
+}
+.offwhite{
+    color: #FDFCCC;
+}
+.white{
+    color: white;
+}
+.blue{
+    color:#2B6598;
+}
+.instructors{
+    float: left;
+    margin-right: 10px;
+    height:96px;
+}
+.instructoradjust{
+    margin-bottom: -.5em;
+}
+.lesson-pref{
+    width:100px;
+}
+.lesson-pref-input{
+    width:800px;
+}
+.control-label{
+    margin-top:12px;
+}
+.alert-auto {
+    display:inline-block;
+}
+
+.alert {
+  position: fixed;
+  z-index: 9999;
+}
+
+/* Positioning */ 
+.alert {
+  right: 10px;
+  bottom: 25px;
+}
+
+/* The max width is dependant on the container (more info below) */
+.popover{
+    min-width: 200px; /* Max Width of the popover (depending on the container!) */
+}
+.credentials{
+color:white;
+background-color: #BDCCD1;
+}
+.footer{
+    background-image: url('/images/footer.jpg');
+    background-size: cover
+}
+.adjustup{
+    line-height:0px;
+}
+.input-group-addon {
+    min-width:2.8em;
+    text-align:left;
+}
+
+.form-control-inline {
+    min-width: 0;
+    width: auto;
+}
+
+.carousel .item {
+    width: 100%; /*slider width*/
+    max-height: 600px; /*slider height*/
+}
+.carousel .item img {
+    width: 100%; /*img width*/
+}
+/*add some makeup*/
+.carousel .carousel-control {
+    background: none;
+    border: none;
+    top: 50%;
+}
+/*full width container*/
+@media (max-width: 767px) {
+    .block {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+}

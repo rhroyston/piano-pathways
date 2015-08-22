@@ -1,28 +1,23 @@
-
+<?php include 'includes/session.php';?>
 
 <!DOCTYPE html>
 <html lang="en">
-<?php include 'includes/head.php';?>
-
+  <?php 
+    $title = 'Test';
+    include 'includes/head1.php';
+  ?>
   <body>
-      
-    <form method="post" action="acknowledge.php">
-    
-      <label for="name">Name:</label>
-      <input type="text" name="name" id="name">
-    
-    
-      <label for="email">Email:</label>
-      <input type="email" name="email" id="email">
-    
-    
-      <label for="comments">Comments:</label>
-      <textarea name="comments" id="comments"></textarea>
-    
-    
-      <input type="submit" name="send" value="Send Message">
-    
-    </form>
-
+    <?php include 'includes/alert.php';?>
+    <?php //include 'includes/header.php';?>
+    <?php //include 'includes/banner.php';?>
+    <div class="container-fluid">
+      <div class="row adjustup">
+        <img src="/images/pianoman.png" class="img-responsive center-block">
+      </div>
+    </div>
+    <?php //include 'includes/why.php';?>
+    <?php //include 'includes/instructors.php';?>
+    <?php //include 'includes/footer.php';?>
+    <?php //include 'includes/resources.php';?>
   </body>
 </html>
