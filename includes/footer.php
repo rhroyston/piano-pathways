@@ -48,10 +48,14 @@
 
         </div>
     </div>
+      <div class="col-md-1">
+      </div>
     <div class="row">
       <div class="col-md-10">
         <h6 class="text-right"><small>&#169; Copyright 2011&#45;2016 &#124; Piano Pathways &#124; 9270 Siegen Lane #304 &#124; Baton Rouge&#44; LA 70810</small></h6>
       </div>
+    </div>
+    <div class="col-md-1">
     </div>
     <br>
     
