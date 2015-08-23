@@ -15,6 +15,26 @@
         <img src="/images/pianoman.png" class="img-responsive center-block">
       </div>
     </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <?php //include 'includes/why.php';?>
     <?php //include 'includes/instructors.php';?>
     <?php //include 'includes/footer.php';?>
