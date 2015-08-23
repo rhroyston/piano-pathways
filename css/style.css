@@ -78,8 +78,11 @@ color:white;
 background-color: #BDCCD1;
 }
 .footer{
-    background-image: url('/images/plants.png');
-    background:cover;
+background: url('/images/plants.png') no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 
 }
 .adjustup{
