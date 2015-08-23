@@ -12,6 +12,10 @@ body {
 .opaque{
     opacity:.99;
 }
+.dark-background{
+    background-color: #001233;
+    color: white;    
+}
 .logo {
 
     margin:0 auto;
