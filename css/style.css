@@ -26,6 +26,9 @@ opacity:.8;
     display:block;
     line-height:0;
 }
+.wood{
+    background-image: url("../images/wood.png");
+}
 .offwhite{
     color: #FDFCCC;
 }

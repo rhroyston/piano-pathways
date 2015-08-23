@@ -1,10 +1,19 @@
 <div class="container-fluid header">
-    <div class="logo-wrap">
-        <a href="/" class="logo">
-            <img src="/images/logo-black-lg.png">
-        </a>
+    <div class="row">
+        <div class="col-md-4">
+        </div>    
+        <div class="col-md-4 wood">
+            <a href="/" class="logo">
+                <img src="/images/logo-black-lg.png">
+            </a>
+            <h6 class="text-center adjustup">BATON ROUGE&#39;S MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
+        </div>
+        <div class="col-md-4">
+        </div> 
     </div>
-    <h6 class="text-center adjustup">BATON ROUGE&#39;S MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
+    
+    
+    
     <br>
     <br>
     <br>
