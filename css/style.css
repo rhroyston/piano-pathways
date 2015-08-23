@@ -2,6 +2,9 @@ body {
     background-image: url("../images/light-tile.gif");
     font-family: 'Raleway', sans-serif;
 }
+.lobster{
+font-family: 'Lobster', cursive;    
+}
 .header{
 
 }
