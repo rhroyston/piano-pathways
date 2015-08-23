@@ -27,7 +27,7 @@
             ?>
         &nbsp;
     </h5>
-    <div class="container paper">
+    <div class="container">
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
 
