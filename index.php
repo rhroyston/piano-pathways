@@ -10,11 +10,6 @@
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
 
-    <div class="container-fluid">
-      <div class="row adjustup">
-        <img src="/images/pianoman.png" class="img-responsive center-block">
-      </div>
-    </div>
     <?php include 'includes/why.php';?>
     <?php include 'includes/instructors.php';?>
     <?php include 'includes/footer.php';?>
