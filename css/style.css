@@ -26,8 +26,8 @@ opacity:.8;
     display:block;
     line-height:0;
 }
-.wood{
-    background-image: url("../images/wood.png");
+.sign{
+    background-image: url("../images/metal.png");
 border-color:brown;
 border-bottom-style:ridge;    
     border: 2px solid;

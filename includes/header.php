@@ -2,7 +2,8 @@
     <div class="row">
         <div class="col-md-4">
         </div>    
-        <div class="col-md-4 wood">
+        <div class="col-md-4 sign">
+            <br>
             <a href="/" class="logo">
                 <img src="/images/logo-black-lg.png">
             </a>
