@@ -32,7 +32,7 @@
     <?php include 'includes/header.php';?>
 
     <?php include 'includes/menu.php';?>
-    <?php include 'includes/instructors.php';?>
+    <?php //include 'includes/instructors.php';?>
     </div>
     
     <?php include 'includes/footer.php';?>
