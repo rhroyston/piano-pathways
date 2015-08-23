@@ -29,8 +29,8 @@
     <br>
     <div class="text-center">
         <a class="btn btn-primary" href="#" target="blank" role="button"><i class="fa fa-home"></i> Home</a>
-        <a class="btn btn-primary" href="#" target="blank" role="button"><i class="fa fa-building-o"></i> Studio</a>
-        <a class="btn btn-primary" href="#" target="blank" role="button"><i class="fa fa-user"></i> Instructors</a>
+        <a class="btn btn-primary" href="#" target="blank" role="button"><i class="fa fa-music"></i> Studio</a>
+        <a class="btn btn-primary" href="#" target="blank" role="button"><i class="fa fa-users"></i> Instructors</a>
         <a class="btn btn-primary" href="#" target="blank" role="button"><i class="fa fa-file-text-o"></i> Policy</a>
     </div>
     <br>
