@@ -15,27 +15,7 @@
             <a href="http://www.musiclearningcommunity.com" target="blank">Make A Payment <i class="fa fa-external-link"></i></a><br>
             <a href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
         </div>
-        
-        <div class="col-md-4">
-          <h3 class="white">Professional Music Organizations</h3>
-          <a href="http://www.brmta.org" target="blank">Baton Rouge Music Teachers Association <i class="fa fa-external-link"></i></a><br>
-          <a href="http://www.lmta.org" target="blank">Louisiana Music Teachers Association <i class="fa fa-external-link"></i></a><br>
-          <a href="http://www.mtna.org" target="blank">Music Teachers National Association <i class="fa fa-external-link"></i></a><br>
-          <a href="http://www.menc.org" target="blank">National Association for Music Education <i class="fa fa-external-link"></i></a><br>
-          <a href="http://www.music.lsu.edu" target="blank">LSU School of Music <i class="fa fa-external-link"></i></a><br>
-        </div>
-        
-
     </div>
-    <br>
-    <br>  
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="row">
         <div class="col-md-6">
         </div>
@@ -45,7 +25,6 @@
           <h5 class="text-right blue"><b>lessons &#124; recitals &#124; studio classes &#124; summer camps</b></h5>
         </div>
         <div class="col-md-2">
-
         </div>
     </div>
       <div class="col-md-1">
@@ -58,7 +37,6 @@
     <div class="col-md-1">
     </div>
     <br>
-    
   <br>
   </div>
 </div>
