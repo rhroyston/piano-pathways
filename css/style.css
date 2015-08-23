@@ -78,7 +78,8 @@ color:white;
 background-color: #BDCCD1;
 }
 .footer{
-    background-image: url('/images/darkwood.png');
+    background-image: url('/images/plants.png');
+    background:cover;
 
 }
 .adjustup{
