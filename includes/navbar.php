@@ -9,7 +9,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="#">
-          <img alt="Brand" src="images/piano-icon.png" height="32px">
+          <img alt="Brand" src="images/piano-icon.png" height="56px">
       </a>
     </div>
 
