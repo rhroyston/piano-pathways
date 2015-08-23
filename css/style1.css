@@ -9,6 +9,9 @@ body {
 .logo-wrap{
     text-align: center;
 }
+.opaque{
+    opacity:.5;
+}
 .logo {
 
     margin:0 auto;
