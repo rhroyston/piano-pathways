@@ -3,11 +3,9 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 .header{
-    color: black;
+
 }
-header a{
-   color: black; 
-}
+
 .logo-wrap{
     text-align: center;
 }
