@@ -8,7 +8,7 @@
   ?>
   <body>
     
-    <h5 class="text-right">
+    <h4 class="text-right black">
         <!-- Button trigger modal -->
         <a href="https://twitter.com/PianoPathwaysBR"><i class="fa fa-twitter"></i></a>&nbsp;&nbsp;
         <a href="https://www.facebook.com/PianoPathwaysStudio"><i class="fa fa-facebook-square"></i></a>&nbsp;&nbsp;
@@ -26,7 +26,7 @@
               }
             ?>
         &nbsp;
-    </h5>
+    </h4>
     <div class="container">
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
