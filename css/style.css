@@ -69,7 +69,7 @@ background-color: #BDCCD1;
     background-size: cover
 }
 .adjustup{
-    line-height:0px;
+    margin-top:-10px;
 }
 .input-group-addon {
     min-width:2.8em;

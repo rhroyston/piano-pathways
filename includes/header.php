@@ -19,7 +19,7 @@
     </h5>
     <div class="logo-wrap">
         <a href="/" class="logo">
-            <img src="/images/logo.png">
+            <img src="/images/logo-black-lg.png">
         </a>
     </div>
     <h5 class="text-center adjustup">BATON ROUGE&#39;S MUSIC CENTER FOR CHILDREN&#38; ADULTS</h5>
