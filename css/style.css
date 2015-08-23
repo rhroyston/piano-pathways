@@ -3,7 +3,7 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 .header{
-
+    color: black;
 }
 .logo-wrap{
     text-align: center;
@@ -20,6 +20,9 @@ body {
 }
 .white{
     color: white;
+}
+.black{
+    color:black;
 }
 .blue{
     color:#2B6598;
