@@ -24,17 +24,17 @@
       <div class="col-md-2">
       </div>
       <div class="col-md-4">
-        <h3 class="black paint">Piano Pathways Resources</h3>
-        <a class="black paint" href="#faqModal" data-toggle="modal"><i class="fa fa-question-circle"></i> FAQ&#39;s <i class="fa fa-angle-double-right"></i></a><br>
-        <a class="black paint" href="policy"><i class="fa fa-info-circle"></i> Studio Policy</a><br>
-        <a class="black paint" href="#schedulingModal" data-toggle="modal">Scheduling <i class="fa fa-angle-double-right"></i></a><br>
-        <a class="black paint" href="#tuitionModal" data-toggle="modal">Tuition <i class="fa fa-angle-double-right"></i></a><br>
+        <h3 class="black textshadow">Piano Pathways Resources</h3>
+        <a class="black textshadow" href="#faqModal" data-toggle="modal"><i class="fa fa-question-circle"></i> FAQ&#39;s <i class="fa fa-angle-double-right"></i></a><br>
+        <a class="black textshadow" href="policy"><i class="fa fa-info-circle"></i> Studio Policy</a><br>
+        <a class="black textshadow" href="#schedulingModal" data-toggle="modal">Scheduling <i class="fa fa-angle-double-right"></i></a><br>
+        <a class="black textshadow" href="#tuitionModal" data-toggle="modal">Tuition <i class="fa fa-angle-double-right"></i></a><br>
       </div>
       <div class="col-md-4 text-right">
-        <h3 class="black paint">Links</h3>
-        <a class="black paint" href="#wheretuitiongoesModal" data-toggle="modal">Where Does Tuition Go&#63; <i class="fa fa-angle-double-right"></i></a><br>
-        <a class="black paint" href="http://www.musiclearningcommunity.com" target="blank">Make A Payment <i class="fa fa-external-link"></i></a><br>
-        <a class="black paint" href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
+        <h3 class="black textshadow">Links</h3>
+        <a class="black textshadow" href="#wheretuitiongoesModal" data-toggle="modal">Where Does Tuition Go&#63; <i class="fa fa-angle-double-right"></i></a><br>
+        <a class="black textshadow" href="http://www.musiclearningcommunity.com" target="blank">Make A Payment <i class="fa fa-external-link"></i></a><br>
+        <a class="black textshadow" href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
       </div>
       <div class="col-md-2">
       </div>      
