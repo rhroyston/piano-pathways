@@ -8,7 +8,9 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#"><img alt="Brand" src="images/piano.png" height="32px"></a>
+      <a class="navbar-brand" href="#">
+          <img alt="Brand" src="images/piano-icon.png" height="32px">
+      </a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
