@@ -10,7 +10,7 @@
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
 
-    <?php include 'includes/why.php';?>
+    <?php include 'includes/menu.php';?>
     <?php include 'includes/instructors.php';?>
     <?php include 'includes/footer.php';?>
     <?php include 'includes/resources.php';?>
