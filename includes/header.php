@@ -8,6 +8,7 @@
                 <img src="/images/logo.png">
             </a>
             <h6 class="text-center white adjustup">BATON ROUGE&#39;S MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
+            <br>
         </div>
         <div class="col-md-4">
         </div> 
