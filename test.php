@@ -9,13 +9,9 @@
   <body>
     <?php include 'includes/alert.php';?>
     <?php include 'includes/navbar.php';?>
-    <?php //include 'includes/banner.php';?>
-
-    <div class="container dark-background">
+    <div class="container">
         <div class="container-fluid">
-          <div class="row adjustup">
             <img src="/images/logo.png" class="img-responsive center-block">
-          </div>
         </div>
         <div class="row offwhite shadow">
             <div class="col-sm-10">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a diam non ex fermentum maximus semper eu ipsum. Integer at diam sodales, aliquam nibh non, fermentum elit. Nulla eu dapibus est, et fringilla urna. Aliquam condimentum molestie magna, at vulputate sapien luctus a. Sed elementum, velit quis hendrerit ornare, nulla magna euismod orci, at volutpat augue lorem sed urna. Mauris ultrices est at purus convallis, at aliquam ipsum aliquam. Interdum et malesuada fames ac ante ipsum primis in faucibus.
@@ -28,10 +24,6 @@
             
             Nullam et massa lectus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum euismod lorem erat, in elementum neque tincidunt in. Phasellus varius aliquam nisi, non luctus nisl pellentesque non. Nullam convallis nulla lacinia, sollicitudin ligula eu, gravida erat. Pellentesque libero ipsum, vestibulum eu aliquam a, feugiat eget leo. Nullam tincidunt fringilla posuere. Nam eget euismod nulla, at varius est. Morbi gravida tortor euismod pretium vulputate. Integer tristique ligula dignissim, tristique lacus vel, maximus ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean dolor lectus, maximus nec massa at, semper sollicitudin quam. Maecenas non posuere orci.
             </div>
-        
-        
-        
-        
         
             <div class="col-sm-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras a diam non ex fermentum maximus semper eu ipsum. Integer at diam sodales, aliquam nibh non, fermentum elit. Nulla eu dapibus est, et fringilla urna. Aliquam condimentum molestie magna, at vulputate sapien luctus a. Sed elementum, velit quis hendrerit ornare, nulla magna euismod orci, at volutpat augue lorem sed urna. Mauris ultrices est at purus convallis, at aliquam ipsum aliquam. Interdum et malesuada fames ac ante ipsum primis in faucibus.
             
