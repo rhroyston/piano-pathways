@@ -3,7 +3,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 .header{
-
+    background-color: #BDCCD1;
+    color: white;
 }
 .logo-wrap{
     text-align: center;
