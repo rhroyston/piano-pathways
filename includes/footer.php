@@ -22,7 +22,11 @@
   <br>
   <br>
   <br>
-  <br>  
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
   <div class="container">
     <div class="row">
       <div class="col-md-2">
@@ -34,7 +38,7 @@
         <a class="black" href="#schedulingModal" data-toggle="modal">Scheduling <i class="fa fa-angle-double-right"></i></a><br>
         <a class="black" href="#tuitionModal" data-toggle="modal">Tuition <i class="fa fa-angle-double-right"></i></a><br>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 text-right">
         <h3 class="black">Links</h3>
         <a class="black" href="#wheretuitiongoesModal" data-toggle="modal">Where Does Tuition Go&#63; <i class="fa fa-angle-double-right"></i></a><br>
         <a class="black" href="http://www.musiclearningcommunity.com" target="blank">Make A Payment <i class="fa fa-external-link"></i></a><br>
