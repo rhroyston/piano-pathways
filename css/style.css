@@ -3,7 +3,8 @@ body {
     font-family: 'Raleway', sans-serif;
 }
 .paint{
-font-family: 'Finger Paint', cursive;   
+font-family: 'Finger Paint', cursive; 
+opacity:.8;
 }
 .header{
 
