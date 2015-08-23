@@ -78,7 +78,7 @@ color:white;
 background-color: #BDCCD1;
 }
 .footer{
-background: url('/images/plants.png') no-repeat center center fixed;
+background: url('/images/plants.png') no-repeat center center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
