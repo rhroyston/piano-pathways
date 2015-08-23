@@ -5,6 +5,9 @@ body {
 .header{
     color: black;
 }
+header a{
+   color: black; 
+}
 .logo-wrap{
     text-align: center;
 }
