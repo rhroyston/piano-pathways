@@ -8,7 +8,7 @@
   ?>
   <body>
 
-  <img src="/images/shutter.png" class="shutter">
+  <img src="" class="shutter">
   <?php include 'includes/socialnav.php';?>
     
     <?php include 'includes/alert.php';?>
