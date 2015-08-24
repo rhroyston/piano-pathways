@@ -20,7 +20,7 @@
     </div>    
     
     <?php
-      $footerimage = "footer-inside2";
+      $footerimage = "footer-stage";
       include 'includes/footer.php';
     ?>
     <?php include 'includes/resources.php';?>
