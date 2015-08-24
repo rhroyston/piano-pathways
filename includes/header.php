@@ -1,16 +1,14 @@
 <div class="container-fluid header">
     <div class="row">
-        <div class="col-md-4">
-        </div>    
-        <div class="col-md-4 ineffect">
+        <div class="logo">
+
             <br>
-            <a href="/" class="logo">
+            <a href="/">
                 <img src="/images/logo2.png">
             </a>
-            <h6 class="text-center black textshadowsm adjustup">BATON ROUGE&#39;S MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
+            <h6 class="text-center black textshadowsm adjustup">MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
             <br>
-        </div>
-        <div class="col-md-4">
+
         </div> 
     </div>
     <br>
