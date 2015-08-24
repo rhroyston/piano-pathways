@@ -106,11 +106,28 @@ background-size: cover;
 .textshadow:active {
     text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
 }
+.textshadow:visited {
+    color: black;
+}
+
+.textshadow:hover {
+    color: #707070;
+}
 .textshadowsm{
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
     -o-text-shadow: cover;
     text-shadow: -2px 2px 1px rgba(150, 150, 150, 1);
+}
+.textshadowsm:active {
+    text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
+}
+.textshadowsm:visited {
+    color: black;
+}
+
+.textshadowsm:hover {
+    color: #707070;
 }
  
 .circle { 
