@@ -12,7 +12,8 @@
     
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
-
+    <br>
+    <br>
     <div class="row text-center">
         <h1>
         <div class="col-md-4">
