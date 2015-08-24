@@ -2,12 +2,12 @@
     <div class="row">
         <div class="col-md-4">
         </div>    
-        <div class="col-md-4 sign">
+        <div class="col-md-4">
             <br>
             <a href="/" class="logo">
-                <img src="/images/logo.png">
+                <img src="/images/logo2.png">
             </a>
-            <h6 class="text-center white adjustup">BATON ROUGE&#39;S MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
+            <h6 class="text-center black textshadowsm adjustup">BATON ROUGE&#39;S MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
             <br>
         </div>
         <div class="col-md-4">
@@ -20,13 +20,13 @@
     <div class="row text-center">
         <h1>
         <div class="col-md-4">
-            <a class="black textshadow" href="#" target="blank" role="button"><u>Our Instructors</u></a>
+            <a class="black textshadow" href="#" target="blank" role="button">Who We Are</a>
         </div>    
         <div class="col-md-4">
-            <a class="black textshadow" href="#" target="blank" role="button"><u>View The Studio</u></a>
+            <a class="black textshadow" href="#" target="blank" role="button">Our Instructors</a>
         </div>    
         <div class="col-md-4">
-            <a class="black textshadow" href="#" target="blank" role="button"><u>Give Us A Call</u></a>
+            <a class="black textshadow" href="#" target="blank" role="button">View The Studio</a>
         </div>    
         </h1>
     </div>
