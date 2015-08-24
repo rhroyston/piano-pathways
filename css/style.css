@@ -79,21 +79,26 @@ right:20px;
 color:white;
 background-color: #BDCCD1;
 }
-.footer{
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-
-}
-.outside{
+.footer-outside{
     background: url('/images/plants.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-.inside1{
-    background: url('/images/inside1.png') no-repeat center center;
+.footer-inside1{
+    background: url('/images/insidefooter.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
-.inside2{
-    background: url('/images/inside2.png') no-repeat center center;
+.footer-inside2{
+    background: url('/images/insidefooter2.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .textshadow{
     -webkit-text-shadow: cover;

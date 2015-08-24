@@ -1,4 +1,4 @@
-<?php echo "<div class=\"container-fluid footer $footerimage\">";?>
+<?php echo "<div class=\"container-fluid $footerimage\">";?>
 
   <br>
   <br>
