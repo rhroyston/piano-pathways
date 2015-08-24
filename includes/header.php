@@ -2,7 +2,7 @@
     <div class="row">
         <div class="col-md-4">
         </div>    
-        <div class="col-md-4">
+        <div class="col-md-4 ineffect">
             <br>
             <a href="/" class="logo">
                 <img src="/images/logo2.png">

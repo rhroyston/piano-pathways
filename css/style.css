@@ -97,6 +97,16 @@ background: url('/images/plants.png') no-repeat center center;
 background-size: cover;
 
 }
+.ineffect{
+    background:#E8E8E8;
+border-color:#606060 ;
+border-bottom-style:ridge;    
+    border: 2px solid;
+    border-radius: 5px;
+-webkit-box-shadow: -5px 5px 5px 0px rgba(150,150,150,1);
+-moz-box-shadow: -5px 5px 5px 0px rgba(150,150,150,1);
+box-shadow: -5px 5px 5px 0px rgba(150,150,150,1);
+}
 .textshadow{
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
