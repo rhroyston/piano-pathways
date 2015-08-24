@@ -6,19 +6,19 @@
     $title = 'Login';
     include 'includes/head.php';
   ?>
-  <body>
+  <body style='background-image: url("../images/upfeathers.png");'>
     
   <?php include 'includes/socialnav.php';?>
     
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
-
-    <div class="row text-center">
-        <h1>
-            Studio   
-        </h1>
+    <div class="container">
+        <div class="row">
+            <h1>
+                Studio   
+            </h1>
+        </div>    
     </div>    
-    
     <?php
       $footerimage = "footer-inside2";
       include 'includes/footer.php';

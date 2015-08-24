@@ -15,9 +15,7 @@
     <br>
     <br>
     <br>
-<div class="container">
-  
-
+  <div class="container">
     <div class="row text-center">
       <h1>
       <div class="col-md-2 col-md-offset-3">
@@ -31,8 +29,7 @@
       </div>    
       </h1>
     </div>
-</div>
-    
+  </div>
     <?php
       $footerimage = "footer-outside";
       include 'includes/footer.php';
