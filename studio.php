@@ -19,7 +19,10 @@
         </h1>
     </div>    
     
-    <?php include 'includes/footer.php';?>
+    <?php
+      $footerimage = "footer-inside2";
+      include 'includes/footer.php';
+    ?>
     <?php include 'includes/resources.php';?>
   </body>
 </html>
