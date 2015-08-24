@@ -19,7 +19,7 @@
         <div class="col-md-4">
           <img src="/images/rebecca.png" class="instructors"><h3 class="instructoradjust">Rebecca Bellelo</h3><h6>Studio Founder&#44; Owner&#44; and Piano Faculty</h6>A National Certified Teacher of Piano&#44; Rebecca C&#46; Bellelo holds a Ph&#46;D&#46; in music from LSU&#44; and a Master of Music degree in Piano Pedagogy from LSU&#46; She earned a Bachelor of Music degree in piano performance from Delta State University&#46; As a private piano teacher for the past ten years to pre&#45;college level students&#44; her students have been honored for their performances by winning numerous awards in local and state festivals&#44; such as the district and state MTNA competition&#44; Bach & Sonatina festival competition at LSU&#44; and BRMTA Tournament&#46;
           <!-- Trigger the modal with a button -->
-          <a href="#rebeccaModal" data-toggle="modal">more <i class="fa fa-angle-double-right"></i></a>
+          <a href="#rebeccaModal" data-toggle="modal" class="black textshadowsm">more <i class="fa fa-angle-double-right"></i></a>
           <div class="collapse" id="collapse-rebecca">
             <div class="well">
                   <p>Rebecca founded Piano Pathways in 2011 with the goal to offer the Baton Rouge community a piano&#45;centered music studio&#44; where any student with any desire to play piano could be accepted and learn to play the instrument&#46; Rebecca serves as a teacher trainer/mentor to new Recreational Music Making (RMM) teachers awarded the National Piano Foundation RMM Teaching Fellowship&#46; She has served as an active adjudicator&#44; clinician&#44; and presenter at several state and national conferences&#44; including Music Teachers National Association Conferences&#44; National Conference on Keyboard Pedagogy&#44; National Association for Music Education conference&#44; Louisiana Music Teachers Association state conferences&#44; and Louisiana Music Educators Association conferences&#46; Rebecca is also an adjunct lecturer at Southeastern Louisiana University&#44; where she teaches class piano and piano pedagogy&#46; Rebecca remains current in the technological advancements in the pedagogy field and uses these tools to provide an invaluable opportunity for students in the classroom&#46;
@@ -33,12 +33,12 @@
         <div class="col-md-4">
           <img src="/images/sarah.png" class="instructors"><h3 class="instructoradjust">Sarah Stoltzfus Johnson</h3><h6>Piano Faculty</h6>Sarah Stoltzfus Johnson earned her Doctorate of Music Arts in piano performance with a minor in collaborative piano from Louisiana State University&#46; Prior to studying at LSU&#44; she graduated from the University of Central Missouri with a Masters in Piano Performance and a Bachelors degree in Piano Performance and Piano Pedagogy&#46; She has been an active teacher in her community for the last fifteen years and currently teaches group and private lessons&#46;
           <!-- Trigger the modal with a button -->
-          <a href="#sarahModal" data-toggle="modal">more <i class="fa fa-angle-double-right"></i></a>            
+          <a href="#sarahModal" data-toggle="modal" class="black textshadowsm">more <i class="fa fa-angle-double-right"></i></a>            
         </div>
         <div class="col-md-4">
           <img src="/images/emily.png" class="instructors"><h3 class="instructoradjust">Emily Elbourne Ball</h3><h6>Piano Faculty</h6>Emily Elbourne Ball is a native of New Orleans and started piano lessons in kindergarten&#46; Growing up she participated in recitals and Music Teacher National Association&#39;s Rally and Federation&#46; In high school Emily attended the prestigious New Orleans Center for Creative Arts where she continued her classical piano studies with Sakiko Ohashi and Dr&#46; Jisook Park&#46; During that time&#44; she taught music theory at the Music Academy for Performing Arts in Mandeville&#44; LA&#44; and a New Orleans Center for Creative Arts summer program&#46;
           <!-- Trigger the modal with a button -->
-          <a href="#emilyModal" data-toggle="modal">more <i class="fa fa-angle-double-right"></i></a>            
+          <a href="#emilyModal" data-toggle="modal" class="black textshadowsm">more <i class="fa fa-angle-double-right"></i></a>            
         </div>
     </div>
     <br> 
@@ -49,12 +49,12 @@
         <div class="col-md-4">
           <img src="/images/melanie.png" class="instructors"><h3 class="instructoradjust">Melanie Mallard</h3><h6>Piano Faculty</h6>Having recently moved to Baton Rouge from Utah&#44; Melanie Mallard comes from a musical family and has played the piano for as long as she can remember&#46; Melanie loves making music with her six siblings&#44; who all play a variety of instruments&#46; She began her professional studies with Marlene Bachelder and later earned a Bachelor of Music in Piano Performance from Brigham Young University&#44; where she studied with Dr&#46; Scott Holden&#46; Since graduating in 2010&#44; she has focused on teaching as an active member of MTNA and NFMC&#46;
           <!-- Trigger the modal with a button -->
-          <a href="#melanieModal" data-toggle="modal">more <i class="fa fa-angle-double-right"></i></a>            
+          <a href="#melanieModal" data-toggle="modal" class="black textshadowsm">more <i class="fa fa-angle-double-right"></i></a>            
         </div>
         <div class="col-md-4">
           <img src="/images/joshua.png" class="instructors"><h3 class="instructoradjust">Joshua Medrano</h3><h6>Piano Faculty</h6>A native of South Texas&#44; Joshua Medrano holds a Master of Music degree in piano performance from Missouri State University and a Bachelor of Music in piano performance from Texas State University&#45;San Marcos&#46; Uniquely&#44; Josh did not start formal piano instruction at a young age&#44; but began his studies at seventeen years old&#46; With dedication&#44; top&#45;tier teachers&#44; and undeniable persistence&#44; Josh is now beginning his journey through the Doctor of Musical Arts degree on full scholarship at Louisiana State University under the tutelage of Professor Gregory Sioles&#46;
           <!-- Trigger the modal with a button -->
-          <a href="#joshuaModal" data-toggle="modal">more <i class="fa fa-angle-double-right"></i></a>            
+          <a href="#joshuaModal" data-toggle="modal" class="black textshadowsm">more <i class="fa fa-angle-double-right"></i></a>            
         </div>
         <div class="col-md-2">
         </div>
