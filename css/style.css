@@ -111,7 +111,8 @@ background-size: cover;
 }
 
 .textshadow:hover {
-    color: #707070;
+    color: #383838;
+    text-decoration:none;
 }
 .textshadowsm{
     -webkit-text-shadow: cover;
@@ -127,7 +128,8 @@ background-size: cover;
 }
 
 .textshadowsm:hover {
-    color: #707070;
+    color: #383838;
+    text-decoration:none;
 }
  
 .circle { 
