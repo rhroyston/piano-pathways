@@ -19,13 +19,13 @@
     <br>
     <div class="row text-center">
         <h1>
-        <div class="col-md-3">
+        <div class="col-md-4">
             <a class="black textshadow" href="#" target="blank" role="button"><br>Our Instructors</a>
         </div>    
-        <div class="col-md-3">
+        <div class="col-md-4">
             <a class="black textshadow" href="#" target="blank" role="button"><br>View The Studio</a>
         </div>    
-        <div class="col-md-3">
+        <div class="col-md-4">
             <a class="black textshadow" href="#" target="blank" role="button"><br>Give Us A Call</a>
         </div>    
         </h1>
