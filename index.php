@@ -32,7 +32,10 @@
         </h1>
     </div>    
     
-    <?php include 'includes/footer.php';?>
+    <?php
+      $footerimage = "outside";
+      include 'includes/footer.php';
+    ?>
     <?php include 'includes/resources.php';?>
   </body>
 </html>
