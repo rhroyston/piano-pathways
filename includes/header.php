@@ -20,16 +20,17 @@
     <div class="row">
         <h3>
         <div class="col-md-4">
-            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-users"></i> Instructors</a>
+            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-users fa-5x"></i> Instructors</a>
+            Meet our instructors
         </div>    
         <div class="col-md-4">
-            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-music"></i> Studio</a>
+            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-music fa-5x"></i> Studio</a>
         </div>    
         <div class="col-md-4">
-            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-street-view"></i> Contact</a>
+            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-street-view fa-5x"></i> Contact</a>
         </div>    
         <div class="col-md-4">
-            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-phone"></i> Call</a>
+            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-phone fa-5x"></i> Call</a>
         </div>    
         </h3>
     </div>
