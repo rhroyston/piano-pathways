@@ -18,20 +18,17 @@
     <br>
     <br>
     <div class="row text-center">
-        <h2>
+        <h1>
         <div class="col-md-3">
-            <a class="black textshadow" href="#" target="blank" role="button"><br>Meet Our Instructors</a>
+            <a class="black textshadow" href="#" target="blank" role="button"><br>Our Instructors</a>
         </div>    
         <div class="col-md-3">
             <a class="black textshadow" href="#" target="blank" role="button"><br>View The Studio</a>
         </div>    
         <div class="col-md-3">
-            <a class="black textshadow" href="#" target="blank" role="button"><br>Come Visit Us</a>
-        </div>    
-        <div class="col-md-3">
             <a class="black textshadow" href="#" target="blank" role="button"><br>Give Us A Call</a>
         </div>    
-        </h2>
+        </h1>
     </div>
     <br>
     <br>
