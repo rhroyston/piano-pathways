@@ -6,7 +6,7 @@
     $title = 'Login';
     include 'includes/head.php';
   ?>
-  <body style='background-image: url("../images/curtain.jpg");'>
+  <body style='background-image: url("../images/symphony.png");'>
     
   <?php include 'includes/socialnav.php';?>
     
@@ -20,7 +20,7 @@
     </div>    
     
     <?php
-      $footerimage = "footer-stage";
+      $footerimage = "footer-inside1";
       include 'includes/footer.php';
     ?>
     <?php include 'includes/resources.php';?>
