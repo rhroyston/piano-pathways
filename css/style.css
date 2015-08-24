@@ -103,9 +103,7 @@ border-color:#DCDCDC;
     border-style: solid;
     border-width: 2px;
     border-radius: 4px;
--webkit-box-shadow: inset -2px 2px 6px 0px rgba(96,96,96,1);
--moz-box-shadow: inset -2px 2px 6px 0px rgba(96,96,96,1);
-box-shadow: inset -2px 2px 6px 0px rgba(96,96,96,1);
+
 }
 .textshadow{
     -webkit-text-shadow: cover;
