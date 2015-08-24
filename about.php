@@ -1,28 +1,25 @@
-<div class="container-fluid header">
-    <div class="row">
-        <div class="col-md-4">
-        </div>    
-        <div class="col-md-4">
-            <br>
-            <a href="/" class="logo">
-                <img src="/images/logo2.png">
-            </a>
-            <h6 class="text-center black textshadowsm adjustup">BATON ROUGE&#39;S MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
-            <br>
-        </div>
-        <div class="col-md-4">
-        </div> 
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
+<?php include 'includes/session.php';?>
+
+<!DOCTYPE html>
+<html lang="en">
+  <?php 
+    $title = 'Login';
+    include 'includes/head.php';
+  ?>
+  <body>
+    
+  <?php include 'includes/socialnav.php';?>
+    
+    <?php include 'includes/alert.php';?>
+    <?php include 'includes/header.php';?>
+
     <div class="row text-center">
         <h1>
-            About   
+            About    
         </h1>
-    </div>
-    <br>
-    <br>
-    <br>
-</div>
+    </div>    
+    
+    <?php include 'includes/footer.php';?>
+    <?php include 'includes/resources.php';?>
+  </body>
+</html>

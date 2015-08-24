@@ -16,13 +16,13 @@
     <div class="row text-center">
         <h1>
         <div class="col-md-4">
-            <a class="black textshadow" href="about" target="blank" role="button">Who We Are</a>
+            <a class="black textshadow" href="about">Who We Are</a>
         </div>    
         <div class="col-md-4">
-            <a class="black textshadow" href="instructors" target="blank" role="button">Our Instructors</a>
+            <a class="black textshadow" href="instructors">Our Instructors</a>
         </div>    
         <div class="col-md-4">
-            <a class="black textshadow" href="studio" target="blank" role="button">View The Studio</a>
+            <a class="black textshadow" href="studio">View The Studio</a>
         </div>    
         </h1>
     </div>    
