@@ -93,14 +93,14 @@ background-size: cover;
     -o-text-shadow: cover;
     text-shadow: -3px 3px 1px rgba(150, 150, 150, 1);
 }
-.textshadow:active {
+.textshadow a:active {
     text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
 }
-.textshadow:visited {
+.textshadow a:visited {
     color: black;
 }
 
-.textshadow:hover {
+.textshadow a:hover {
     color: #383838;
     text-decoration:none;
 }
@@ -110,40 +110,17 @@ background-size: cover;
     -o-text-shadow: cover;
     text-shadow: -2px 2px 1px rgba(150, 150, 150, 1);
 }
-.textshadowsm:active {
+.textshadowsm a:active {
     text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
 }
-.textshadowsm:visited {
+.textshadowsm a:visited {
     color: black;
 }
 
-.textshadowsm:hover {
+.textshadowsm a:hover {
     color: #383838;
     text-decoration:none;
 }
- 
-.circle { 
-   width: 140px;
-   height: 140px;
-   background: black;
-   -moz-border-radius: 70px;
-   -webkit-border-radius: 70px;
-   border-radius: 70px;
-border-color:#505050 ;
-border-bottom-style:ridge;    
-    border: 2px solid;
-    
-    
--webkit-box-shadow: -5px 5px 5px 0px rgba(150,150,150,1);
--moz-box-shadow: -5px 5px 5px 0px rgba(150,150,150,1);
-box-shadow: -5px 5px 5px 0px rgba(150,150,150,1);   
-   
-   
-} 
-
-
-
-
 .adjustup{
     margin-top:-9px;
 }
