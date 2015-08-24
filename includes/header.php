@@ -1,14 +1,12 @@
 <div class="container-fluid header">
     <div class="row">
-        <div >
-
+        <div>
             <br>
             <a href="/">
                 <img class="logo" src="/images/logo2.png">
             </a>
             <h6 class="text-center black textshadowsm">MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
             <br>
-
         </div> 
     </div>
     <br>

@@ -6,8 +6,10 @@ body {
 font-family: 'Finger Paint', cursive; 
 opacity:.8;
 }
-.header{
-
+.ivy{
+position:absolute;
+top:-5%;
+left:20%;
 }
 .xl{
     font-size:1.5em;
@@ -23,6 +25,7 @@ opacity:.8;
  display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 223px;
 }
 .offwhite{
     color: #FDFCCC;

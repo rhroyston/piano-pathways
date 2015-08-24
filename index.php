@@ -7,7 +7,8 @@
     include 'includes/head.php';
   ?>
   <body>
-    
+  <?php include 'includes/ivy.php';?>
+  <img src="/images/ivy.png" class="ivy">
   <?php include 'includes/socialnav.php';?>
     
     <?php include 'includes/alert.php';?>
