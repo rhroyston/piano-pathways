@@ -6,7 +6,7 @@
     $title = 'Login';
     include 'includes/head.php';
   ?>
-  <body>
+  <body style="background-image: url("../images/brickwallxl.png");">
 
   <img src="/images/asdf.png" class="stand">
   <?php include 'includes/socialnav.php';?>
