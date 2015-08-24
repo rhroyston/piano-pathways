@@ -103,6 +103,9 @@ background-size: cover;
     -o-text-shadow: cover;
     text-shadow: -3px 3px 1px rgba(150, 150, 150, 1);
 }
+.textshadow:active {
+    text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
+}
 .textshadowsm{
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
