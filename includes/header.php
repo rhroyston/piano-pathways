@@ -21,10 +21,10 @@
     <br>
     <br>
     <div class="text-center">
-        <a class="btn btn-default" href="#" target="blank" role="button"><i class="fa fa-users"></i> Instructors</a>
-        <a class="btn btn-default" href="#" target="blank" role="button"><i class="fa fa-music"></i> Studio</a>
-        <a class="btn btn-default" href="#" target="blank" role="button"><i class="fa fa-street-view"></i> Contact</a>
-        <a class="btn btn-default" href="#" target="blank" role="button"><i class="fa fa-phone"></i> Call</a>
+        <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-users"></i> Instructors</a>
+        <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-music"></i> Studio</a>
+        <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-street-view"></i> Contact</a>
+        <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-phone"></i> Call</a>
     </div>
     <br>
     <br>
