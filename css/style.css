@@ -20,11 +20,9 @@ opacity:.8;
     text-align: center;
 }
 .logo {
-
-    margin:6 auto;
-    width:100%;
-    display:block;
-    line-height:0;
+ display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 .sign{
     background-image: url("../images/darkwood.png");
