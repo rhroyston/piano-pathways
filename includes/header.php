@@ -13,25 +13,27 @@
         <div class="col-md-4">
         </div> 
     </div>
-    
-    
-    
     <br>
     <br>
     <br>
     <br>
-    <h3>
-    <div class="text-center">
-        <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-users"></i> Instructors</a>
-        <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-music"></i> Studio</a>
-        <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-street-view"></i> Contact</a>
-        <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-phone"></i> Call</a>
+    <div class="row">
+        <h3>
+        <div class="col-md-4">
+            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-users"></i> Instructors</a>
+        </div>    
+        <div class="col-md-4">
+            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-music"></i> Studio</a>
+        </div>    
+        <div class="col-md-4">
+            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-street-view"></i> Contact</a>
+        </div>    
+        <div class="col-md-4">
+            <a class="black textshadow" href="#" target="blank" role="button"><i class="fa fa-phone"></i> Call</a>
+        </div>    
+        </h3>
     </div>
-    </h3>
     <br>
     <br>
     <br>
 </div>
-    
-
-
