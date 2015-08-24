@@ -192,7 +192,7 @@
 </div>
 
     <?php
-      $footerimage = "inside1";
+      $footerimage = "footer-inside1";
       include 'includes/footer.php';
     ?>
     <?php include 'includes/resources.php';?>
