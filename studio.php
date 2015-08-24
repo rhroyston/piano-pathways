@@ -17,7 +17,11 @@
     <br>
     <br>
     <br>
-
+    <div class="row text-center">
+        <h1>
+        Studio    
+        </h1>
+    </div>
     <br>
     <br>
     <br>

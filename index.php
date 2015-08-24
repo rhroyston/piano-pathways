@@ -13,9 +13,19 @@
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
 
-    <?php //include 'includes/menu.php';?>
-    <?php //include 'includes/instructors.php';?>
-    
+    <div class="row text-center">
+        <h1>
+        <div class="col-md-4">
+            <a class="black textshadow" href="about" target="blank" role="button">Who We Are</a>
+        </div>    
+        <div class="col-md-4">
+            <a class="black textshadow" href="instructors" target="blank" role="button">Our Instructors</a>
+        </div>    
+        <div class="col-md-4">
+            <a class="black textshadow" href="studio" target="blank" role="button">View The Studio</a>
+        </div>    
+        </h1>
+    </div>    
     
     <?php include 'includes/footer.php';?>
     <?php include 'includes/resources.php';?>
