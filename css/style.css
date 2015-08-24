@@ -112,6 +112,27 @@ background-size: cover;
     -o-text-shadow: cover;
     text-shadow: -2px 2px 1px rgba(150, 150, 150, 1);
 }
+
+*, *:before, *:after{ 
+    box-sizing: border-box; 
+    -moz-box-sizing: border-box; 
+    -webkit-box-sizing: border-box; 
+} 
+.css-shapes-preview{ 
+    position: relative; 
+    height: 214px; 
+    width: 0px; 
+    top: 25px; 
+    left: 0px; 
+    -webkit-transform: rotate(180deg) skew(0deg); 
+    transform: rotate(180deg) skew(0deg); 
+    border-left: 100px solid #428BCA; 
+    border-right: 100px solid #428BCA; 
+    border-bottom: 40px solid transparent; 
+}
+
+
+
 .adjustup{
     margin-top:-9px;
 }
