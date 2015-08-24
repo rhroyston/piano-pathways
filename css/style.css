@@ -93,14 +93,14 @@ background-size: cover;
     -o-text-shadow: cover;
     text-shadow: -3px 3px 1px rgba(150, 150, 150, 1);
 }
-.textshadow a:active {
+.textshadow:active {
     text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
 }
-.textshadow a:visited {
+.textshadow:visited {
     color: black;
 }
 
-.textshadow a:hover {
+.textshadow:hover {
     color: #383838;
     text-decoration:none;
 }
@@ -110,16 +110,22 @@ background-size: cover;
     -o-text-shadow: cover;
     text-shadow: -2px 2px 1px rgba(150, 150, 150, 1);
 }
-.textshadowsm a:active {
+.textshadowsm:active {
     text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
 }
-.textshadowsm a:visited {
+.textshadowsm:visited {
     color: black;
 }
 
-.textshadowsm a:hover {
+.textshadowsm:hover {
     color: #383838;
     text-decoration:none;
+}
+.textshadownl{
+    -webkit-text-shadow: cover;
+    -moz-text-shadow: cover;
+    -o-text-shadow: cover;
+    text-shadow: -2px 2px 1px rgba(150, 150, 150, 1);
 }
 .adjustup{
     margin-top:-9px;
