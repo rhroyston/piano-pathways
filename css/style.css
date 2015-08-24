@@ -8,8 +8,8 @@ opacity:.8;
 }
 .ivy{
 position:absolute;
-top:-5%;
-left:20%;
+top:20%;
+right:-10%;
 }
 .xl{
     font-size:1.5em;
