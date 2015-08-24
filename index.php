@@ -8,7 +8,7 @@
   ?>
   <body>
 
-  <img src="/images/stand.png" class="stand">
+  <img src="/images/asdf.png" class="stand">
   <?php include 'includes/socialnav.php';?>
     
     <?php include 'includes/alert.php';?>
