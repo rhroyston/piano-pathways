@@ -6,7 +6,7 @@
     $title = 'Login';
     include 'includes/head.php';
   ?>
-  <body style='background-image: url("../images/softwallpaper.png");'>
+  <body style='background-image: url("../images/blacklinen.png");'>
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
@@ -59,9 +59,6 @@
         <div class="col-md-2">
         </div>
     </div>
-  <br>
-  <br>
-  <br>
 </div>
 
 <!-- Modal -->

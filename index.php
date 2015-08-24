@@ -15,6 +15,9 @@
     <?php include 'includes/header.php';?>
     <br>
     <br>
+    <br>
+    <br>
+    <br>
     <div class="row text-center">
         <h1>
         <div class="col-md-2 col-md-offset-3">
