@@ -193,7 +193,7 @@
 </div>
 
     <?php
-      $footerimage = "footer-stage";
+      $footerimage = "footer-fence";
       include 'includes/footer.php';
     ?>
     <?php include 'includes/resources.php';?>
