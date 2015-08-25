@@ -7,7 +7,7 @@
     include 'includes/head.php';
   ?>
   
-    <body style='background-image: url("../images/xv.png");'>
+    <body style='background-image: url("../images/pinstripe.png");'>
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
