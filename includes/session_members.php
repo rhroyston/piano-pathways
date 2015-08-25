@@ -1,3 +1,4 @@
+<?php
 /*** begin the session ***/
 session_start();
 
