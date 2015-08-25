@@ -7,7 +7,7 @@
     include 'includes/head.php';
   ?>
   <div id="cover"></div>
-  <body style='background-image: url("../images/brickwallxl.png");'>
+  <body class= "hide" style='background-image: url("../images/brickwallxl.png");'>
     
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>

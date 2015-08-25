@@ -76,6 +76,9 @@ right:20px;
     height: 100%;
     width: 100%;
 }
+.hide{
+    display:none;
+}
 
 /* The max width is dependant on the container (more info below) */
 .popover{
