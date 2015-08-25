@@ -1,7 +1,6 @@
 <?php echo "<div class=\"container-fluid $footerimage\">";?>
 
-  <br>
-  <br>
+
   <br>
   <br>
   <br>
