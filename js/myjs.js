@@ -56,6 +56,10 @@ $(document).ready(function () {
   
   
 });
+$(window).load(function(){
+    $('#cover').fadeOut(1000);
+    
+});
 
 
 
