@@ -7,7 +7,7 @@
     include 'includes/head.php';
   ?>
   <body style='background-image: url("../images/symphony.png");'>
-    
+  <div id="cover"></div>  
   <?php include 'includes/socialnav.php';?>
     
     <?php include 'includes/alert.php';?>
