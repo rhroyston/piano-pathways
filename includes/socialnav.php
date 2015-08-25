@@ -17,3 +17,4 @@
             ?>
         &nbsp;
     </h4>
+    <h3 class="text-right"><a class="black textshadowsm" href="tel:225-767-0030"><i class="fa fa-phone"></i> &#40;225&#41; 767&#45;0030</a></h3>
