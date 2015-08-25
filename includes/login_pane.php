@@ -21,13 +21,13 @@
                                                 <br>
                                                 <div class="col-sm-12 control">
                                                 <div class="input-group pull-right">
-                                                <button type="submit" class="btn btn-primary btn-sm control"><i class="fa fa-sign-in"></i> Login</button>
+                                                <button type="submit" class="btn btn-default btn-sm control"><i class="fa fa-sign-in"></i> Login</button>
                                                 </div>
                                                 </div>
                                             </fieldset>
                                             <div class="col-sm-12 control">
                                                 <div class="input-group">
-                                                    <a href="#" id="register-anchor"></i><i class="fa fa-pencil-square-o"></i> Register for an account</a>
+                                                    <a class="black" href="#" id="register-anchor"></i><i class="fa fa-pencil-square-o"></i> Register for an account</a>
                                                 </div>
                                             </div>
                                         </div>

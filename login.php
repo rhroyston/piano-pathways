@@ -38,8 +38,8 @@
                         <div class="tabbable">
                             <!-- Nav tabs -->
                             <ul class="nav nav-tabs" role="tablist">
-                                <li role="presentation" class="active"><a class="black textshadowsm" href="#tab-login" aria-controls="home" role="tab" data-toggle="tab">Login</a></li>
-                                <li role="presentation"><a class="black textshadowsm" href="#tab-register" aria-controls="profile" role="tab" data-toggle="tab">Register</a></li>
+                                <li role="presentation" class="active"><a class="black" href="#tab-login" aria-controls="home" role="tab" data-toggle="tab">Login</a></li>
+                                <li role="presentation"><a class="black" href="#tab-register" aria-controls="profile" role="tab" data-toggle="tab">Register</a></li>
                             </ul>
                             <!-- Tab panes -->
                             <div class="tab-content">
