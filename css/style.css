@@ -77,6 +77,13 @@ right:20px;
     width: 100%;
     z-index:9999
 }
+.whiteback{
+    background:white;
+    opacity:.5;
+    border-width:1px;
+    border-style:solid;
+    border-radius: 3px;
+}
 
 /* The max width is dependant on the container (more info below) */
 .popover{
