@@ -1,7 +1,7 @@
 <div class="container-fluid header">
     <div class="logo-wrap">
         <a href="/" class="logo">
-            <img src="/images/logo-black.png">
+            <img src="/images/logo2.png">
         </a>
     </div>
     <div class="row">

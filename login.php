@@ -25,7 +25,7 @@
         }
         include 'includes/head.php';
     ?>
-    <body>
+    <body style='background-image: url("../images/brickwallxl.png");'>
         <?php include 'includes/header-min.php';?>
         <br>
         <br>
