@@ -6,9 +6,9 @@
     $title = 'Login';
     include 'includes/head.php';
   ?>
-  <div id="cover"></div>
-  <body class= "hide" style='background-image: url("../images/brickwallxl.png");'>
-    
+  
+  <body style='background-image: url("../images/brickwallxl.png");'>
+    <div id="cover"></div>
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>

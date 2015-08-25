@@ -75,9 +75,7 @@ right:20px;
     position: absolute;
     height: 100%;
     width: 100%;
-}
-.hide{
-    display:none;
+    z-index:9999
 }
 
 /* The max width is dependant on the container (more info below) */
