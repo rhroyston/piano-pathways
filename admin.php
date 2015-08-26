@@ -32,21 +32,19 @@
                     try {
                         $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
                         $sql = 'SELECT * FROM phpro_users';
+                         $q = $conn->query($sql);
+                         $q->setFetchMode(PDO::FETCH_ASSOC);                        
                     } catch (PDOException $pe) {
                         die("Could not connect to the database $dbname :" . $pe->getMessage());
                     }                                
-
-                    $query = $db->prepare( $sql );
-                    $query->execute();
-                    $results = $query->fetchAll( PDO::FETCH_ASSOC );
                 ?>
                 <table class="table">
                     <tr>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Email</th>
-                    <th>Telephone</th>
-                </tr>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Email</th>
+                        <th>Telephone</th>
+                    </tr>
                 <?php foreach( $results as $row ){
                     echo "<tr><td>";
                     echo $row['phpro_firstname'];
