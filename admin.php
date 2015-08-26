@@ -45,21 +45,19 @@
                         <th>Email</th>
                         <th>Telephone</th>
                     </tr>
-                <?php foreach( $results as $row ){
-                    echo "<tr><td>";
-                    echo $row['phpro_firstname'];
-                    echo "</td><td>";
-                    echo $row['phpro_lastname'];
-                    echo "</td><td>";
-                    echo $row['phpro_email'];
-                    echo "</td><td>";
-                    echo $row['phpro_telephone'];
-                    echo "</td><td>";
-                    echo "<a class='black textshadow' href='#'>detail</a>";
-                    echo "</td>";
-                    echo "</tr>";
-                    }
-                ?>
+
+                
+ <?php while ($r = $q->fetch()): ?>
+ <tr>
+ <td><?php echo htmlspecialchars($r['phpro_lastname'])?></td>
+ <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
+ <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
+ <td><?php echo htmlspecialchars($r['phpro_telephone']); ?></td>
+ <td><?php echo "<a class='black textshadow' href='#'>detail</a>"; ?></td>
+ </tr>
+ <?php endwhile; ?>                
+                
+                
                 </table>
             </div>
         </div>            
