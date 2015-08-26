@@ -44,7 +44,7 @@ else
     /*** now we can encrypt the password ***/
     $phpro_password = sha1( $phpro_password );
     
-    require_once 'dbconfig.php';
+    require_once 'includes/dbconfig.php';
 
     try
     {
