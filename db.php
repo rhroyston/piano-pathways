@@ -6,16 +6,10 @@
     $title = 'Admin';
     include 'includes/head.php';
 ?>
-<body style='background-image: url("../images/fabric.png");'>
-    <div id="cover"></div>  
-    <?php include 'includes/alert.php';?>
-    <div class="container">
-        <div class="row text-center">
-            <h2><?php echo $message; ?></h2>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
+
                 <?php
+                    $id = $_GET['id'];
+                    
                     /*** connect to database ***/
                     /*** mysql hostname ***/
                     $mysql_hostname = '127.8.99.130';
@@ -31,13 +25,22 @@
                              
                     try {
                         $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
-                        $sql = 'SELECT * FROM phpro_users';
+                        $sql = "SELECT * FROM phpro_users WHERE phpro_users = $id";
                          $q = $conn->query($sql);
                          $q->setFetchMode(PDO::FETCH_ASSOC);                        
                     } catch (PDOException $pe) {
                         die("Could not connect to the database $dbname :" . $pe->getMessage());
                     }                                
                 ?>
+
+<body>
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+     <h4 class="modal-title">Modal title</h4>
+
+</div>
+<div class="modal-body">
+
                 <table class="table">
                     <tr>
                         <th> </th>
@@ -57,14 +60,12 @@
                     </tr>
                     <?php endwhile; ?>
                 </table>
-            </div>
-        </div>
-        
-        
-        
-        
-        
-        
-    </div>
+
+</div>
+<div class="modal-footer">
+    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+    <button type="button" class="btn btn-primary">Save changes</button>
+</div>
+  
 </body>
 </html>
