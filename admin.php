@@ -13,8 +13,6 @@
             <div class="row text-center">
                 <h2><?php echo $message; ?></h2>
             </div>
-            
-            
             <div class="row">
                 <div class="col-md-12">
             		<div class="well">
@@ -23,15 +21,36 @@
             			<table class="table table-striped">
             				<thead>
             					<tr>
-            						<th width="6%" align="left">Member ID</th>
             						<th width="7%" align="left">First Name</th>
             						<th width="7%" align="left">Last Name</th>
             						<th width="7%" align="center">Email</th>
-            						<th width="7%" align="center">Gender</th>
-            						<th width="7%" align="left">BirthDay</th>
+            						<th width="7%" align="center">Telephone</th>
+            						<th width="7%" align="left">Birthday</th>
             					</tr>
             				</thead>
             				<tbody>
+                                <?php
+                            	//select all records form tblmember table
+                            		$query = 'SELECT * FROM tblmember';
+                            		//execute the query using mysql_query
+                            	    $result = mysql_query($query);
+                            	    //then using while loop, it will display all the records inside the table
+                                	while ($row = mysql_fetch_array($result)) {
+                                		echo ' <tr> ';
+                                		echo ' <td> ';
+                                		echo $row['id'];
+                                		echo ' <td> ';
+                                		echo $row['fName'];
+                                		echo ' <td> ';
+                                		echo $row['lName'];
+                                		echo ' <td> ';
+                                		echo $row['email'];
+                                		echo ' <td> ';
+                                		echo $row['gender'];
+                                		echo ' <td> ';
+                                		echo $row['birthdate'];
+                                	}	
+                            	?>
             				</tbody>
             			</table>
             		</div>
