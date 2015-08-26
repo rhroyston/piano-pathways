@@ -12,7 +12,13 @@
     
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
-    <?php include 'includes/about_content.php';?>
+    <div class="container">
+        <div class="row">
+            <h1>
+                About   
+            </h1>
+        </div>    
+    </div> 
 
     <?php
       $footerimage = "footer-inside1";
