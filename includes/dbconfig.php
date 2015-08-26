@@ -1,3 +1,4 @@
+<?php
     /*** connect to database ***/
     /*** mysql hostname ***/
     $mysql_hostname = '127.8.99.130';
@@ -10,3 +11,4 @@
 
     /*** database name ***/
     $mysql_dbname = 'thepianopathway';
+?>
