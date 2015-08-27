@@ -50,7 +50,7 @@
                     <?php $id = "#id" . htmlspecialchars($r['phpro_user_id']);?> 
                     <tr>
                         
-                        <td><a href="<?php echo 'http://thepianopathway-rhroyston.rhcloud.com/db?id=' . htmlspecialchars($r['phpro_user_id']); ?>" class="btn btn-lg btn-primary" data-toggle="modal" data-target="#myModal"><i class='fa fa-search-plus'></i></a></td>
+                        <td><a href="<?php echo 'http://thepianopathway-rhroyston.rhcloud.com/db?id=' . htmlspecialchars($r['phpro_user_id']); ?>" data-toggle="modal" data-target="#myModal"><i class='fa fa-search-plus'></i></a></td>
                         <td><?php echo htmlspecialchars($r['phpro_lastname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
