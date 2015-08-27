@@ -117,7 +117,7 @@ else
                     <?php while ($r = $q->fetch()): ?>
                     <?php $id = "#id" . htmlspecialchars($r['phpro_user_id']);?> 
                     <tr>
-                        <td><a class="modalclass" href="<?php echo 'local/dbselectuser?id=' . htmlspecialchars($r['phpro_user_id']); ?>" data-toggle="modal" data-target="#myModal"><i class='fa fa-search-plus'></i></a></td>
+                        <td><a class="modalclass" href="<?php echo 'session/dbselectuser?id=' . htmlspecialchars($r['phpro_user_id']); ?>" data-toggle="modal" data-target="#myModal"><i class='fa fa-search-plus'></i></a></td>
                         <td><?php echo htmlspecialchars($r['phpro_lastname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
