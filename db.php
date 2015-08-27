@@ -2,10 +2,10 @@
 
 <!DOCTYPE html>
 <html lang="en">
-<?php 
-    $title = '';
-    include 'includes/head.php';
-?>
+<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		
+</head>
 
                 <?php
                     $id = $_GET['id'];
