@@ -50,8 +50,7 @@
                     <?php $id = "#id" . htmlspecialchars($r['phpro_user_id']);?> 
                     <tr>
                         
-                        <td><a href="#myModal" role="button" class="btn" data-toggle="modal" data-load-remote="http://fiddle.jshell.net/Sherbrow/bHmRB/0/show/" data-remote-target="#myModal .modal-body">Btn 1</a></td>
-                        <td><?php echo htmlspecialchars($r['phpro_lastname'])?></td>
+                        <td><a href="#myModal" role="button" class="btn" data-toggle="modal" data-load-remote="db?id=10" data-remote-target="#myModal .modal-body">Btn 4</a>
                         <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_telephone']); ?></td>
