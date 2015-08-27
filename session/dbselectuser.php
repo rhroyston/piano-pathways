@@ -1,7 +1,6 @@
 <?php
 /*** begin the session ***/
 session_start();
-$id = $_GET['id'];
 
 if(!isset($_SESSION['user_id']))
 {
@@ -59,7 +58,7 @@ else
             echo '<meta http-equiv="content-type" content="text/html; charset=UTF-8" />';
             echo '</head>';
 
-            //$id = $_GET['id'];
+            $id = $_GET['id'];
                     
             /*** connect to database ***/
             try {
@@ -114,7 +113,7 @@ else
     catch (Exception $e)
     {
         /*** if we are here, something is wrong in the database ***/
-        $message = 'We are unable to process your request. Please try again later"';
+        echo 'We are unable to process your request. Please try again later"';
     }
 }
 ?>
