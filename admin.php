@@ -50,7 +50,7 @@
                     <?php $id = "#id" . htmlspecialchars($r['phpro_user_id']);?> 
                     <tr>
                         
-                        <td><a href="http://fiddle.jshell.net/bHmRB/51/show/" rel="modal">Click Me</a></td>
+                        <td><a href="http://fiddle.jshell.net/bHmRB/51/show/" role="button" class="btn btn-large btn-primary" data-toggle="modal" data-target="#myModal">Launch Demo Modal</a></td>
                         <td><?php echo htmlspecialchars($r['phpro_lastname'])?></td>
                         <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
@@ -68,19 +68,11 @@
         
     </div>
 
-<div id="modal" class="modal fade" 
-     tabindex="-1" role="dialog" aria-labelledby="plan-info" aria-hidden="true">
-    <div class="modal-dialog modal-full-screen">
+<!-- Modal HTML -->
+<div id="myModal" class="modal fade">
+    <div class="modal-dialog">
         <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" 
-                  data-dismiss="modal" aria-hidden="true">
-                  <span class="glyphicon glyphicon-remove-circle"></span>
-                </button>
-            </div>
-            <div class="modal-body">
-                <!-- /# content goes here -->
-            </div>
+            <!-- Content will be loaded here from "remote.php" file -->
         </div>
     </div>
 </div>
