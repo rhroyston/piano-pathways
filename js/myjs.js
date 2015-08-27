@@ -61,5 +61,12 @@ $(window).load(function(){
 });
 
 
+$(window).load(function(){
 
+  
+$('#myModal').on('hidden.bs.modal', function (e) {
+  $('.modal-content').remove();
+});
+  
+});
 
