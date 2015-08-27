@@ -41,8 +41,8 @@
                 <table class="table">
                     <tr>
                         <th> </th>
-                        <th>First Name</th>
                         <th>Last Name</th>
+                        <th>First Name</th>
                         <th>Email</th>
                         <th>Telephone</th>
                     </tr>
@@ -50,6 +50,7 @@
                     <?php $id = "#id" . htmlspecialchars($r['phpro_user_id']);?> 
                     <tr>
                         <td><a href="#myModal" data-toggle="modal" data-load-remote="<?php echo 'http://thepianopathway-rhroyston.rhcloud.com/db?id=' . htmlspecialchars($r['phpro_user_id']); ?>" data-remote-target="#myModal .modal-content"><i class='fa fa-search-plus'></i></a></td>
+                        <td><?php echo htmlspecialchars($r['phpro_lastname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_telephone']); ?></td>
