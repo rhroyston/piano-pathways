@@ -60,9 +60,7 @@ $(window).load(function(){
 
 $(window).load(function(){
   $('.modalclass').on('click', function () {
-    
     var href = $(this).attr('href');
-    console.log(href);
     $("#modal-placeholder").load("includes/modalhtml.php", function() {
       $(".modal-content").load(href, function() {
         $('#myModal').modal('show');
@@ -70,7 +68,7 @@ $(window).load(function(){
     });
   });
 
-  $('#myModal').on('hidden.bs.modal', function (e) {
+  $('#myModal').on('hidden.bs.modal', function () {
     //$( "#modal-placeholder" ).load( "includes/modalhtml.php" );
     $('#modal-placeholder').empty();
     //$('#myModal').modal({
