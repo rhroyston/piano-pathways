@@ -59,15 +59,6 @@ $(window).load(function(){
 
 
 $(window).load(function(){
-  $('.modalclass').on('click', function () {
-    var href = $(this).attr('href');
-    $("#modal-placeholder").load("includes/modalhtml.php", function() {
-      $(".modal-content").load(href, function() {
-        $('#myModal').modal('show');
-      }); 
-    });
-  });
-
   $('#myModal').on('hidden.bs.modal', function () {
     //$( "#modal-placeholder" ).load( "includes/modalhtml.php" );
     window.alert('hidden event fired!');
@@ -79,17 +70,19 @@ $(window).load(function(){
     //$('.modal-body').empty();
     //$('.modal-footer').empty();
   });
-
-});
-
-$(function () {
-    $(".custom-close").on('click', function() {
-        $('#myModal').modal('hide');
+  
+  $('.modalclass').on('click', function () {
+    var href = $(this).attr('href');
+    $("#modal-placeholder").load("includes/modalhtml.php", function() {
+      $(".modal-content").load(href, function() {
+        $('#myModal').modal('show');
+      }); 
     });
-    
-    /* hidden.bs.modal event example */
-    $('#myModal').on('hidden.bs.modal', function () {
-          window.alert('hidden event fired!');
-    })
+  });
+
+
+
 });
+
+
 
