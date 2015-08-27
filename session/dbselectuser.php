@@ -51,6 +51,7 @@ else
         }
         else
         {
+            $dbh=null;
             echo '<!DOCTYPE html>';
             echo '<html lang="en">';
             echo '<head>';
@@ -61,9 +62,9 @@ else
                     
             /*** connect to database ***/
             try {
-                //$conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
+                $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
                 $sql = "SELECT * FROM phpro_users WHERE phpro_user_id = $id";
-                 $q = $dbh->query($sql);
+                 $q = $conn->query($sql);
                  $q->setFetchMode(PDO::FETCH_ASSOC);                        
                 } catch (PDOException $pe) {
                     die("Could not connect to the database $dbname :" . $pe->getMessage());
