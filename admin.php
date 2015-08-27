@@ -50,7 +50,7 @@
                     <?php $id = "#id" . htmlspecialchars($r['phpro_user_id']);?> 
                     <tr>
                         
-                        <td><a href="http://fiddle.jshell.net/bHmRB/51/show/" rel="modal">Hello!</a></td>
+                        <td><a href="http://fiddle.jshell.net/bHmRB/51/show/" rel="modal" data-target="#modal">Hello!</a></td>
                         <td><?php echo htmlspecialchars($r['phpro_lastname'])?></td>
                         <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
