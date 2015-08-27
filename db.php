@@ -55,15 +55,13 @@
                                         <th>Telephone</th>
                                         <th>Birthday</th>
                                     </tr>
-                                    
-                                        <tr>
-                                            <td><?php echo $lastname; ?></td>
-                                            <td><?php echo $firstname; ?></td>
-                                            <td><?php echo $email; ?></td>
-                                            <td><?php echo $telephone; ?></td>
-                                            <td><?php echo $birthday; ?></td>
-                                        </tr>
-                                    
+                                    <tr>
+                                        <td><?php echo $lastname; ?></td>
+                                        <td><?php echo $firstname; ?></td>
+                                        <td><?php echo $email; ?></td>
+                                        <td><?php echo $telephone; ?></td>
+                                        <td><?php echo $birthday; ?></td>
+                                    </tr>
                                 </table>
                 </div>
                 <div class="modal-footer">
