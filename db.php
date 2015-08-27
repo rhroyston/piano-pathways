@@ -30,13 +30,15 @@
                          $q->setFetchMode(PDO::FETCH_ASSOC);                        
                     } catch (PDOException $pe) {
                         die("Could not connect to the database $dbname :" . $pe->getMessage());
-                    }                                
+                    }
+                    $firstname = htmlspecialchars($r['phpro_firstname']);
+                    $lastname = htmlspecialchars($r['phpro_lastname']);
                 ?>
 
                 <body>
                   <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                     <h4 class="modal-title">Modal title</h4>
+                     <h4 class="modal-title">?php echo $firstname . " " . $lastname; ?></h4>
                 
                 </div>
                 <div class="modal-body">
