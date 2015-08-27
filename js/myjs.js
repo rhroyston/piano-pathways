@@ -59,13 +59,18 @@ $(window).load(function(){
 
 
 $(window).load(function(){
+  $('.modalclass').on('click', function () {
+    $("#modal-placeholder").load("includes/modalhtml.php", function() {
+      $('#myModal').modal('show');
+    });
+  });
 
   $('#myModal').on('hide.bs.modal', function (e) {
     //$( "#modal-placeholder" ).load( "includes/modalhtml.php" );
-    $('.modal-content').empty();
-    $('#myModal').modal({
+    $('#modal-placeholder').empty();
+    //$('#myModal').modal({
       //keyboard: false
-    });
+    //});
     //$('.modal-header').empty();
     //$('.modal-body').empty();
     //$('.modal-footer').empty();
