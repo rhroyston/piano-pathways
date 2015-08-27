@@ -1,6 +1,7 @@
 <?php
 /*** begin the session ***/
 session_start();
+$id = $_GET['id'];
 
 if(!isset($_SESSION['user_id']))
 {
@@ -58,7 +59,7 @@ else
             echo '<meta http-equiv="content-type" content="text/html; charset=UTF-8" />';
             echo '</head>';
 
-            $id = $_GET['id'];
+            //$id = $_GET['id'];
                     
             /*** connect to database ***/
             try {
@@ -71,11 +72,11 @@ else
                 }
                     
                 while ($r = $q->fetch()): ;
-                $firstname = htmlspecialchars($r['phpro_firstname']);
-                $lastname = htmlspecialchars($r['phpro_lastname']);
-                $email = htmlspecialchars($r['phpro_email']);
-                $telephone = htmlspecialchars($r['phpro_telephone']);
-                $birthday = htmlspecialchars($r['phpro_birthday']);
+                    $firstname = htmlspecialchars($r['phpro_firstname']);
+                    $lastname = htmlspecialchars($r['phpro_lastname']);
+                    $email = htmlspecialchars($r['phpro_email']);
+                    $telephone = htmlspecialchars($r['phpro_telephone']);
+                    $birthday = htmlspecialchars($r['phpro_birthday']);
                 endwhile;
 
                 echo '<body>';
