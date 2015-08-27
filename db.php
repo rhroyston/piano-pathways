@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <?php 
-    $title = 'Admin';
+    $title = '';
     include 'includes/head.php';
 ?>
 
@@ -40,27 +40,24 @@
                 
                 </div>
                 <div class="modal-body">
-                
                                 <table class="table">
                                     <tr>
-                                        <th> </th>
-                                        <th>First Name</th>
                                         <th>Last Name</th>
+                                        <th>First Name</th>
                                         <th>Email</th>
                                         <th>Telephone</th>
+                                        <th>Birthday</th>
                                     </tr>
                                     <?php while ($r = $q->fetch()): ?>
-                                    <?php $id = "#id" . htmlspecialchars($r['phpro_user_id']);?> 
-                                    <tr>
-                                        <a data-toggle="modal" href="<?php echo 'http://thepianopathway-rhroyston.rhcloud.com/db?id=' . htmlspecialchars($r['phpro_user_id']); ?>" data-target="<?php echo '#modal' . htmlspecialchars($r['phpro_user_id'])?>"><i class='fa fa-search-plus'></i></a>
-                                        <td><?php echo htmlspecialchars($r['phpro_lastname'])?></td>
-                                        <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
-                                        <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
-                                        <td><?php echo htmlspecialchars($r['phpro_telephone']); ?></td>
-                                    </tr>
+                                        <tr>
+                                            <td><?php echo htmlspecialchars($r['phpro_lastname'])?></td>
+                                            <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
+                                            <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
+                                            <td><?php echo htmlspecialchars($r['phpro_telephone']); ?></td>
+                                            <td><?php echo htmlspecialchars($r['phpro_birthday']); ?></td>
+                                        </tr>
                                     <?php endwhile; ?>
                                 </table>
-                
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
