@@ -70,8 +70,8 @@ $('[data-load-remote]').on('click',function(e) {
     }
 });
 
-$('#openBtn').click(function(){
-  $('#myModal').modal({show:true})
+$('.modalanchor').click(function(){
+  $('#myModal').modal({show:true});
 });
 
 });
