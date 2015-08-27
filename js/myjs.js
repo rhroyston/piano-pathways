@@ -60,22 +60,21 @@ $(window).load(function(){
     $('#cover').fadeOut(1000);
 });
 
-$(function() {
-    $('tr > td > a.btn-info').on('click', function() {
-        var data = $(this).closest('tr').find('>td:lt(4)'),
-            modal = $(this).data('modal');
-        $.post( $(this).data('href'), {
-                    id: data.eq(0).text(),
-                    name: data.eq(1).text(),
-                    family_name: data.eq(2).text(),
-                    country: data.eq(3).text()
-                 }, function( data ) {
-                //some processing ... if required
-                $(modal).modal('show');
-         });
-    });
+$(window).load(function(){
+$('[data-load-remote]').on('click',function(e) {
+    e.preventDefault();
+    var $this = $(this);
+    var remote = $this.data('load-remote');
+    if(remote) {
+        $($this.data('remote-target')).load(remote);
+    }
 });
 
+$('#openBtn').click(function(){
+  $('#myModal').modal({show:true})
+});
+
+});
 
 
 
