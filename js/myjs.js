@@ -69,6 +69,7 @@ $('[data-load-remote]').on('click',function(e) {
         $($this.data('remote-target')).load(remote);
     }
 });
+});
 
 
 
