@@ -65,9 +65,10 @@ $(window).load(function(){
 
   
 $('#myModal').on('hidden.bs.modal', function (e) {
-  $('.modal-header').empty();
-  $('.modal-body').empty();
-  $('.modal-footer').empty();
+  $('.modal-content').empty();
+  //$('.modal-header').empty();
+  //$('.modal-body').empty();
+  //$('.modal-footer').empty();
 });
   
 });
