@@ -61,19 +61,5 @@ $(window).load(function(){
 });
 
 
-$(window).load(function(){
-$('[data-load-remote]').on('click',function(e) {
 
-    var $this = $(this);
-    var remote = $this.data('load-remote');
-    if(remote) {
-        $($this.data('remote-target')).load(remote);
-    }
-});
-$('[data-dismiss]').on('click',function(e) {
-  $('#myModal').modal('hide');
-});
-
-
-});
 
