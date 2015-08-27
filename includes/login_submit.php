@@ -105,8 +105,9 @@ else
 // if the user successfully logged in redirect them to original page else redirect them to login page w error reason
 
     if ($message == 'Success: You are now logged in'){
-        $url = $_SESSION["original-page"];
-        header("Location: $url");
+        //$url = $_SESSION["original-page"];
+        //header("Location: $url");
+        header("Location: http://thepianopathway-rhroyston.rhcloud.com/");
     }
     
     else {
