@@ -7,6 +7,6 @@
     include 'includes/head1.php';
   ?>
   <body>
-    <?php include './local/modalhtml.php';?>
+    <?php include '../local/modalhtml.php';?>
   </body>
 </html>
