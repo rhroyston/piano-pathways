@@ -90,6 +90,7 @@ else
         {
                 /*** set the session user_id variable ***/
                 $_SESSION['user_id'] = $user_id;
+                $_SESSION['username'] = $phpro_username;
 
                 /*** tell the user we are logged in ***/
                 $message = 'Success: You are now logged in';
