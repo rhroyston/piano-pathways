@@ -1,12 +1,4 @@
-<?php
-/*** begin the session ***/
-session_start();
-
-if(!isset($_SESSION['user_id']))
-{
-    exit();
-}
-?>
+<?php include 'includes/session_members.php'; ?>
 
 <!DOCTYPE html>
 <html lang="en">
