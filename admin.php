@@ -4,7 +4,9 @@ session_start();
 
 if(!isset($_SESSION['user_id']))
 {
-    $message = 'You must be logged in to access this page';
+    $_SESSION['message'] = 'Error&#58; Please Log In';
+    header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
+    exit();
 }
 else
 {
