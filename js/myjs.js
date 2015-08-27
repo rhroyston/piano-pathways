@@ -69,7 +69,7 @@ $(window).load(function(){
     });
   });
 
-  $('#myModal').on('hide.bs.modal', function (e) {
+  $('#myModal').on('hidden.bs.modal', function (e) {
     //$( "#modal-placeholder" ).load( "includes/modalhtml.php" );
     $('#modal-placeholder').empty();
     //$('#myModal').modal({
