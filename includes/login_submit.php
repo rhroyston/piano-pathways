@@ -108,6 +108,7 @@ else
     if ($message == 'Success: You are now logged in'){
         if($phpro_username === 'admin'){
             header("Location: http://thepianopathway-rhroyston.rhcloud.com/admin");
+            exit();
         }
         //$url = $_SESSION["original-page"];
         //header("Location: $url");
