@@ -81,7 +81,15 @@ $(window).load(function(){
   });
 
 });
-$(document.body).on('hidden.bs.modal', function () {
-    window.alert('hidden event fired!');
+
+$(function () {
+    $(".custom-close").on('click', function() {
+        $('#myModal').modal('hide');
+    });
+    
+    /* hidden.bs.modal event example */
+    $('#myModal').on('hidden.bs.modal', function () {
+          window.alert('hidden event fired!');
+    })
 });
 
