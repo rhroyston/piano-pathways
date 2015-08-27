@@ -49,7 +49,7 @@
                     <?php while ($r = $q->fetch()): ?>
                     <?php $id = "#id" . htmlspecialchars($r['phpro_user_id']);?> 
                     <tr>
-                        <td><a href="#myModal" class="modalanchor" data-toggle="modal" data-load-remote="<?php echo 'http://thepianopathway-rhroyston.rhcloud.com/db?id=' . htmlspecialchars($r['phpro_user_id']); ?>" data-remote-target="#myModal .modal-content"><i class='fa fa-search-plus'></i></a></td>
+                        <td><a href="#myModal" data-toggle="modal" data-load-remote="<?php echo 'http://thepianopathway-rhroyston.rhcloud.com/db?id=' . htmlspecialchars($r['phpro_user_id']); ?>" data-remote-target="#myModal .modal-content"><i class='fa fa-search-plus'></i></a></td>
                         <td><?php echo htmlspecialchars($r['phpro_lastname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
