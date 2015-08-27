@@ -81,4 +81,7 @@ $(window).load(function(){
   });
 
 });
+$(document.body).on('hidden.bs.modal', function () {
+    window.alert('hidden event fired!');
+});
 
