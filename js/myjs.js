@@ -60,8 +60,11 @@ $(window).load(function(){
 
 $(window).load(function(){
   $('.modalclass').on('click', function () {
+    var href = $('a:first').attr('href');
     $("#modal-placeholder").load("includes/modalhtml.php", function() {
-      $('#myModal').modal('show');
+      $("#modal-content").load(href, function() {
+        $('#myModal').modal('show');
+      }); 
     });
   });
 
