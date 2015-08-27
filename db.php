@@ -31,8 +31,14 @@
                     } catch (PDOException $pe) {
                         die("Could not connect to the database $dbname :" . $pe->getMessage());
                     }
+                    ?>
+                    <?php while ($r = $q->fetch()): ;
                     $firstname = htmlspecialchars($r['phpro_firstname']);
                     $lastname = htmlspecialchars($r['phpro_lastname']);
+                    $email = htmlspecialchars($r['phpro_email']);
+                    $telephone = htmlspecialchars($r['phpro_telephone']);
+                    $birthday = htmlspecialchars($r['phpro_birthday']);
+                    endwhile; ?>
                 ?>
 
                 <body>
@@ -50,15 +56,15 @@
                                         <th>Telephone</th>
                                         <th>Birthday</th>
                                     </tr>
-                                    <?php while ($r = $q->fetch()): ?>
+                                    
                                         <tr>
-                                            <td><?php echo htmlspecialchars($r['phpro_lastname'])?></td>
-                                            <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
-                                            <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
-                                            <td><?php echo htmlspecialchars($r['phpro_telephone']); ?></td>
-                                            <td><?php echo htmlspecialchars($r['phpro_birthday']); ?></td>
+                                            <td><?php echo $lastname; ?></td>
+                                            <td><?php echo $firstname; ?></td>
+                                            <td><?php echo $email; ?></td>
+                                            <td><?php echo $telephone; ?></td>
+                                            <td><?php echo $birthday; ?></td>
                                         </tr>
-                                    <?php endwhile; ?>
+                                    
                                 </table>
                 </div>
                 <div class="modal-footer">
