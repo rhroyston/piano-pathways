@@ -49,7 +49,8 @@
                     <?php while ($r = $q->fetch()): ?>
                     <?php $id = "#id" . htmlspecialchars($r['phpro_user_id']);?> 
                     <tr>
-                        <td><a data-toggle="modal" href="http://fiddle.jshell.net/bHmRB/51/show/" data-target="myModal"><i class='fa fa-search-plus'></i></a></td>
+                        
+                        <td><a data-toggle="modal" href="http://fiddle.jshell.net/bHmRB/51/show/" data-target="#myModal">Click me !</a></td>
                         <td><?php echo htmlspecialchars($r['phpro_lastname'])?></td>
                         <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
