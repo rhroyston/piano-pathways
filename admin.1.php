@@ -1,4 +1,72 @@
-<?php include 'includes/session_members.php'; ?>
+<?php
+/*** begin the session ***/
+session_start();
+
+if(!isset($_SESSION['user_id']))
+{
+    $message = 'You must be logged in to access this page';
+}
+else
+{
+    try
+    {
+        /*** connect to database ***/
+        /*** mysql hostname ***/
+        $mysql_hostname = '127.8.99.130';
+
+        /*** mysql username ***/
+        $mysql_username = 'adminRqmldJy';
+
+        /*** mysql password ***/
+        $mysql_password = 'gQDlAVx3a66L';
+
+        /*** database name ***/
+        $mysql_dbname = 'thepianopathway';
+
+
+        /*** select the users name from the database ***/
+        $dbh = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
+        /*** $message = a message saying we have connected ***/
+
+        /*** set the error mode to excptions ***/
+        $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+
+        /*** prepare the insert ***/
+        $stmt = $dbh->prepare("SELECT phpro_username FROM phpro_users 
+        WHERE phpro_user_id = :phpro_user_id");
+
+        /*** bind the parameters ***/
+        $stmt->bindParam(':phpro_user_id', $_SESSION['user_id'], PDO::PARAM_INT);
+
+        /*** execute the prepared statement ***/
+        $stmt->execute();
+
+        /*** check for a result ***/
+        $phpro_username = $stmt->fetchColumn();
+
+        /*** if we have no something is wrong ***/
+        if($phpro_username == false)
+        {
+            $message = 'Access Error';
+        }
+        else
+        {
+            $message = 'Welcome '.$phpro_username;
+            
+            
+            
+            
+            
+        }
+    }
+    catch (Exception $e)
+    {
+        /*** if we are here, something is wrong in the database ***/
+        $message = 'We are unable to process your request. Please try again later"';
+    }
+}
+
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -49,7 +117,8 @@
                     <?php while ($r = $q->fetch()): ?>
                     <?php $id = "#id" . htmlspecialchars($r['phpro_user_id']);?> 
                     <tr>
-                        <td><a href="#myModal" data-toggle="modal" data-load-remote="<?php echo 'http://thepianopathway-rhroyston.rhcloud.com/db?id=' . htmlspecialchars($r['phpro_user_id']); ?>" data-remote-target="#myModal .modal-content"><i class='fa fa-search-plus'></i></a></td>
+                        
+                        <td><a class="modalclass" href="<?php echo 'http://thepianopathway-rhroyston.rhcloud.com/db?id=' . htmlspecialchars($r['phpro_user_id']); ?>" data-toggle="modal" data-target="#myModal"><i class='fa fa-search-plus'></i></a></td>
                         <td><?php echo htmlspecialchars($r['phpro_lastname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
@@ -60,25 +129,16 @@
             </div>
         </div>
     </div>
-
-<!-- Modal -->
-  <div class="modal fade bs-example-modal-lg" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog modal-lg">
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-          <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+    <div id="modal-placeholder"></div>
+    <!-- Modal HTML -->
+    <div id="myModal" class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <!-- Content will be loaded here from "remote.php" file -->
+            </div>
         </div>
-        <div class="modal-body">
-          ...
-        </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
-        </div>
-      </div><!-- /.modal-content -->
-    </div><!-- /.modal-dialog -->
-  </div><!-- /.modal -->    
+    </div> 
+    </div>
 
 </body>
 </html>

@@ -51,10 +51,7 @@ $(document).ready(function () {
   $('#register-anchor').on('click', function() {
       $tabs.filter('.active').next('li').find('a[data-toggle="tab"]').tab('show');
   });
-  
-  
-  
-  
+
 });
 $(window).load(function(){
     $('#cover').fadeOut(1000);
@@ -63,13 +60,16 @@ $(window).load(function(){
 
 $(window).load(function(){
 
-  
-$('#myModal').on('hidden.bs.modal', function (e) {
-  //$('.modal-content').empty();
-  //$('.modal-header').empty();
-  //$('.modal-body').empty();
-  //$('.modal-footer').empty();
-});
-  
+  $('#myModal').on('hide.bs.modal', function (e) {
+    //$( "#modal-placeholder" ).load( "includes/modalhtml.php" );
+    $('.modal-content').empty();
+    $('#myModal').modal({
+      //keyboard: false
+    });
+    //$('.modal-header').empty();
+    //$('.modal-body').empty();
+    //$('.modal-footer').empty();
+  });
+
 });
 
