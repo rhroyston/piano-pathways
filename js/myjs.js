@@ -70,6 +70,7 @@ $(window).load(function(){
 
   $('#myModal').on('hidden.bs.modal', function () {
     //$( "#modal-placeholder" ).load( "includes/modalhtml.php" );
+    window.alert('hidden event fired!');
     $('#modal-placeholder').empty();
     //$('#myModal').modal({
       //keyboard: false
