@@ -39,7 +39,6 @@
                     $telephone = htmlspecialchars($r['phpro_telephone']);
                     $birthday = htmlspecialchars($r['phpro_birthday']);
                     endwhile; ?>
-                ?>
 
                 <body>
                   <div class="modal-header">
