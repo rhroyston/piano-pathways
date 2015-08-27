@@ -111,6 +111,7 @@ else
         }
         //$url = $_SESSION["original-page"];
         //header("Location: $url");
+        $_SESSION["message"] = 'Success ' . $phpro_username;
         header("Location: http://thepianopathway-rhroyston.rhcloud.com/");
     }
     
