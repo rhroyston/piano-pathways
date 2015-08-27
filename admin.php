@@ -50,7 +50,7 @@
                     <?php $id = "#id" . htmlspecialchars($r['phpro_user_id']);?> 
                     <tr>
                         
-                        <td><a data-toggle="modal" href="http://fiddle.jshell.net/bHmRB/51/show/" data-target="#myModal">Click me !</a></td>
+                        <td><a href="http://fiddle.jshell.net/bHmRB/51/show/" rel="modal">Click Me</a></td>
                         <td><?php echo htmlspecialchars($r['phpro_lastname'])?></td>
                         <td><?php echo htmlspecialchars($r['phpro_firstname']); ?></td>
                         <td><?php echo htmlspecialchars($r['phpro_email']); ?></td>
@@ -68,26 +68,22 @@
         
     </div>
 
-<!-- Modal -->
-<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
+<div id="modal" class="modal fade" 
+     tabindex="-1" role="dialog" aria-labelledby="plan-info" aria-hidden="true">
+    <div class="modal-dialog modal-full-screen">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                 <h4 class="modal-title">Modal title</h4>
-
+                <button type="button" class="close" 
+                  data-dismiss="modal" aria-hidden="true">
+                  <span class="glyphicon glyphicon-remove-circle"></span>
+                </button>
             </div>
-            <div class="modal-body"><div class="te"></div></div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+            <div class="modal-body">
+                <!-- /# content goes here -->
             </div>
         </div>
-        <!-- /.modal-content -->
     </div>
-    <!-- /.modal-dialog -->
 </div>
-<!-- /.modal -->
 
 </body>
 </html>
