@@ -68,13 +68,13 @@ else
             include "includes/alert.php";
             echo '<div class="container">';
                 echo '<div class="row text-center">';
-                    echo "<h2>Administrator Portal</h2>";
+                echo "<h1>Administrator Portal</h1>";
                 echo '</div>';
                 echo '<div class="row">';
                     echo '<br>';
                     echo '<br>';
                     echo '<br>';
-                    echo '<div class="col-sm-6 adminheight">';
+                    echo '<div class="col-sm-6 adminheight adminwidth">';
         
                             /*** connect to database ***/;
                             /*** mysql hostname ***/;

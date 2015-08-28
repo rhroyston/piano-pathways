@@ -139,6 +139,9 @@ background-color: #BDCCD1;
 .adminheight{
     height: 300px;
 }
+.adminwidth{
+    width: auto;
+}
 .textshadow:hover {
     color: #383838;
     text-decoration:none;
