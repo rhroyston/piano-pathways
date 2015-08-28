@@ -73,16 +73,16 @@ if(!isset($_SESSION['user_id']))
                 
                 </div>
                 <div class="modal-body">
-                                
                                         
-                                        <h5><?php echo $street . "<span class='pull-right'>$telephone</span>"?></h5>
-                                        <h5><?php echo $city . "&#44; " . $state . " " . $zip . "<span class='pull-right'>$email</span>"?></h5>
-                                        
-                                        
-                                        \
-                                        <h5><?php echo $birthday . " " . $grade ; ?></h5>
+                                        <div class="oneline">
+                                            <h5><?php echo $street?></h5>
+                                            <h5><?php echo $city . "&#44; " . $state . " " . $zip ?></h5>
+                                        </div>
+                                        <div class="oneline pull-right text-right">
+                                            <h5><?php echo $telephone?></h5>
+                                            <h5><?php echo $email?></h5>
+                                        </div>
 
-                                    
                                 
                 </div>
                 <div class="modal-footer">

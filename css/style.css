@@ -133,7 +133,9 @@ background-color: #BDCCD1;
 .textshadow:visited {
     color: black;
 }
-
+.oneline{
+    display: inline-block;
+}
 .textshadow:hover {
     color: #383838;
     text-decoration:none;
