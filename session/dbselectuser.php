@@ -38,29 +38,23 @@ if(!isset($_SESSION['user_id']))
                 die("Could not connect to the database $dbname :" . $pe->getMessage());
             }
         while ($r = $q->fetch()): ;
-            $firstname = htmlspecialchars($r['phpro_firstname']);
-            $lastname = htmlspecialchars($r['phpro_lastname']);
-            $street = htmlspecialchars($r['phpro_street']);
-            $city = htmlspecialchars($r['phpro_city']);
-            $state = htmlspecialchars($r['phpro_state']);
-            $zip = htmlspecialchars($r['phpro_zip']);
-                    
-            $email = htmlspecialchars($r['phpro_email']);
-            $telephone = htmlspecialchars($r['phpro_telephone']);
-            $birthday = htmlspecialchars($r['phpro_birthday']);
-            $grade = htmlspecialchars($r['phpro_grade']);
-                    
-                    
-            $lesson_option = htmlspecialchars($r['phpro_lesson_option']);
-            $has_friend = htmlspecialchars($r['phpro_has_friend']);
-            $lesson_pref_1 = htmlspecialchars($r['phpro_lesson_pref_1']);
-            $lesson_pref_2 = htmlspecialchars($r['phpro_lesson_pref_2']);
-            $lesson_pref_3 = htmlspecialchars($r['phpro_lesson_pref_3']);
-            $payment_plan = htmlspecialchars($r['phpro_payment_plan']);
-                    
+            $firstname = $r['phpro_firstname'];
+            $lastname = $r['phpro_lastname'];
+            $street = $r['phpro_street'];
+            $city = $r['phpro_city'];
+            $state = $r['phpro_state'];
+            $zip = $r['phpro_zip'];
+            $email = $r['phpro_email'];
+            $telephone = $r['phpro_telephone'];
+            $birthday = $r['phpro_birthday'];
+            $grade = $r['phpro_grade'];
+            $lesson_option = $r['phpro_lesson_option'];
+            $has_friend = $r['phpro_has_friend'];
+            $lesson_pref_1 = $r['phpro_lesson_pref_1'];
+            $lesson_pref_2 = $r['phpro_lesson_pref_2'];
+            $lesson_pref_3 = $r['phpro_lesson_pref_3'];
+            $payment_plan = $r['phpro_payment_plan'];
             $lesson_history = $r['phpro_lesson_history'];
-            $username = htmlspecialchars($r['phpro_username']);
-                    
         endwhile;
     ?>
 

@@ -123,9 +123,9 @@
                                             <div class="col-sm-8">
                                                 <select class="form-control form-control-inline" id="phpro_payment_plan" name="phpro_payment_plan" required>
                                                     <option value="">Choose One</option>
-                                                    <option value="Senior in College">1 Payment of Semester Tuition</option>
-                                                    <option value="Junior in College">2 Payments of Semester Tuition</option>
-                                                    <option value="Junior in College">Monthly Payments of Semester Tuition</option>
+                                                    <option value="1 Payment of Semester Tuition">1 Payment of Semester Tuition</option>
+                                                    <option value="2 Payments of Semester Tuition">2 Payments of Semester Tuition</option>
+                                                    <option value="Monthly Payments of Semester Tuition">Monthly Payments of Semester Tuition</option>
                                                 </select>
                                             </div>                        
                                 
