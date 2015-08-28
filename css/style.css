@@ -137,9 +137,14 @@ background-color: #BDCCD1;
     display: inline-block;
 }
 
-.adminheight{
+.adminscroll{
     height: 400px;
     overflow-y:scroll;
+    background:#F0F0F0 ;
+    border-width:1px;
+    border-style:solid;
+    border-radius: 3px;
+    border-color:#E8E8E8 ;
     
 }
 .adminwidth{
