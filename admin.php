@@ -97,14 +97,10 @@ else
                             } catch (PDOException $pe) {
                                 die("Could not connect to the database $dbname :" . $pe->getMessage());
                             }                                
-                        
+                        echo '<div class="adminheight">';
                         echo '<table class="table">';
-                            echo '<tr>';
-                                echo '<th> </th>';
-                                echo '<th>First Name</th>';
-                                echo '<th>Last Name</th>';
-                            echo '</tr>';
-                            echo '<div class="adminheight">';
+
+                            
                             while ($r = $q->fetch()):
                             $id = "#id" . htmlspecialchars($r['phpro_user_id']);
                             echo "<tr>";
