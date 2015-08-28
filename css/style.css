@@ -140,7 +140,7 @@ background-color: #BDCCD1;
     position:relative;
 }
 .adminheight{
-    height: 30%;
+    height: 120px;
     overflow:scroll;
     position:relative;
 }
