@@ -136,6 +136,9 @@ background-color: #BDCCD1;
 .oneline{
     display: inline-block;
 }
+.adminheight{
+    max-height: 70%;
+}
 .textshadow:hover {
     color: #383838;
     text-decoration:none;

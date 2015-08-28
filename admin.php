@@ -67,10 +67,10 @@ else
             echo '<?php include "includes/alert.php";?>';
             echo '<div class="container">';
                 echo '<div class="row text-center">';
-                    echo "<h2><?php echo $message; ?></h2>";
+                    echo "<h2>Administrator Portal</h2>";
                 echo '</div>';
                 echo '<div class="row">';
-                    echo '<div class="col-sm-12">';
+                    echo '<div class="col-sm-6">';
         
                             /*** connect to database ***/;
                             /*** mysql hostname ***/;
