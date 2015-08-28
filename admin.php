@@ -70,7 +70,7 @@ else
                 echo '<div class="row text-center">';
                 echo "<h1>Administrator Portal</h1>";
                 echo '</div>';
-                echo '<div class="row">';
+                echo '<div class="row adminrow">';
                     echo '<br>';
                     echo '<br>';
                     echo '<br>';
