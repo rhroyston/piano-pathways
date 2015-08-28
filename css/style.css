@@ -136,11 +136,9 @@ background-color: #BDCCD1;
 .oneline{
     display: inline-block;
 }
-.adminrow{
-    
-}
+
 .adminheight{
-    height: 120px;
+    height: 600px;
     overflow-y:scroll;
     
 }
