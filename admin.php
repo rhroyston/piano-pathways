@@ -64,7 +64,7 @@ else
         
             echo '<body style=\'background-image: url("../images/fabric.png");\'>';
             echo '<div id="cover"></div>'; 
-            include "includes/socialnav.php";
+            include "includes/adminnav.php";
             include "includes/alert.php";
             echo '<div class="container">';
                 echo '<div class="row text-center">';
