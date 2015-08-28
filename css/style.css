@@ -138,12 +138,12 @@ background-color: #BDCCD1;
 }
 
 .adminheight{
-    height: 600px;
+    height: 400px;
     overflow-y:scroll;
     
 }
 .adminwidth{
-    width: auto;
+    width: 80%;
 }
 .textshadow:hover {
     color: #383838;
