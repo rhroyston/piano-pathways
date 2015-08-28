@@ -91,7 +91,7 @@ else
                                      
                             try {
                                 $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
-                                $sql = 'SELECT * FROM phpro_users';
+                                $sql = 'SELECT * FROM phpro_users ORDER BY phpro_lastname';
                                  $q = $conn->query($sql);
                                  $q->setFetchMode(PDO::FETCH_ASSOC);                        
                             } catch (PDOException $pe) {
