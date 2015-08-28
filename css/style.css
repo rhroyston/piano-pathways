@@ -139,6 +139,7 @@ background-color: #BDCCD1;
 .adminheight{
     height: 50%;
     overflow-y:auto;
+    position:relative;
 }
 .adminwidth{
     width: auto;
