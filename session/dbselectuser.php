@@ -80,6 +80,8 @@ if(!isset($_SESSION['user_id']))
                 <h5><?php echo "<i class='fa fa-envelope-o'></i> " . $email?></h5>
             </div>
             <br>
+            <br>
+            <?php echo "Grade&#58; " . $grade . "<br>"?>
             <?php echo "Payment Plan&#58; " . $payment_plan . "<br>"?>
             <?php echo "Lesson Option&#58; " . $lesson_option . "<br>"?>
             <?php echo "Has A Friend&#58; " . $has_friend . "<br>"?>
