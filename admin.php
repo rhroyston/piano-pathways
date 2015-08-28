@@ -96,7 +96,8 @@ else
                                  $q->setFetchMode(PDO::FETCH_ASSOC);                        
                             } catch (PDOException $pe) {
                                 die("Could not connect to the database $dbname :" . $pe->getMessage());
-                            }                                
+                            }
+                        echo '<h3><i class="fa fa-users"></i> Student Name</h3>';
                         echo '<div class="adminscroll">';
                         echo '<table class="table">';
 
