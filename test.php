@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
   <body>
-    <?php include 'local/modalhtml.php';?>
+    
+   <div>
+     asdfasdf<br>
+     asdfasdf<br>
+     asdfasdf<br>
+   </div> 
+   <div>
+     asxxdfasdf<br>
+     asxxdfasdf<br>
+     asxxdfasdf<br>
+   </div>     
+    
+    
   </body>
 </html>
