@@ -43,9 +43,27 @@ if(!isset($_SESSION['user_id']))
                     <?php while ($r = $q->fetch()): ;
                     $firstname = htmlspecialchars($r['phpro_firstname']);
                     $lastname = htmlspecialchars($r['phpro_lastname']);
+                    $street = htmlspecialchars($r['phpro_street']);
+                    $city = htmlspecialchars($r['phpro_city']);
+                    $state = htmlspecialchars($r['phpro_state']);
+                    $zip = htmlspecialchars($r['phpro_zip']);
+                    
                     $email = htmlspecialchars($r['phpro_email']);
                     $telephone = htmlspecialchars($r['phpro_telephone']);
                     $birthday = htmlspecialchars($r['phpro_birthday']);
+                    $grade = htmlspecialchars($r['phpro_grade']);
+                    
+                    $lesson_history = htmlspecialchars($r['phpro_lesson_history']);
+                    $lesson_option = htmlspecialchars($r['phpro_lesson_option']);
+                    $has_friend = htmlspecialchars($r['phpro_has_friend']);
+                    $lesson_pref_1 = htmlspecialchars($r['phpro_lesson_pref_1']);
+                    $lesson_pref_2 = htmlspecialchars($r['phpro_lesson_pref_2']);
+                    $lesson_pref_3 = htmlspecialchars($r['phpro_lesson_pref_3']);
+                    $payment_plan = htmlspecialchars($r['phpro_payment_plan']);
+                    
+                    
+                    $username = htmlspecialchars($r['phpro_username']);
+                    
                     endwhile; ?>
 
                 <body>
@@ -55,22 +73,14 @@ if(!isset($_SESSION['user_id']))
                 
                 </div>
                 <div class="modal-body">
-                                <table class="table">
-                                    <tr>
-                                        <th>Last Name</th>
-                                        <th>First Name</th>
-                                        <th>Email</th>
-                                        <th>Telephone</th>
-                                        <th>Birthday</th>
-                                    </tr>
-                                    <tr>
-                                        <td><?php echo $lastname; ?></td>
-                                        <td><?php echo $firstname; ?></td>
-                                        <td><?php echo $email; ?></td>
-                                        <td><?php echo $telephone; ?></td>
-                                        <td><?php echo $birthday; ?></td>
-                                    </tr>
-                                </table>
+                                
+                                    
+                                        <h3><?php echo $street . " " . $city . "&#44; " . $state . " " . $zip?>    </h3>
+                                        <h3><?php echo $email . " " . $telephone ; ?></h3>
+                                        <h3><?php echo $birthday . " " . $grade ; ?></h3>
+
+                                    
+                                
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
