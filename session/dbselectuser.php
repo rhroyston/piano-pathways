@@ -79,13 +79,13 @@ if(!isset($_SESSION['user_id']))
                 <h5><?php echo "<i class='fa fa-phone'></i> " . $telephone?></h5>
                 <h5><?php echo "<i class='fa fa-envelope-o'></i> " . $email?></h5>
             </div>
-            <h5><?php echo "Payment Plan&#58; </h5>" . $payment_plan?>
-            <h5><?php echo "Lesson Option&#58; </h5>" . $lesson_option?>
-            <h5><?php echo "Has A Friend&#58; </h5>" . $has_friend?>
-            <h5><?php echo "Lesson Preference 1&#58; </h5>" . $lesson_pref_1?>
-            <h5><?php echo "Lesson Preference 2&#58; </h5>" . $lesson_pref_2?>
-            <h5><?php echo "Lesson Preference 3&#58; </h5>" . $lesson_pref_3?>
-            <h5><?php echo "Lesson History &#58; </h5>" . $lesson_history?>
+            <?php echo "Payment Plan&#58; " . $payment_plan . "<br>"?>
+            <?php echo "Lesson Option&#58; " . $lesson_option . "<br>"?>
+            <?php echo "Has A Friend&#58; " . $has_friend . "<br>"?>
+            <?php echo "Lesson Preference 1&#58; " . $lesson_pref_1 . "<br>"?>
+            <?php echo "Lesson Preference 2&#58; " . $lesson_pref_2 . "<br>"?>
+            <?php echo "Lesson Preference 3&#58; " . $lesson_pref_3 . "<br>"?>
+            <?php echo "Lesson History &#58; " . $lesson_history . "<br>"?>
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
