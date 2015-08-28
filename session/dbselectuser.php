@@ -58,7 +58,7 @@ if(!isset($_SESSION['user_id']))
             $lesson_pref_3 = htmlspecialchars($r['phpro_lesson_pref_3']);
             $payment_plan = htmlspecialchars($r['phpro_payment_plan']);
                     
-            $lesson_history = htmlspecialchars($r['phpro_lesson_history']);
+            $lesson_history = $r['phpro_lesson_history'];
             $username = htmlspecialchars($r['phpro_username']);
                     
         endwhile;
