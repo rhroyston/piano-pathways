@@ -70,7 +70,10 @@ else
                     echo "<h2>Administrator Portal</h2>";
                 echo '</div>';
                 echo '<div class="row">';
-                    echo '<div class="col-sm-6">';
+                    echo '<br>';
+                    echo '<br>';
+                    echo '<br>';
+                    echo '<div class="col-sm-6 adminheight">';
         
                             /*** connect to database ***/;
                             /*** mysql hostname ***/;
