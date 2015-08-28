@@ -141,7 +141,7 @@ background-color: #BDCCD1;
 }
 .adminheight{
     height: 30%;
-    overflow:auto;
+    overflow:scroll;
     position:relative;
 }
 .adminwidth{
