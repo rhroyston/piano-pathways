@@ -87,10 +87,7 @@ if(!isset($_SESSION['user_id']))
                         <h5><?php echo $payment_plan?></h5>
                         <h5><?php echo $has_friend?></h5>
                     </div>
-                    <div class="oneline pull-right text-right">
-                        <h5><?php echo "<i class='fa fa-phone'></i> " . $telephone?></h5>
-                        <h5><?php echo "<i class='fa fa-envelope-o'></i> " . $email?></h5>
-                    </div>
+
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
