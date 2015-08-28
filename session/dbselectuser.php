@@ -53,7 +53,7 @@ if(!isset($_SESSION['user_id']))
                     $birthday = htmlspecialchars($r['phpro_birthday']);
                     $grade = htmlspecialchars($r['phpro_grade']);
                     
-                    $lesson_history = htmlspecialchars($r['phpro_lesson_history']);
+                    
                     $lesson_option = htmlspecialchars($r['phpro_lesson_option']);
                     $has_friend = htmlspecialchars($r['phpro_has_friend']);
                     $lesson_pref_1 = htmlspecialchars($r['phpro_lesson_pref_1']);
@@ -61,7 +61,7 @@ if(!isset($_SESSION['user_id']))
                     $lesson_pref_3 = htmlspecialchars($r['phpro_lesson_pref_3']);
                     $payment_plan = htmlspecialchars($r['phpro_payment_plan']);
                     
-                    
+                    $lesson_history = htmlspecialchars($r['phpro_lesson_history']);
                     $username = htmlspecialchars($r['phpro_username']);
                     
                     endwhile; ?>
@@ -73,22 +73,28 @@ if(!isset($_SESSION['user_id']))
                 
                 </div>
                 <div class="modal-body">
-                                        
-                                        <div class="oneline">
-                                            <h5><?php echo $street?></h5>
-                                            <h5><?php echo $city . "&#44; " . $state . " " . $zip ?></h5>
-                                        </div>
-                                        <div class="oneline pull-right text-right">
-                                            <h5><?php echo $telephone?></h5>
-                                            <h5><?php echo $email?></h5>
-                                        </div>
-
-                                
+                    <div>
+                        <h5><?php echo $firstname . " " . $lastname; ?></h5>
+                        <h5><?php echo $street?></h5>
+                        <h5><?php echo $city . "&#44; " . $state . " " . $zip ?></h5>
+                    </div>
+                    <div class="oneline pull-right text-right">
+                        <h5><?php echo "<i class='fa fa-phone'></i> " . $telephone?></h5>
+                        <h5><?php echo "<i class='fa fa-envelope-o'></i> " . $email?></h5>
+                    </div>
+                    <div>
+                        <h5><?php echo $lesson_option?></h5>
+                        <h5><?php echo $payment_plan?></h5>
+                        <h5><?php echo $has_friend?></h5>
+                    </div>
+                    <div class="oneline pull-right text-right">
+                        <h5><?php echo "<i class='fa fa-phone'></i> " . $telephone?></h5>
+                        <h5><?php echo "<i class='fa fa-envelope-o'></i> " . $email?></h5>
+                    </div>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
-  
 </body>
 </html>
