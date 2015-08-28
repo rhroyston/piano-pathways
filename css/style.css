@@ -136,6 +136,9 @@ background-color: #BDCCD1;
 .oneline{
     display: inline-block;
 }
+.adminrow{
+    position:relative;
+}
 .adminheight{
     height: 50%;
     overflow-y:auto;
