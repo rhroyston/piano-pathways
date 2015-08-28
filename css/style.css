@@ -137,7 +137,8 @@ background-color: #BDCCD1;
     display: inline-block;
 }
 .adminheight{
-    height: 300px;
+    height: 50%;
+    overflow-y:auto;
 }
 .adminwidth{
     width: auto;
