@@ -75,7 +75,7 @@ if(!isset($_SESSION['user_id']))
                 <div class="modal-body">
                                 
                                     
-                                        <h3><?php echo $street . " " . $city . "&#44; " . $state . " " . $zip?>    </h3>
+                                        <h4><?php echo $street . " " . $city . "&#44; " . $state . " " . $zip?>    </h4>
                                         <h3><?php echo $email . " " . $telephone ; ?></h3>
                                         <h3><?php echo $birthday . " " . $grade ; ?></h3>
 
