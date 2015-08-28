@@ -97,19 +97,15 @@ else
                         echo '<table class="table">';
                             echo '<tr>';
                                 echo '<th> </th>';
-                                echo '<th>Last Name</th>';
                                 echo '<th>First Name</th>';
-                                echo '<th>Email</th>';
-                                echo '<th>Telephone</th>';
+                                echo '<th>Last Name</th>';
                             echo '</tr>';
                             while ($r = $q->fetch()):
                             $id = "#id" . htmlspecialchars($r['phpro_user_id']);
                             echo "<tr>";
                                 echo "<td><a class='modalclass black textshadowsm' href='session/dbselectuser?id=" . $r['phpro_user_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
-                                echo "<td>" . $r['phpro_lastname'] . "</td>";
                                 echo "<td>" . $r['phpro_firstname'] . "</td>";
-                                echo "<td>" . $r['phpro_email'] . "</td>";
-                                echo "<td>" . $r['phpro_telephone'] . "</td>";
+                                echo "<td>" . $r['phpro_lastname'] . "</td>";
                             echo "</tr>";
                             endwhile;
                         echo "</table>";
