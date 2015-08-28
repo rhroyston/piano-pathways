@@ -70,11 +70,11 @@ else
                 echo '<div class="row text-center">';
                 echo "<h1>Administrator Portal</h1>";
                 echo '</div>';
-                echo '<div class="row adminrow">';
+                echo '<div class="row">';
                     echo '<br>';
                     echo '<br>';
                     echo '<br>';
-                    echo '<div class="col-sm-6 adminheight adminwidth">';
+                    echo '<div class="col-sm-6 adminwidth">';
         
                             /*** connect to database ***/;
                             /*** mysql hostname ***/;
@@ -98,7 +98,7 @@ else
                                 die("Could not connect to the database $dbname :" . $pe->getMessage());
                             }                                
         
-                        echo '<table class="table">';
+                        echo '<table class="table adminheight">';
                             echo '<tr>';
                                 echo '<th> </th>';
                                 echo '<th>First Name</th>';
