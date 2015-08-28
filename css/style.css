@@ -137,12 +137,12 @@ background-color: #BDCCD1;
     display: inline-block;
 }
 .adminrow{
-    position:relative;
+    
 }
 .adminheight{
     height: 120px;
-    overflow:scroll;
-    position:relative;
+    overflow-y:scroll;
+    
 }
 .adminwidth{
     width: auto;
