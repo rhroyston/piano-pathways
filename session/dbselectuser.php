@@ -73,7 +73,7 @@ if(!isset($_SESSION['user_id']))
                 
                 </div>
                 <div class="modal-body">
-                    <div>
+                    <div class="oneline">
                         <h5><?php echo $firstname . " " . $lastname; ?></h5>
                         <h5><?php echo $street?></h5>
                         <h5><?php echo $city . "&#44; " . $state . " " . $zip ?></h5>
@@ -82,11 +82,12 @@ if(!isset($_SESSION['user_id']))
                         <h5><?php echo "<i class='fa fa-phone'></i> " . $telephone?></h5>
                         <h5><?php echo "<i class='fa fa-envelope-o'></i> " . $email?></h5>
                     </div>
-                    <div>
+                    
                         <h5><?php echo $lesson_option?></h5>
                         <h5><?php echo $payment_plan?></h5>
                         <h5><?php echo $has_friend?></h5>
-                    </div>
+                    
+                    
 
                 </div>
                 <div class="modal-footer">
