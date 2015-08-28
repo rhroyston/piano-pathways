@@ -64,7 +64,8 @@ else
         
             echo '<body style=\'background-image: url("../images/fabric.png");\'>';
             echo '<div id="cover"></div>'; 
-            echo '<?php include "includes/alert.php";?>';
+            include "includes/socialnav.php";
+            include "includes/alert.php";
             echo '<div class="container">';
                 echo '<div class="row text-center">';
                     echo "<h2>Administrator Portal</h2>";
