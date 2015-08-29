@@ -141,7 +141,7 @@ background-color: #BDCCD1;
     margin-right:.5em;
     margin-top:.7em;
 }
-
+.datepicker{z-index:1151 !important;}
 .adminscroll{
     height: 400px;
     overflow-y:scroll;
