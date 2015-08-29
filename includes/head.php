@@ -11,9 +11,9 @@
     <!-- 3rd Party JS Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script src="js/myjs.js"></script>
     <?php echo $jslink; ?>
     <?php echo $jslink2; ?>
+    <script src="js/myjs.js"></script>
     
     <!-- Hosted Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>

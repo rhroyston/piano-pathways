@@ -78,11 +78,9 @@ $(window).on('hidden.bs.modal', function (e) {
   $('#modal-placeholder').empty();
 });
 
-$('#datetimepicker').on('click', function () {
-            
-                //$('#datetimepicker').datetimepicker();
-                $('#datetimepicker').show();
-            
+$('#myModal').on('show.bs.modal', function () {
+                $('#datetimepicker').datetimepicker();
+                //$('#datetimepicker').show();
 });
 
 
