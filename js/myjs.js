@@ -77,4 +77,8 @@ $(window).load(function(){
 $(window).on('hidden.bs.modal', function (e) {
   $('#modal-placeholder').empty();
 });
+$(window).on('show.bs.modal', function (e) {
+  $('#datetimepicker1').datetimepicker();
+});
+
 
