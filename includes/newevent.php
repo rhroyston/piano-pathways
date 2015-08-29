@@ -26,7 +26,7 @@ if(!isset($_SESSION['user_id']))
               <div id="datetimepicker2" class="input-append">
                 <input data-format="MM/dd/yyyy HH:mm:ss PP" type="text"></input>
                 <span class="add-on">
-                  <i data-time-icon="icon-time" data-date-icon="icon-calendar">
+                  <i class="fa fa-calendar"></i>
                   </i>
                 </span>
               </div>
