@@ -72,18 +72,6 @@ $(window).load(function(){
 
 });
 
-$(document).ready(function() {
-  $('#myModal').on('hidden.bs.modal', function () {
-        window.alert('hidden event fired!');
-    $('#modal-placeholder').empty();
-    //$('#myModal').modal({
-      //keyboard: false
-    //});
-    //$('.modal-header').empty();
-    //$('.modal-body').empty();
-    //$('.modal-footer').empty();
-  });
-});
 
 $(window).on('hidden.bs.modal', function (e) {
   $('#modal-placeholder').empty();
