@@ -127,7 +127,7 @@ else
                     
                     echo '<div class="col-sm-4 adminwidth">';
                         echo '<div class="raised">';    
-                        echo '<h4>&nbsp;&nbsp;<i class="fa fa-calendar-o"></i> Upcoming Events<span class="pull-right admin-small"><a class="modalclass btn btn-default btn-xs" href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-pencil-square-o"></i> add new</a> </span> </h4>';
+                        echo '<h4>&nbsp;&nbsp;<i class="fa fa-calendar-o"></i> Upcoming Events<span class="pull-right admin-small"><a class="modalclass btn btn-default btn-xs" href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-pencil-square-o"></i> add new</a> </span>&nbsp;&nbsp;&nbsp;</h4>';
                         echo '<div class="adminscroll">';
                         echo '<table class="table">';
                             
