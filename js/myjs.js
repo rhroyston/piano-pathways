@@ -63,6 +63,7 @@ $(window).load(function(){
   
   $('.modalclass').on('click', function () {
     var href = $(this).attr('href');
+    alert(href);
     $("#modal-placeholder").load("includes/modalhtml.php", function() {
       $(".modal-content").load(href, function() {
         $('#myModal').modal('show');
