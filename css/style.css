@@ -151,7 +151,10 @@ background-color: #BDCCD1;
     border-width:1px;
     border-style:solid;
     border-radius: 3px;
-    border-color:white ;    
+    border-top-color:white;
+    border-right-color:white;
+    border-bottom-color:#B8B8B8;
+    border-left-color:#B8B8B8;
 }
 .adminwidth{
     width: 30%;
