@@ -70,11 +70,7 @@ else
                 echo '<div class="row text-center">';
                 echo "<h1>Administrator Portal</h1>";
                 echo '</div>';
-                echo '<div class="row">';
-                    echo '<br>';
-                    echo '<br>';
-                    echo '<br>';
-                    echo '<div class="col-sm-6 adminwidth">';
+
         
                             /*** connect to database ***/;
                             /*** mysql hostname ***/;
@@ -97,6 +93,11 @@ else
                             } catch (PDOException $pe) {
                                 die("Could not connect to the database $dbname :" . $pe->getMessage());
                             }
+                echo '<div class="row">';
+                    echo '<br>';
+                    echo '<br>';
+                    echo '<br>';
+                    echo '<div class="col-sm-6 adminwidth">';
                         echo '<div class="raised">';    
                         echo '<h4>&nbsp;&nbsp;<i class="fa fa-users"></i> Student Record Detail</h4>';
                         echo '<div class="adminscroll">';
