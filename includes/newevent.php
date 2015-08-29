@@ -46,14 +46,3 @@ if(!isset($_SESSION['user_id']))
         </div>
     </body>
 </html>
-
-
-
-<script type="text/javascript">
-  $(function() {
-    $('#datetimepicker2').datetimepicker({
-      language: 'en',
-      pick12HourFormat: true
-    });
-  });
-</script>
