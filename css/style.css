@@ -139,6 +139,7 @@ background-color: #BDCCD1;
 .admin-small{
     font-size:small;
     margin-right:.5em;
+    margin-bottom: 0;
 }
 
 .adminscroll{
