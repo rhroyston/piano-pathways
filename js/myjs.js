@@ -63,7 +63,7 @@ $(window).load(function(){
   
   $('.modalclass').on('click', function () {
     var href = $(this).attr('href');
-    alert(href);
+    
     $("#modal-placeholder").load("includes/modalhtml.php", function() {
       $(".modal-content").load(href, function() {
         $('#myModal').modal('show');
@@ -77,8 +77,10 @@ $(window).load(function(){
 $(window).on('hidden.bs.modal', function (e) {
   $('#modal-placeholder').empty();
 });
+
 $(window).on('show.bs.modal', function (e) {
   $('#datetimepicker1').datetimepicker();
+  alert('show modal fired');
 });
 
 
