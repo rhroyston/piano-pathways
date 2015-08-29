@@ -59,6 +59,8 @@ else
         echo '<html lang="en">';
         
             $title = 'Admin';
+            $csslink = '<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css"> />';
+            $jslink = '<script src="js/bootstrap-datetimepicker.min.js"></script> />';
             include 'includes/head.php';
         
             echo '<body style=\'background-image: url("../images/fabric.png");\'>';
@@ -127,7 +129,7 @@ else
                     
                     echo '<div class="col-sm-4 adminwidth">';
                         echo '<div class="raised">';    
-                        echo '<h4>&nbsp;&nbsp;<i class="fa fa-calendar-o"></i> Upcoming Events <span class="pull-right admin-small"><a class="modalclass black textshadowsm" href="#" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus"></i> add new</a></span></h4>';
+                        echo '<h4>&nbsp;&nbsp;<i class="fa fa-calendar-o"></i> Upcoming Events <span class="pull-right admin-small"><a class="modalclass black textshadowsm" href="includes/newevent" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus"></i> add new</a></span></h4>';
                         echo '<div class="adminscroll">';
                         echo '<table class="table">';
                             
