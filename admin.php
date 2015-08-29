@@ -133,7 +133,7 @@ else
                         echo '<div class="adminscroll">';
                         echo '<table class="table">';
                             
-;
+
                         echo "</table>";
                         echo "</div>";
                         echo "</div>";
