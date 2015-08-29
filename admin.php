@@ -133,14 +133,7 @@ else
                         echo '<div class="adminscroll">';
                         echo '<table class="table">';
                             
-                            while ($r = $q->fetch()):
-                            $id = "#id" . htmlspecialchars($r['phpro_user_id']);
-                            echo "<tr>";
-                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectuser?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
-                                echo "<td>" . $r['event_title'] . "</td>";
-                                echo "<td>" . $r['event_time'] . "</td>";
-                            echo "</tr>";
-                            endwhile;
+;
                         echo "</table>";
                         echo "</div>";
                         echo "</div>";
