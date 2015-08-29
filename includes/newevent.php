@@ -22,7 +22,6 @@ if(!isset($_SESSION['user_id']))
             <h4 class="modal-title">Add New Event</h4>
         </div>
         <div class="modal-body">
-<div class="container">
     <div class="row">
         <div class='col-sm-6'>
             <div class="form-group">
@@ -40,7 +39,6 @@ if(!isset($_SESSION['user_id']))
             });
         </script>
     </div>
-</div>
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
