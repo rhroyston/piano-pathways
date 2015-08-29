@@ -118,14 +118,7 @@ else
                     echo "</div>";
 
 
-                            try {
-                                //$conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
-                                $sql = 'SELECT * FROM events WHERE event_time >= NOW() ORDER BY event_time';
-                                 $q = $conn->query($sql);
-                                 $q->setFetchMode(PDO::FETCH_ASSOC);                        
-                            } catch (PDOException $pe) {
-                                die("Could not connect to the database $dbname :" . $pe->getMessage());
-                            }
+
                     
                     echo '<div class="col-sm-4 adminwidth">';
                         echo '<div class="raised">';    
