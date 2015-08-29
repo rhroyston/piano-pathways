@@ -61,6 +61,7 @@ else
             $title = 'Admin';
             $csslink = '<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">';
             $jslink = '<script src="js/bootstrap-datetimepicker.min.js"></script>';
+            $jslink2 = '<script src="js/moment.js"></script>';
             include 'includes/head.php';
         
             echo '<body style=\'background-image: url("../images/fabric.png");\'>';
@@ -83,7 +84,7 @@ else
                                     
                             /*** database name ***/
                             $mysql_dbname = 'thepianopathway';
-                                     
+    
                             try {
                                 $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
                                 $sql = 'SELECT * FROM phpro_users ORDER BY phpro_lastname';
@@ -115,7 +116,6 @@ else
                         echo "</div>";
                         echo "</div>";
                     echo "</div>";
-
 
 
                             try {

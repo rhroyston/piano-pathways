@@ -22,15 +22,25 @@ if(!isset($_SESSION['user_id']))
             <h4 class="modal-title">Add New Event</h4>
         </div>
         <div class="modal-body">
-            <div class="well">
-              <div id="datetimepicker2" class="input-append">
-                <input data-format="MM/dd/yyyy HH:mm:ss PP" type="text"></input>
-                <span class="add-on">
-                  <i class="fa fa-calendar"></i>
-                  </i>
-                </span>
-              </div>
+<div class="container">
+    <div class="row">
+        <div class='col-sm-6'>
+            <div class="form-group">
+                <div class='input-group date' id='datetimepicker1'>
+                    <input type='text' class="form-control" />
+                    <span class="input-group-addon">
+                        <span class="glyphicon glyphicon-calendar"></span>
+                    </span>
+                </div>
             </div>
+        </div>
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker1').datetimepicker();
+            });
+        </script>
+    </div>
+</div>
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>

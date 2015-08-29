@@ -13,6 +13,7 @@
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script src="js/myjs.js"></script>
     <?php echo $jslink; ?>
+    <?php echo $jslink2; ?>
     
     <!-- Hosted Fonts -->
     <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
