@@ -127,7 +127,7 @@ else
                     
                     echo '<div class="col-sm-4 adminwidth">';
                         echo '<div class="raised">';    
-                        echo '<h4>&nbsp;&nbsp;<i class="fa fa-users"></i> Upcoming Events</h4>';
+                        echo '<h4>&nbsp;&nbsp;<i class="fa fa-calendar-o"></i> Upcoming Events</h4>';
                         echo '<div class="adminscroll">';
                         echo '<table class="table">';
                             
