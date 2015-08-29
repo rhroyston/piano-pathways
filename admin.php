@@ -59,8 +59,8 @@ else
         echo '<html lang="en">';
         
             $title = 'Admin';
-            $csslink = '<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css"> />';
-            $jslink = '<script src="js/bootstrap-datetimepicker.min.js"></script> />';
+            $csslink = '<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">';
+            $jslink = '<script src="js/bootstrap-datetimepicker.min.js"></script>';
             include 'includes/head.php';
         
             echo '<body style=\'background-image: url("../images/fabric.png");\'>';
