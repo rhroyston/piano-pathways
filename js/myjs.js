@@ -79,9 +79,9 @@ $(window).on('hidden.bs.modal', function (e) {
 });
 
 $(window).on('show.bs.modal', function () {
-            $(function () {
+            
                 $('#datetimepicker1').datetimepicker();
-            });
+            
 });
 
 
