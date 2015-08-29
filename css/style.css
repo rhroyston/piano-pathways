@@ -62,7 +62,7 @@ right:20px;
 
 .alert {
   position: fixed;
-  z-index: 9999;
+  z-index: 99;
 }
 
 /* Positioning */ 
@@ -141,7 +141,9 @@ background-color: #BDCCD1;
     margin-right:.5em;
     margin-top:.7em;
 }
-.ui-datepicker{ z-index:1151 !important; }
+.clsDatePicker {
+    z-index: 100000;
+}
 .adminscroll{
     height: 400px;
     overflow-y:scroll;
