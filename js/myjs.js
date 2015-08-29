@@ -79,7 +79,7 @@ $(window).on('hidden.bs.modal', function (e) {
 });
 
 $(window).on('show.bs.modal', function (e) {
-  $('#datetimepicker1').datetimepicker();
+  //$('#datetimepicker1').datetimepicker();
   alert('show modal fired');
 });
 
