@@ -81,7 +81,7 @@ $(window).on('hidden.bs.modal', function (e) {
 $('#datetimepicker').on('click', function () {
             
                 //$('#datetimepicker').datetimepicker();
-                $('#datetimepicker').data("DateTimePicker").enable();
+                $('#datetimepicker').data("DateTimePicker").show();
             
 });
 
