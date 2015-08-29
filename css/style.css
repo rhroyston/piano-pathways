@@ -141,10 +141,10 @@ background-color: #BDCCD1;
     margin-right:.5em;
     margin-top:.7em;
 }
-.datepicker {
-     z-index: 100000 !important;
-    display: block;
-}
+.bootstrap-datetimepicker-widget 
+    {
+        z-index: 1200   !important;
+    }
 .adminscroll{
     height: 400px;
     overflow-y:scroll;
