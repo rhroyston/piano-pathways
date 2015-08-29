@@ -26,7 +26,6 @@ else
         /*** database name ***/
         $mysql_dbname = 'thepianopathway';
 
-
         /*** select the users name from the database ***/
         $dbh = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
         /*** $message = a message saying we have connected ***/
@@ -70,8 +69,6 @@ else
                 echo '<div class="row text-center">';
                 echo "<h1>Administrator Portal</h1>";
                 echo '</div>';
-
-        
                             /*** connect to database ***/;
                             /*** mysql hostname ***/;
                             $mysql_hostname = "127.8.99.130";
@@ -97,12 +94,12 @@ else
                     echo '<br>';
                     echo '<br>';
                     echo '<br>';
-                    echo '<div class="col-sm-6 adminwidth">';
+                    
+                    echo '<div class="col-sm-4 adminwidth">';
                         echo '<div class="raised">';    
                         echo '<h4>&nbsp;&nbsp;<i class="fa fa-users"></i> Student Record Detail</h4>';
                         echo '<div class="adminscroll">';
                         echo '<table class="table">';
-
                             
                             while ($r = $q->fetch()):
                             $id = "#id" . htmlspecialchars($r['phpro_user_id']);
@@ -116,6 +113,38 @@ else
                         echo "</div>";
                         echo "</div>";
                     echo "</div>";
+
+
+
+                            try {
+                                //$conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
+                                $sql = 'SELECT * FROM events WHERE event_time >= NOW() ORDER BY event_time';
+                                 $q = $conn->query($sql);
+                                 $q->setFetchMode(PDO::FETCH_ASSOC);                        
+                            } catch (PDOException $pe) {
+                                die("Could not connect to the database $dbname :" . $pe->getMessage());
+                            }
+                    
+                    echo '<div class="col-sm-4 adminwidth">';
+                        echo '<div class="raised">';    
+                        echo '<h4>&nbsp;&nbsp;<i class="fa fa-users"></i> Upcoming Events</h4>';
+                        echo '<div class="adminscroll">';
+                        echo '<table class="table">';
+                            
+                            while ($r = $q->fetch()):
+                            $id = "#id" . htmlspecialchars($r['phpro_user_id']);
+                            echo "<tr>";
+                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectuser?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
+                                echo "<td>" . $r['event_title'] . "</td>";
+                                echo "<td>" . $r['event_time'] . "</td>";
+                            echo "</tr>";
+                            endwhile;
+                        echo "</table>";
+                        echo "</div>";
+                        echo "</div>";
+                    echo "</div>";
+                    
+                    
                 echo "</div>";
             echo "</div>";
             echo "<div id='modal-placeholder'></div>";
@@ -135,4 +164,3 @@ else
 }
 
 ?>
-
