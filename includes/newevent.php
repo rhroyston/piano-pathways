@@ -33,11 +33,7 @@ if(!isset($_SESSION['user_id']))
                 </div>
             </div>
         </div>
-        <script type="text/javascript">
-            $(function () {
-                $('#datetimepicker1').datetimepicker();
-            });
-        </script>
+
     </div>
         </div>
         <div class="modal-footer">
