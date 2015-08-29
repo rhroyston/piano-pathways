@@ -97,7 +97,8 @@ else
                             } catch (PDOException $pe) {
                                 die("Could not connect to the database $dbname :" . $pe->getMessage());
                             }
-                        echo '<h4>&nbsp;&nbsp;<i class="fa fa-users"></i>Student Record Detail</h4>';
+                        echo '<div class="borderline">';    
+                        echo '<h4>&nbsp;&nbsp;<i class="fa fa-users"></i> Student Record Detail</h4>';
                         echo '<div class="adminscroll">';
                         echo '<table class="table">';
 
@@ -111,6 +112,7 @@ else
                             echo "</tr>";
                             endwhile;
                         echo "</table>";
+                        echo "</div>";
                         echo "</div>";
                     echo "</div>";
                 echo "</div>";
