@@ -68,7 +68,7 @@ if(!isset($_SESSION['user_id']))
             <div class="form-group">
                 <div class="col-sm-12">
                     <label>Event Detail</label>
-                    <textarea class="form-control" rows="3" id="event_detail" name="event_detail" placeholder="Event details..." pattern=".{1,400}"></textarea>
+                    <textarea class="form-control" rows="6" id="event_detail" name="event_detail" placeholder="Event details..." pattern=".{1,400}"></textarea>
                 </div>
             </div>
         </div>
