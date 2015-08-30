@@ -40,6 +40,7 @@ if(!isset($_SESSION['user_id']))
                     <input type="text" class="form-control" id="event_street" name="event_street" value="" placeholder="Street Address" pattern=".{0,40}" required>
                 </div>
             </div>
+        </div>
         <br>
         <div class="row">
             <div class="col-sm-6" id="city">
