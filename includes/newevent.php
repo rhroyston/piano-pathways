@@ -24,8 +24,8 @@ if(!isset($_SESSION['user_id']))
         <div class="modal-body">
 
         <div class="row">
-            <div class='col-sm-6'>
-                <div class="form-group form-inline">
+            <div class='col-sm-6 form-inline'>
+                <div class="form-group">
                     <label class="control-label" for="month control-label">Date&#38; Time</label>
                     <div class='input-group date clsDatePicker' id='datetimepicker'>
                         
