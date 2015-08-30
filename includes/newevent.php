@@ -25,7 +25,15 @@ if(!isset($_SESSION['user_id']))
 
         <div class="row">
             <div class="form-group">
-                
+                <div class="col-sm-10">
+                    <label>Event Title</label>
+                    <input type="text" class="form-control" id="event_title" name="event_title" placeholder="Title" pattern=".{1,80}" required>
+                </div>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="form-group">
                 <div class='col-sm-6 form-inline'>
                     <label>Date&#38; Time</label>
                     <div class='input-group date clsDatePicker' id='datetimepicker'>
@@ -42,7 +50,15 @@ if(!isset($_SESSION['user_id']))
             </div>
         </div>
     
-    
+        <div class="row">
+            <div class="form-group">
+                <div class="col-sm-12">
+                    <label>Event Detail</label>
+                    <input type="text" class="form-control" id="event_detail" name="event_detail" placeholder="Event details..." pattern=".{1,400}" required>
+                </div>
+            </div>
+        </div>
+        
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
