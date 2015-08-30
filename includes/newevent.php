@@ -22,16 +22,20 @@ if(!isset($_SESSION['user_id']))
             <h4 class="modal-title">Add New Event</h4>
         </div>
         <div class="modal-body">
-            
-            
+
         <div class="row">
             <div class='col-sm-6'>
                 <div class="form-group">
                     <div class='input-group date clsDatePicker' id='datetimepicker'>
+                        <label class="control-label" for="month control-label">Date&#38; Time</label>
                         <input type='text' class="form-control" />
                         <span class="input-group-addon">
                             <span class="glyphicon glyphicon-calendar"></span>
                         </span>
+                    </div>
+                    <div class="col-sm-6">
+                        <label class="control-label" for="month control-label">Duration</label>
+                        <select class="form-control" id="duration" name="duration"><?php include 'includes/duration.php';?></select>
                     </div>
                 </div>
             </div>
