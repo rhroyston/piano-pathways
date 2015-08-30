@@ -31,7 +31,7 @@ if(!isset($_SESSION['user_id']))
                 </div>
             </div>
         </div>
-        
+        <br>
         <div class="row">
             <div class="form-group">
                 <div class='col-sm-6 form-inline'>
@@ -49,17 +49,16 @@ if(!isset($_SESSION['user_id']))
                 </div>
             </div>
         </div>
-    
+        <br>
         <div class="row">
             <div class="form-group">
                 <div class="col-sm-12">
                     <label>Event Detail</label>
-                    <input type="text" class="form-control" id="event_detail" name="event_detail" placeholder="Event details..." pattern=".{1,400}" required>
+                    <textarea class="form-control" rows="3" id="event_detail" name="event_detail" placeholder="Event details..." pattern=".{1,400}"></textarea>
                 </div>
             </div>
         </div>
         
-        </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
             <button type="button" class="btn btn-primary">Save changes</button>
