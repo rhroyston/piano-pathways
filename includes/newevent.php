@@ -60,7 +60,7 @@ if(!isset($_SESSION['user_id']))
         </div>
         
         <div class="modal-footer">
-            <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> Cancel</button>
+            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cancel</button>
             <button type="button" class="btn btn-success"><i class="fa fa-check"></i> Save</button>
         </div>
     </body>
