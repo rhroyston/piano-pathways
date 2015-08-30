@@ -1,5 +1,14 @@
+<?php include 'includes/session.php';?>
+
 <!DOCTYPE html>
 <html lang="en">
+  
+<div id="cover"></div>  
+  
+  <?php 
+    $title = 'Login';
+    include 'includes/head.php';
+  ?>
   <body>
     
 <div class="container">
