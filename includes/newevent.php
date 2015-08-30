@@ -27,7 +27,7 @@ if(!isset($_SESSION['user_id']))
             <div class="form-group">
                 
                 <div class='col-sm-6 form-inline'>
-                    <label class="control-label" for="pickertextbox">Date&#38; Time</label>
+                    <label>Date&#38; Time</label>
                     <div class='input-group date clsDatePicker' id='datetimepicker'>
                         <input type='text' class="form-control" id="pickertextbox"/>
                         <span class="input-group-addon">
@@ -36,7 +36,7 @@ if(!isset($_SESSION['user_id']))
                     </div>
                 </div>
                 <div class="col-sm-6">
-                    <label class="control-label" for="duration">Duration</label>
+                    <label>Duration</label>
                     <select class="form-control" id="duration" name="duration"><?php include 'includes/duration.php';?></select>
                 </div>
             </div>
