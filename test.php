@@ -7,8 +7,8 @@
   
   <?php 
             $title = 'Admin';
-            $jslink2 = '<script src="js/moment-with-locales.min.js"></script>';
-            $jslink = '<script src="js/bootstrap-datetimepicker.min.js"></script>';
+            $jslink = '<script src="js/moment-with-locales.min.js"></script>';
+            $jslink2 = '<script src="js/bootstrap-datetimepicker.min.js"></script>';
             $csslink = '<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">';
     include 'includes/head.php';
   ?>
