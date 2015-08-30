@@ -24,8 +24,8 @@ if(!isset($_SESSION['user_id']))
         <div class="modal-body">
 
         <div class="row">
-            <div class='col-sm-6 form-inline'>
-                <div class="form-group">
+            <div class="form-group">
+                <div class='col-sm-6 form-inline'>
                     <label class="control-label" for="month control-label">Date&#38; Time</label>
                     <div class='input-group date clsDatePicker' id='datetimepicker'>
                         
@@ -34,11 +34,12 @@ if(!isset($_SESSION['user_id']))
                             <span class="glyphicon glyphicon-calendar"></span>
                         </span>
                     </div>
+                </div>
                     <div class="col-sm-6">
                         <label class="control-label" for="month control-label">Duration</label>
                         <select class="form-control" id="duration" name="duration"><?php include 'includes/duration.php';?></select>
                     </div>
-                </div>
+                
             </div>
         </div>
     
