@@ -14,7 +14,7 @@ if(!isset($_SESSION['user_id']))
     		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     </head>
     <?php
-        $id = $_GET['id'];
+        $event_id = $_GET['event_id'];
     
         /*** connect to database ***/
         /*** mysql hostname ***/
@@ -31,7 +31,7 @@ if(!isset($_SESSION['user_id']))
                              
         try {
                 $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
-                $sql = "SELECT * FROM phpro_users WHERE phpro_user_id = $id";
+                $sql = "SELECT * FROM events WHERE event_id = $event_id";
                 $q = $conn->query($sql);
                 $q->setFetchMode(PDO::FETCH_ASSOC);                        
             } catch (PDOException $pe) {
