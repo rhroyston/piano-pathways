@@ -61,7 +61,8 @@ if(!isset($_SESSION['user_id']))
                 <h5><?php echo $event_city . "&#44; " . $event_state . " " . $event_zip ?></h5>
             </div>
             <div class="oneline pull-right text-right">
-                <h5><?php echo "When &#58; " . $event_time ?></h5>
+                <h5><?php echo "When &#58; " . date('l\, F jS h:i A', $r['$event_time']) ?></h5>
+                
                 <h5><?php echo "Duration &#58; " . $event_duration ?></h5>
             </div>
             <br>
