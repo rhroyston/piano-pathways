@@ -67,7 +67,6 @@ elseif (ctype_alnum($_POST['event_state']) != true)
     /*** if there is no match ***/
     $message = "Error&#58; Event state must be alpha numeric characters only";
 }
-
 else
 {
     /*** if we are here the data is valid and we can insert it into database ***/
@@ -76,11 +75,11 @@ else
     $event_city = filter_var($_POST['event_city'], FILTER_SANITIZE_STRING);
     $event_state = ucfirst(filter_var($_POST['event_state'], FILTER_SANITIZE_STRING));
     $event_zip = ucfirst(filter_var($_POST['event_zip'], FILTER_SANITIZE_STRING));
-    $event_time_init = filter_var($_POST['event_time'], FILTER_SANITIZE_STRING);
+    $event_time = filter_var($_POST['event_time'], FILTER_SANITIZE_STRING);
     $event_duration = ucwords(filter_var($_POST['event_duration'], FILTER_SANITIZE_STRING));
     $event_detail = ucfirst(filter_var($_POST['event_detail'], FILTER_SANITIZE_STRING));
     
-    $event_time = STR_TO_DATE($event_time_init, '%c/%e/%Y %r');
+    
 
     
     /*** connect to database ***/
