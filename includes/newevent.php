@@ -96,8 +96,8 @@ if(!isset($_SESSION['user_id']))
         </form>
         <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cancel</button>
-            <button type="submit" class="btn btn-success" value="Submit"><i class="fa fa-check"></i> Save</button>
             
+            <input type="submit" class="btn btn-default" value="Submit" />
         </div>
     </body>
 </html>
