@@ -80,7 +80,7 @@ else
     $event_duration = ucwords(filter_var($_POST['event_duration'], FILTER_SANITIZE_STRING));
     $event_detail = ucfirst(filter_var($_POST['event_detail'], FILTER_SANITIZE_STRING));
     
-    $event_time = (STR_TO_DATE($event_time_init, '%c/%e/%Y %r'));
+    $event_time = STR_TO_DATE($event_time_init, '%c/%e/%Y %r');
 
     
     /*** connect to database ***/
