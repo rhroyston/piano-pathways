@@ -102,7 +102,7 @@ else
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         /*** prepare the insert ***/
-        $stmt = $dbh->prepare("INSERT INTO phpro_users (event_title, event_street, event_city, event_state, event_zip, event_time, event_duration, event_detail) VALUES (:event_title, :event_street, :event_city, :event_state, :event_zip, :event_time, :event_duration, :event_detail)");
+        $stmt = $dbh->prepare("INSERT INTO events (event_title, event_street, event_city, event_state, event_zip, event_time, event_duration, event_detail) VALUES (:event_title, :event_street, :event_city, :event_state, :event_zip, :event_time, :event_duration, :event_detail)");
 
         /*** bind the parameters ***/
         $stmt->bindParam(':event_title', $event_title, PDO::PARAM_STR);
