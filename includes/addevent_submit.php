@@ -62,7 +62,7 @@ else
     $event_duration = ucwords(filter_var($_POST['event_duration'], FILTER_SANITIZE_STRING));
     $event_detail = ucfirst(filter_var($_POST['event_detail'], FILTER_SANITIZE_STRING));
     
-    $event_time = filter_var(strtotime($_POST['event_time']), FILTER_SANITIZE_STRING);
+    $event_time = filter_var(date('Y-m-d H:i:s', strtotime($_POST['event_time'])), FILTER_SANITIZE_STRING);
     
 
     
