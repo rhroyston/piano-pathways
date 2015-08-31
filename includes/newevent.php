@@ -60,7 +60,7 @@ if(!isset($_SESSION['user_id']))
                     <div class='col-sm-6 form-inline'>
                         <label>Date&#38; Time</label>
                         <div class='input-group date clsDatePicker' id='datetimepicker'>
-                            <input type='text' class="form-control" id="event_time" required/>
+                            <input type='text' class="form-control" id="event_time" name="event_time" required/>
                             <span class="input-group-addon">
                                 <span class="glyphicon glyphicon-calendar"></span>
                             </span>
