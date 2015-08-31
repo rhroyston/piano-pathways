@@ -117,8 +117,17 @@ else
                         echo "</div>";
                         echo "</div>";
                     echo "</div>";
+                    
 
 
+                            try {
+                                $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
+                                $sql = 'SELECT * FROM events WHERE event_time >= NOW() ORDER BY event_time';
+                                 $q = $conn->query($sql);
+                                 $q->setFetchMode(PDO::FETCH_ASSOC);                        
+                            } catch (PDOException $pe) {
+                                die("Could not connect to the database $dbname :" . $pe->getMessage());
+                            }
 
                     
                     echo '<div class="col-sm-4 adminwidth">';
@@ -127,7 +136,15 @@ else
                         echo '<div class="adminscroll">';
                         echo '<table class="table">';
                             
-
+                            while ($r = $q->fetch()):
+                            $eventid = "#eventid" . htmlspecialchars($r['event_id']);
+                            echo "<tr>";
+                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
+                                echo "<td>" . $r['event_title'] . "</td>";
+                                echo "<td>" . $r['event_time'] . "</td>";
+                            echo "</tr>";
+                            endwhile;
+                            
                         echo "</table>";
                         echo "</div>";
                         echo "</div>";

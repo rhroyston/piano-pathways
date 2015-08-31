@@ -68,7 +68,7 @@ if(!isset($_SESSION['user_id']))
                     </div>
                     <div class="col-sm-6">
                         <label>Duration</label>
-                        <select class="form-control" id="duration" name="duration">
+                        <select class="form-control" id="event_duration" name="event_duration">
                             <option value="">Choose One</option>
                             <option value="01">1 hour</option>
                             <option value="02">2 hours</option>
