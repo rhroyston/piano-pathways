@@ -35,7 +35,7 @@ if(!isset($_SESSION['user_id']))
                 <div class="form-group">
                     <div class="col-sm-10">
                         <label>Stree Address</label>
-                        <input type="text" class="form-control" id="event_street" name="event_street" value="" placeholder="Street Address" pattern=".{0,40}" required>
+                        <input type="text" class="form-control" id="event_street" name="event_street" value="" placeholder="Street Address" pattern=".{0,40}" >
                     </div>
                 </div>
             </div>
@@ -43,15 +43,15 @@ if(!isset($_SESSION['user_id']))
             <div class="row">
                 <div class="col-sm-6" id="city">
                     <label>City</label>
-                    <input type="text" class="form-control" id="event_city" name="event_city" placeholder="City" pattern=".{1,40}" required>
+                    <input type="text" class="form-control" id="event_city" name="event_city" placeholder="City" pattern=".{1,40}" >
                 </div>
                 <div class="col-sm-4" id="state">
                     <label>State</label>
-                    <input type="text" class="form-control" id="event_state" name="event_state" placeholder="State" pattern=".{2,2}" title="2 letters" required>
+                    <input type="text" class="form-control" id="event_state" name="event_state" placeholder="State" pattern=".{2,2}" title="2 letters">
                 </div>
                 <div class="col-sm-2" id="zip">
                     <label>Zip</label>
-                    <input type="text" class="form-control" id="event_zip" name="event_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" title="5 numbers" required>
+                    <input type="text" class="form-control" id="event_zip" name="event_zip" placeholder="Zip" pattern="(\d{5}([\-]\d{4})?)" title="5 numbers" >
                 </div>        
             </div>
             <br>
@@ -60,7 +60,7 @@ if(!isset($_SESSION['user_id']))
                     <div class='col-sm-6 form-inline'>
                         <label>Date&#38; Time</label>
                         <div class='input-group date clsDatePicker' id='datetimepicker'>
-                            <input type='text' class="form-control" id="event_time"/>
+                            <input type='text' class="form-control" id="event_time" required/>
                             <span class="input-group-addon">
                                 <span class="glyphicon glyphicon-calendar"></span>
                             </span>
