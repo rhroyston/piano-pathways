@@ -49,24 +49,7 @@ elseif (ctype_alnum($_POST['event_title']) != true)
     /*** if there is no match ***/
     $message = "Error&#58; Event title must be alpha numeric";
 }
-/*** check the event detail has only alpha numeric characters ***/
-elseif (ctype_alnum($_POST['event_detail']) != true)
-{
-    /*** if there is no match ***/
-    $message = "Error&#58; Event detail must be alpha numeric characters only";
-}
-/*** check the event city has only alpha numeric characters ***/
-elseif (ctype_alnum($_POST['event_city']) != true)
-{
-    /*** if there is no match ***/
-    $message = "Error&#58; Event city must be alpha numeric characters only";
-}
-/*** check the event state has only alpha numeric characters ***/
-elseif (ctype_alnum($_POST['event_state']) != true)
-{
-    /*** if there is no match ***/
-    $message = "Error&#58; Event state must be alpha numeric characters only";
-}
+
 else
 {
     /*** if we are here the data is valid and we can insert it into database ***/
@@ -75,10 +58,11 @@ else
     $event_city = filter_var($_POST['event_city'], FILTER_SANITIZE_STRING);
     $event_state = ucfirst(filter_var($_POST['event_state'], FILTER_SANITIZE_STRING));
     $event_zip = ucfirst(filter_var($_POST['event_zip'], FILTER_SANITIZE_STRING));
-    $event_time = filter_var($_POST['event_time'], FILTER_SANITIZE_STRING);
+    //$event_time = filter_var($_POST['event_time'], FILTER_SANITIZE_STRING);
     $event_duration = ucwords(filter_var($_POST['event_duration'], FILTER_SANITIZE_STRING));
     $event_detail = ucfirst(filter_var($_POST['event_detail'], FILTER_SANITIZE_STRING));
     
+    $event_time = filter_var(STR_TO_DATE($_POST['event_time'], '%c/%e/%Y %r'), FILTER_SANITIZE_STRING);
     
 
     
