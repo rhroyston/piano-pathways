@@ -14,7 +14,7 @@ if(!isset($_SESSION['user_id']))
     		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     </head>
     <?php
-        $event_id = $_GET['event_id'];
+        $event_id = $_GET['id'];
     
         /*** connect to database ***/
         /*** mysql hostname ***/

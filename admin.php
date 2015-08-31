@@ -137,7 +137,7 @@ else
                         echo '<table class="table">';
                             
                             while ($r = $q->fetch()):
-                            $eventid = "#eventid" . htmlspecialchars($r['event_id']);
+                            
                             echo "<tr>";
                                 echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
                                 echo "<td>" . $r['event_title'] . "</td>";
