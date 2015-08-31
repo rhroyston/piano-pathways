@@ -102,7 +102,7 @@ else
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         /*** prepare the insert ***/
-        $stmt = $dbh->prepare("INSERT INTO phpro_users (phpro_username, phpro_email, phpro_password, phpro_firstname, phpro_lastname, phpro_telephone, phpro_street, phpro_city, phpro_state, phpro_zip, phpro_grade, phpro_birthday, phpro_lesson_option, phpro_has_friend, phpro_lesson_pref_1, phpro_lesson_pref_2, phpro_lesson_pref_3, phpro_payment_plan, phpro_lesson_history, phpro_policy_agreement, phpro_tuition_agreement) VALUES (:phpro_username, :phpro_email, :phpro_password, :phpro_firstname, :phpro_lastname, :phpro_telephone, :phpro_street, :phpro_city, :phpro_state, :phpro_zip, :phpro_grade, :phpro_birthday, :phpro_lesson_option, :phpro_has_friend, :phpro_lesson_pref_1, :phpro_lesson_pref_2, :phpro_lesson_pref_3, :phpro_payment_plan, :phpro_lesson_history, :phpro_policy_agreement, :phpro_tuition_agreement)");
+        $stmt = $dbh->prepare("INSERT INTO phpro_users (event_title, event_street, event_city, event_state, event_zip, event_time, event_duration, event_detail) VALUES (:event_title, :event_street, :event_city, :event_state, :event_zip, :event_time, :event_duration, :event_detail)");
 
         /*** bind the parameters ***/
         $stmt->bindParam(':event_title', $event_title, PDO::PARAM_STR);
