@@ -9,7 +9,7 @@ if(!isset($_SESSION['user_id']))
     header("Location: http://thepianopathway-rhroyston.rhcloud.com/login");
     exit();
 }
-elseif(!isset( $_POST['event_title'], $_POST['pickertextbox']))
+elseif(!isset( $_POST['event_title'], $_POST['event_time']))
 {
     $message = 'Error&#58; Please enter event title and time';
 }
