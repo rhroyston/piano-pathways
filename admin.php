@@ -129,6 +129,7 @@ else
                                 die("Could not connect to the database $dbname :" . $pe->getMessage());
                             }
 
+
                     
                     echo '<div class="col-sm-4 adminwidth">';
                         echo '<div class="raised">';    
@@ -141,7 +142,7 @@ else
                             echo "<tr>";
                                 echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
                                 echo "<td>" . $r['event_title'] . "</td>";
-                                echo "<td>" . $r['event_time'] . "</td>";
+                                echo "<td>" . date('l jS \of F \at h:i A', $r['event_time']) . "</td>";
                             echo "</tr>";
                             endwhile;
                             
