@@ -117,8 +117,6 @@ else
                         echo "</div>";
                         echo "</div>";
                     echo "</div>";
-                    
-
 
                             try {
                                 $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
@@ -129,8 +127,6 @@ else
                                 die("Could not connect to the database $dbname :" . $pe->getMessage());
                             }
 
-
-                    
                     echo '<div class="col-sm-4 adminwidth">';
                         echo '<div class="raised">';    
                         echo '<h4>&nbsp;&nbsp;<i class="fa fa-calendar-o"></i> Upcoming Events <span class="pull-right admin-small"><a class="modalclass black textshadowsm" href="includes/newevent" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus"></i> add new</a></span></h4>';
@@ -142,7 +138,7 @@ else
                             echo "<tr>";
                                 echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
                                 echo "<td>" . $r['event_title'] . "</td>";
-                                echo "<td>" . date('l jS \of F \, h:i A', $r['event_time']) . "</td>";
+                                echo "<td>" . date('l\, F jS h:i A', $r['event_time']) . "</td>";
                             echo "</tr>";
                             endwhile;
                             
