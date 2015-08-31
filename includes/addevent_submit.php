@@ -43,13 +43,6 @@ elseif (strlen( $_POST['event_zip']) > 20)
 {
     $message = 'Error&#58; Incorrect Length for Event Zip';
 }
-/*** check the event title has only alpha numeric characters ***/
-elseif (ctype_alnum($_POST['event_title']) != true)
-{
-    /*** if there is no match ***/
-    $message = "Error&#58; Event title must be alpha numeric";
-}
-
 else
 {
     /*** if we are here the data is valid and we can insert it into database ***/
