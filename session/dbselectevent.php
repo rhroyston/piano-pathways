@@ -65,9 +65,9 @@ if(!isset($_SESSION['user_id']))
                 <h5><?php echo "When&#58; " . date_format($date, 'l\, F jS h:i A') ?></h5>
                 
                 <h5><?php if ($event_duration !== '1'){
-                    echo "Duration&#58; " . $event_duration . " hour";
-                }else{
                     echo "Duration&#58; " . $event_duration . " hours";
+                }else{
+                    echo "Duration&#58; " . $event_duration . " hour";
                 }
                 ?>
                 </h5>
