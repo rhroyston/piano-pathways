@@ -246,13 +246,13 @@ else
                                 
                                     echo '<label class="col-sm-12 control-label" for="prior-study">Prior Music Study and Teacher&#58;</label>';
                                     echo '<div class="col-sm-10">';
-                                      echo '<textarea class="form-control" rows="5" id="phpro_lesson_history" name="phpro_lesson_history" value="' . $lesson_history . '"></textarea>';
+                                      echo '<textarea class="form-control" rows="5" id="phpro_lesson_history" name="phpro_lesson_history">' . $lesson_history . '</textarea>';
                                     echo '</div>';
                                             
                                     echo '<br>';
                                     echo '<div class="col-sm-12 control">';
                                         echo '<div class="input-group pull-right">';
-                                            echo '<input type="hidden" name="form_token" value="<?php echo $form_token; ?>" />';
+                                            echo '<input type="hidden" name="form_token" value="' . $form_token . '" />';
                                             echo '<input type="submit" class="btn btn-default" value="Submit" />';
                                         echo '</div>';
                                     echo '</div>';
