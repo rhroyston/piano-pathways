@@ -47,7 +47,7 @@ if(!isset($_SESSION['user_id']))
             $event_duration = $r['event_duration'];
             $event_detail = $r['event_detail'];
         endwhile;
-        $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
+        $date = date_create_from_format('Y-m-d H:i:s', $event_time);
     ?>
 
     <body>
