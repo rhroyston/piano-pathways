@@ -70,15 +70,15 @@ if(!isset($_SESSION['user_id']))
                         <label>Duration</label>
                         <select class="form-control" id="event_duration" name="event_duration">
                             <option value="">Choose One</option>
-                            <option value="01">1 hour</option>
-                            <option value="02">2 hours</option>
-                            <option value="03">3 hours</option>
-                            <option value="04">4 hours</option>
-                            <option value="05">5 hours</option>
-                            <option value="06">6 hours</option>
-                            <option value="07">7 hours</option>
-                            <option value="08">8 hours</option>
-                            <option value="09">9 hours</option>
+                            <option value="1">1 hour</option>
+                            <option value="2">2 hours</option>
+                            <option value="3">3 hours</option>
+                            <option value="4">4 hours</option>
+                            <option value="5">5 hours</option>
+                            <option value="6">6 hours</option>
+                            <option value="7">7 hours</option>
+                            <option value="8">8 hours</option>
+                            <option value="9">9 hours</option>
                             <option value="10">10 hours</option>
                             <option value="11">11 hours</option>
                             <option value="12">12 hours</option>
