@@ -135,10 +135,14 @@ else
                             
                             while ($r = $q->fetch()):
                             
+                            $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
+                            //echo date_format($date, 'Y-m-d');    
+                            
+                            
                             echo "<tr>";
                                 echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
                                 echo "<td>" . $r['event_title'] . "</td>";
-                                echo "<td>" . date_format($r['event_time'], 'l\, F jS h:i A') . "</td>";
+                                echo "<td>" . date_format($date, 'l\, F jS h:i A') . "</td>";
                             echo "</tr>";
                             endwhile;
                             
