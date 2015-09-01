@@ -12,7 +12,8 @@
               }
               else
               {
-                echo '<span><a href="/logout" class="black textshadow"> <i class="fa fa-sign-in"></i> logout</a></span>';
+                echo '<span><a href="/profile" class="black textshadow"> <i class="fa fa-user"></i> ' . $_SESSION['user_id'] . '</a></span>';
+                echo '<span><a href="/logout" class="black textshadow"> <i class="fa fa-sign-out"></i> logout</a></span>';
               }
             ?>
         &nbsp;
