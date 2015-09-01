@@ -138,7 +138,7 @@ else
                             echo "<tr>";
                                 echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
                                 echo "<td>" . $r['event_title'] . "</td>";
-                                echo "<td>" . date('l\, F jS h:i A', $r['event_time']) . "</td>";
+                                echo "<td>" . date_format($r['event_time'], 'l\, F jS h:i A') . "</td>";
                             echo "</tr>";
                             endwhile;
                             
