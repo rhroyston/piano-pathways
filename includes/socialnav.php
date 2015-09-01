@@ -8,12 +8,12 @@
           <?php
               if(!isset($_SESSION['user_id']))
               {
-                echo '<span><a href="/login" class="black textshadow"><small><i class="fa fa-sign-in"></i> login</small></a></span>';
+                echo '<span><a href="/login" class="black textshadow"><span class="navsmall"><i class="fa fa-sign-in"></i> login</span></a></span>';
               }
               else
               {
-                echo '<span><a href="/profile" class="black textshadow"> <small><i class="fa fa-user"></i> ' . $_SESSION['username'] . '</small></a></span>';
-                echo '&nbsp;<span><a href="/logout" class="black textshadow"> <small><i class="fa fa-sign-out"></i> logout</small></a></span>';
+                echo '<span><a href="/profile" class="black textshadow"> <span class="navsmall"><i class="fa fa-user"></i> ' . $_SESSION['username'] . '</span></a></span>';
+                echo '&nbsp;<span><a href="/logout" class="black textshadow"> <span class="navsmall"><i class="fa fa-sign-out"></i> logout</span></a></span>';
               }
             ?>
         &nbsp;
