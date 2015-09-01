@@ -125,10 +125,10 @@ background-color: #BDCCD1;
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
     -o-text-shadow: cover;
-    text-shadow: -3px 3px 1px rgba(150, 150, 150, 1);
+    text-shadow: -2px 2px 1px rgba(150, 150, 150, 1);
 }
 .textshadow:active {
-    text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
+    text-shadow: 0px 0px 1px rgba(150, 150, 150, 1);
 }
 .textshadow:visited {
     color: black;
@@ -179,10 +179,10 @@ background-color: #BDCCD1;
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
     -o-text-shadow: cover;
-    text-shadow: -2px 2px 1px rgba(150, 150, 150, 1);
+    text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
 }
 .textshadowsm:active {
-    text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
+    text-shadow: 0px 0px 1px rgba(150, 150, 150, 1);
 }
 .textshadowsm:visited {
     color: black;

@@ -1,5 +1,5 @@
     <h4>
-        &nbsp;&nbsp;<a class="black textshadow" href="/"><i class="fa fa-home"></i> Home</a>
+        &nbsp;&nbsp;<a class="black textshadowsm" href="/"><i class="fa fa-home"></i> Home</a>
           <?php
               if(!isset($_SESSION['user_id']))
               {
