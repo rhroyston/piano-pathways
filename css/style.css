@@ -142,7 +142,8 @@ background-color: #BDCCD1;
     margin-top:.7em;
 }
 .navsmall{
-    font-size:.5em;
+    font-size:.75em;
+    
 }
 .clsDatePicker {
     z-index: 100000;
