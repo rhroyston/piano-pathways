@@ -248,7 +248,6 @@ else
                                     echo '<div class="col-sm-10">';
                                       echo '<textarea class="form-control" rows="5" id="phpro_lesson_history" name="phpro_lesson_history">' . $lesson_history . '</textarea>';
                                     echo '</div>';
-                                            
                                     echo '<br>';
                                     echo '<div class="col-sm-12 control">';
                                         echo '<div class="input-group pull-right">';
@@ -258,10 +257,9 @@ else
                                     echo '</div>';
                                 echo '</div>';
                             echo '</form>';
-
                         echo "</div>";
                         echo "<div id='modal-placeholder'></div>";
-                    echo "</div>";
+                    echo "</div><br><br><br><br>";
                 echo "</body>";
             echo "</html>";
         }
