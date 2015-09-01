@@ -47,6 +47,7 @@ if(!isset($_SESSION['user_id']))
             $event_duration = $r['event_duration'];
             $event_detail = $r['event_detail'];
         endwhile;
+        $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
     ?>
 
     <body>
@@ -61,7 +62,7 @@ if(!isset($_SESSION['user_id']))
                 <h5><?php echo $event_city . "&#44; " . $event_state . " " . $event_zip ?></h5>
             </div>
             <div class="oneline pull-right text-right">
-                <h5><?php echo "When &#58; " . date('l\, F jS h:i A', $r['$event_time']) ?></h5>
+                <h5><?php echo "When &#58; " . date_format($date, 'l\, F jS h:i A') ?></h5>
                 
                 <h5><?php echo "Duration &#58; " . $event_duration ?></h5>
             </div>
