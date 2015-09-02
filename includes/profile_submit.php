@@ -135,6 +135,7 @@ elseif (ctype_alnum($_POST['phpro_lastname']) != true)
 else
 {
     /*** if we are here the data is valid and we can insert it into database ***/
+    $phpro_user_id = $_SESSION['user_id'];
     $phpro_email = strtolower(filter_var($_POST['phpro_email'], FILTER_SANITIZE_STRING));
     $phpro_firstname = ucfirst(filter_var($_POST['phpro_firstname'], FILTER_SANITIZE_STRING));
     $phpro_lastname = ucfirst(filter_var($_POST['phpro_lastname'], FILTER_SANITIZE_STRING));
@@ -181,9 +182,11 @@ else
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         /*** prepare the insert ***/
-        $stmt = $dbh->prepare("INSERT INTO phpro_users (phpro_email, phpro_firstname, phpro_lastname, phpro_telephone, phpro_street, phpro_city, phpro_state, phpro_zip, phpro_grade, phpro_birthday, phpro_lesson_option, phpro_has_friend, phpro_lesson_pref_1, phpro_lesson_pref_2, phpro_lesson_pref_3, phpro_payment_plan, phpro_lesson_history) VALUES (:phpro_email, :phpro_firstname, :phpro_lastname, :phpro_telephone, :phpro_street, :phpro_city, :phpro_state, :phpro_zip, :phpro_grade, :phpro_birthday, :phpro_lesson_option, :phpro_has_friend, :phpro_lesson_pref_1, :phpro_lesson_pref_2, :phpro_lesson_pref_3, :phpro_payment_plan, :phpro_lesson_history)");
+        $stmt = $dbh->prepare("UPDATE phpro_users SET phpro_email = :phpro_email, phpro_lastname = :phpro_lastname, phpro_telephone = :phpro_telephone, phpro_street = :phpro_street, phpro_city = :phpro_city, phpro_state = :phpro_state, phpro_zip = :phpro_zip, phpro_grade = :phpro_grade, phpro_birthday = :phpro_birthday, phpro_lesson_option = :phpro_lesson_option, phpro_has_friend = :phpro_has_friend, phpro_lesson_pref_1 = :phpro_lesson_pref_1, phpro_lesson_pref_2 = :phpro_lesson_pref_2, phpro_lesson_pref_3 = :phpro_lesson_pref_3, phpro_payment_plan = :phpro_payment_plan, phpro_lesson_history = :phpro_lesson_history WHERE phpro_user_id = :phpro_user_id");
 
         /*** bind the parameters ***/
+        
+        $stmt->bindParam(':phpro_user_id', $phpro_user_id, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_email', $phpro_email, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_firstname', $phpro_firstname, PDO::PARAM_STR);
         $stmt->bindParam(':phpro_lastname', $phpro_lastname, PDO::PARAM_STR);
