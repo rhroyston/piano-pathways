@@ -181,14 +181,11 @@ else
         /*** prepare the insert ***/
         //$stmt = $dbh->prepare("UPDATE phpro_users SET phpro_email = :phpro_email, phpro_lastname = :phpro_lastname, phpro_telephone = :phpro_telephone, phpro_street = :phpro_street, phpro_city = :phpro_city, phpro_state = :phpro_state, phpro_zip = :phpro_zip, phpro_grade = :phpro_grade, phpro_birthday = :phpro_birthday, phpro_lesson_option = :phpro_lesson_option, phpro_has_friend = :phpro_has_friend, phpro_lesson_pref_1 = :phpro_lesson_pref_1, phpro_lesson_pref_2 = :phpro_lesson_pref_2, phpro_lesson_pref_3 = :phpro_lesson_pref_3, phpro_payment_plan = :phpro_payment_plan, phpro_lesson_history = :phpro_lesson_history WHERE phpro_user_id = :phpro_user_id");
         //$stmt = $dbh->prepare("UPDATE phpro_users SET (phpro_email, phpro_firstname, phpro_lastname, phpro_telephone, phpro_street, phpro_city, phpro_state, phpro_zip, phpro_grade, phpro_birthday, phpro_lesson_option, phpro_has_friend, phpro_lesson_pref_1, phpro_lesson_pref_2, phpro_lesson_pref_3, phpro_payment_plan, phpro_lesson_history) VALUES (:phpro_email, :phpro_firstname, :phpro_lastname, :phpro_telephone, :phpro_street, :phpro_city, :phpro_state, :phpro_zip, :phpro_grade, :phpro_birthday, :phpro_lesson_option, :phpro_has_friend, :phpro_lesson_pref_1, :phpro_lesson_pref_2, :phpro_lesson_pref_3, :phpro_payment_plan, :phpro_lesson_history)");
-        $stmt = $dbh->prepare("UPDATE phpro_users SET phpro_email = :phpro_email, phpro_lastname = :phpro_lastname, phpro_telephone = :phpro_telephone, phpro_street = :phpro_street, phpro_city = :phpro_city, phpro_state = :phpro_state, phpro_zip = :phpro_zip, phpro_grade = :phpro_grade, phpro_birthday = :phpro_birthday, phpro_lesson_option = :phpro_lesson_option, phpro_has_friend = :phpro_has_friend, phpro_lesson_pref_1 = :phpro_lesson_pref_1, phpro_lesson_pref_2 = :phpro_lesson_pref_2, phpro_lesson_pref_3 = :phpro_lesson_pref_3, phpro_payment_plan = :phpro_payment_plan, phpro_lesson_history = :phpro_lesson_history WHERE phpro_user_id = :phpro_user_id");
-        //$stmt = $dbh->prepare("UPDATE `phpro_users` SET (`phpro_email`, `phpro_firstname`, `phpro_lastname`, `phpro_telephone`, `phpro_street`, `phpro_city`, `phpro_state`, `phpro_zip`, `phpro_grade`, `phpro_birthday`, `phpro_lesson_option`, `phpro_has_friend`, `phpro_lesson_pref_1`, `phpro_lesson_pref_2`, `phpro_lesson_pref_3`, `phpro_payment_plan`, `phpro_lesson_history`) VALUES (:phpro_email, :phpro_firstname, :phpro_lastname, :phpro_telephone, :phpro_street, :phpro_city, :phpro_state, :phpro_zip, :phpro_grade, :phpro_birthday, :phpro_lesson_option, :phpro_has_friend, :phpro_lesson_pref_1, :phpro_lesson_pref_2, :phpro_lesson_pref_3, :phpro_payment_plan, :phpro_lesson_history)");
-        //$stmt = $dbh->prepare("UPDATE `phpro_users` SET `phpro_email` = :phpro_email WHERE `phpro_user_id` = :phpro_user_id");
-        //$stmt = $dbh->prepare("UPDATE phpro_users SET phpro_email = :phpro_email WHERE phpro_user_id = :phpro_user_id");
+        $stmt = $dbh->prepare("UPDATE phpro_users SET phpro_email = :phpro_email, phpro_firstname = :phpro_firstname, phpro_lastname = :phpro_lastname, phpro_telephone = :phpro_telephone, phpro_street = :phpro_street, phpro_city = :phpro_city, phpro_state = :phpro_state, phpro_zip = :phpro_zip, phpro_grade = :phpro_grade, phpro_birthday = :phpro_birthday, phpro_lesson_option = :phpro_lesson_option, phpro_has_friend = :phpro_has_friend, phpro_lesson_pref_1 = :phpro_lesson_pref_1, phpro_lesson_pref_2 = :phpro_lesson_pref_2, phpro_lesson_pref_3 = :phpro_lesson_pref_3, phpro_payment_plan = :phpro_payment_plan, phpro_lesson_history = :phpro_lesson_history WHERE phpro_user_id = :phpro_user_id");
         
         /*** bind the parameters ***/
         
-        $stmt->bindParam(':phpro_user_id', $phpro_user_id, PDO::PARAM_STR, 40);
+        
         $stmt->bindParam(':phpro_email', $phpro_email, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_firstname', $phpro_firstname, PDO::PARAM_STR);
         $stmt->bindParam(':phpro_lastname', $phpro_lastname, PDO::PARAM_STR);
@@ -206,6 +203,7 @@ else
         $stmt->bindParam(':phpro_lesson_pref_3', $phpro_lesson_pref_3, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_payment_plan', $phpro_payment_plan, PDO::PARAM_STR, 40);
         $stmt->bindParam(':phpro_lesson_history', $phpro_lesson_history, PDO::PARAM_STR, 40);
+        $stmt->bindParam(':phpro_user_id', $phpro_user_id, PDO::PARAM_STR, 40);
 
         /*** execute the prepared statement ***/
         $stmt->execute();
