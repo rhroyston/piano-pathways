@@ -156,9 +156,6 @@ else
     $phpro_payment_plan = filter_var($_POST['phpro_payment_plan'], FILTER_SANITIZE_STRING);
     $phpro_lesson_history = filter_var($_POST['phpro_lesson_history'], FILTER_SANITIZE_STRING);
     $phpro_birthday = $year . "-" . date('m', strtotime($month)) . "-" . $day;
-
-    /*** now we can encrypt the password ***/
-    $phpro_password = sha1( $phpro_password );
     
     /*** connect to database ***/
     /*** mysql hostname ***/
@@ -228,7 +225,7 @@ else
         else
         {
             /*** if we are here, something has gone wrong with the database ***/
-            $message = 'Error&#58; We are unable to process your request. Please try again later"';
+            $message = 'Error&#58; We are unable to update your profile. Please try again later"';
         }
     }
 }
