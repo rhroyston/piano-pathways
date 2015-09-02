@@ -108,7 +108,7 @@ else
                                 echo '<div class="form-group">';
                                     echo '<div class="col-sm-8" id="email">';
                                         echo '<label class="control-label" for="phpro_username">Email</label>';
-                                        echo '<input type="email" class="form-control" id="phpro_email" name="phpro_email" value="' . $email . '" placeholder="Enter Your Email Address" maxlength="40" pattern=".{4,20}" required/>';
+                                        echo '<input type="email" class="form-control" id="phpro_email" name="phpro_email" value="yessir@go.big" placeholder="Enter Your Email Address" maxlength="40" pattern=".{4,20}" required/>';
                                     echo '</div>';
                                     echo '<div class="col-sm-6" id="firstname">';
                                         echo '<label class="control-label" for="phpro_firstname">Student First Name</label>';
