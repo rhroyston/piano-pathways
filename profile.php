@@ -103,7 +103,7 @@ else
                             $day = date('d', $time);
                             
 
-                            echo '<form action="includes/profile_submit" method="post" data-toggle="validator" id="registration">';
+                            echo '<form action="includes/profile_submit" method="post" data-toggle="validator">';
                                         
                                 echo '<div class="form-group">';
                                     echo '<div class="col-sm-8" id="email">';
