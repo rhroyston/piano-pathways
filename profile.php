@@ -166,7 +166,7 @@ else
                                     echo '</div>';
                                                 
                                     echo '<div class="col-sm-2">';
-                                        echo '<label class="control-label" for="month control-label">Birthday</label>';
+                                        echo '<label class="control-label" for="month">Birthday</label>';
                                         echo '<select class="form-control" id="month" name="month" required>';
                                             echo '<option value="">Month</option>';
                                             echo '<option value="01" '; if ($month == "01"){echo 'selected';} echo '>Jan</option>';
