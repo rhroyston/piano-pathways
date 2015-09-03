@@ -44,6 +44,7 @@
 
 </div>
 
-<?php include 'includes/resources.php';?>
+
   </body>
+  <?php include 'includes/resources.php';?>
 </html>
