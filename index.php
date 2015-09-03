@@ -36,7 +36,7 @@
       </div>
     </div>
     <?php
-      $footerimage = "footer-outside";
+      $footerimage = "footer-fence";
       include 'includes/footer.php';
       include 'includes/resources.php';
     ?>
