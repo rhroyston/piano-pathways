@@ -39,12 +39,11 @@
       $footerimage = "footer-outside";
       include 'includes/footer.php';
     ?>
-    
+    <?php include 'includes/resources.php';?>
 
 
-</div>
+
 
 
   </body>
-  <?php include 'includes/resources.php';?>
 </html>
