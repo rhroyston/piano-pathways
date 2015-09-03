@@ -2,19 +2,6 @@
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
   <div class="container">
     <div class="row">
       <div class="col-sm-4 col-sm-offset-2">
@@ -25,14 +12,6 @@
         <a class="black textshadowsm" href="#tuitionModal" data-toggle="modal">Tuition <i class="fa fa-angle-double-right"></i></a><br>
         <a class="black textshadowsm" href="#wheretuitiongoesModal" data-toggle="modal">Where Does Tuition Go&#63; <i class="fa fa-angle-double-right"></i></a><br>
       </div>
-      <div class="col-sm-4 text-right">
-        <h3 class="black textshadownl">Professional Music Organizations</h3>
-        <a class="black textshadowsm" href="http://www.brmta.org" target="blank">Baton Rouge Music Teachers Association <i class="fa fa-external-link"></i></a><br>
-        <a class="black textshadowsm" href="http://www.lmta.org" target="blank">Louisiana Music Teachers Association <i class="fa fa-external-link"></i></a><br>
-        <a class="black textshadowsm" href="http://www.mtna.org" target="blank">Music Teachers National Association <i class="fa fa-external-link"></i></a><br>
-        <a class="black textshadowsm" href="http://www.menc.org" target="blank">National Association for Music Education <i class="fa fa-external-link"></i></a><br>
-        <a class="black textshadowsm" href="http://www.music.lsu.edu" target="blank">LSU School of Music <i class="fa fa-external-link"></i></a><br>
-      </div>      
       <div class="col-sm-4 col-sm-offset-2">
         <h3 class="black textshadownl">Links</h3>
         <a class="black textshadowsm" href="http://www.musiclearningcommunity.com" target="blank">Make A Payment <i class="fa fa-external-link"></i></a><br>
@@ -42,13 +21,6 @@
       </div>
       <br>      
     </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <br>
     <br>
     <h3 class="text-center"><a class="black textshadowsm" href="https://www.google.com/maps/place/9270+Siegen+Ln+%23304,+Baton+Rouge,+LA+70810/@30.3672887,-91.0751662,17z/data=!3m1!4b1!4m2!3m1!1s0x8626a53e88fc2d09:0xda2e043d4fe40d5d" target="blank"><i class="fa fa-map-marker"></i> 9270 Siegen Lane #304 Baton Rouge, LA 70810</a></h3>
