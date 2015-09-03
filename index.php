@@ -10,7 +10,7 @@
     include 'includes/head.php';
   ?>
   
-  <body style='background-image: url("../images/brickwallxl.png");'>
+  <body style='background-image: url("../images/sky.jpg");'>
     
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
