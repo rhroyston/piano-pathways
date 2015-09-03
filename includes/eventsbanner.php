@@ -22,11 +22,12 @@ try {
 }
 
 echo '<div class="row">';
-  echo '<div class="col-sm-8">';
+  echo '<div class="col-sm-8 col-sm-offset-2">';
 
     while ($r = $q->fetch()):
+    $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
     echo htmlspecialchars($r['event_title']) . " ";
-    echo htmlspecialchars($r['event_time']) . "<br>";
+    echo date_format($date, 'l\, F jS h:i A') . "<br>";
     endwhile;
 
   echo '</div>';
