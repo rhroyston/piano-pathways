@@ -211,7 +211,7 @@ background-color: #BDCCD1;
     margin-top:-9px;
 }
 .eventheader{
-    margin-top:-2em; 
+    padding-top:-2em; 
 }
 .input-group-addon {
     min-width:2.8em;
