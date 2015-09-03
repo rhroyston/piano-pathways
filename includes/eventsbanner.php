@@ -26,8 +26,10 @@ echo '<div class="row">';
 
     while ($r = $q->fetch()):
       $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
-      echo "<h4><i class="fa fa-music"></i> " . htmlspecialchars($r['event_title']) . " " . date_format($date, 'l\, F jS h:i A') . "</h4><br>";
-
+      echo "<h4><i class='fa fa-music'></i> " . htmlspecialchars($r['event_title']) . " " . date_format($date, 'l\, F jS h:i A') . "</h4><br>";
+      echo "<h6>" . $r['event_duration'] . "</h6>";
+      echo "<h6>" . $r['event_street'] . $r['event_city'] . $r['event_state'] . $r['event_zip'] . "</h6>";
+      echo "<h5>" . $r['event_detail'] . "</h5>";
     endwhile;
 
   echo '</div>';
