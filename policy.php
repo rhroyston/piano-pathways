@@ -6,12 +6,7 @@
     ?>
     <body>
         <?php include 'includes/header.php';?>
-        <div class="container-fluid">
-            <div class="row">
-                <img src="/images/pianoman.png" class="img-responsive center-block">
-            </div>
-        </div>
-        <div class="container blue">
+        <div class="container">
             <h1 class="text-center">Studio Policy</h1>
             <br>
             <h3>Overview</h3>
