@@ -4,7 +4,7 @@
         $title = 'Policy';
         include 'includes/head.php';
     ?>
-    <body>
+    <body style='background-image: url("../images/grilled.png");'>
         <?php include 'includes/header.php';?>
         <div class="container">
             <h1 class="text-center">Studio Policy</h1>
