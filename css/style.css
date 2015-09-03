@@ -172,10 +172,10 @@ background-color: #BDCCD1;
     border-width:1px;
     border-style:solid;
     border-radius: 5px;
-    border-top-color:white;
-    border-right-color:white;
-    border-bottom-color:#D8D8D8;
-    border-left-color:#D8D8D8;
+    border-top-color:#282828;
+    border-right-color:#282828;
+    border-bottom-color:black;
+    border-left-color:black;
 }
 .adminwidth{
     width: 30%;

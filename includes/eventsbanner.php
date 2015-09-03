@@ -23,6 +23,7 @@ try {
 echo '<div class="container">';
   echo '<div class="row">';
     echo '<div class="col-sm-6 col-sm-offset-3 events">';
+    echo '<span class="eventheader">Upcoming Events</span>';
   
       while ($r = $q->fetch()):
         $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
