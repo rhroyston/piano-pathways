@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
   
-<div id="cover"></div>  
+  <div id="cover"></div>  
   
   <?php 
     $title = 'Login';
@@ -38,12 +38,7 @@
     <?php
       $footerimage = "footer-outside";
       include 'includes/footer.php';
+      include 'includes/resources.php';
     ?>
-    <?php include 'includes/resources.php';?>
-
-
-
-
-
   </body>
 </html>
