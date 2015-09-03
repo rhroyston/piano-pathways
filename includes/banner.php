@@ -1,3 +1,5 @@
+<div class="row">
+<div class='col-sm-8'>
 <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -32,4 +34,6 @@
     <span class="fa fa-chevron-right" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
+</div>
+</div>
 </div>
