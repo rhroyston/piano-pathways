@@ -7,7 +7,7 @@
                     <img src="/images/logo2.png">
                 </a>
             </div>
-            <h6 class="text-center black textshadownl">MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
+            <h6 class="text-center black textshadownl adjustup">MUSIC CENTER FOR CHILDREN&#38; ADULTS</h6>
             <br>
         </div> 
     </div>
