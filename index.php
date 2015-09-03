@@ -19,6 +19,7 @@
     <br>
     <br>
     <br>
+    <?php include 'includes/banner.php';?>
     <br>
     <div class="container">
       <div class="row text-center">
