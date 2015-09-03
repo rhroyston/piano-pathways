@@ -68,7 +68,7 @@ else
                     include "includes/alert.php";
                     echo '<div class="container">';
                         echo '<div class="row text-center">';
-                            echo "<h1>Profile</h1>";
+                            echo "<h1>My Profile</h1>";
                         echo '</div>';
                             try {
                                 $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);

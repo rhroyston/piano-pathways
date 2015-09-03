@@ -197,7 +197,7 @@ else
     $phpro_lesson_history = filter_var($_POST['phpro_lesson_history'], FILTER_SANITIZE_STRING);
     $phpro_policy_agreement = filter_var($phpro_policy_agreement, FILTER_SANITIZE_STRING);
     $phpro_tuition_agreement = filter_var($_POST['phpro_tuition_agreement'], FILTER_SANITIZE_STRING);
-    $phpro_birthday = $year . "-" . date('m', strtotime($month)) . "-" . $day;
+    $phpro_birthday = $year . "-" . $month . "-" . $day;
 
     /*** now we can encrypt the password ***/
     $phpro_password = sha1( $phpro_password );
