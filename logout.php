@@ -4,11 +4,11 @@ session_start();
 
 $url = $_SERVER['HTTP_REFERER'];
 
-// Unset all of the session variables.
-session_unset();
-
-// Destroy the session.
-session_destroy();
+    session_unset();
+    session_destroy();
+    session_write_close();
+    setcookie(session_name(),'',0,'/');
+    session_regenerate_id(true);
 
 header("Location: $url");
 ?>
