@@ -21,12 +21,8 @@ try {
   die("Could not connect to the database $dbname :" . $pe->getMessage());
 }
 
-$result = $this->db->query($sql);
-$result->rowCount()
-
-<!-- Indicators -->
 echo '<div class="row">';
-  echo '<div class='col-sm-8'>';
+  echo '<div class="col-sm-8">';
 
     while ($r = $q->fetch()):
     echo htmlspecialchars($r['event_title']) . " ";
