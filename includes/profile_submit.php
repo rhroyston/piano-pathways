@@ -145,7 +145,7 @@ else
     $phpro_state = strtoupper(filter_var($_POST['phpro_state'], FILTER_SANITIZE_STRING));
     $phpro_zip = filter_var($_POST['phpro_zip'], FILTER_SANITIZE_STRING);
     $phpro_grade = filter_var($_POST['phpro_grade'], FILTER_SANITIZE_STRING);
-    $month = $_POST['month'];
+    $month = filter_var($_POST['month'], FILTER_SANITIZE_STRING);
     $day = filter_var($_POST['day'], FILTER_SANITIZE_STRING);
     $year = filter_var($_POST['year'], FILTER_SANITIZE_STRING);
     $phpro_lesson_option = filter_var($_POST['phpro_lesson_option'], FILTER_SANITIZE_STRING);
@@ -155,7 +155,7 @@ else
     $phpro_lesson_pref_3 = filter_var($_POST['phpro_lesson_pref_3'], FILTER_SANITIZE_STRING);
     $phpro_payment_plan = filter_var($_POST['phpro_payment_plan'], FILTER_SANITIZE_STRING);
     $phpro_lesson_history = filter_var($_POST['phpro_lesson_history'], FILTER_SANITIZE_STRING);
-    $phpro_birthday = $year . "-" . date('m', strtotime($month)) . "-" . $day;
+    $phpro_birthday = $year . "-" . $month . "-" . $day;
     
     /*** connect to database ***/
     /*** mysql hostname ***/
