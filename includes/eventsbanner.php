@@ -22,7 +22,7 @@ try {
 }
 
 echo '<div class="row">';
-  echo '<div class="col-sm-8 col-sm-offset-2">';
+  echo '<div class="col-sm-6 col-sm-offset-3">';
 
     while ($r = $q->fetch()):
       $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
