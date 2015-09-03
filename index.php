@@ -19,7 +19,7 @@
     <br>
     <br>
     <br>
-    
+    <?php include 'includes/eventsbanner.php';?>
     <br>
     <div class="container">
       <div class="row text-center">
