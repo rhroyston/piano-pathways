@@ -46,31 +46,25 @@ $(document).ready(function () {
 
   $(".alert").delay(4000).fadeOut("slow");
 
-
   var $tabs = $('.tabbable li');
   $('#register-anchor').on('click', function() {
       $tabs.filter('.active').next('li').find('a[data-toggle="tab"]').tab('show');
   });
-
 });
+
 $(window).load(function(){
     $('#cover').fadeOut(1000);
 });
 
-
 $(window).load(function(){
-
-  
   $('.modalclass').on('click', function () {
     var href = $(this).attr('href');
-    
     $("#modal-placeholder").load("includes/modalhtml.php", function() {
       $(".modal-content").load(href, function() {
         $('#myModal').modal('show');
       }); 
     });
   });
-
 });
 
 
@@ -78,9 +72,15 @@ $(window).on('hidden.bs.modal', function (e) {
   $('#modal-placeholder').empty();
 });
 
-
-
-
 $(window).on('show.bs.modal', function (e) {
-  $('#datetimepicker').datetimepicker();
+
+if (window.location.pathname === "/admin")
+{
+    $('#datetimepicker').datetimepicker();
+}  
+  
+  
+  
+  
+  
 });
