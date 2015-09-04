@@ -3,9 +3,10 @@
 <!DOCTYPE html>
 <html lang="en">
     <?php
+    echo '<div id="cover"></div>';
         $title = 'Policy';
         include 'includes/head.php';
-        echo '<div id="cover"></div>';
+        
     ?>
     <body style='background-image: url("../images/softwallpaper.png");'>
         <?php
