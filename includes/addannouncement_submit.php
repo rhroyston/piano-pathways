@@ -56,7 +56,7 @@ else
         $stmt = $dbh->prepare("INSERT INTO annoucements (annoucement_title, announcement_detail, announcement_hide_date) VALUES (:announcement_title, :announcement_detail, :announcement_hide_date)");
 
         /*** bind the parameters ***/
-        $stmt->bindParam(':annoucement_title', $announcement_title, PDO::PARAM_STR);
+        $stmt->bindParam(':announcement_title', $announcement_title, PDO::PARAM_STR);
         $stmt->bindParam(':announcement_detail', $announcement_detail, PDO::PARAM_STR);
         $stmt->bindParam(':announcement_hide_date', $announcement_hide_date, PDO::PARAM_STR);
         
