@@ -53,6 +53,7 @@ if(!isset($_SESSION['user_id']))
         <div class="modal-body">
             <br>
             <?php echo $announcement_detail . "<br>" ?>
+            <br>
             <div class="oneline pull-right text-right">
                 <h6><?php echo "Expires&#58; " . date_format($date, 'l\, F jS h:i A') ?></h6>
             </div>
