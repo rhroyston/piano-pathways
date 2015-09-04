@@ -56,6 +56,7 @@ if(!isset($_SESSION['user_id']))
             <div class="oneline pull-right text-right">
                 <h6><?php echo "Expires&#58; " . date_format($date, 'l\, F jS h:i A') ?></h6>
             </div>
+            <br>
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
