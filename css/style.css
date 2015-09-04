@@ -200,6 +200,26 @@ background-color: #BDCCD1;
     color: #383838;
     text-decoration:none;
 }
+.custombotton{
+    background: rgba( 255, 255, 255, 0.5 );
+    border-width:1px;
+    border-style:solid;
+    border-radius: 3px;
+    border-color:black;
+    font-size:1em;
+}
+.custombotton:active{
+    background: rgba( 255, 255, 255, 0.7 );    
+}
+.custombotton:visited{
+    background: rgba( 255, 255, 255, 0.5 );
+}
+.custombotton:hover{
+    background: rgba( 255, 255, 255, 0.7 );
+-webkit-box-shadow: 0px 0px 3px 1px rgba(0, 0, 255,0.66);
+-moz-box-shadow: 0px 0px 3px 1px rgba(0, 0, 255,0.66);
+box-shadow: 0px 0px 3px 1px rgba(0, 0, 255,0.66);
+}
 .textshadownl{
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
