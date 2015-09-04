@@ -29,7 +29,7 @@ echo '<div class="container">';
         $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
         echo "<h4><small><i class='fa fa-music'></i></small> " . htmlspecialchars($r['event_title']) . " " . date_format($date, 'l\, F jS h:i A') . "</h4>";
         echo "<h6>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</h6>";
-        echo "<h5>" . $r['event_detail'] . "</h5>";
+        echo "<h5>" . $r['event_detail'] . "</h5><br>";
       endwhile;
   
     echo '</div>';
