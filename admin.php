@@ -120,7 +120,7 @@ else
 
                             try {
                                 $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
-                                $sql = 'SELECT * FROM events WHERE event_time >= NOW() ORDER BY event_time';
+                                $sql = 'SELECT * FROM events WHERE event_time >= NOW() ORDER BY event_time LIMIT 50';
                                  $q = $conn->query($sql);
                                  $q->setFetchMode(PDO::FETCH_ASSOC);                        
                             } catch (PDOException $pe) {
@@ -150,7 +150,38 @@ else
                         echo "</div>";
                         echo "</div>";
                     echo "</div>";
-                    
+
+                            try {
+                                $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
+                                $sql = 'SELECT * FROM announcements WHERE announcement_hide_date >= NOW() ORDER BY announcement_hide_date LIMIT 50';
+                                 $q = $conn->query($sql);
+                                 $q->setFetchMode(PDO::FETCH_ASSOC);                        
+                            } catch (PDOException $pe) {
+                                die("Could not connect to the database $dbname :" . $pe->getMessage());
+                            }
+
+                    echo '<div class="col-sm-4 adminwidth">';
+                        echo '<div class="raised">';    
+                        echo '<h4>&nbsp;&nbsp;<i class="fa fa-microphone"></i> Announcements <span class="pull-right admin-small"><a class="modalclass black textshadowsm" href="includes/newannouncement" data-toggle="modal" data-target="#myModal"><i class="fa fa-plus"></i> add new</a></span></h4>';
+                        echo '<div class="adminscroll">';
+                        echo '<table class="table">';
+                            
+                            while ($r = $q->fetch()):
+                            
+                            $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
+                            //echo date_format($date, 'Y-m-d');    
+                            
+                            echo "<tr>";
+                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
+                                echo "<td>" . $r['event_title'] . "</td>";
+                                echo "<td>" . date_format($date, 'l\, F jS h:i A') . "</td>";
+                            echo "</tr>";
+                            endwhile;
+                            
+                        echo "</table>";
+                        echo "</div>";
+                        echo "</div>";
+                    echo "</div>";                    
                     
                 echo "</div>";
             echo "</div>";
