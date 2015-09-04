@@ -107,7 +107,7 @@ else
                     echo "</div>";
 
                             try {
-                                $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
+                                //$conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
                                 $sql = 'SELECT * FROM events WHERE event_time >= NOW() ORDER BY event_time LIMIT 50';
                                  $q = $conn->query($sql);
                                  $q->setFetchMode(PDO::FETCH_ASSOC);                        
@@ -140,7 +140,7 @@ else
                     echo "</div>";
 
                             try {
-                                $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
+                                //$conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
                                 $sql = 'SELECT * FROM announcements WHERE announcement_hide_date >= NOW() ORDER BY announcement_hide_date LIMIT 50';
                                  $q = $conn->query($sql);
                                  $q->setFetchMode(PDO::FETCH_ASSOC);                        
