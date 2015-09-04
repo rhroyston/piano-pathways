@@ -14,10 +14,10 @@ if(!isset($_SESSION['user_id']))
     		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     </head>
     <body>
-        <form action="includes/addevent_submit" method="post" data-toggle="validator" id="newevent">
+        <form action="includes/addevent_submit" method="post" data-toggle="validator">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title">Add New Event</h4>
+            <h4 class="modal-title">Add New Announcement</h4>
         </div>
         <div class="modal-body">
         
@@ -25,7 +25,7 @@ if(!isset($_SESSION['user_id']))
             <div class="row">
                 <div class="form-group">
                     <div class="col-sm-10">
-                        <label>Event Title</label>
+                        <label>Announcement Title</label>
                         <input type="text" class="form-control" id="event_title" name="event_title" placeholder="Title" pattern=".{1,80}" required>
                     </div>
                 </div>
@@ -58,9 +58,9 @@ if(!isset($_SESSION['user_id']))
             <div class="row">
                 <div class="form-group">
                     <div class='col-sm-6 form-inline'>
-                        <label>Date&#38; Time</label>
+                        <label>Expiration Date</label>
                         <div class='input-group date clsDatePicker' id='datetimepicker'>
-                            <input type='text' class="form-control" id="event_time" name="event_time" required/>
+                            <input type='text' class="form-control" id="announcement_hide_date" name="announcement_hide_date" required/>
                             <span class="input-group-addon">
                                 <span class="glyphicon glyphicon-calendar"></span>
                             </span>
@@ -90,7 +90,7 @@ if(!isset($_SESSION['user_id']))
             <div class="row">
                 <div class="form-group">
                     <div class="col-sm-12">
-                        <label>Event Detail</label>
+                        <label>Announcement Detail</label>
                         <textarea class="form-control" rows="6" id="event_detail" name="event_detail" placeholder="Event details..." pattern=".{1,400}"></textarea>
                     </div>
                 </div>
