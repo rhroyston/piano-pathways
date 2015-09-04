@@ -8,9 +8,10 @@
     ?>
     <body style='background-image: url("../images/softwallpaper.png");'>
         <?php
+            include "includes/basenav.php";
             include 'includes/header.php';
             echo '<div id="cover"></div>'; 
-            include "includes/basenav.php";
+            
         ?>
         <div class="container">
             <h1 class="text-center">Studio Policy</h1>
