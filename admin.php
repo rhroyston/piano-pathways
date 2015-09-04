@@ -142,7 +142,7 @@ else
 
                             try {
                                 //$conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
-                                $sql = 'SELECT * FROM announcements WHERE announcement_hide_date >= NOW() ORDER BY announcement_hide_date LIMIT 50';
+                                $sql = 'SELECT * FROM announcements ';
                                  $q = $conn->query($sql);
                                  $q->setFetchMode(PDO::FETCH_ASSOC);                        
                             } catch (PDOException $pe) {
