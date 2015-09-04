@@ -69,6 +69,6 @@
         <br>
         <br>
         <br>
-        <? php include 'includes/copyright.php' ?>
+        <? php include 'includes/copyright.php'; ?>
     </body>
 </html>
