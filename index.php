@@ -18,13 +18,13 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-md-2 col-md-offset-3">
-          <a class="custombotton black textshadowsm" href="about">Who We Are</a>
+          <a class="custombotton" href="about">Who We Are</a>
         </div>    
         <div class="col-md-2">
-          <a class="custombotton black textshadowsm" href="instructors">Our Instructors</a>
+          <a class="custombotton" href="instructors">Our Instructors</a>
         </div>    
         <div class="col-md-2">
-          <a class="custombotton black textshadowsm" href="studio">View The Studio</a>
+          <a class="custombotton" href="studio">View The Studio</a>
         </div>    
       </div>
     </div>
