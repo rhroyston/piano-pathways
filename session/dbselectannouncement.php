@@ -42,7 +42,7 @@ if(!isset($_SESSION['user_id']))
             $announcement_detail = $r['announcement_detail'];
             $announcement_hide_date = $r['announcement_hide_date'];
         endwhile;
-        $date = date_create_from_format('Y-m-d H:i:s', $announcement_title);
+        $date = date_create_from_format('Y-m-d H:i:s', $announcement_hide_date);
     ?>
 
     <body>
@@ -51,15 +51,12 @@ if(!isset($_SESSION['user_id']))
             <h4 class="modal-title"><?php echo $announcement_title ?></h4>
         </div>
         <div class="modal-body">
-            <div class="oneline">
-                <h5><?php echo $announcement_title ?></h5>
-            </div>
             <div class="oneline pull-right text-right">
-                <h5><?php echo "When&#58; " . date_format($date, 'l\, F jS h:i A') ?></h5>
+                <h5><?php echo "Expires&#58; " . date_format($date, 'l\, F jS h:i A') ?></h5>
             </div>
             <br>
             <br>
-            <?php echo "Announcement Detail &#58; " . $announcement_detail . "<br>" ?>
+            <?php echo "Announcement Detail&#58; " . $announcement_detail . "<br>" ?>
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
