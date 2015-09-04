@@ -5,12 +5,13 @@
     <?php
         $title = 'Policy';
         include 'includes/head.php';
+        echo '<div id="cover"></div>';
     ?>
     <body style='background-image: url("../images/softwallpaper.png");'>
         <?php
             include "includes/basenav.php";
             include 'includes/header.php';
-            echo '<div id="cover"></div>'; 
+             
             
         ?>
         <div class="container">
