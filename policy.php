@@ -69,7 +69,5 @@
         <br>
         <br>
         <br>
-        <?php include 'includes/footer.php';?>
-        <?php include 'includes/resources.php';?>
     </body>
 </html>
