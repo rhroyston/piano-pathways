@@ -101,6 +101,7 @@ else
                                 echo "<td>" . $r['phpro_lastname'] . "</td>";
                             echo "</tr>";
                             endwhile;
+                            $q=NULL;
                         echo "</table>";
                         echo "</div>";
                         echo "</div>";
@@ -133,7 +134,7 @@ else
                                 echo "<td>" . date_format($date, 'l\, F jS h:i A') . "</td>";
                             echo "</tr>";
                             endwhile;
-                            
+                            $q=NULL;
                         echo "</table>";
                         echo "</div>";
                         echo "</div>";
