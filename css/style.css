@@ -201,6 +201,7 @@ background-color: #BDCCD1;
     text-decoration:none;
 }
 .custombotton{
+    margin:6px;
     color:black;
     background: rgba( 255,255,255, 0.1 );
     border-width:1px;
