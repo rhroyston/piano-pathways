@@ -51,12 +51,11 @@ if(!isset($_SESSION['user_id']))
             <h4 class="modal-title"><?php echo $announcement_title ?></h4>
         </div>
         <div class="modal-body">
+            <br>
+            <?php echo $announcement_detail . "<br>" ?>
             <div class="oneline pull-right text-right">
-                <h5><?php echo "Expires&#58; " . date_format($date, 'l\, F jS h:i A') ?></h5>
+                <h6><?php echo "Expires&#58; " . date_format($date, 'l\, F jS h:i A') ?></h6>
             </div>
-            <br>
-            <br>
-            <?php echo "Announcement Detail&#58; " . $announcement_detail . "<br>" ?>
         </div>
         <div class="modal-footer">
             <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
