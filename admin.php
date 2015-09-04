@@ -142,7 +142,7 @@ else
 
                             try {
                                 //$conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
-                                $sql = 'SELECT * FROM announcements ';
+                                $sql = 'SELECT * FROM announcements';
                                  $q = $conn->query($sql);
                                  $q->setFetchMode(PDO::FETCH_ASSOC);                        
                             } catch (PDOException $pe) {
@@ -157,13 +157,13 @@ else
                             
                             while ($r = $q->fetch()):
                             
-                            $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
+                            $date = date_create_from_format('Y-m-d H:i:s', $r['announcement_hide_time']);
                             //echo date_format($date, 'Y-m-d');    
                             
                             echo "<tr>";
-                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
-                                echo "<td>" . $r['event_title'] . "</td>";
-                                echo "<td>" . date_format($date, 'l\, F jS h:i A') . "</td>";
+                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['announcement_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
+                                echo "<td>" . $r['announcement_title'] . "</td>";
+                                // echo "<td>" . date_format($date, 'l\, F jS h:i A') . "</td>";
                             echo "</tr>";
                             endwhile;
                             
