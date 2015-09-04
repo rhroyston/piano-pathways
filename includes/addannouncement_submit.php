@@ -53,13 +53,13 @@ else
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         /*** prepare the insert ***/
-        $stmt = $dbh->prepare("INSERT INTO annoucements (annoucement_title, announcement_hide_date, announcement_detail) VALUES (:annoucement_title, :announcement_hide_date, :announcement_detail)");
+        $stmt = $dbh->prepare("INSERT INTO annoucements (annoucement_title, announcement_detail, announcement_hide_date) VALUES (:annoucement_title, :announcement_detail, :announcement_hide_date)");
 
         /*** bind the parameters ***/
-        $stmt->bindParam(':annoucement_title', $event_title, PDO::PARAM_STR);
-        $stmt->bindParam(':announcement_hide_date', $event_time, PDO::PARAM_STR);
-        $stmt->bindParam(':announcement_detail', $event_state, PDO::PARAM_STR);
-
+        $stmt->bindParam(':annoucement_title', $announcement_title, PDO::PARAM_STR);
+        $stmt->bindParam(':announcement_detail', $announcement_detail, PDO::PARAM_STR);
+        $stmt->bindParam(':announcement_hide_date', $announcement_hide_date, PDO::PARAM_STR);
+        
         /*** execute the prepared statement ***/
         $stmt->execute();
 
