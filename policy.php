@@ -65,7 +65,8 @@
             <br>
             <h4><i class="fa fa-exclamation-circle"></i> Please note these policies are put in place to protect the interest of the instructors and piano students. This studio policy serves as a formal document for service of and payment for piano instruction. Registering for lessons indicates that the student and parents have read&#44; agree to&#44; and will comply with all policies outlined.
             </h4>
-            <? php include 'includes/copyright.php'; ?>
+            <?php include 'includes/copyright.php';?>
+            
         </div>
         <br>
         <br>
