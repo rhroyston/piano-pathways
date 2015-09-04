@@ -206,8 +206,8 @@ background-color: #BDCCD1;
     border-style:solid;
     border-radius: 3px;
     border-color:black;
-    font-size:1.5em;
-    margin:10px;
+    font-size:1.25em;
+    padding:10px;
 }
 .custombotton:active{
     background: rgba( 255, 255, 255, 0.7 );    
