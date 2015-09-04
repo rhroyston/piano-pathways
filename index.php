@@ -17,7 +17,7 @@
     <?php include 'includes/header.php';?>
     <div class="container">
       <div class="row text-center">
-        <div class="col-md-6 col-md-offset-3">
+        <div class="col-sm-8 col-sm-offset-2">
           <a class="custombotton" href="about"><i class="fa fa-facebook-square"></i> Follow Us</a>
 
           <a class="custombotton" href="instructors"><i class="fa fa-users"></i> Our Instructors</a>
