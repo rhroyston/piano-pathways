@@ -13,12 +13,12 @@ elseif(!isset( $_POST['announcement_title'], $_POST['announcement_hide_date']))
 {
     $message = 'Error&#58; Please Enter Announcement Title and Expiration Date';
 }
-/*** check the event title is the correct length ***/
+/*** check the announcement title is the correct length ***/
 elseif (strlen( $_POST['announcement_title']) > 80 )
 {
     $message = 'Error&#58; Incorrect Length for Announcement Title';
 }
-/*** check the event detail is the correct length ***/
+/*** check the announcement detail is the correct length ***/
 elseif (strlen( $_POST['announcement_detail']) > 80)
 {
     $message = 'Error&#58; Incorrect Length for Announcement Detail';
@@ -53,7 +53,7 @@ else
         $dbh->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
         /*** prepare the insert ***/
-        $stmt = $dbh->prepare("INSERT INTO annoucements (annoucement_title, announcement_detail, announcement_hide_date) VALUES (:annoucement_title, :announcement_detail, :announcement_hide_date)");
+        $stmt = $dbh->prepare("INSERT INTO annoucements (annoucement_title, announcement_detail, announcement_hide_date) VALUES (:announcement_title, :announcement_detail, :announcement_hide_date)");
 
         /*** bind the parameters ***/
         $stmt->bindParam(':annoucement_title', $announcement_title, PDO::PARAM_STR);
