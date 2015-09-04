@@ -11,10 +11,10 @@ if(!isset($_SESSION['user_id']))
 <!DOCTYPE html>
 <html lang="en">
     <head>
-    		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
     </head>
     <body>
-        <form action="includes/addevent_submit" method="post" data-toggle="validator">
+        <form action="includes/addannouncement_submit" method="post" data-toggle="validator">
         <div class="modal-header">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
             <h4 class="modal-title">Add New Announcement</h4>
