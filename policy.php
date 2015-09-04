@@ -1,9 +1,10 @@
-<?php include 'includes/session.php';?>
+<?php include 'includes/session.php';
+echo '<div id="cover"></div>';?>
 
 <!DOCTYPE html>
 <html lang="en">
     <?php
-    echo '<div id="cover"></div>';
+    
         $title = 'Policy';
         include 'includes/head.php';
         
