@@ -73,18 +73,6 @@ else
                 echo '<div class="row text-center">';
                 echo "<h1>Administrator Portal</h1>";
                 echo '</div>';
-                            /*** connect to database ***/;
-                            /*** mysql hostname ***/;
-                            $mysql_hostname = "127.8.99.130";
-                                    
-                            /*** mysql username ***/;
-                            $mysql_username = "adminRqmldJy";
-                                    
-                            /*** mysql password ***/
-                            $mysql_password = 'gQDlAVx3a66L';
-                                    
-                            /*** database name ***/
-                            $mysql_dbname = 'thepianopathway';
     
                             try {
                                 $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
@@ -151,7 +139,14 @@ else
                         echo "</div>";
                     echo "</div>";
 
-
+                            try {
+                                $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
+                                $sql = 'SELECT * FROM announcements WHERE announcement_hide_date >= NOW() ORDER BY announcement_hide_date LIMIT 50';
+                                 $q = $conn->query($sql);
+                                 $q->setFetchMode(PDO::FETCH_ASSOC);                        
+                            } catch (PDOException $pe) {
+                                die("Could not connect to the database $dbname :" . $pe->getMessage());
+                            }
 
                     echo '<div class="col-sm-4 adminwidth">';
                         echo '<div class="raised">';    
