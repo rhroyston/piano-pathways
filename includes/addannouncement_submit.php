@@ -27,9 +27,9 @@ elseif (strlen( $_POST['announcement_detail']) > 80)
 else
 {
     /*** if we are here the data is valid and we can insert it into database ***/
-    $announcement_title = filter_var($_POST['event_title'], FILTER_SANITIZE_STRING);
-    $announcement_detail = ucfirst(filter_var($_POST['event_detail'], FILTER_SANITIZE_STRING));
-    $announcement_hide_date = filter_var(date('Y-m-d H:i:s', strtotime($_POST['event_time'])), FILTER_SANITIZE_STRING);
+    $announcement_title = filter_var($_POST['announcement_title'], FILTER_SANITIZE_STRING);
+    $announcement_detail = ucfirst(filter_var($_POST['announcement_detail'], FILTER_SANITIZE_STRING));
+    $announcement_hide_date = filter_var(date('Y-m-d H:i:s', strtotime($_POST['announcement_hide_date'])), FILTER_SANITIZE_STRING);
     
     /*** connect to database ***/
     /*** mysql hostname ***/
