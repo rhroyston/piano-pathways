@@ -14,12 +14,12 @@ elseif(!isset( $_POST['announcement_title'], $_POST['announcement_hide_date']))
     $message = 'Error&#58; Please Enter Announcement Title and Expiration Date';
 }
 /*** check the announcement title is the correct length ***/
-elseif (strlen( $_POST['announcement_title']) > 80 )
+elseif (strlen( $_POST['announcement_title']) > 100 )
 {
     $message = 'Error&#58; Incorrect Length for Announcement Title';
 }
 /*** check the announcement detail is the correct length ***/
-elseif (strlen( $_POST['announcement_detail']) > 80)
+elseif (strlen( $_POST['announcement_detail']) > 400)
 {
     $message = 'Error&#58; Incorrect Length for Announcement Detail';
 }
