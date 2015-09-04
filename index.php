@@ -17,14 +17,14 @@
     <?php include 'includes/header.php';?>
     <div class="container">
       <div class="row text-center">
-        <div class="col-md-2 col-md-offset-3">
-          <a class="custombotton" href="about">Who We Are</a>
-        </div>    
-        <div class="col-md-2">
-          <a class="custombotton" href="instructors">Our Instructors</a>
-        </div>    
-        <div class="col-md-2">
-          <a class="custombotton" href="studio">View The Studio</a>
+        <div class="col-md-6 col-md-offset-3">
+          <a class="custombotton" href="about"><i class="fa fa-facebook-square"></i> Follow Us</a>
+
+          <a class="custombotton" href="instructors"><i class="fa fa-users"></i> Our Instructors</a>
+
+          <a class="custombotton" href="studio"><i class="fa fa-music"></i> View The Studio</a>
+          
+          <a class="custombotton" href="studio"><i class="fa fa-youtube"></i> Check Us Out</a>
         </div>    
       </div>
     </div>
