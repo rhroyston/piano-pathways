@@ -1,3 +1,5 @@
+<?php include 'includes/session.php';?>
+
 <!DOCTYPE html>
 <html lang="en">
     <?php
@@ -5,7 +7,11 @@
         include 'includes/head.php';
     ?>
     <body style='background-image: url("../images/softwallpaper.png");'>
-        <?php include 'includes/header.php';?>
+        <?php
+            include 'includes/header.php';
+            echo '<div id="cover"></div>'; 
+            include "includes/basenav.php";
+        ?>
         <div class="container">
             <h1 class="text-center">Studio Policy</h1>
             <br>
