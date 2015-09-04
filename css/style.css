@@ -212,6 +212,9 @@ background-color: #BDCCD1;
 }
 .eventheader{
     margin-top:-30px;
+    padding-left:10px;
+    padding-right:10px;
+    width:auto;
     color:white;
     background:black;
     border-width:1px;
