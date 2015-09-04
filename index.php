@@ -15,27 +15,26 @@
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-md-2 col-md-offset-3">
+          <a class="custombotton black textshadowsm" href="about">Who We Are</a>
+        </div>    
+        <div class="col-md-2">
+          <a class="custombotton black textshadowsm" href="instructors">Our Instructors</a>
+        </div>    
+        <div class="col-md-2">
+          <a class="custombotton black textshadowsm" href="studio">View The Studio</a>
+        </div>    
+      </div>
+    </div>
     <br>
     <br>
     <br>
     <br>
     <?php include 'includes/eventsbanner.php';?>
     <br>
-    <div class="container">
-      <div class="row text-center">
 
-        <div class="col-md-2 col-md-offset-3">
-          <a class="custombotton black" href="about">Who We Are</a>
-        </div>    
-        <div class="col-md-2">
-          <a class="custombotton black" href="instructors">Our Instructors</a>
-        </div>    
-        <div class="col-md-2">
-          <a class="custombotton black" href="studio">View The Studio</a>
-        </div>    
-
-      </div>
-    </div>
     <?php
       $footerimage = "footer-fence";
       include 'includes/footer.php';
