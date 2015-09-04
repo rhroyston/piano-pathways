@@ -96,7 +96,7 @@ else
                             while ($r = $q->fetch()):
                             $id = "#id" . htmlspecialchars($r['phpro_user_id']);
                             echo "<tr>";
-                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectuser?id=" . $r['phpro_user_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
+                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectuser?id=" . $r['phpro_user_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search'></i></a></td>";
                                 echo "<td>" . $r['phpro_firstname'] . "</td>";
                                 echo "<td>" . $r['phpro_lastname'] . "</td>";
                             echo "</tr>";
@@ -129,7 +129,7 @@ else
                             
                             
                             echo "<tr>";
-                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
+                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['event_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search'></i></a></td>";
                                 echo "<td>" . $r['event_title'] . "</td>";
                                 echo "<td>" . date_format($date, 'l\, F jS h:i A') . "</td>";
                             echo "</tr>";
@@ -161,7 +161,7 @@ else
                             //echo date_format($date, 'Y-m-d');    
                             
                             echo "<tr>";
-                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['announcement_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search-plus'></i></a></td>";
+                                echo "<td><a class='modalclass black textshadowsm' href='session/dbselectevent?id=" . $r['announcement_id'] . "' data-toggle='modal' data-target='#myModal'><i class='fa fa-search'></i></a></td>";
                                 echo "<td>" . $r['announcement_title'] . "</td>";
                                 // echo "<td>" . date_format($date, 'l\, F jS h:i A') . "</td>";
                             echo "</tr>";
