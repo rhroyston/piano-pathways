@@ -1,9 +1,9 @@
 <?php include 'includes/session.php';?>
-
+<div id="cover"></div>
 <!DOCTYPE html>
 <html lang="en">
   
-  <div id="cover"></div>  
+    
   
   <?php 
     $title = 'Login';
