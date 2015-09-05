@@ -29,7 +29,7 @@ try {
             echo '<div class="num-day">' . date_format($date, 'j') . '</div>';
           echo '</div>';
         
-			    echo '<div class="text-left">';
+			    echo '<div class="event-text text-left">';
           
             echo "<span class='black event-title'>" . htmlspecialchars($r['event_title']) . "</span>";
             echo "<h6 class='black'>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</h6>";
