@@ -24,19 +24,19 @@
     <br>
     <div class="row">
       <div class="col-sm-4 col-sm-offset-2">
-        <h3 class="black textshadownl">Piano Pathways Resources</h3>
-        <a class="black textshadowsm" href="#faqModal" data-toggle="modal"><i class="fa fa-question-circle"></i> FAQ&#39;s <i class="fa fa-angle-double-right"></i></a><br>
-        <a class="black textshadowsm" href="policy"><i class="fa fa-info-circle"></i> Studio Policy</a><br>
-        <a class="black textshadowsm" href="#schedulingModal" data-toggle="modal">Scheduling <i class="fa fa-angle-double-right"></i></a><br>
-        <a class="black textshadowsm" href="#tuitionModal" data-toggle="modal">Tuition <i class="fa fa-angle-double-right"></i></a><br>
-        <a class="black textshadowsm" href="#wheretuitiongoesModal" data-toggle="modal">Where Does Tuition Go&#63; <i class="fa fa-angle-double-right"></i></a><br>
+        <h3 class="white textshadownl">Piano Pathways Resources</h3>
+        <a class="white textshadowsm" href="#faqModal" data-toggle="modal"><i class="fa fa-question-circle"></i> FAQ&#39;s <i class="fa fa-angle-double-right"></i></a><br>
+        <a class="white textshadowsm" href="policy"><i class="fa fa-info-circle"></i> Studio Policy</a><br>
+        <a class="white textshadowsm" href="#schedulingModal" data-toggle="modal">Scheduling <i class="fa fa-angle-double-right"></i></a><br>
+        <a class="white textshadowsm" href="#tuitionModal" data-toggle="modal">Tuition <i class="fa fa-angle-double-right"></i></a><br>
+        <a class="white textshadowsm" href="#wheretuitiongoesModal" data-toggle="modal">Where Does Tuition Go&#63; <i class="fa fa-angle-double-right"></i></a><br>
       </div>
       <div class="col-sm-4 col-sm-offset-2">
-        <h3 class="black textshadownl">Links</h3>
-        <a class="black textshadowsm" href="http://www.musiclearningcommunity.com" target="blank">Make A Payment <i class="fa fa-external-link"></i></a><br>
-        <a class="black textshadowsm" href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
-        <a class="black textshadowsm" href="https://www.metronomeonline.com/" target="blank">Metronome Online <i class="fa fa-external-link"></i></a><br>
-        <a class="black textshadowsm" href="http://www.blanksheetmusic.net/" target="blank">blanksheetmusic.net <i class="fa fa-external-link"></i></a><br>
+        <h3 class="white textshadownl">Links</h3>
+        <a class="white textshadowsm" href="http://www.musiclearningcommunity.com" target="blank">Make A Payment <i class="fa fa-external-link"></i></a><br>
+        <a class="white textshadowsm" href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
+        <a class="white textshadowsm" href="https://www.metronomeonline.com/" target="blank">Metronome Online <i class="fa fa-external-link"></i></a><br>
+        <a class="white textshadowsm" href="http://www.blanksheetmusic.net/" target="blank">blanksheetmusic.net <i class="fa fa-external-link"></i></a><br>
       </div>
       <br>      
     </div>
