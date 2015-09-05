@@ -23,7 +23,7 @@
     <br>
     <div class="row">
       <div class="col-sm-4 col-sm-offset-2">
-        <h3 class="foot">Piano Pathways Resources</h3>
+        <h3 class="foot">About</h3>
         <a class="foot" href="#faqModal" data-toggle="modal"><i class="fa fa-question-circle"></i> FAQ&#39;s <i class="fa fa-angle-double-right"></i></a><br>
         <a class="foot" href="policy"><i class="fa fa-info-circle"></i> Studio Policy</a><br>
         <a class="foot" href="#schedulingModal" data-toggle="modal">Scheduling <i class="fa fa-angle-double-right"></i></a><br>
@@ -44,7 +44,7 @@
   <br>
   <div class="row">
     <div class="col-md-6 col-sm-offset-3">
-      <h6 class="text-center"><small class="white">&#169; Copyright 2011&#45;2016 &#124; Piano Pathways &#124; 9270 Siegen Lane #304 &#124; Baton Rouge&#44; LA 70810</small></h6>
+      <h6 class="text-center"><small class="white">Piano Pathways &#124; 9270 Siegen Lane #304 &#124; Baton Rouge&#44; LA 70810</small></h6>
     </div>
     <br>
   </div>
