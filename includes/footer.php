@@ -18,10 +18,6 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="row">
       <div class="col-sm-4 col-sm-offset-2">
         <h3 class="white textshadownl">Piano Pathways Resources</h3>
