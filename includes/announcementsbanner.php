@@ -22,7 +22,7 @@ try {
 }
 
     echo '<div class="col-sm-4">';
-    echo '<h2 class="eventheader textshadownl"><i class="fa fa-microphone"></i> Announcements</h2>';
+    echo '<h2 class="eventheader"><i class="fa fa-microphone"></i> Announcements</h2>';
   
       while ($r = $q->fetch()):
         echo "<h4>" . htmlspecialchars($r['announcement_title']) . "</h4>";
