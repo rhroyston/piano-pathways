@@ -24,11 +24,6 @@ try {
     echo '<h2 class="eventheader"><i class="fa fa-calendar-o"></i> Upcoming Events</h2>';
       while ($r = $q->fetch()):
         $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
-        
-			<div class="calendar">
-				<div class="calendarheader">Jun</div>
-				<div class="num-day">28</div>
-			</div>
 			
         echo '<div class="calendar">';
         echo '<div class="calendarheader">' . date_format($date, 'M') . '</div>';
