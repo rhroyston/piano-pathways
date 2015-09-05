@@ -18,14 +18,14 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-sm-6 col-sm-offset-3">
-          <div class="custombotton">
-          <a href="https://www.facebook.com/PianoPathwaysStudio" target="_blank"><i class="fa fa-facebook-square"></i> Friend Us</a>
-          </div>
+
+          <a class="btn btn-custom"href="https://www.facebook.com/PianoPathwaysStudio" target="_blank"><i class="fa fa-facebook-square"></i> Friend Us</a>
+
           <a class="btn btn-custom" href="instructors"><i class="fa fa-users"></i> Instructors</a>
 
-          <a class="custombotton" href="https://twitter.com/PianoPathwaysBR" target="_blank"><i class="fa fa-twitter"></i> Follow Us</a>
+          <a class="btn btn-custom" href="https://twitter.com/PianoPathwaysBR" target="_blank"><i class="fa fa-twitter"></i> Follow Us</a>
 
-          <a class="custombotton" href="https://www.youtube.com/user/rbellelo" target="_blank"><i class="fa fa-youtube"></i> Check Us Out</a>
+          <a class="btn btn-custom" href="https://www.youtube.com/user/rbellelo" target="_blank"><i class="fa fa-youtube"></i> Check Us Out</a>
         </div>
         <br>
         <br>
