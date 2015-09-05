@@ -308,7 +308,7 @@ background-color: #BDCCD1;
     background: #FFF
     }
 
-.header {
+.calendarheader {
     height: 50px;
     background: #e74c3c;
     -webkit-border-top-right-radius: 24px;
@@ -331,7 +331,7 @@ background-color: #BDCCD1;
     text-align: center
     }
 
-.header:before {
+.calendarheader:before {
     background: #333;
     height: 1px;
     width: 1px;
@@ -346,7 +346,7 @@ background-color: #BDCCD1;
     padding: 4px
     }
 
-.header:after {
+.calendarheader:after {
     background: #333;
     height: 1px;
     width: 1px;
