@@ -25,8 +25,8 @@ try {
     echo '<h2 class="eventheader"><i class="fa fa-microphone"></i> Announcements</h2>';
   
       while ($r = $q->fetch()):
-        echo "<h4>" . htmlspecialchars($r['announcement_title']) . "</h4>";
-        echo "<h5>" . $r['announcement_detail'] . "</h5><br>";
+        echo "<h4 class='black'>" . htmlspecialchars($r['announcement_title']) . "</h4>";
+        echo "<h5 class='black'>" . $r['announcement_detail'] . "</h5><br>";
       endwhile;
 echo '</div>';
 ?>
