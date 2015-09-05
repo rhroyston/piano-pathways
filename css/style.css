@@ -207,6 +207,24 @@ background-color: #BDCCD1;
     color: #383838;
     text-decoration:none;
 }
+.foot{
+    color:snow;
+    -webkit-text-shadow: cover;
+    -moz-text-shadow: cover;
+    -o-text-shadow: cover;
+    text-shadow: -1px 1px 1px rgba(150, 150, 150, 1);
+}
+.foot:active {
+    text-shadow: 0px 0px 1px rgba(150, 150, 150, 1);
+}
+.foot:visited {
+    color:snow;
+}
+
+.foot:hover {
+    color: white;
+    text-decoration:none;
+}
 .custombotton{
     margin:6px;
     color:black;
