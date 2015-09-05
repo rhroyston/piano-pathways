@@ -25,7 +25,7 @@
 
           <a class="btn btn-custom" href="https://twitter.com/PianoPathwaysBR" target="_blank"><i class="fa fa-twitter"></i> Follow Us</a>
 
-          <a class="btn btn-custom" href="https://www.youtube.com/user/rbellelo" target="_blank"><i class="fa fa-youtube"></i> Check Us Out</a>
+          <a class="btn btn-custom" href="https://www.youtube.com/user/rbellelo" target="_blank"><i class="fa fa-youtube-play"></i> Check Us Out</a>
         </div>
         <br>
         <br>
