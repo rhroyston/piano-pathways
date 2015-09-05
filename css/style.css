@@ -226,7 +226,7 @@ background-color: #BDCCD1;
     text-decoration:none;
 }
 .custombotton{
-    width:auto;
+    width:4em;
     margin:6px;
     color:black;
     background: rgba( 255,255,255, 0.1 );
@@ -235,7 +235,7 @@ background-color: #BDCCD1;
     border-radius: 3px;
     border-color:black;
     font-size:1.25em;
-    padding:6px;
+
 }
 .custombotton:active{
     color:black;

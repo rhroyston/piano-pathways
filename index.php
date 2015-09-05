@@ -17,16 +17,13 @@
     <?php include 'includes/header.php';?>
     <div class="container">
       <div class="row text-center">
-        <div class="col-sm-2 col-sm-offset-2">
+        <div class="col-sm-6 col-sm-offset-3">
           <a class="custombotton" href="https://www.facebook.com/PianoPathwaysStudio" target="_blank"><i class="fa fa-facebook-square"></i> Friend Us</a>
-        </div>
-        <div class="col-sm-2">
+
           <a class="custombotton" href="instructors"><i class="fa fa-users"></i> Instructors</a>
-        </div>
-        <div class="col-sm-2">
+
           <a class="custombotton" href="https://twitter.com/PianoPathwaysBR" target="_blank"><i class="fa fa-twitter"></i> Follow Us</a>
-        </div>
-        <div class="col-sm-2">
+
           <a class="custombotton" href="https://www.youtube.com/user/rbellelo" target="_blank"><i class="fa fa-youtube"></i> Check Us Out</a>
         </div>
         <br>
