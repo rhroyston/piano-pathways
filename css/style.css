@@ -369,3 +369,11 @@ background-color: #BDCCD1;
     .event-text{
         margin-left:30px;
     }
+    .event-place{
+        font-size:.75em;
+        margin-left:30px;
+    }
+    .event-detail{
+        font-size:1.4em;
+        margin-left:30px;
+    }
