@@ -33,10 +33,10 @@
       </div>
       <div class="col-sm-4 col-sm-offset-2">
         <h3 class="white textshadownl">Links</h3>
-        <a class="white textshadowsm" href="http://www.musiclearningcommunity.com" target="blank">Make A Payment <i class="fa fa-external-link"></i></a><br>
-        <a class="white textshadowsm" href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
-        <a class="white textshadowsm" href="https://www.metronomeonline.com/" target="blank">Metronome Online <i class="fa fa-external-link"></i></a><br>
-        <a class="white textshadowsm" href="http://www.blanksheetmusic.net/" target="blank">blanksheetmusic.net <i class="fa fa-external-link"></i></a><br>
+        <a class="white textshadowsm" href="http://www.musiclearningcommunity.com" target="_blank">Make A Payment <i class="fa fa-external-link"></i></a><br>
+        <a class="white textshadowsm" href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="_blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
+        <a class="white textshadowsm" href="https://www.metronomeonline.com/" target="_blank">Metronome Online <i class="fa fa-external-link"></i></a><br>
+        <a class="white textshadowsm" href="http://www.blanksheetmusic.net/" target="_blank">blanksheetmusic.net <i class="fa fa-external-link"></i></a><br>
       </div>
       <br>      
     </div>
