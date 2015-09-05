@@ -21,7 +21,7 @@ try {
   die("Could not connect to the database $dbname :" . $pe->getMessage());
 }
 
-    echo '<div class="col-sm-6 events">';
+    echo '<div class="col-sm-6">';
     echo '<h2 class="eventheader textshadownl"><i class="fa fa-microphone"></i> Announcements</h2>';
   
       while ($r = $q->fetch()):
