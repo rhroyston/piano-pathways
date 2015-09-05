@@ -18,9 +18,9 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-sm-6 col-sm-offset-3">
-          <span class="custombutton">
-          <ahref="https://www.facebook.com/PianoPathwaysStudio" target="_blank"><i class="fa fa-facebook-square"></i> Friend Us</a>
-          </span>
+          <div class="custombutton">
+          <a href="https://www.facebook.com/PianoPathwaysStudio" target="_blank"><i class="fa fa-facebook-square"></i> Friend Us</a>
+          </div>
           <a class="custombotton" href="instructors"><i class="fa fa-users"></i> Instructors</a>
 
           <a class="custombotton" href="https://twitter.com/PianoPathwaysBR" target="_blank"><i class="fa fa-twitter"></i> Follow Us</a>
