@@ -27,7 +27,7 @@ try {
 			
         echo '<div class="calendar">';
         echo '<div class="calendarheader">' . date_format($date, 'M') . '</div>';
-        echo '<div class="num-day">' . date_format($date, 'jS') . '</div>';
+        echo '<div class="num-day">' . date_format($date, 'j') . '</div>';
         echo '</div>';
         
         echo "<h4 class='black'>" . htmlspecialchars($r['event_title']) . "</h4>";
