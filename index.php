@@ -41,7 +41,7 @@
       </div>
     </div>
     <?php
-      $footerimage = "footer-fence";
+      $footerimage = "footer-brback";
       include 'includes/footer.php';
       include 'includes/resources.php';
     ?>
