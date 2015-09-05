@@ -364,6 +364,7 @@ background-color: #BDCCD1;
     }
     .event-title{
         font-size:2.4em;
+        line-height:2em;
         text-shadow: -3px 3px 10px rgba(150, 150, 150, 1);
     }
     .event-text{
@@ -371,7 +372,6 @@ background-color: #BDCCD1;
     }
     .event-place{
         font-size:1em;
-        margin-top: -18px;
         margin-left:30px;
     }
     .event-detail{
