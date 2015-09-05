@@ -226,7 +226,7 @@ background-color: #BDCCD1;
     text-decoration:none;
 }
 .custombotton{
-    min-width:100%;
+    width:auto;
     margin:6px;
     color:black;
     background: rgba( 255,255,255, 0.1 );
