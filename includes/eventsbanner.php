@@ -24,7 +24,18 @@ try {
     echo '<h2 class="eventheader"><i class="fa fa-calendar-o"></i> Upcoming Events</h2>';
       while ($r = $q->fetch()):
         $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
-        echo "<h4 class='black'>" . htmlspecialchars($r['event_title']) . " " . date_format($date, 'l\, M jS h:i A') . "</h4>";
+        
+			<div class="calendar">
+				<div class="calendarheader">Jun</div>
+				<div class="num-day">28</div>
+			</div>
+			
+        echo '<div class="calendar">';
+        echo '<div class="calendarheader">' . date_format($date, 'M') . '</div>';
+        echo '<div class="num-day">' . date_format($date, 'jS') . '</div>';
+        echo '</div>';
+        
+        echo "<h4 class='black'>" . htmlspecialchars($r['event_title']) . "</h4>";
         echo "<h6 class='black'>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</h6>";
         echo "<h5 class='black'>" . $r['event_detail'] . "</h5><br>";
       endwhile;

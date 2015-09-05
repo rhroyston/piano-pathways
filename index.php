@@ -36,10 +36,7 @@
           <h5 class="text-center"><a class="black textshadowsm" href="tel:225-767-0030"><i class="fa fa-phone"></i> &#40;225&#41; 767&#45;0030</a></h5>
         </div>
       </div>
-			<div class="calendar">
-				<div class="calendarheader">Jun</div>
-				<div class="num-day">28</div>
-			</div>
+
     </div>
     <br>
     <br>
