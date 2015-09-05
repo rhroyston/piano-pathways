@@ -371,7 +371,7 @@ background-color: #BDCCD1;
         text-shadow: -3px 3px 10px rgba(150, 150, 150, 1);
     }
     .event-text{
-
+        text-align:left;
     }
     .event-place{
         font-size:1em;
