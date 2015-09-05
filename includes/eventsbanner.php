@@ -30,7 +30,7 @@ try {
         echo '<div class="num-day">' . date_format($date, 'j') . '</div>';
         echo '</div>';
         
-        echo "<h4 class='black'>" . htmlspecialchars($r['event_title']) . "</h4>";
+        echo "<div class='black large'>" . htmlspecialchars($r['event_title']) . "</div>";
         echo "<h6 class='black'>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</h6>";
         echo "<h5 class='black'>" . $r['event_detail'] . "</h5><br>";
       endwhile;
