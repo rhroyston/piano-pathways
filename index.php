@@ -32,9 +32,12 @@
     <br>
     <br>
     <br>
-    <?php include 'includes/eventsbanner.php';?>
-    <br>
-
+    <div class="container">
+      <div class="row">
+        <?php include 'includes/eventsbanner.php';?>
+        <br>
+      </div>
+    </div>
     <?php
       $footerimage = "footer-fence";
       include 'includes/footer.php';

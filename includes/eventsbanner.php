@@ -20,8 +20,7 @@ try {
 } catch (PDOException $pe) {
   die("Could not connect to the database $dbname :" . $pe->getMessage());
 }
-echo '<div class="container">';
-  echo '<div class="row">';
+
     echo '<div class="col-sm-6 col-sm-offset-3 events">';
     echo '<h2 class="eventheader textshadownl">Upcoming Events</h2>';
   
@@ -31,9 +30,5 @@ echo '<div class="container">';
         echo "<h6>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</h6>";
         echo "<h5>" . $r['event_detail'] . "</h5><br>";
       endwhile;
-  
-    echo '</div>';
-  echo '</div>';
 echo '</div>';
-
 ?>
