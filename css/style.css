@@ -201,6 +201,7 @@ background-color: #BDCCD1;
 }
 .textshadowsm:visited {
     color: black;
+    text-decoration:none;
 }
 
 .textshadowsm:hover {
