@@ -20,19 +20,22 @@ try {
 } catch (PDOException $pe) {
   die("Could not connect to the database $dbname :" . $pe->getMessage());
 }
-    echo '<div class="col-sm-6 col-sm-offset-2">';
-    echo '<h2 class="eventheader"><i class="fa fa-calendar-o"></i> Upcoming Events</h2>';
+  
       while ($r = $q->fetch()):
         $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
-			
-        echo '<div class="calendar">';
-        echo '<div class="calendarheader">' . date_format($date, 'M') . '</div>';
-        echo '<div class="num-day">' . date_format($date, 'j') . '</div>';
+			  echo '<div class="col-sm-2 col-sm-offset-2">';
+          echo '<div class="calendar">';
+            echo '<div class="calendarheader">' . date_format($date, 'M') . '</div>';
+            echo '<div class="num-day">' . date_format($date, 'j') . '</div>';
+          echo '</div>';
         echo '</div>';
-        
-        echo "<span class='black event-title'>" . htmlspecialchars($r['event_title']) . "</span>";
-        echo "<h6 class='black'>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</h6>";
-        echo "<h5 class='black'>" . $r['event_detail'] . "</h5><br>";
+			  echo '<div class="col-sm-6">';
+          echo '<div class="calendar">';
+            echo "<span class='black event-title'>" . htmlspecialchars($r['event_title']) . "</span>";
+            echo "<h6 class='black'>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</h6>";
+            echo "<h5 class='black'>" . $r['event_detail'] . "</h5><br>";
+          echo '</div>';
+        echo '</div>';
       endwhile;
-echo '</div>';
+  
 ?>
