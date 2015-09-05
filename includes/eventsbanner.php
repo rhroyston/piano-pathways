@@ -28,14 +28,13 @@ try {
             echo '<div class="calendarheader">' . date_format($date, 'M') . '</div>';
             echo '<div class="num-day">' . date_format($date, 'j') . '</div>';
           echo '</div>';
-        
-			    echo '<span class="event">';
-          
-            echo "<span class='text-left black event-title'>" . htmlspecialchars($r['event_title']) . "</span><br>";
-            echo "<span class='event-text black event-place'>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</span><br>";
-            echo "<span class='event-text black event-detail'>" . $r['event_detail'] . "</span><br><br>";
-          
-          echo '</span>';
+          echo '<div class="text-left">';
+  			    echo '<span class="event">';
+              echo "<span class='black event-title'>" . htmlspecialchars($r['event_title']) . "</span><br>";
+              echo "<span class='black event-place'>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</span><br>";
+              echo "<span class='black event-detail'>" . $r['event_detail'] . "</span><br><br>";
+            echo '</span>';
+          echo '</div>';
         echo '</div>';
       endwhile;
   
