@@ -33,7 +33,7 @@
     <br>
     <br>
     <div class="container">
-      <div class="row">
+      <div class="row text-center">
         <?php include 'includes/eventsbanner.php';?>
         <?php include 'includes/announcementsbanner.php';?>
         <br>
