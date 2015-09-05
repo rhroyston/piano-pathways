@@ -299,8 +299,8 @@ background-color: #BDCCD1;
 
 .calendar {
     margin: 10px auto;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     -moz-border-radius: 12px;
     -webkit-border-radius: 12px;
     border-radius: 12px;
