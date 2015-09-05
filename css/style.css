@@ -299,7 +299,6 @@ background-color: #BDCCD1;
 
 .calendar {
     margin: 10px auto;
-    padding-bottom:12px;
     width: 80px;
     height: 80px;
     -moz-border-radius: 12px;
@@ -323,7 +322,7 @@ background-color: #BDCCD1;
     font-size: 16px;
     font-weight:bold;
     color: #FFF;
-	line-height:25px
+	
     }
 
 .num-day {
