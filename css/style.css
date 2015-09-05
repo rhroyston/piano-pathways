@@ -299,7 +299,7 @@ background-color: #BDCCD1;
 
 .calendar {
     float:left;
-    margin: 20px;
+    margin-right: 20px;
     width: 80px;
     height: 80px;
     -moz-border-radius: 12px;
