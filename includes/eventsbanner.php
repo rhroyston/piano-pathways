@@ -30,11 +30,11 @@ try {
           echo '</div>';
         echo '</div>';
 			  echo '<div class="col-sm-6">';
-          echo '<div class="calendar">';
+          
             echo "<span class='black event-title'>" . htmlspecialchars($r['event_title']) . "</span>";
             echo "<h6 class='black'>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</h6>";
             echo "<h5 class='black'>" . $r['event_detail'] . "</h5><br>";
-          echo '</div>';
+          
         echo '</div>';
       endwhile;
   
