@@ -298,35 +298,35 @@ background-color: #BDCCD1;
 }
 
 .calendar {
-    margin: 20px auto;
-    width: 200px;
-    height: 200px;
-    -moz-border-radius: 24px;
-    -webkit-border-radius: 24px;
-    border-radius: 24px;
+    margin: 10px auto;
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
     position: relative;
     background: #FFF
     }
 
 .calendarheader {
-    height: 50px;
+    height: 25px;
     background: #e74c3c;
-    -webkit-border-top-right-radius: 24px;
-    -moz-border-radius-topright: 24px;
-    border-top-right-radius: 24px;
-    -webkit-border-top-left-radius: 24px;
-    -moz-border-radius-topleft: 24px;
-    border-top-left-radius: 24px;
+    -webkit-border-top-right-radius: 12px;
+    -moz-border-radius-topright: 12px;
+    border-top-right-radius: 12px;
+    -webkit-border-top-left-radius: 12px;
+    -moz-border-radius-topleft: 12px;
+    border-top-left-radius: 12px;
 	width: 100%;
     text-align: center;
-    font-size: 24px;
+    font-size: 12px;
     color: #FFF;
-	line-height: 50px
+	line-height:25px
     }
 
 .num-day {
-    height: 150px;
-    font-size: 111px;
+    height: 75px;
+    font-size: 55px;
     color: #333;
     text-align: center
     }
@@ -338,12 +338,12 @@ background-color: #BDCCD1;
     content: "";
     display: block;
     position: absolute;
-    top: 20px;
-    left: 20px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    padding: 4px
+    top: 10px;
+    left: 10px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 2px
     }
 
 .calendarheader:after {
@@ -353,10 +353,10 @@ background-color: #BDCCD1;
     content: "";
     display: block;
     position: absolute;
-    top: 20px;
-    right: 20px;
-    -moz-border-radius: 6px;
-    -webkit-border-radius: 6px;
-    border-radius: 6px;
-    padding: 4px
+    top: 10px;
+    right: 10px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    padding: 2px
     }
