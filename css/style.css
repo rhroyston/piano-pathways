@@ -364,7 +364,7 @@ background-color: #BDCCD1;
     }
     .event{
         text-align:left;
-        margin-top:-8px;
+        margin-top:-9px;
     }
     .event-title{
         font-size:2.4em;
@@ -375,7 +375,7 @@ background-color: #BDCCD1;
         text-align:left;
     }
     .event-place{
-        font-size:1em;
+        font-size:.8em;
 
     }
     .event-detail{
