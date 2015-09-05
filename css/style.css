@@ -204,7 +204,8 @@ background-color: #BDCCD1;
 }
 
 .textshadowsm:hover {
-    color: #383838;
+    color: black;
+    text-shadow: -1px 1px 3px rgba(40, 40, 40, 1);
     text-decoration:none;
 }
 .foot{
