@@ -37,7 +37,7 @@
         </div>
       </div>
 			<div class="calendar">
-				<div class="calendarheader">Monday</div>
+				<div class="calendarheader">Jun</div>
 				<div class="num-day">28</div>
 			</div>
     </div>
