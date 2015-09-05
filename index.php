@@ -35,6 +35,7 @@
     <div class="container">
       <div class="row">
         <?php include 'includes/eventsbanner.php';?>
+        <?php include 'includes/announcementsbanner.php';?>
         <br>
       </div>
     </div>
