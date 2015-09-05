@@ -226,6 +226,7 @@ background-color: #BDCCD1;
     text-decoration:none;
 }
 .btn-custom {
+    margin:6px;
   background-color: rgba( 255, 255, 255, 0.1 ) !important;
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#134134134", endColorstr="#c9c9c9");
@@ -241,27 +242,7 @@ background-color: #BDCCD1;
   text-shadow: 0 1px 1px rgba(255, 255, 255, 0.69);
   -webkit-font-smoothing: antialiased;
 }
-.custombotton{
-    width:144px;
-    margin:6px;
-    color:black;
-    background: rgba( 255,255,255, 0.1 );
-    border-width:1px;
-    border-style:solid;
-    border-radius: 3px;
-    border-color:black;
-    font-size:1.25em;
-
-}
-.custombotton:active{
-    color:black;
-    background: rgba( 255, 255, 255, 0.1 );    
-}
-.custombotton:visited{
-    color:black;
-    background: rgba( 255, 255, 255, 0.1 );
-}
-.custombotton:hover{
+.btn-custom:hover{
     color:black;
     background: rgba( 255, 255, 255, 0.1 );
     text-decoration:none;
