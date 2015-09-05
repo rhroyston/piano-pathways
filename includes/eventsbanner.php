@@ -20,7 +20,7 @@ try {
 } catch (PDOException $pe) {
   die("Could not connect to the database $dbname :" . $pe->getMessage());
 }
-    echo '<div class="col-sm-4 col-sm-offset-2">';
+    echo '<div class="col-sm-6 col-sm-offset-2">';
     echo '<h2 class="eventheader"><i class="fa fa-calendar-o"></i> Upcoming Events</h2>';
       while ($r = $q->fetch()):
         $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);

@@ -361,6 +361,7 @@ background-color: #BDCCD1;
     border-radius: 3px;
     padding: 2px
     }
-    .large{
+    .event-title{
         font-size:3em;
+        text-shadow: -3px 3px 10px rgba(150, 150, 150, 1);
     }
