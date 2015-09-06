@@ -52,6 +52,7 @@
         
         <br>
 
+<div class="polaroids">
 <div class="polaroid">
   <p>The New Studio</p>
   <img src="images/thestudio.jpg">
@@ -63,6 +64,7 @@
 <div class="polaroid">
   <p>Group Lessons</p>
   <img src="images/theinside.jpg">
+</div>
 </div>
 
 
