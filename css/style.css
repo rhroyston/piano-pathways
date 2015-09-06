@@ -17,8 +17,8 @@ right:20px;
 .xl{
     font-size:1.5em;
 }
-.paper{
-    background-color:white;
+.cboard{
+    background-image: url("../images/cboard1.jpg");
 }
 
 .logo-wrap{
