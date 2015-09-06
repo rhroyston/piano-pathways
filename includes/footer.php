@@ -1,4 +1,4 @@
-<?php echo "<div class=\"container-fluid $footerimage\">";?>
+<?php echo "<div class=\"$footerimage\">";?>
   <br>
   <br>
   <br>
@@ -7,7 +7,7 @@
   <br>
   <br>
   <br>
-  <div class="container">
+
   <br>
   <br>
   <br>
@@ -39,7 +39,7 @@
       <br>      
     </div>
     <br>
-  </div>
+
   <br>
   <div class="row">
     <div class="col-md-6 col-sm-offset-3">
