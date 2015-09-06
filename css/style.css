@@ -461,7 +461,7 @@ figure, figcaption {
 display: block;
 }
 #polaroid{
-
+width:216px;
 overflow:hidden;
 padding:20px 10px;
 }
