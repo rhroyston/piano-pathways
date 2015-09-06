@@ -462,7 +462,7 @@ display: block;
 }
 #polaroid{
 width:100%;
-
+overflow:hidden;
 padding:20px 10px;
 }
 #polaroid figure{
@@ -524,7 +524,7 @@ height: 25px;
 }
 #polaroid figcaption{
 text-align:center;
-font-family: 'Indie Flower', cursive;
+font-family: 'Reenie Beanie', cursive; /*Reenie Beanie is available through Google Webfonts http://code.google.com/webfonts/specimen/Reenie+Beanie*/
 font-size:1.3em;
 color:#454f40;
 letter-spacing:0.09em;

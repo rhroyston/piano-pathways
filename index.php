@@ -54,7 +54,7 @@
         
 <div id="polaroid">
 <figure>
-<img src="images/thestudio.jpg" width="200" height="200" alt="asfdadfs" />
+<img src="images/thestudio.jpg" width="200" height="200" alt="" />
 <figcaption>Pretty red mushroom</figcaption>
 </figure>
 <figure>
