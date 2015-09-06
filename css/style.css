@@ -453,7 +453,11 @@ background-color: #BDCCD1;
 #gradient
 {
   width: 100%;
-  height: 800px;
+  height: 100%;
   padding: 0px;
   margin: 0px;
+    background: -webkit-linear-gradient(bottom,rgba(250,244,38,1),rgba(250,244,38,0)); /*Safari 5.1-6*/
+  background: -o-linear-gradient(bottom,rgba(250,244,38,1),rgba(250,244,38,0)); /*Opera 11.1-12*/
+  background: -moz-linear-gradient(bottom,rgba(250,244,38,1),rgba(250,244,38,0)); /*Fx 3.6-15*/
+  background: linear-gradient(to top, rgba(250,244,38,1), rgba(250,244,38,0)); /*Standard*/
 }
