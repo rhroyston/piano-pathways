@@ -9,7 +9,10 @@
   <br>
   <br>
   <div class="container">
-
+  <br>
+  <br>
+  <br>
+  <br>
     <div class="row">
       <div class="col-sm-4 col-sm-offset-2">
         <span class="foot-big-text">About</span><br>
