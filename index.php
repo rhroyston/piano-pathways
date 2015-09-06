@@ -11,7 +11,7 @@
     include 'includes/head.php';
   ?>
   
-  <body style='background-image: url("../images/whitejean.jpg");'>
+  <body style='background:#01097D;'>
     
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
@@ -43,7 +43,7 @@
     <br>
     <br>
     <br>
-    <div class="container">
+    <div class="container midwayrrr">
       <div class="row text-center">
         
         <?php include 'includes/eventsbanner.php';?>
@@ -55,7 +55,7 @@
       </div>
     </div>
     <?php
-      $footerimage = "footer-blinen";
+      $footerimage = "footer-brback";
       include 'includes/footer.php';
       include 'includes/resources.php';
     ?>
