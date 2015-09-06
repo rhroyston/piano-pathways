@@ -460,6 +460,8 @@ background: #B6D3EF;
 .polaroid {
   position: relative;
   width: 220px;
+  margin:20px;
+  float:left;
 }
  
 .polaroid img {
