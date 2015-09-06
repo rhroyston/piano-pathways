@@ -376,7 +376,7 @@ background-color: #BDCCD1;
     }
     .event-place{
         font-size:1em;
-        padding-top:-4px;
+        line-height:.5em;
 
     }
     .event-detail{
