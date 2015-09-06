@@ -44,10 +44,11 @@
     <br>
     <div class="container">
       <div class="row text-center">
+        <?php include 'includes/announcementsbanner.php';?>
         <?php include 'includes/eventsbanner.php';?>
         <br>
 
-        <?php include 'includes/announcementsbanner.php';?>
+        
         <br>
       </div>
     </div>
