@@ -481,12 +481,51 @@ background: #B6D3EF;
   color: #888;
 }
 
-.polaroid img, p :nth-of-type(1n) {-webkit-transform:rotate(30deg) scale(0.7,0.7);-moz-transform:rotate(30deg) scale(0.7,0.7);transform:rotate(30deg) scale(0.7,0.7);top:0%;left:60%;}
-.polaroid img, p :nth-of-type(2n) {-webkit-transform:rotate(-30deg) scale(0.7,0.7);-moz-transform:rotate(-30deg) scale(0.7,0.7);transform:rotate(-30deg) scale(0.7,0.7);top:40%;left:80%;}
-.polaroid img, p :nth-of-type(3n) {-webkit-transform:rotate(40deg) scale(0.7,0.7);-moz-transform:rotate(40deg) scale(0.7,0.7);transform:rotate(40deg) scale(0.7,0.7);top:50%;left:-10%;}
-.polaroid img, p :nth-of-type(4n) {-webkit-transform:rotate(-30deg) scale(0.7,0.7);-moz-transform:rotate(-30deg) scale(0.7,0.7);transform:rotate(-30deg) scale(0.7,0.7);top:0%;left:-10%;}
-.polaroid img, p :nth-of-type(5n) {-webkit-transform:rotate(-20deg) scale(0.8,0.8);-moz-transform:rotate(-20deg) scale(0.8,0.8);transform:rotate(-20deg) scale(0.8,0.8);top:50%;left:20%;z-index:3;}
-.polaroid img, p :nth-of-type(6n) {-webkit-transform:rotate(30deg) scale(0.7,0.7);-moz-transform:rotate(30deg) scale(0.7,0.7);transform:rotate(30deg) scale(0.7,0.7);top:60%;left:55%;}
-.polaroid img, p :nth-of-type(7n) {-webkit-transform:rotate(10deg) scale(0.7,0.7);-moz-transform:rotate(10deg) scale(0.7,0.7);transform:rotate(10deg) scale(0.7,0.7);top:0%;left:25%;}
+.polaroid-images img:nth-child(2n)
+{
+	-webkit-transform: rotate(4deg);  
+	-moz-transform: rotate(4deg); 
+	transform: rotate(4deg); 
+}
+.polaroid-images img:nth-child(3n) { 
+	-webkit-transform: rotate(-24deg);  
+	-moz-transform: rotate(-24deg); 
+	transform: rotate(-24deg); 
+}
+.polaroid-images img:nth-child(4n)
+{
+	-webkit-transform: rotate(14deg);  
+	-moz-transform: rotate(14deg); 
+	transform: rotate(14deg); 
+}
+.polaroid-images img:nth-child(5n)
+{
+	-webkit-transform: rotate(-18deg);  
+	-moz-transform: rotate(-18deg); 
+	transform: rotate(-18deg); 
+}
 
+.polaroid-images p:nth-child(2n)
+{
+	-webkit-transform: rotate(4deg);  
+	-moz-transform: rotate(4deg); 
+	transform: rotate(4deg); 
+}
+.polaroid-images p:nth-child(3n) { 
+	-webkit-transform: rotate(-24deg);  
+	-moz-transform: rotate(-24deg); 
+	transform: rotate(-24deg); 
+}
+.polaroid-images p:nth-child(4n)
+{
+	-webkit-transform: rotate(14deg);  
+	-moz-transform: rotate(14deg); 
+	transform: rotate(14deg); 
+}
+.polaroid-images p:nth-child(5n)
+{
+	-webkit-transform: rotate(-18deg);  
+	-moz-transform: rotate(-18deg); 
+	transform: rotate(-18deg); 
+}
 
