@@ -11,7 +11,7 @@
     include 'includes/head.php';
   ?>
   
-  <body style='background:#B6D3EF;'>
+  <body id="gradient" style='background:#B6D3EF;'>
     
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
