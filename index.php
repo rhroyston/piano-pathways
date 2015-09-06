@@ -10,9 +10,9 @@
     $csslink = "<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>";
     include 'includes/head.php';
   ?>
-  <div id="gradient"></div>
+  
   <body style='background:#B6D3EF;'>
-    
+    <div id="gradient"></div>
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
     <?php include 'includes/header.php';?>
