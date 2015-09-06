@@ -480,3 +480,13 @@ background: #B6D3EF;
   font-family: 'Indie Flower', cursive;
   color: #888;
 }
+
+.polaroid :nth-child(1n) p img {-webkit-transform:rotate(30deg) scale(0.7,0.7);-moz-transform:rotate(30deg) scale(0.7,0.7);transform:rotate(30deg) scale(0.7,0.7);top:0%;left:60%;}
+.polaroid :nth-child(2n) p img {-webkit-transform:rotate(-30deg) scale(0.7,0.7);-moz-transform:rotate(-30deg) scale(0.7,0.7);transform:rotate(-30deg) scale(0.7,0.7);top:40%;left:80%;}
+.polaroid :nth-child(3n) p img {-webkit-transform:rotate(40deg) scale(0.7,0.7);-moz-transform:rotate(40deg) scale(0.7,0.7);transform:rotate(40deg) scale(0.7,0.7);top:50%;left:-10%;}
+.polaroid :nth-child(4n) p img {-webkit-transform:rotate(-30deg) scale(0.7,0.7);-moz-transform:rotate(-30deg) scale(0.7,0.7);transform:rotate(-30deg) scale(0.7,0.7);top:0%;left:-10%;}
+.polaroid :nth-child(5n) p img {-webkit-transform:rotate(-20deg) scale(0.8,0.8);-moz-transform:rotate(-20deg) scale(0.8,0.8);transform:rotate(-20deg) scale(0.8,0.8);top:50%;left:20%;z-index:3;}
+.polaroid :nth-child(6n) p img {-webkit-transform:rotate(30deg) scale(0.7,0.7);-moz-transform:rotate(30deg) scale(0.7,0.7);transform:rotate(30deg) scale(0.7,0.7);top:60%;left:55%;}
+.polaroid :nth-child(7n) p img {-webkit-transform:rotate(10deg) scale(0.7,0.7);-moz-transform:rotate(10deg) scale(0.7,0.7);transform:rotate(10deg) scale(0.7,0.7);top:0%;left:25%;}
+
+
