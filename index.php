@@ -54,10 +54,17 @@
         
 <div id="polaroid">
 <figure>
-<img src="images/thestudio.jpg" width="200" height="200" alt="" />
+<img src="images/thestudio.jpg"  alt="" />
 <figcaption>Pretty red mushroom</figcaption>
 </figure>
-
+<figure>
+<img src="images/thechildren.jpg" width="200" height="200" alt="" />
+<figcaption>Rainbow near Keswick</figcaption>
+</figure>
+<figure>
+<img src="images/theinside.jpg" width="200" height="200" alt="" />
+<figcaption>Nice old tree</figcaption>
+</figure>
 </div><!--end polaroid-->
 
       </div>
