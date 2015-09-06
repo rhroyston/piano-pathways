@@ -468,7 +468,7 @@ background: #B6D3EF;
 .box:nth-of-type(3n) {
 	min-width:200px;
 	min-height:200px;
-  background: #56C4E8;
+  background: #FCF0AD;
   transform: rotate(-5deg);
   z-index: 20;
 }
