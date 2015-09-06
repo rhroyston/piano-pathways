@@ -34,7 +34,7 @@ try {
               echo "<span class='black event-place'>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</span><br>";
               echo "<span class='black event-detail'>" . $r['event_detail'] . "</span><br><br>";
             echo '</div>';
-
+        <br>
         echo '</div>';
       endwhile;
   
