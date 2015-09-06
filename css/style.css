@@ -452,14 +452,6 @@ background-color: #BDCCD1;
 
 #gradient
 {
-    position:absolute;
-    bottom:0px;
-  width: 100%;
-  height: 100%;
-  padding: 0px;
-  margin: 0px;
-background: -webkit-linear-gradient(bottom, rgba(215,234,249,1),rgba(0,152,219,1)); /*Safari 5.1-6*/
-  background: -o-linear-gradient(bottom,rgba(215,234,249,1),rgba(0,152,219,1)); /*Opera 11.1-12*/
-  background: -moz-linear-gradient(bottom,rgba(215,234,249,1),rgba(0,152,219,1)); /*Fx 3.6-15*/
-  background: linear-gradient(to top, rgba(215,234,249,1), rgba(0,152,219,1)); /*Standard*/
+
+background: rgb(0,152,219);
 }
