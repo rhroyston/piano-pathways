@@ -7,6 +7,7 @@
   
   <?php 
     $title = 'Login';
+    $csslink = "<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>";
     include 'includes/head.php';
   ?>
   
