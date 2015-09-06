@@ -20,13 +20,12 @@ try {
 } catch (PDOException $pe) {
   die("Could not connect to the database $dbname :" . $pe->getMessage());
 }
-
-    echo '<div class=" box col-sm-4">';
-    echo '<h2 class="eventheader"><i class="fa fa-microphone"></i> Announcements</h2>';
   
       while ($r = $q->fetch()):
-        echo "<h4 class='black'>" . htmlspecialchars($r['announcement_title']) . "</h4>";
-        echo "<h5 class='black'>" . $r['announcement_detail'] . "</h5><br>";
+        echo '<div class="box effect7 col-sm-4">';
+          echo "<h4 class='black'>" . htmlspecialchars($r['announcement_title']) . "</h4>";
+          echo "<h5 class='black'>" . $r['announcement_detail'] . "</h5><br>";
+        echo '</div>';
       endwhile;
-echo '</div>';
+
 ?>
