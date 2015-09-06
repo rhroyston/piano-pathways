@@ -11,7 +11,7 @@
     include 'includes/head.php';
   ?>
   
-  <body style='background-image: url("../images/sky.jpg");'>
+  <body style='background-image: url("../images/whitejean.jpg");'>
     
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
