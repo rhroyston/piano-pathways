@@ -458,10 +458,10 @@ background: #B6D3EF;
      -moz-box-shadow: 2px 25px 50px -25px #777;
           box-shadow: 2px 25px 50px -25px #777;
 }
-.box:nth-of-type(2n) {
+.box:nth-of-type(even) {
 	min-width:200px;
 	min-height:200px;
-  background:#FCF0AD;
+  background:#cfc;
   transform: rotate(2deg);
   z-index: 20;
 }
@@ -471,11 +471,5 @@ background: #B6D3EF;
   background: #56C4E8;
   transform: rotate(-5deg);
   z-index: 20;
-}
-.box:nth-of-type(5n) {
-	min-width:200px;
-	min-height:200px;
-  background: #D0E17D;
-  transform: rotate(7deg);
 }
 
