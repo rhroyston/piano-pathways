@@ -210,15 +210,15 @@ background-color: #BDCCD1;
 }
 .foot-big-text{
     color:snow;
-    font-size:2.4em;
+    font-size:2em;
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
     -o-text-shadow: cover;
-    text-shadow: -1px 1px 10px rgba(150, 150, 150, 1);
+    text-shadow: -1px 1px 5px rgba(150, 150, 150, 1);
 }
 .foot{
     color:snow;
-    font-size:1.4em;
+    font-size:1.2em;
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
     -o-text-shadow: cover;
