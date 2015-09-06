@@ -22,7 +22,7 @@ try {
 }
 
       while ($r = $q->fetch()):
-        echo '<div class="col-sm-2 box effect2">';
+        echo '<div class="col-xs-2 box effect2">';
           echo "<h4 class='black handwritten'>" . htmlspecialchars($r['announcement_title']) . "</h4>";
           echo "<h5 class='black handwritten'>" . $r['announcement_detail'] . "</h5><br>";
         echo '</div>';
