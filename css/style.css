@@ -131,12 +131,12 @@ background-color: #BDCCD1;
     -o-background-size: cover;
     background-size: cover;
 }
-.footer-piano{
-    background: url('/images/pfooter.png') no-repeat center center;
-    -webkit-background-size: 100%;
-    -moz-background-size: 100%;
-    -o-background-size: 100%;
-    background-size: 100%;
+.footer-blinen{
+    background: url('/images/blacklinen.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .textshadow{
     -webkit-text-shadow: cover;

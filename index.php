@@ -55,7 +55,7 @@
       </div>
     </div>
     <?php
-      $footerimage = "footer-piano";
+      $footerimage = "footer-blinen";
       include 'includes/footer.php';
       include 'includes/resources.php';
     ?>
