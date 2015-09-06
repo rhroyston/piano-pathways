@@ -131,6 +131,13 @@ background-color: #BDCCD1;
     -o-background-size: cover;
     background-size: cover;
 }
+.footer-piano{
+    background: url('/images/pfooter.png') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
 .textshadow{
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
