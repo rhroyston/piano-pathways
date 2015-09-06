@@ -421,9 +421,9 @@ background: #B6D3EF;
 .polaroid img {
   border: 10px solid #fff;
   border-bottom: 45px solid #fff;
-  -webkit-box-shadow: 3px 3px 3px #777;
-     -moz-box-shadow: 3px 3px 3px #777;
-          box-shadow: 3px 3px 3px #777;
+  -webkit-box-shadow: -3px 3px 3px #777;
+     -moz-box-shadow: -3px 3px 3px #777;
+          box-shadow: -3px 3px 3px #777;
 }
  
 .polaroid p {
@@ -454,7 +454,9 @@ background: #B6D3EF;
 	background:#FCF0AD;
 	margin:20px;
 	transform: rotate(-3deg);
-	z-index: 20;
+  -webkit-box-shadow: -3px 3px 3px #777;
+     -moz-box-shadow: -3px 3px 3px #777;
+          box-shadow: -3px 3px 3px #777;
 }
 .box:nth-of-type(2n) {
 	min-width:200px;
@@ -477,40 +479,3 @@ background: #B6D3EF;
   transform: rotate(7deg);
 }
 
-/*==================================================
- * Effect 2
- * ===============================================*/
-.effect2
-{
-  position: relative;
-}
-.effect2:before, .effect2:after
-{
-  z-index: -2;
-  position: absolute;
-  content: "";
-  bottom: 15px;
-  left: 10px;
-  width: 50%;
-  top: 80%;
-  max-width:300px;
-  background: #777;
-  -webkit-box-shadow: 0 15px 10px #777;
-  -moz-box-shadow: 0 15px 10px #777;
-  box-shadow: 0 15px 10px #777;
-  -webkit-transform: rotate(-3deg);
-  -moz-transform: rotate(-3deg);
-  -o-transform: rotate(-3deg);
-  -ms-transform: rotate(-3deg);
-  transform: rotate(-3deg);
-}
-.effect2:after
-{
-  -webkit-transform: rotate(3deg);
-  -moz-transform: rotate(3deg);
-  -o-transform: rotate(3deg);
-  -ms-transform: rotate(3deg);
-  transform: rotate(3deg);
-  right: 10px;
-  left: auto;
-}
