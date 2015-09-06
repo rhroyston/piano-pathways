@@ -453,7 +453,8 @@ background: #B6D3EF;
 	min-height:200px;
 	background:#FCF0AD;
 	margin:20px;
-	transform: rotate(-3deg)
+	transform: rotate(-3deg);
+	z-index: 1;
 }
 .box:nth-of-type(2n) {
   background: #56C4E8;
