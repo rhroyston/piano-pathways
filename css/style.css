@@ -392,7 +392,7 @@ background-color: #BDCCD1;
 .box {
 	width:70%;
 	height:200px;
-	background-image: url("../images/paper.png");
+	background:#FCF0AD;;
 	
 	margin:40px auto;
 }

@@ -46,10 +46,7 @@
       <div class="row text-center">
         <?php include 'includes/eventsbanner.php';?>
         <br>
-      </div>
-    </div>
-    <div class="container">
-      <div class="row text-center">
+
         <?php include 'includes/announcementsbanner.php';?>
         <br>
       </div>
