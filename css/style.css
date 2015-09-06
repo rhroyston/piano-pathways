@@ -398,8 +398,8 @@ background-color: #BDCCD1;
 	top:80px;
 }
 .box {
-	
-	height:200px;
+	min-width:200px;
+	min-height:200px;
 	background:#FCF0AD;;
 	
 	margin:20px;
