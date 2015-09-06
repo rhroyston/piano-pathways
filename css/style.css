@@ -485,10 +485,10 @@ background: #B6D3EF;
   transform: rotate(20deg);
 }
 .polaroid:nth-of-type(2) {
-  transform: rotate(20deg);
+  transform: rotate(10deg);
 }
 .polaroid:nth-of-type(3) {
-  transform: rotate(20deg);
+  transform: rotate(40deg);
 }
 
 
