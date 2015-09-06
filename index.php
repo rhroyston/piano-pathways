@@ -51,21 +51,20 @@
 
         
         <br>
-        
-<div id="polaroid">
-<figure>
-<img src="images/thestudio.jpg" width="200" height="200" alt="" />
-<figcaption>Pretty red mushroom</figcaption>
-</figure>
-<figure>
-<img src="images/thechildren.jpg" width="200" height="200" alt="" />
-<figcaption>Rainbow near Keswick</figcaption>
-</figure>
-<figure>
-<img src="images/theinside.jpg" width="200" height="200" alt="" />
-<figcaption>Nice old tree</figcaption>
-</figure>
-</div><!--end polaroid-->
+
+<div class="polaroid">
+  <p>The New Studio</p>
+  <img src="images/thestudio.jpg">
+</div>
+<div class="polaroid">
+  <p>Childrens Recital</p>
+  <img src="images/thechildren.jpg">
+</div>
+<div class="polaroid">
+  <p>Group Lessons</p>
+  <img src="images/theinside.jpg">
+</div>
+
 
       </div>
     </div>
