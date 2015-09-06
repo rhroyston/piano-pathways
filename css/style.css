@@ -481,7 +481,13 @@ background: #B6D3EF;
   color: #888;
 }
 
-.polaroid {
+.polaroid:nth-child(1n) {
+  transform: rotate(20deg);
+}
+.polaroid:nth-child(2n) {
+  transform: rotate(20deg);
+}
+.polaroid:nth-child(3n) {
   transform: rotate(20deg);
 }
 
