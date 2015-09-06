@@ -481,14 +481,17 @@ background: #B6D3EF;
   color: #888;
 }
 
-.polaroid:nth-of-type(1) {
-  transform: rotate(20deg);
+.polaroid {
+  transform: rotate(-6deg);
 }
-.polaroid:nth-of-type(2) {
+.polaroid:nth-of-type(2n) {
   transform: rotate(10deg);
 }
-.polaroid:nth-of-type(3) {
-  transform: rotate(40deg);
+.polaroid:nth-of-type(3n) {
+  transform: rotate(-12deg);
+}
+.polaroid:nth-of-type(5n) {
+  transform: rotate(12deg);
 }
 
 
