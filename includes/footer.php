@@ -30,7 +30,7 @@
         <a class="foot" href="#wheretuitiongoesModal" data-toggle="modal">Where Does Tuition Go&#63; <i class="fa fa-angle-double-right"></i></a><br>
       </div>
       <div class="col-xs-4">
-      <img src="images/brpm.png" alt="" class="img-responsive" height="226" width="256">
+      <img src="images/brpm-sm.png" alt="" class="img-responsive" height="113" width="128">
       </div>
       <div class="col-xs-4">
         <span class="foot-big-text">Links</span><br>
