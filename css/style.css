@@ -478,7 +478,11 @@ background: #B6D3EF;
   transform: rotate(-5deg);
   z-index: 20;
 }
-
+.footer-image{
+    width:100%;
+    position:absolute;
+    bottom:0;
+}
 
 
 

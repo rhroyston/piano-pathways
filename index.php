@@ -70,8 +70,9 @@
           include 'includes/footer.php';
           include 'includes/resources.php';
         ?>
-
+      
       </div>
     </div>
+    <img src="images/brback.png" alt="Baton Rouge" class="footer-image">
   </body>
 </html>
