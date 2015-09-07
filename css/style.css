@@ -1,7 +1,3 @@
-html,body{
-    height: 100%;
-    position: relative;
-}
 body {
     
     font-family: 'Raleway', sans-serif;
@@ -481,11 +477,6 @@ background: #B6D3EF;
   background: #FCF0AD;
   transform: rotate(-5deg);
   z-index: 20;
-}
-.footer-image{
-    width:100%;
-    position:absolute;
-    bottom:0px;
 }
 
 

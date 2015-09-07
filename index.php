@@ -66,13 +66,12 @@
       <div class="row">
 
         <?php
-          $footerimage = "";
+          $footerimage = "footer-fence";
           include 'includes/footer.php';
           include 'includes/resources.php';
         ?>
       
       </div>
     </div>
-    <img src="images/brback.png" alt="Baton Rouge" class="navbar navbar-default navbar-fixed-bottom">
   </body>
 </html>
