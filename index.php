@@ -73,6 +73,6 @@
       
       </div>
     </div>
-    <img src="images/brback.png" alt="Baton Rouge" class="footer-image">
+    <img src="" alt="Baton Rouge" class="footer-image">
   </body>
 </html>
