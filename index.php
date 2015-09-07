@@ -55,13 +55,15 @@
         </div>
       </div>
     </div>
-    <div class="container center-block">
+    <div class="container">
       <div class="row">
+        <div class="center">
         <?php
           $footerimage = "footer-brback";
           include 'includes/footer.php';
           include 'includes/resources.php';
         ?>
+        </div>
       </div>
     </div>
   </body>
