@@ -11,7 +11,7 @@
   <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
     
-    <div class="container wood">
+    <div class="container paper">
       <?php include 'includes/header.php';?>
       <div class="row text-center">
         <div class="col-sm-6 col-sm-offset-3">
@@ -64,7 +64,7 @@
     <div class="container-fluid">
       <div class="row">
         <?php
-          $footerimage = "paper";
+          $footerimage = "wood";
           include 'includes/footer.php';
           include 'includes/resources.php';
         ?>
