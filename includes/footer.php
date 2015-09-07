@@ -31,7 +31,7 @@
       <div class="col-xs-4 center-block">
       <img src="images/brpm-sm.png" alt="" class="img-responsive" height="113" width="128">
       </div>
-      <div class="col-xs-4 center-block">
+      <div class="col-xs-4 pull-right">
         <span class="foot-big-text">Links</span><br>
         <a class="foot" href="http://www.musiclearningcommunity.com" target="_blank">Make A Payment <i class="fa fa-external-link"></i></a><br>
         <a class="foot" href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="_blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
