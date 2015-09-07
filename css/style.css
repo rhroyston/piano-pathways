@@ -433,16 +433,19 @@ background: #B6D3EF;
   bottom: 0px;
   font-family: 'Indie Flower', cursive;
   color: black;
+  font-weight:bold;
 }
 
 .polaroid {
   transform: rotate(-3deg);
+  color:blue;
 }
 .polaroid:nth-of-type(2n) {
   transform: rotate(5deg);
 }
 .polaroid:nth-of-type(3n) {
   transform: rotate(-6deg);
+  color:red;
 }
 .polaroid:nth-of-type(5n) {
   transform: rotate(8deg);

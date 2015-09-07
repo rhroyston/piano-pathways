@@ -66,7 +66,7 @@
   <img src="images/theinside.jpg">
 </div>
 <div class="polaroid">
-  <p><b>Halloween Fun!</b></p>
+  <p>Halloween Fun!</p>
   <img src="images/thelearning.jpg">
 </div>
 </div>
