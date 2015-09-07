@@ -11,6 +11,9 @@ opacity:.8;
 }
 .paper{
     background-image: url("../images/paper.png");
+-webkit-box-shadow: 0px 28px 131px -9px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 28px 131px -9px rgba(0,0,0,0.75);
+box-shadow: 0px 28px 131px -9px rgba(0,0,0,0.75);
 }
 .stand{
 position:absolute;
@@ -136,9 +139,6 @@ background-color: #BDCCD1;
 }
 .wood{
     background: url('/images/wood_pattern.png');
--webkit-box-shadow: 0px -5px 70px 0px rgba(0,0,0,0.75);
--moz-box-shadow: 0px -5px 70px 0px rgba(0,0,0,0.75);
-box-shadow: 0px -5px 70px 0px rgba(0,0,0,0.75);
 }
 .footer-contain{
     overflow:hidden;
