@@ -136,6 +136,9 @@ background-color: #BDCCD1;
 }
 .wood{
     background: url('/images/wood_pattern.png');
+      -webkit-box-shadow: -3px 3px 3px #777;
+     -moz-box-shadow: -3px 3px 3px #777;
+          box-shadow: -3px 3px 3px #777;
 }
 .footer-contain{
     overflow:hidden;
