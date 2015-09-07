@@ -69,7 +69,7 @@
     <div class="container-fluid">
       <div class="row">
         <?php
-          $footerimage = "brownpaper";
+          $footerimage = "slabs";
           include 'includes/footer.php';
           include 'includes/resources.php';
         ?>

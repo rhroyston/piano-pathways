@@ -143,8 +143,8 @@ background-color: #BDCCD1;
 -moz-box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
 box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
 }
-.brownpaper{
-    background: url('/images/brownpaper.jpg');
+.slabs{
+    background: url('/images/slabs.jpg');
 -webkit-box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
 -moz-box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
 box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
