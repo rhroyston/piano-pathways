@@ -2,15 +2,11 @@
 <div id="cover"></div>
 <!DOCTYPE html>
 <html lang="en">
-  
-    
-  
   <?php 
     $title = 'Login';
     $csslink = "<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>";
     include 'includes/head.php';
   ?>
-  
   <body id="gradient">
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
@@ -36,10 +32,10 @@
       <br>
       <br>
       <br>
-        <?php include 'includes/eventsbanner.php';?>
-        <?php include 'includes/announcementsbanner.php';?>
-        <br>
-        <br>
+      <?php include 'includes/eventsbanner.php';?>
+      <?php include 'includes/announcementsbanner.php';?>
+      <br>
+      <br>
       <div class="polaroids">
         <div class="polaroid">
           <p>The New Studio</p>
@@ -58,11 +54,13 @@
           <img src="images/thelearning.jpg">
         </div>
       </div>
-      <?php
-        $footerimage = "footer-brback";
-        include 'includes/footer.php';
-        include 'includes/resources.php';
-      ?>
+      <div class="row">
+        <?php
+          $footerimage = "footer-brback";
+          include 'includes/footer.php';
+          include 'includes/resources.php';
+        ?>
+      </div>
     </div>
   </body>
 </html>

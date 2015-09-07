@@ -20,7 +20,6 @@
   <br>
   <br>
   <br>
-    <div class="row">
       <div class="col-xs-4">
         <span class="foot-big-text">About</span><br>
         <a class="foot" href="#faqModal" data-toggle="modal"><i class="fa fa-question-circle"></i> FAQ&#39;s <i class="fa fa-angle-double-right"></i></a><br>
@@ -40,7 +39,6 @@
         <a class="foot" href="http://www.blanksheetmusic.net/" target="_blank">blanksheetmusic.net <i class="fa fa-external-link"></i></a><br>
       </div>
       <br>      
-    </div>
     <br>
 
   <br>
