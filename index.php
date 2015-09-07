@@ -62,12 +62,7 @@
         <div class="row">      
           <?php include 'includes/announcementsbanner.php';?>
         </div>
-    </div>
-      <br>
-      <br>
 
-
-    <div class="container paper">
       <div class="row">
 
         <?php
