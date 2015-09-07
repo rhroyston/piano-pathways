@@ -54,6 +54,8 @@
           <img src="images/thelearning.jpg">
         </div>
       </div>
+    </div>
+    <div class="container">
       <div class="row">
         <?php
           $footerimage = "footer-brback";
