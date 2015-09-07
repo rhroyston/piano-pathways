@@ -65,6 +65,10 @@
   <p>Group Lessons</p>
   <img src="images/theinside.jpg">
 </div>
+<div class="polaroid">
+  <p><b>Halloween Fun!</b></p>
+  <img src="images/thelearning.jpg">
+</div>
 </div>
 
 
