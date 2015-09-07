@@ -18,13 +18,9 @@
     <div class="container">
       <div class="row text-center">
         <div class="col-sm-6 col-sm-offset-3">
-
           <a class="btn btn-custom"href="https://www.facebook.com/PianoPathwaysStudio" target="_blank"><i class="fa fa-facebook-square"></i> Friend Us</a>
-
           <a class="btn btn-custom" href="instructors"><i class="fa fa-users"></i> Instructors</a>
-
           <a class="btn btn-custom" href="https://twitter.com/PianoPathwaysBR" target="_blank"><i class="fa fa-twitter"></i> Follow Us</a>
-
           <a class="btn btn-custom" href="https://www.youtube.com/user/rbellelo" target="_blank"><i class="fa fa-youtube-play"></i> Check Us Out</a>
         </div>
         <br>
@@ -36,48 +32,37 @@
           <h5 class="text-center"><a class="black textshadowsm" href="tel:225-767-0030"><i class="fa fa-phone"></i> &#40;225&#41; 767&#45;0030</a></h5>
         </div>
       </div>
-
-    </div>
-    <br>
-    <br>
-    <br>
-    <br>
-    <div class="container midwayrrr">
-      <div class="row text-center">
-        
+      <br>
+      <br>
+      <br>
+      <br>
         <?php include 'includes/eventsbanner.php';?>
         <?php include 'includes/announcementsbanner.php';?>
         <br>
-
-        
         <br>
-
-<div class="polaroids">
-<div class="polaroid">
-  <p>The New Studio</p>
-  <img src="images/thestudio.jpg">
-</div>
-<div class="polaroid">
-  <p>Childrens Recital</p>
-  <img src="images/thechildren.jpg">
-</div>
-<div class="polaroid">
-  <p>Group Lessons</p>
-  <img src="images/theinside.jpg">
-</div>
-<div class="polaroid">
-  <p>Halloween Fun!</p>
-  <img src="images/thelearning.jpg">
-</div>
-</div>
-
-
+      <div class="polaroids">
+        <div class="polaroid">
+          <p>The New Studio</p>
+          <img src="images/thestudio.jpg">
+        </div>
+        <div class="polaroid">
+          <p>Childrens Recital</p>
+          <img src="images/thechildren.jpg">
+        </div>
+        <div class="polaroid">
+          <p>Group Lessons</p>
+          <img src="images/theinside.jpg">
+        </div>
+        <div class="polaroid">
+          <p>Halloween Fun!</p>
+          <img src="images/thelearning.jpg">
+        </div>
       </div>
+      <?php
+        $footerimage = "footer-brback";
+        include 'includes/footer.php';
+        include 'includes/resources.php';
+      ?>
     </div>
-    <?php
-      $footerimage = "footer-brback";
-      include 'includes/footer.php';
-      include 'includes/resources.php';
-    ?>
   </body>
 </html>
