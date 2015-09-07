@@ -61,6 +61,9 @@
       <div class="row">      
         <?php include 'includes/announcementsbanner.php';?>
       </div>
+      <br>
+      <br>
+      <br>
     </div>
     <div class="container-fluid">
       <div class="row">
