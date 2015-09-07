@@ -1,4 +1,4 @@
-<div class="container-fluid header">
+
     <div class="row">
         <div>
             <br>
@@ -11,4 +11,3 @@
             <br>
         </div> 
     </div>
-</div>
