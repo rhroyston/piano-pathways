@@ -7,12 +7,12 @@
     $csslink = "<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>";
     include 'includes/head.php';
   ?>
-  <body style='background-image: url("../images/brickwallxl.png");'>
+  <body style='background: #C0C0C0'>
     
   <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
     
-    <div class="container">
+    <div class="container brickwall">
       <?php include 'includes/header.php';?>
       <div class="row text-center">
         <div class="col-sm-6 col-sm-offset-3">
