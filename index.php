@@ -8,6 +8,7 @@
     include 'includes/head.php';
   ?>
   <body style='background-image: url("images/bubbles.jpg");'>
+  <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
     
     <div class="container wood">
