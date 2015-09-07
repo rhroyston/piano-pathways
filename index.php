@@ -55,7 +55,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container center-block">
       <div class="row">
         <?php
           $footerimage = "footer-brback";
