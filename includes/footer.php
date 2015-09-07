@@ -20,7 +20,7 @@
   <br>
   <br>
   <br>
-      <div class="col-xs-4">
+      <div class="col-xs-4 pull-left">
         <span class="foot-big-text">About</span><br>
         <a class="foot" href="#faqModal" data-toggle="modal"><i class="fa fa-question-circle"></i> FAQ&#39;s <i class="fa fa-angle-double-right"></i></a><br>
         <a class="foot" href="policy"><i class="fa fa-info-circle"></i> Studio Policy</a><br>
