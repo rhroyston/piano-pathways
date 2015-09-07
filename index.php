@@ -54,6 +54,7 @@
           <img src="images/thelearning.jpg">
         </div>
       </div>
+      <div class="clearfix visible-xs-block"></div>
       <div class="row">
         <?php
           $footerimage = "footer-brback";
