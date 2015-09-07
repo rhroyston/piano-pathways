@@ -7,7 +7,7 @@
     $csslink = "<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>";
     include 'includes/head.php';
   ?>
-  <body style='background: #C0C0C0'>
+  <body style='background: #808080 '>
     
   <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
