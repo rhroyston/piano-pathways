@@ -66,7 +66,7 @@
       <div class="row">
 
         <?php
-          $footerimage = "footer-brback";
+          $footerimage = "";
           include 'includes/footer.php';
           include 'includes/resources.php';
         ?>
