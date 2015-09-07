@@ -7,7 +7,7 @@
     $csslink = "<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>";
     include 'includes/head.php';
   ?>
-  <body style='background-image: url("../images/diagonales_decalees.pngbubbles.jpg");'>
+  <body style='background-image: url("images/bubbles.jpg");'>
     <?php include 'includes/alert.php';?>
     
     <div class="container wood">
