@@ -21,7 +21,7 @@
   <br>
   <br>
     <div class="row">
-      <div class="col-sm-4 col-sm-offset-2">
+      <div class="col-xs-4">
         <span class="foot-big-text">About</span><br>
         <a class="foot" href="#faqModal" data-toggle="modal"><i class="fa fa-question-circle"></i> FAQ&#39;s <i class="fa fa-angle-double-right"></i></a><br>
         <a class="foot" href="policy"><i class="fa fa-info-circle"></i> Studio Policy</a><br>
@@ -29,7 +29,10 @@
         <a class="foot" href="#tuitionModal" data-toggle="modal">Tuition <i class="fa fa-angle-double-right"></i></a><br>
         <a class="foot" href="#wheretuitiongoesModal" data-toggle="modal">Where Does Tuition Go&#63; <i class="fa fa-angle-double-right"></i></a><br>
       </div>
-      <div class="col-sm-4 col-sm-offset-2">
+      <div class="col-xs-4">
+      <img src="images/brpm.png" alt="" class="img-responsive" height="226" width="256">
+      </div>
+      <div class="col-xs-4">
         <span class="foot-big-text">Links</span><br>
         <a class="foot" href="http://www.musiclearningcommunity.com" target="_blank">Make A Payment <i class="fa fa-external-link"></i></a><br>
         <a class="foot" href="http://www.encoremusiclessons.com/images/infographic/infographic-piano-lessons-are-good-for-you-and-your-brain.png" target="_blank">Benefits of Piano Lessons <i class="fa fa-external-link"></i></a><br>
