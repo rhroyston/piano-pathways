@@ -150,7 +150,7 @@ background-color: #BDCCD1;
 box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
 }
 .slabs{
-    background: url('/images/slabs.jpg');
+    background: #212121;
 -webkit-box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
 -moz-box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
 box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
