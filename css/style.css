@@ -477,8 +477,8 @@ background: #B6D3EF;
 }
 
 .center {
-    margin: 0 auto;
-    width: 80%;
+float: none; 
+margin: 0 auto;
 }
 
 
