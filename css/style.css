@@ -137,6 +137,9 @@ background-color: #BDCCD1;
 .wood{
     background: url('/images/wood_pattern.png');
 }
+.footer-contain{
+    overflow:hidden;
+}
 .textshadow{
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;

@@ -1,4 +1,4 @@
-<?php echo "<div class=\"$footerimage\">";?>
+<?php echo "<div class=\"footer-contain $footerimage\">";?>
   <br>
   <br>
   <br>
