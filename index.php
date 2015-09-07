@@ -63,6 +63,11 @@
     </div>
     <div class="container-fluid">
       <div class="row">
+        <br>
+      </div>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
         <?php
           $footerimage = "wood";
           include 'includes/footer.php';
