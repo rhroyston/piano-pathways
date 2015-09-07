@@ -33,9 +33,7 @@
       <br>
       <br>
       <?php include 'includes/eventsbanner.php';?>
-      <?php include 'includes/announcementsbanner.php';?>
-      <br>
-      <br>
+      
       <div class="polaroids">
         <div class="polaroid">
           <p>The New Studio</p>
@@ -53,7 +51,13 @@
           <p>Halloween Fun!</p>
           <img src="images/thelearning.jpg">
         </div>
-      </div>
+      </div>      
+      
+      
+      <?php include 'includes/announcementsbanner.php';?>
+      <br>
+      <br>
+
     </div>
     <div class="container">
       <div class="row">
