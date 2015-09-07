@@ -10,8 +10,9 @@
   <body style='background-image: url("../images/musictile.jpg");'>
     <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
-    <?php include 'includes/header.php';?>
-    <div class="container">
+    
+    <div class="container paper">
+      <?php include 'includes/header.php';?>
       <div class="row text-center">
         <div class="col-sm-6 col-sm-offset-3">
           <a class="btn btn-custom"href="https://www.facebook.com/PianoPathwaysStudio" target="_blank"><i class="fa fa-facebook-square"></i> Friend Us</a>
@@ -32,12 +33,12 @@
       <br>
       <br>
       <br>
-      <div class="container">
+      <div class="container paper">
         <div class="row">
           <?php include 'includes/eventsbanner.php';?>
         </div>
       </div>
-      <div class="container">
+      <div class="container paper">
         <div class="row">      
           <div class="polaroids">
             <div class="polaroid">
@@ -60,7 +61,7 @@
         </div>
       </div>
       
-      <div class="container">
+      <div class="container paper">
         <div class="row">      
           <?php include 'includes/announcementsbanner.php';?>
         </div>
@@ -69,7 +70,7 @@
       <br>
 
     </div>
-    <div class="container">
+    <div class="container paper">
       <div class="row">
 
         <?php

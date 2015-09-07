@@ -9,6 +9,9 @@ opacity:.8;
 .handwritten{
     font-family: 'Indie Flower', cursive;
 }
+.paper{
+    background-image: url("../images/paper.png");
+}
 .stand{
 position:absolute;
 bottom:20px;
