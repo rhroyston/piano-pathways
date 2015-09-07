@@ -2,9 +2,6 @@
   <br>
   <br>
   <br>
-  <br>
-  <br>
-  <br>
       <div class="col-xs-2 col-xs-offset-2">
         <span class="foot-big-text">About</span><br>
         <a class="foot" href="#faqModal" data-toggle="modal"><i class="fa fa-question-circle"></i> FAQ&#39;s <i class="fa fa-angle-double-right"></i></a><br>
