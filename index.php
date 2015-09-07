@@ -12,7 +12,7 @@
   <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
     
-    <div class="container brickwall">
+    <div class="container halftone">
       <?php include 'includes/header.php';?>
       <div class="row text-center">
         <div class="col-sm-6 col-sm-offset-3">
