@@ -56,14 +56,15 @@
           </div>
         </div>
       </div>
-    </div>
-    <div class="container-fluid paper">
+    
       <div class="row">      
         <?php include 'includes/announcementsbanner.php';?>
       </div>
+    </div>
+    <div class="container-fluid">
       <div class="row">
         <?php
-          $footerimage = "footer-fence";
+          $footerimage = "";
           include 'includes/footer.php';
           include 'includes/resources.php';
         ?>
