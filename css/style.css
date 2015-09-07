@@ -134,12 +134,8 @@ background-color: #BDCCD1;
     -o-background-size: cover;
     background-size: cover;
 }
-.midway{
-    background: url('/images/brback.png') no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+.wood{
+    background: url('/images/wood_pattern.png');
 }
 .textshadow{
     -webkit-text-shadow: cover;
