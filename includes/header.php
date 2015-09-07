@@ -1,6 +1,6 @@
 
     <div class="row">
-        <div>
+        <div class="col-xs-6 col-xs-offset-3">
             <br>
             <div class="logo-wrap">
                 <a href="/" class="logo">
