@@ -33,12 +33,11 @@
       <br>
       <br>
       <br>
-      <div class="container paper">
+      
         <div class="row">
           <?php include 'includes/eventsbanner.php';?>
         </div>
-      </div>
-      <div class="container paper">
+      
         <div class="row">      
           <div class="polaroids">
             <div class="polaroid">
@@ -59,17 +58,15 @@
             </div>
           </div>
         </div>
-      </div>
-      
-      <div class="container paper">
+
         <div class="row">      
           <?php include 'includes/announcementsbanner.php';?>
         </div>
-      </div>
+    </div>
       <br>
       <br>
 
-    </div>
+
     <div class="container paper">
       <div class="row">
 
