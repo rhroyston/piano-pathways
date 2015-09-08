@@ -36,53 +36,31 @@
       <br>
       <br>
       <br>
-      <div class="row text-center">
+      
         <?php include 'includes/eventsbanner.php';?>
-      </div>
-      <div class="row">      
-        <div class="polaroids">
-          <div class="polaroid">
-            <p>The New Studio</p>
-            <img src="images/thestudio.jpg">
-          </div>
-          <div class="polaroid">
-            <p>Childrens Recital</p>
-            <img src="images/thechildren.jpg">
-          </div>
-          <div class="polaroid">
-            <p>Group Lessons</p>
-            <img src="images/theinside.jpg">
-          </div>
-          <div class="polaroid">
-            <p>Halloween Fun!</p>
-            <img src="images/thelearning.jpg">
-          </div>
+
+      <?php include 'includes/polaroids.php';?>
+      <?php include 'includes/announcementsbanner.php';?>
+      <br>
+      <br>
+      <br>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-12">
+          <br>
+          <br>
+          <br>
+          <br>
         </div>
       </div>
-    
-      <div class="row">      
-        <?php include 'includes/announcementsbanner.php';?>
-      </div>
-      <br>
-      <br>
-      <br>
     </div>
     <div class="container-fluid">
-      <div class="row">
-        <br>
-        <br>
-        <br>
-        <br>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row">
         <?php
           $footerimage = "footer";
           include 'includes/footer.php';
           include 'includes/resources.php';
         ?>
-      </div>
     </div>
   </body>
 </html>

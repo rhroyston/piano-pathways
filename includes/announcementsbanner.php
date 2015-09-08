@@ -20,7 +20,7 @@ try {
 } catch (PDOException $pe) {
   die("Could not connect to the database $dbname :" . $pe->getMessage());
 }
-    echo '<div class="postits">';
+    echo '<div class="row">';
       while ($r = $q->fetch()):
         echo '<div class="col-xs-2 box effect2">';
           echo "<h4 class='black handwritten'>" . htmlspecialchars($r['announcement_title']) . "</h4>";
