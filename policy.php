@@ -11,12 +11,14 @@ echo '<div id="cover"></div>';?>
     ?>
     <body style='background-image: url("../images/softwallpaper.png");'>
         <?php
-            include "includes/basenav.php";
-            
+
              
             
         ?>
         <div class="container policy">
+            
+                        include "includes/basenav.php";
+            include 'includes/header.php';
             <h1 class="text-center">Studio Policy</h1>
             <br>
             <h3>Overview</h3>
