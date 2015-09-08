@@ -1,5 +1,4 @@
 <div class="row">
-<?php echo "<div class=\"footer-contain $footerimage\">";?>
   <br>
   <div class="col-xs-3 col-xs-offset-1">
     <span class="foot-big-text">About</span><br>
@@ -27,5 +26,4 @@
       <h6 class="text-center"><small class="white">Piano Pathways &#124; 9270 Siegen Lane #304 &#124; Baton Rouge&#44; LA 70810</small></h6>
     </div>
     <br>
-  </div>
 </div>
