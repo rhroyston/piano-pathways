@@ -1,4 +1,6 @@
-<div class="row">
+<div class="row toplight">
+  <br>
+  <br>
   <div class="col-xs-3 col-xs-offset-1">
     <span class="foot-big-text">About</span><br>
     <a class="foot" href="#faqModal" data-toggle="modal"><i class="fa fa-question-circle"></i> FAQ&#39;s <i class="fa fa-angle-double-right"></i></a><br>
