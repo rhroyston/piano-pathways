@@ -256,10 +256,10 @@ box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
     -o-text-shadow: cover;
-    text-shadow: 1px -1px 1px rgba(0, 0, 0, 1);
+    text-shadow: 1px -1px 1px rgba(56, 56, 56, 1);
 }
 .foot:active {
-    text-shadow: 1px -1px 1px rgba(0, 0, 0, 1);
+    text-shadow: 1px -1px 1px rgba(56, 56, 56, 1);
     text-decoration:none;
 }
 .foot:visited {
