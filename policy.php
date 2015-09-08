@@ -17,6 +17,8 @@ echo '<div id="cover"></div>';?>
              
             
         ?>
+        </div>
+        <div class="container policy">
     <body style='background-image: url("../images/softwallpaper.png");'>
 
 
