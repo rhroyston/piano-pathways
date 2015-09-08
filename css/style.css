@@ -39,6 +39,9 @@ right:20px;
 .postits{
 
 }
+.policy{
+    overflow:hidden;
+}
 .cboard{
     background-image: url("../images/cboard1.jpg");
 }

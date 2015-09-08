@@ -16,7 +16,7 @@ echo '<div id="cover"></div>';?>
              
             
         ?>
-        <div class="container">
+        <div class="container policy">
             <h1 class="text-center">Studio Policy</h1>
             <br>
             <h3>Overview</h3>
