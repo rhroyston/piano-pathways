@@ -34,7 +34,7 @@
       <br>
       <br>
       <br>
-      <div class="row row-centered">
+      <div class="row text-center">
         <?php include 'includes/eventsbanner.php';?>
       </div>
       <div class="row">      
