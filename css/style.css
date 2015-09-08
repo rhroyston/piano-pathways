@@ -37,7 +37,7 @@ right:20px;
     font-size:1.5em;
 }
 .postits{
-    padding-left:40px;
+
 }
 .cboard{
     background-image: url("../images/cboard1.jpg");
@@ -490,7 +490,7 @@ background: #B6D3EF;
 	min-width:200px;
 	min-height:200px;
 	background:#FCF0AD;
-	margin:20px;
+	margin:40px;
 	transform: rotate(-3deg);
   -webkit-box-shadow: 2px 25px 50px -25px #777;
      -moz-box-shadow: 2px 25px 50px -25px #777;
