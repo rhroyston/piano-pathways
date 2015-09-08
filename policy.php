@@ -4,25 +4,17 @@ echo '<div id="cover"></div>';?>
 <!DOCTYPE html>
 <html lang="en">
     <?php
-    
         $title = 'Policy';
         include 'includes/head.php';
-        
     ?>
-        <div class="container-fluid policy">
-            
-                    <?php
+    <div class="container-fluid policy">
+        <?php
             include "includes/basenav.php";
             include 'includes/header.php';
-             
-            
         ?>
-        </div>
-        <div class="container policy">
-    <body style='background-image: url("../images/softwallpaper.png");'>
-
-
-        
+    </div>
+    <div class="container policy">
+        <body style='background-image: url("../images/softwallpaper.png");'>
             <h1 class="text-center">Studio Policy</h1>
             <br>
             <h3>Overview</h3>

@@ -1,4 +1,4 @@
-    <h4 class="text-right">
+    <h4 class="text-right col-xs-12">
         <!-- Button trigger modal -->
           <?php
               if(!isset($_SESSION['user_id']))

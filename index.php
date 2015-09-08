@@ -8,9 +8,11 @@
     include 'includes/head.php';
   ?>
   <body style='background-image: url("../images/softwallpaper.png");'>
-    
-  <?php include 'includes/socialnav.php';?>
+  
+  <div class="container-fluid"> 
+    <?php include 'includes/socialnav.php';?>
     <?php include 'includes/alert.php';?>
+  </div>
     
     <div class="container halftone">
       <?php include 'includes/header.php';?>
