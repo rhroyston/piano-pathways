@@ -21,26 +21,20 @@ try {
   die("Could not connect to the database $dbname :" . $pe->getMessage());
 }
   echo '<div class="row text-center">';
-      while ($r = $q->fetch()):
-        $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
-        
-			  
-			  echo '<div class="col-xs-6 text-center">';
-
-          echo '<div class="calendar">';
-            echo '<div class="calendarheader">' . date_format($date, 'M') . '</div>';
-            echo '<div class="num-day">' . date_format($date, 'j') . '</div>';
-          echo '</div>';
-
-  			    echo '<div class="event text-left">';
-              echo "<span class='black event-title'>" . htmlspecialchars($r['event_title']) . "</span><br>";
-              echo "<span class='black event-place'>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</span><br>";
-              echo "<span class='black event-detail'>" . $r['event_detail'] . "</span><br><br>";
-            echo '</div>';
-          echo '<br>';
+    while ($r = $q->fetch()):
+      $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
+		  echo '<div class="col-xs-6 text-center">';
+        echo '<div class="calendar">';
+          echo '<div class="calendarheader">' . date_format($date, 'M') . '</div>';
+          echo '<div class="num-day">' . date_format($date, 'j') . '</div>';
         echo '</div>';
-        
-        
-      endwhile;
+  			echo '<div class="event text-left">';
+          echo "<span class='black event-title'>" . htmlspecialchars($r['event_title']) . "</span><br>";
+          echo "<span class='black event-place'>" . $r['event_street'] . " " . $r['event_city'] . ", " . $r['event_state'] . " " . $r['event_zip'] . "&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Duration&#58; " . $r['event_duration'] . " Hours</span><br>";
+          echo "<span class='black event-detail'>" . $r['event_detail'] . "</span><br><br>";
+        echo '</div>';
+        echo '<br>';
       echo '</div>';
+    endwhile;
+  echo '</div>';
 ?>
