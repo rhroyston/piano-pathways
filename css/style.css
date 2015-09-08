@@ -36,6 +36,9 @@ right:20px;
 .xl{
     font-size:1.5em;
 }
+.postits{
+    padding-left:40px;
+}
 .cboard{
     background-image: url("../images/cboard1.jpg");
 }
