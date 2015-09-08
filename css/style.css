@@ -6,6 +6,9 @@ body {
 font-family: 'Finger Paint', cursive; 
 opacity:.8;
 }
+.concrete{
+background-image: url("../images/softwallpaper.png");
+}
 .handwritten{
     font-family: 'Indie Flower', cursive;
 }

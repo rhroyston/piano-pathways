@@ -7,7 +7,7 @@
     $csslink = "<link href='https://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet' type='text/css'>";
     include 'includes/head.php';
   ?>
-  <body style='background-image: url("../images/softwallpaper.png");'>
+  <body style='background-image: url("../images/brickwallxl.png");'>
     <div class="container-fluid"> 
       <?php include 'includes/socialnav.php';?>
       <?php include 'includes/alert.php';?>
@@ -34,7 +34,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid">
+    <div class="container-fluid concrete">
         <?php
           $footerimage = "footer";
           include 'includes/footer.php';

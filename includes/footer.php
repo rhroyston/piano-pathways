@@ -1,5 +1,4 @@
 <div class="row">
-  <br>
   <div class="col-xs-3 col-xs-offset-1">
     <span class="foot-big-text">About</span><br>
     <a class="foot" href="#faqModal" data-toggle="modal"><i class="fa fa-question-circle"></i> FAQ&#39;s <i class="fa fa-angle-double-right"></i></a><br>
@@ -19,8 +18,6 @@
   </div>
 </div>
 <div class="row">
-  <br>      
-  <br>
   <br>
     <div class="col-xs-6 col-xs-offset-3">
       <h6 class="text-center"><small>Piano Pathways &#124; 9270 Siegen Lane #304 &#124; Baton Rouge&#44; LA 70810</small></h6>
