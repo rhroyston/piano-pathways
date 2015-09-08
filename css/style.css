@@ -249,7 +249,7 @@ box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
     -moz-text-shadow: cover;
     -o-text-shadow: cover;
     color: rgba(80,80,80, 0.8);
-    text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
+    text-shadow: 1px 1px 2px #def, 0 0 0 #000, 1px 1px 2px #def;
 }
 /* Don't show shadows when selecting text */
 ::-moz-selection { background: #000; color: #fff; text-shadow: none; }
