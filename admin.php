@@ -67,7 +67,7 @@ else
         
             echo '<body style=\'background-image: url("../images/fabric.png");\'>';
             echo '<div id="cover"></div>'; 
-            echo '<div class="container">';
+            echo '<div class="container-fluid">';
                 echo '<div class="row">';
                     echo '<div class="col-xs-12">';            
                         include "includes/basenav.php";
@@ -79,6 +79,8 @@ else
                         echo "<h1>Administrator Portal</h1>";
                     echo "</div>";
                 echo '</div>';
+            echo '</div>';    
+            echo '<div class="container">';    
                             try {
                                 $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
                                 $sql = 'SELECT * FROM phpro_users ORDER BY phpro_lastname';
