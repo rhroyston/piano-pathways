@@ -24,6 +24,7 @@ try {
       while ($r = $q->fetch()):
         $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
 			  echo '<div class="col-sm-6">';
+			  echo '<div class="center-block">';
           echo '<div class="calendar">';
             echo '<div class="calendarheader">' . date_format($date, 'M') . '</div>';
             echo '<div class="num-day">' . date_format($date, 'j') . '</div>';
@@ -35,6 +36,7 @@ try {
               echo "<span class='black event-detail'>" . $r['event_detail'] . "</span><br><br>";
             echo '</div>';
           echo '<br>';
+        echo '</div>';
         echo '</div>';
         
       endwhile;
