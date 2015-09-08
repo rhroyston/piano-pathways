@@ -155,24 +155,11 @@ background-color: #BDCCD1;
 -moz-box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
 box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
 }
-.slabs{
-    background: #C0C0C0 ;
-
-
-
-  -webkit-box-sizing: content-box;
-  -moz-box-sizing: content-box;
-  box-sizing: content-box;
-  border: none;
-
-  color: rgba(48,48,48,1);
-
-  text-transform: normal;
-  -o-text-overflow: clip;
-  text-overflow: clip;
-  white-space: pre;
-  text-shadow: 1px 1px 0 rgba(140,140,140,0.6) , -1px -1px 1px rgba(0,0,0,0.67) ;
-
+.footer{
+background: #C0C0C0 ;
+-webkit-box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
+-moz-box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
+box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
 }
 
 .footer-contain{
@@ -269,10 +256,10 @@ box-shadow: inset 0px 16px 40px -20px rgba(0,0,0,0.75);
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
     -o-text-shadow: cover;
-    text-shadow: 1px -1px 1px rgba(150, 150, 150, 1);
+    text-shadow: 1px -1px 1px rgba(0, 0, 0, 1);
 }
 .foot:active {
-    text-shadow: 1px -1px 1px rgba(150, 150, 150, 1);
+    text-shadow: 1px -1px 1px rgba(0, 0, 0, 1);
     text-decoration:none;
 }
 .foot:visited {

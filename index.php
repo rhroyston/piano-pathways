@@ -76,7 +76,7 @@
     <div class="container-fluid">
       <div class="row">
         <?php
-          $footerimage = "slabs";
+          $footerimage = "footer";
           include 'includes/footer.php';
           include 'includes/resources.php';
         ?>
