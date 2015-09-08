@@ -243,13 +243,17 @@ box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
     text-decoration:none;
 }
 .foot-big-text{
-    color:#505050;
+
     font-size:2em;
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
     -o-text-shadow: cover;
-    text-shadow: 1px -1px 1px rgba(0, 0, 0, 1);
+    color: rgba(80,80,80, 0.8);
+    text-shadow: 1px 4px 6px #def, 0 0 0 #000, 1px 4px 6px #def;
 }
+/* Don't show shadows when selecting text */
+::-moz-selection { background: #000; color: #fff; text-shadow: none; }
+::selection { background: #000; color: #fff; text-shadow: none; }
 .foot{
     color:#505050;
     font-size:1.2em;
@@ -257,7 +261,11 @@ box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
     -moz-text-shadow: cover;
     -o-text-shadow: cover;
     text-shadow: 1px -1px 1px rgba(56, 56, 56, 1);
+    
+
 }
+
+
 .foot:active {
     text-shadow: 1px -1px 1px rgba(56, 56, 56, 1);
     text-decoration:none;
