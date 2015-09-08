@@ -20,10 +20,10 @@ try {
 } catch (PDOException $pe) {
   die("Could not connect to the database $dbname :" . $pe->getMessage());
 }
-  
+  echo '<div class="row text-center">';
       while ($r = $q->fetch()):
         $date = date_create_from_format('Y-m-d H:i:s', $r['event_time']);
-        echo '<div class="row text-center">';
+        
 			  
 			  echo '<div class="col-xs-6 text-center">';
 
@@ -40,6 +40,7 @@ try {
           echo '<br>';
         echo '</div>';
         
-        echo '</div>';
+        
       endwhile;
+      echo '</div>';
 ?>
