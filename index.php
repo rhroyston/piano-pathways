@@ -31,8 +31,6 @@
         <div class="col-xs-12">
           <br>
           <br>
-          <br>
-          <br>
         </div>
       </div>
     </div>
