@@ -12,7 +12,7 @@
       <?php include 'includes/socialnav.php';?>
       <?php include 'includes/alert.php';?>
     </div>
-    <div class="container halftone">
+    <div class="container main">
       <?php include 'includes/header.php';?>
       <?php include 'includes/indexmenu.php';?>
       <br>
