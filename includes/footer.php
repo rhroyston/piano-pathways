@@ -22,7 +22,7 @@
     <br>
   <br>
   <div class="row">
-    <div class="col-md-6 col-sm-offset-3">
+    <div class="col-xs-6 col-xs-offset-3">
       <h6 class="text-center"><small class="white">Piano Pathways &#124; 9270 Siegen Lane #304 &#124; Baton Rouge&#44; LA 70810</small></h6>
     </div>
     <br>
