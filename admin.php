@@ -67,13 +67,18 @@ else
         
             echo '<body style=\'background-image: url("../images/fabric.png");\'>';
             echo '<div id="cover"></div>'; 
-            include "includes/basenav.php";
-            include "includes/alert.php";
             echo '<div class="container">';
+                echo '<div class="row">';
+                    echo '<div class="col-xs-12">';            
+                        include "includes/basenav.php";
+                        include "includes/alert.php";
+                    echo "</div>";
+                echo '</div>';            
                 echo '<div class="row text-center">';
-                echo "<h1>Administrator Portal</h1>";
+                    echo '<div class="col-xs-12">';
+                        echo "<h1>Administrator Portal</h1>";
+                    echo "</div>";
                 echo '</div>';
-    
                             try {
                                 $conn = new PDO("mysql:host=$mysql_hostname;dbname=$mysql_dbname", $mysql_username, $mysql_password);
                                 $sql = 'SELECT * FROM phpro_users ORDER BY phpro_lastname';
@@ -86,7 +91,6 @@ else
                     echo '<br>';
                     echo '<br>';
                     echo '<br>';
-                    
                     echo '<div class="col-sm-4 adminwidth">';
                         echo '<div class="raised">';    
                         echo '<h4>&nbsp;&nbsp;<i class="fa fa-users"></i> Student Record Detail</h4>';
