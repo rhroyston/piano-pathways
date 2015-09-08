@@ -9,9 +9,7 @@ echo '<div id="cover"></div>';?>
         include 'includes/head.php';
         
     ?>
-    <body style='background-image: url("../images/softwallpaper.png");'>
-
-        <div class="container policy">
+        <div class="container-fluid policy">
             
                     <?php
             include "includes/basenav.php";
@@ -19,6 +17,9 @@ echo '<div id="cover"></div>';?>
              
             
         ?>
+    <body style='background-image: url("../images/softwallpaper.png");'>
+
+
         
             <h1 class="text-center">Studio Policy</h1>
             <br>
