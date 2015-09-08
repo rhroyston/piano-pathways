@@ -34,7 +34,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid concrete">
+    <div class="container-fluid concrete footer-border">
         <?php
           $footerimage = "footer";
           include 'includes/footer.php';

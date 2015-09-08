@@ -169,6 +169,11 @@ background: #C0C0C0 ;
 -moz-box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
 box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
 }
+.footer-border{
+    border-color:rgba(160,160,160,0.1);
+    border-width:1px;
+    border-style:solid;
+}
 .toplight{
 -webkit-box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
 -moz-box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
