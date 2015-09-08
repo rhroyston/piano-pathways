@@ -254,24 +254,25 @@ box-shadow: inset 0px 16px 40px -20px rgba(255,255,255,1);
 /* Don't show shadows when selecting text */
 ::-moz-selection { background: #000; color: #fff; text-shadow: none; }
 ::selection { background: #000; color: #fff; text-shadow: none; }
+
 .foot{
     color:#505050;
     font-size:1.2em;
     -webkit-text-shadow: cover;
     -moz-text-shadow: cover;
     -o-text-shadow: cover;
-    text-shadow: 1px -1px 1px rgba(56, 56, 56, 1);
-    
-
+    text-shadow: -1px 1px 1px rgba(56, 56, 56, 1);
 }
 
 
 .foot:active {
-    text-shadow: 1px -1px 1px rgba(56, 56, 56, 1);
+    text-shadow: 0px 0px 0px rgba(56, 56, 56, 1);
     text-decoration:none;
 }
 .foot:visited {
     color:#505050;
+    text-shadow: -1px 1px 1px rgba(56, 56, 56, 1);
+    
     text-decoration:none;
 }
 
