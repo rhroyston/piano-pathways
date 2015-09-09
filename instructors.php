@@ -191,8 +191,9 @@
 
   </div>
 </div>
-
-
+<br>
+<br>
+<br>
     <?php
       $footerimage = "footer-fence";
       include 'includes/footer.php';
