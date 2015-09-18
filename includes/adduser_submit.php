@@ -305,7 +305,7 @@ if($message == 'Success&#58; Online Registration Complete'){
         // Identify the mail server, username, password, and port
         $server   = "smtpout.secureserver.net";  
         $username = "ron@stndip.com";
-        $password = "nic0tine";
+        $password =password";
        
         // Set up the mail headers
         $headers = array(
